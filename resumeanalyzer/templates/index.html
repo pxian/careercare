@@ -15,13 +15,6 @@
                 role="button">Import resume(s)</a>
                 <a href="{% url 'resumeanalyzer:uploadjob' %}" class="btn btn-info py-2 px-3" style="margin:5px;"
                 role="button">Perform Matching</a>
-
-                <!-- <button type="button" class="btn btn-info py-2 px-3 dropdown-toggle" style="margin:5px;display:block inline"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Perform Matching</button>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Fill in job description</a>
-                    <a class="dropdown-item" href="{% url 'resumeanalyzer:uploadjob' %}">Upload job description file</a>
-                </div> -->
             </div>
         </div>
     </div>
@@ -45,7 +38,37 @@
             <p>Wait while the magic happens.</p>
         </th>
         <th width="400px" style="text-align:center">
-            <p>View ranking of resumes according to the matching rate with job description.</p>
+            <p>View ranking and visualisation of resumes according to the matching rate with job description.</p>
+        </th>
+    </tr>
+</table>
+<br><br><br><br>
+
+<h3 style="text-align:center">Our Key Features</h3><br>
+<table style="margin-left:auto; margin-right:auto;">
+    <tr>
+        <th width="400px" style="text-align:center"><img src="/static/images/resumeanalyzer/process.png"
+                style="width:150px;height:150px;"></th>
+        <th width="400px" style="text-align:center"><img src="/static/images/resumeanalyzer/extract.png"
+                style="width:150px;height:150px;"></th>
+        <th width="400px" style="text-align:center"><img src="/static/images/resumeanalyzer/ranking.png"
+                style="width:150px;height:150px;"></th>
+        <th width="400px" style="text-align:center"><img src="/static/images/resumeanalyzer/visualisation.png"
+                style="width:150px;height:150px;"></th>
+    
+    </tr>
+    <tr>
+        <th width="400px" style="text-align:center">
+            <p>Process a large volume of resumes.</p>
+        </th>
+        <th width="400px" style="text-align:center">
+            <p>Extract information from resumes <br>and generate a summary.</p>
+        </th>
+        <th width="400px" style="text-align:center">
+            <p>Perform ranking based on matching rate.</p>
+        </th>
+        <th width="400px" style="text-align:center">
+            <p>Perform visualisation.</p>
         </th>
     </tr>
 </table>

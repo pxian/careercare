@@ -224,7 +224,7 @@ def matchall(request, jobid):
     sorted_keys = sorted(dict, key=dict.get, reverse = True)
     for j in sorted_keys:
         sorted_dict[j] = dict[j]
-    return render(request, "match.html", {"title": title, "sorted_dict": sorted_dict, "job":job})
+    return render(request, "match.html", {"title": title, "sorted_dict": sorted_dict, "job":job, "resumes": resumes})
 
 
 def matchshortlisted(request, jobid):
@@ -266,7 +266,7 @@ def matchshortlisted(request, jobid):
     sorted_keys = sorted(dict, key=dict.get, reverse = True)
     for j in sorted_keys:
         sorted_dict[j] = dict[j]
-    return render(request, "match.html", {"title": title, "sorted_dict": sorted_dict, "job": job})
+    return render(request, "match.html", {"title": title, "sorted_dict": sorted_dict, "job": job, "resumes": resumes})
 
 
 def filter(request, jobid):

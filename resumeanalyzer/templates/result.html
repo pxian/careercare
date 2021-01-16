@@ -18,19 +18,19 @@
     <div class="container">
         <ul class="nav justify-content-center">
             <li class="nav-item">
-              <a class="nav-link active" href="{% url 'resumeanalyzer:uploadresume' %}">Import Resume(s)</a>
+                <a class="nav-link active" href="{% url 'resumeanalyzer:uploadresume' %}">Import Resume(s)</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{% url 'resumeanalyzer:resumelist' %}">View All Resumes</a>
+                <a class="nav-link" href="{% url 'resumeanalyzer:resumelist' %}">View All Resumes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{% url 'resumeanalyzer:uploadjob' %}">Perform Matching</a>
+                <a class="nav-link" href="{% url 'resumeanalyzer:uploadjob' %}">Perform Matching</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{% url 'resumeanalyzer:history' %}">View Matching History</a>
+                <a class="nav-link" href="{% url 'resumeanalyzer:history' %}">View Matching History</a>
             </li>
-          </ul>
-          <br><br>
+        </ul>
+        <br><br>
         <a href="{% url 'resumeanalyzer:history' %}" class="btn btn-sm btn-secondary">Back</a><br><br>
         <div class="row">
             <div class="col-12 filter-text">
@@ -62,65 +62,71 @@
                             </div>
                         </div>
                     </div>
-                    <div class="table-responsive">
-                        <table class="table align-items-center table-flush">
-                            <thead class="thead-light">
-                                <tr>
-                                    <th scope="col">#</th>
-                                    <th scope="col">Name</th>
-                                    <th scope="col">Matching Percentage</th>
-                                    <th scope="col">Status</th>
-                                    <th scope="col"></th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                {% for result in results %}
-                                <tr>
-                                    <td>{{ forloop.counter}}</td>
-                                    <td>{{ result.resumeid.name|upper }}</td>
-                                    <td>{{ result.percentage|floatformat:2 }}%</td>
-                                    <td>{{ result.resumeid.status }}</td>
-                                    <td class="text-right">
-                                        <div class="dropdown">
-                                            <a class="btn btn-secondary btn-sm dropdown-toggle" href="#" role="button"
-                                                data-toggle="dropdown" aria-haspopup="true"
-                                                aria-expanded="false">Action</a>
-                                            <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
-                                                <a class="dropdown-item"
-                                                    href="{% url 'resumeanalyzer:details' result.resumeid_id %}">View
-                                                    Details</a>
-                                                {% if result.resumeid.status == "Available" %}
-                                                <form method="POST"
-                                                    action="{% url 'resumeanalyzer:shortlist' result.resumeid_id %}"
-                                                    onsubmit='return confirm("Are you sure you want to shortlist {{ result.resumeid.name }}?")'>
-                                                    {% csrf_token %}
-                                                    <button type="submit" class="dropdown-item">Shortlist</button>
-                                                </form>
-                                                {% else %}
-                                                <form method="POST"
-                                                    action="{% url 'resumeanalyzer:delist' result.resumeid_id %}"
-                                                    onsubmit='return confirm("Are you sure you want to delist {{ result.resumeid.name }}?")'>
-                                                    {% csrf_token %}
-                                                    <button type="submit" class="dropdown-item">Delist</button>
-                                                </form>
-                                                {% endif %}
-                                                <form method="POST"
-                                                    action="{% url 'resumeanalyzer:deleteResume' result.resumeid_id %}"
-                                                    onsubmit='return confirm("Are you sure you want to delete {{ result.resumeid.name }}?")'>
-                                                    {% csrf_token %}
-                                                    <button type="submit" class="dropdown-item">Delete</button>
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                {% endfor %}
-                            </tbody>
-                        </table>
+                    {% if results|length < 1 %} 
+                    <div class="text-center">
+                        <div class="image-container">
+                            <br><br><br>
+                            <img src="/static/images/empty.png" height="200">
+                        </div>
+                        <p class="mt-4 no-posted-job">No relevant resumes found.</p><br><br><br>
                     </div>
                 </div>
             </div>
         </div>
+        {% else %}
+        <div class="table-responsive">
+            <table class="table align-items-center table-flush">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Matching Percentage</th>
+                        <th scope="col">Status</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for result in results %}
+                    <tr>
+                        <td>{{ forloop.counter}}</td>
+                        <td>{{ result.resumeid.name|upper }}</td>
+                        <td>{{ result.percentage|floatformat:2 }}%</td>
+                        <td>{{ result.resumeid.status }}</td>
+                        <td class="text-right">
+                            <div class="dropdown">
+                                <a class="btn btn-secondary btn-sm dropdown-toggle" href="#" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action</a>
+                                <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+                                    <a class="dropdown-item"
+                                        href="{% url 'resumeanalyzer:details' result.resumeid_id %}">View
+                                        Details</a>
+                                    {% if result.resumeid.status == "Available" %}
+                                    <form method="POST" action="{% url 'resumeanalyzer:shortlist' result.resumeid_id %}"
+                                        onsubmit='return confirm("Are you sure you want to shortlist {{ result.resumeid.name }}?")'>
+                                        {% csrf_token %}
+                                        <button type="submit" class="dropdown-item">Shortlist</button>
+                                    </form>
+                                    {% else %}
+                                    <form method="POST" action="{% url 'resumeanalyzer:delist' result.resumeid_id %}"
+                                        onsubmit='return confirm("Are you sure you want to delist {{ result.resumeid.name }}?")'>
+                                        {% csrf_token %}
+                                        <button type="submit" class="dropdown-item">Delist</button>
+                                    </form>
+                                    {% endif %}
+                                    <form method="POST" action="{% url 'resumeanalyzer:deleteResume' result.resumeid_id %}"
+                                        onsubmit='return confirm("Are you sure you want to delete {{ result.resumeid.name }}?")'>
+                                        {% csrf_token %}
+                                        <button type="submit" class="dropdown-item">Delete</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% endif %}
     </div>
 </div>
 
