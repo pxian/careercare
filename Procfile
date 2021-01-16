@@ -1,0 +1,1 @@
+web: gunicorn JobPillar.wsgi --log-file -
