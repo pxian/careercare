@@ -1,0 +1,50 @@
+{% extends 'account.html' %}
+{% load static %}
+
+{% block content %}
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="container col-12 pr-0">
+        <a href="/employers/homepage" class="navbar-brand" >CareerCare</a>
+        <div class="collapse navbar-collapse justify-content-end" id="ftco-nav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="" class="nav-link candidate">Job Seeker Site</a></li>
+                <div class="border-right"></div>
+                <li class="nav-item"><a href="{% url 'employers:login' %}" class="nav-link ml-2">Login</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container col-12 p-0">
+    <div class="row">
+        <div class="col-7 pr-0">
+            <img src="{% static '/images/desk.png' %}" width=100%>
+        </div>
+        <div class="col-5" style="background-color:#f6f6f7">
+            <br><br><br><br><br><br><br><br>
+            <h2 class="mb-3">HIRE WITH PRECISION</h2>
+            <span class="text-secondary">Having trouble hiring the best candidate?</span><br>
+            <span class="text-secondary">Looking for the best service providers?</span><br>
+            <span class="text-secondary">CareerCare is here for you!</span><br><br><br>
+            <a href="{% url 'employers:signup' %}" class="btn btn-outline-secondary">Get started</a>
+        </div>
+    </div>
+    <div class="container col-12 bg-white p-5">
+        <div class="row justify-content-center py-2 px-5">
+            <div class="col-4 mr-5 border-bottom">
+                <img class="mb-4" src="{% static '/images/jobseeker.png' %}" width="50" style="margin-top: 6px">
+                <h6 class="text-dark" style="padding-top: 2px">Find quality applicants</h6>
+                <p>Provide us your required skills for the job so relevant candidates apply.
+                We offer solutions that help you hire your next best talent.</p><br>
+            </div>
+            <div class="col-4 ml-5 border-bottom">
+                <img class="mb-4" src="{% static '/images/service.png' %}" width="50">
+                <h6 class="text-dark">Get professional service providers</h6>
+                <p>Tell us what services you need and where do you need them.
+                We will find you the best professionals. 
+                Speed, reliability, value and satisfaction is our priority.</p><br>
+            </div>
+        </div>
+        <br><br>
+    </div>
+</div>
+{% endblock content %}

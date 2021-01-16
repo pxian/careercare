@@ -1,0 +1,112 @@
+{% extends 'employers.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container col-12">
+    {% include 'settings.html' %}
+
+        <div class="col-8">
+           <div class="card card-custom">
+                <div class="card-header">
+                    <div class="card-title align-items-start mb-0">
+                        <span class="mb-0 text-dark">Contact Information</span>
+                    </div>
+                </div>
+                <div class="p-5 bg-white contact">
+                    <div class="row mb-2">
+                        <div class="col-6 text-dark">
+                            <label>Address Line 1</label><br>
+                            <input class="form-control" placeholder="{{ individual.address_1 }}" disabled>
+                        </div>
+                        <div class="col-6 text-dark">
+                            <label>Address Line 2</label><br>
+                            <input class="form-control" placeholder="{{ individual.address_2 }}" disabled>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="row mb-2">
+                        <div class="col-6 text-dark">
+                            <label>State</label><br>
+                            <input class="form-control" placeholder="{{ individual.state }}" disabled>
+                        </div>
+                        <div class="col-6 text-dark">
+                            <label>City</label><br>
+                            <input class="form-control" placeholder="{{ individual.city }}" disabled>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="row mb-2">
+                        <div class="col-6 text-dark">
+                            <label>Postal Code</label><br>
+                            <input class="form-control" placeholder="{{ individual.pcode }}" disabled>
+                        </div>
+                        <div class="col-6 text-dark">
+                            <label>Contact Number</label><br>
+                            <div class="input-group col-8 pl-0" style="width: 250px !important">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">+60</span>
+                                </div>
+                                <input class="form-control" placeholder="{{ individual.phone_number }}" disabled>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br><br>
+                    <button type="button" class="btn btn-primary mr-3" onclick="update()">Update</button>
+                </div>
+                <form action="{% url 'employers:contact' %}" method="post" class="p-5 bg-white" hidden>
+                    {% csrf_token %}
+                    
+                    <div class="row mb-2">
+                        <div class="col-6 text-dark">
+                            <label>Address Line 1</label><br>
+                            {{ form.address_1 }}
+                        </div>
+                        <div class="col-6 text-dark">
+                            <label>Address Line 2</label><br>
+                            {{ form.address_2 }}
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="row mb-2">
+                        <div class="col-6 text-dark">
+                            <label>State</label><br>
+                            {{ form.state }}
+                        </div>
+                        <div class="col-6 text-dark">
+                            <label>City</label><br>
+                            {{ form.city }}
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="row mb-2">
+                        <div class="col-6 text-dark">
+                            <label>Postal Code</label><br>
+                            {{ form.pcode }}
+                        </div>
+                        <div class="col-6 text-dark">
+                            <label>Contact Number</label><br>
+                            <div class="input-group col-9 pl-0 pr-0">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">+60</span>
+                                </div>
+                                {{ form.phone_number }}
+                            </div>
+                        </div>
+                    </div>
+                    <br><br><br>
+                    <button type="submit" class="btn btn-primary mr-3">Save</button>
+                    <a href="{% url 'employers:contact' %}" class="btn btn-danger">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <br><br>
+</div>
+
+<script type="text/javascript">
+function update() {
+    $(".contact").hide();
+    $("form").prop("hidden", false);
+}
+</script>
+{% endblock content %}

@@ -1,0 +1,212 @@
+{% extends 'account.html' %}
+{% load static %}
+
+{% block content %}
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="container col-12 pr-0">
+        <a href="/employers/homepage" class="navbar-brand" >JobPillar</a>
+        <div class="collapse navbar-collapse justify-content-end" id="ftco-nav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="" class="nav-link candidate">Job Seeker Site</a></li>
+                <div class="border-right"></div>
+                <li class="nav-item"><a href="{% url 'employers:login' %}" class="nav-link ml-2">Login</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container col-12">
+    <div class="row">
+        <div class="col px-0 acc-bg"></div>
+        <div class="col mx-auto">
+            {% if group.id == 1 %}
+                {% if messages %}
+                    <br><br><br><br>
+                    <h5 class="text-center mt-3">Tell us more about your company!</h5>
+                    <div class="w-75 mx-auto mt-3">
+                        <div class="text-center">
+                        {% for message in messages %}
+                            <div class="text-danger error">
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-exclamation-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                    <path d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z"/>
+                                </svg>
+                                &nbsp; {{ message }}
+                            </div>
+                        {% endfor %}
+                        </div>
+                    </div>
+                {% else %}
+                    <br><br><br><br><br>
+                    <h5 class="text-center mt-3">Tell us more about your company!</h5>
+                {% endif %}
+
+                <form action="{% url 'employers:welcome' %}" method="post" class="p-5 text-center">
+                    {% csrf_token %}
+
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-6">
+                            <input type="text" name="name" class="form-control" style="width: 213px !important"
+                                   placeholder="Company Name" maxlength="100" required="" id="id_name">
+                        </div>
+                        <div class="col-6">
+                            <select name="size" class="custom-select" maxlength="100" id="id_size" style="width: 213px !important">
+                                <option value="" disabled selected>-- Select size --</option>
+                                <option value="1 - 50 Employees">1 - 50 Employees</option>
+                                <option value="51 - 200 Employees">51 - 200 Employees</option>
+                                <option value="201 - 500 Employees">201 - 500 Employees</option>
+                                <option value="501 - 1000 Employees">501 - 1000 Employees</option>
+                                <option value="1001 - 2000 Employees">1001 - 2000 Employees</option>
+                                <option value="2001 - 5000 Employees">2001 - 5000 Employees</option>
+                                <option value="More than 5000 Employees">More than 5000 Employees</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-6">
+                            <input type="text" name="website" class="form-control" style="width: 213px !important"
+                                placeholder="Company Website" maxlength="100" id="id_website">
+                        </div>
+                        <div class="col-6">
+                            <select name="industry" class="custom-select" maxlength="100" id="id_industry" style="width: 213px !important">
+                                <option value="" disabled selected>-- Select industry --</option>
+                                <option value="Accounting/Finance">Accounting/Finance</option>
+                                <option value="Admin/Human Resources">Admin/Human Resources</option>
+                                <option value="Arts/Media/Communications">Arts/Media/Communications</option>
+                                <option value="Computer/Information Technology">Computer/Information Technology</option>
+                                <option value="Education/Training">Education/Training</option>
+                                <option value="Engineering">Engineering</option>
+                                <option value="Entertainment/Media">Entertainment/Media</option>
+                                <option value="Healthcare">Healthcare</option>
+                                <option value="Hotel/Restaurant">Hotel/Restaurant</option>
+                                <option value="Manufacturing/Production">Manufacturing/Production</option>
+                                <option value="Sales/Marketing">Sales/Marketing</option>
+                                <option value="Sciences">Sciences</option>
+                                <option value="Services">Services</option>
+                                <option value="Others">Others</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-10 p-0">
+                            <input type="text" name="address_1" class="form-control w-100" 
+                                required="True" placeholder="Address Line 1" maxlength="500" id="id_address_1">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-10 p-0">
+                            <input type="text" name="address_2" class="form-control w-100" 
+                                placeholder="Address Line 2" maxlength="500" id="id_address_2">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-4 text-dark text-right p-0">
+                            <select name="state" class="custom-select w-75" required="True" maxlength="500" id="id_state">
+                                <option value="" selected disabled>-- Select state --</option>
+                                <option value="Perlis">Perlis</option>
+                                <option value="Perak">Perak</option>
+                                <option value="Johor">Johor</option>
+                                <option value="Sabah">Sabah</option>
+                                <option value="Kedah">Kedah</option>
+                                <option value="Melaka">Melaka</option>
+                                <option value="Pahang">Pahang</option>
+                                <option value="Penang">Penang</option>
+                                <option value="Sarawak">Sarawak</option>
+                                <option value="Kelantan">Kelantan</option>
+                                <option value="Selangor">Selangor</option>
+                                <option value="Terengganu">Terengganun</option>
+                                <option value="Kuala Lumpur">Kuala Lumpur</option>
+                                <option value="Negeri Sembilan">Negeri Sembilan</option>
+                            </select>
+                        </div>
+                        <div class="col-4 text-dark p-0">
+                            {{ form.city }}
+                        </div>
+                        <div class="col-4 text-dark text-left p-0">
+                            {{ form.pcode }}
+                        </div>
+                    </div>
+                    <br><br><br>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-11 p-0">
+                            <div class="row container d-flex justify-content-end">
+                                <button class="btn btn-primary py-2 px-3" type="submit">Proceed</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            {% else %}
+                {% if messages %}
+                    <br><br><br><br><br>
+                    <h5 class="text-center mt-3">Tell us more about you!</h5>
+                    <div class="w-75 mx-auto mt-3">
+                        <div class="text-center">
+                        {% for message in messages %}
+                            <div class="text-danger error">
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-exclamation-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                    <path d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z"/>
+                                </svg>
+                                &nbsp; {{ message }}
+                            </div>
+                        {% endfor %}
+                        </div>
+                    </div>
+                {% else %}
+                    <br><br><br><br><br><br>
+                    <h5 class="text-center mt-3">Tell us more about you!</h5>
+                {% endif %}
+
+                <form action="{% url 'employers:welcome' %}" method="post" class="p-5 text-center">
+                    {% csrf_token %}
+
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-11 p-0">
+                            {{ form.address_1 }}
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-11 p-0">
+                            {{ form.address_2 }}
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row d-flex justify-content-center" style="margin-left: 41px; width: 527px !important">
+                        <div class="col-4 text-dark text-right p-0">
+                            {{ form.state }}
+                        </div>
+                        <div class="col-4 text-dark p-0">
+                            {{ form.city }}
+                        </div>
+                        <div class="col-4 text-dark text-left p-0">
+                            {{ form.pcode }}
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row d-flex justify-content-center" style="margin-left: 10px; width: 605px !important">
+                        <div class="input-group col-9 pl-0">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">+60</span>
+                            </div>
+                            <input type="text" class="form-control w-75" placeholder="123456789" 
+                                   name="phone_number" maxlength="10" id="id_phone_number" required>
+                        </div>
+                    </div>
+                    <br><br><br>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-10 ml-1">
+                            <div class="row container d-flex justify-content-end">
+                                <button class="btn btn-primary py-2 px-3" type="submit">Proceed</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock content %}

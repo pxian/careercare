@@ -1,0 +1,156 @@
+{% extends 'employers.html' %}
+{% load static %}
+
+{% block content %}
+<br>
+<div class="container col-12">
+    <form action="{% url 'search:search' %}" method="get" class="job-post-item bg-white p-4 d-block d-md-flex justify-content-center">
+        {% csrf_token %}
+
+        {% if position_title %}
+            <input class="form-control mr-2" type="search" name="position_title" value="{{ position_title }}" required>
+        {% else %}
+            <input class="form-control mr-2" type="search" name="position_title" placeholder="Position Title" required>
+        {% endif %}
+        {% if keywords %}
+            <input class="form-control mr-2" type="search" name="keywords" value="{{ keywords }}">
+        {% else %}
+            <input class="form-control mr-2" type="search" name="keywords" placeholder="Keywords">
+        {% endif %}
+        {% if skills %}
+            <input class="form-control mr-2" type="search" name="skills" value="{{ skills }}">
+        {% else %}
+            <input class="form-control mr-2" type="search" name="skills" placeholder="Skills">
+        {% endif %}
+        <button type="submit" class="btn btn-primary py-2">Search</button>
+    </form>
+    <br>
+
+    {% if queryset_array %}
+        <div class="job-post-item bg-white p-4 d-block d-md-flex align-items-center w-100">
+            <div class="portlet-body w-100">
+                <div class="table-scrollable table-scrollable-borderless">
+                    <table class="table table-light text-dark dataTable">
+                        <thead><tr><td></td><td></td><td></td><td></td></tr></thead>
+                        <tbody>
+                            {% for results in queryset_array %}
+                                {% for result in results %}                                  
+                                    <tr>
+                                        <td>
+                                            <div class="row py-3">
+                                                <div class="col-10">
+                                                    <h6>{{ result.0.name|upper }}</h6>
+                                                    <div class="row container">
+                                                        <div class="col-xs-1">
+                                                            <i class="fa fa-briefcase text-primary"></i>
+                                                        </div>
+                                                        <div class="col ml-1">
+                                                            {{ result.0.title|title|truncatechars:70 }}
+                                                        </div>
+                                                    </div>
+                                                    <i class="fa fa-graduation-cap" style="padding-right: 11px"></i>
+                                                    {{ result.1.title|capfirst|truncatechars:70 }}<br>
+                                                    <div class="row container">
+                                                        <div class="col-xs-1">
+                                                            <i class="fa fa-cogs"></i>  
+                                                        </div>
+                                                        <div class="col" style="padding-left: 18px">
+                                                            {{ result.0.skills|truncatechars:70 }}
+                                                        </div>
+                                                    </div>
+                                                    <div class="row container">
+                                                        <div class="col-xs-1">
+                                                            <i class="fa fa-align-justify"></i>
+                                                        </div>
+                                                        <div class="col" style="padding-left: 18px">
+                                                            {{ result.0.description|lower|capfirst|truncatechars:70 }}
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td width="13%" class="align-middle text-center">
+                                            {% if result.2 > 1 %}
+                                                <h3 class="mb-3 mx-auto search-experience">{{ result.2 }}</h3>
+                                                <div class="mt-2">
+                                                    <span>Work Experiences</span>
+                                                </div>
+                                            {% else %}
+                                                <h3 class="mb-3 mx-auto search-experience">{{ result.2 }}</h3>
+                                                <div class="mt-2">
+                                                    <span>Work Experience</span>
+                                                </div>
+                                            {% endif %}
+                                        </td>
+                                        <td width="13%" class="align-middle text-center">
+                                            <h3 class="mb-3 mx-auto search-salary">RM {{ result.0.expected_salary }}</h3>
+                                            <div class="mt-2">
+                                                <span>Expected Salary</span>
+                                            </div>
+                                        </td>
+                                        <td class="text-center align-middle" width="10%">
+                                            <a href="{% url 'search:candidate' result.0.id %}" class="btn btn-primary">More Info</a>
+                                        </td>
+                                    </tr>
+                                {% endfor %}
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    {% elif queryset_array is empty %}
+        <div class="mt-4 row">
+            <img class="pt-3 mx-auto" src="/static/images/search.png" width="300" style="cursor: auto">
+        </div>
+        <div class="mt-4 row">
+            <p class="mx-auto text-dark">Start your search now</p>
+        </div>
+    {% else %}
+        <div class="job-post-item bg-white p-4 d-block d-md-flex align-items-center w-100">
+            <div class="portlet-body w-100">
+                <div class="table-scrollable table-scrollable-borderless">
+                    <table class="table table-light text-dark dataTable">
+                        <thead><tr><td></td><td></td></tr></thead>
+                        <tbody>
+                            {% for results in queryset_array %}
+                                {% for result in results %}
+                                    <tr><td></td><td></td></tr>
+                                {% endfor %}
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    {% endif %}
+</div>
+
+{% comment %} 
+l - Length changing
+f - Filtering input
+t - The Table!
+i - Information
+p - Pagination
+r - pRocessing 
+{% endcomment %}
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.dataTable').DataTable({
+        "ordering": false,
+        "sDom": "<'top'<'row'<'col-6'i><'col-6'<'pull-right'f>>>>rt" +
+                "<'bottom'<'row'<'col-6'l><'col-6'<'pull-right'p>>><'#refresh'>><'clear'>",
+        "language": {
+            "zeroRecords": "<div class='p-3'><img class='mx-auto pt-2' width='250' src='/static/images/not_found.png' style='cursor: auto'>" + 
+                           "<p class='mx-auto'>No results found</p></div>"
+        },
+        fnDrawCallback: function() {
+            $(".dataTable thead").remove();
+        },
+    });
+});
+</script>
+{% endblock content %}

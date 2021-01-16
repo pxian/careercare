@@ -1,0 +1,264 @@
+{% extends 'employers.html' %}
+{% load static %}
+{% block content %}
+
+{% if messages %}
+<div class="message">
+    {% for message in messages %}
+    <div class="alert alert-{{ message.tags }} alert-dismissible fade show" id="msg" style="margin-left: 12%">
+        {% if message.level == DEFAULT_MESSAGE_LEVELS.ERROR %}Important: {% endif %}
+        {{ message }}
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+<br>
+<div class="container col-10 text-dark">
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" href="{% url 'resumeanalyzer:uploadresume' %}">Import Resume(s)</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'resumeanalyzer:resumelist' %}">View All Resumes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'resumeanalyzer:uploadjob' %}">Perform Matching</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'resumeanalyzer:history' %}">View Matching History</a>
+        </li>
+      </ul>
+      <br><br>
+    <a href="{% url 'resumeanalyzer:resumelist' %}" class="btn btn-sm btn-secondary">Back</a><br><br>
+    <div class="bg-white p-4">
+        <div class="w-100 d-flex align-items-center align-middle">
+            <div class="mr-3">
+                <img src="{% static '/images/users/default.jpg' %}" class="ssearch-img">
+            </div>
+            <div class="mr-auto pl-2">
+                <h6 class="pt-3">{{ resume.name|upper }}</h6>
+            </div>
+            <div class="pr-4 text-right border-right">
+                Email: {{ resume.email }}<br>
+                Contact number: {{ resume.mobile_number }}
+            </div>
+            <div class="pl-4 pr-3 text-right">
+                Status<br>
+                {{ resume.status }}
+            </div>
+        </div>
+    </div><br>
+    <div class="row">
+        <div class="col-10">
+            <div class="card card-custom rounded-0">
+                <div class="row">
+                    <div class="card-header d-flex border-0 py-3 px-4 col-2">
+                        <div class="card-toolbar">
+                            <ul class="nav flex-column nav-pills">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" href="#about">Summary</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#education">Education</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#company">Company</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#designation">Designation</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#experience">Experience</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#skills">Skills</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-body px-4 pb-4 pt-0 col-9">
+                        <div class="tab-content" align="justify">
+                            <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="about">
+                                <table class="table table-light">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <ul class="pl-3">
+                                                    {% if resume.summary == None or resume.summary == "" %}
+                                                    <p>Unable to generate summary.</p>
+                                                    {% else %}
+                                                    <p>{{ resume.summary }}</p>
+                                                    {% endif %}
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="tab-pane fade" id="education" role="tabpanel" aria-labelledby="education">
+                                <table class="table table-light">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <ul class="pl-3">
+                                                    {% if resume.education == None or resume.education == "" %}
+                                                    <p>Unable to extract education from resume. Please view the resume for more info.</p>
+                                                    {% else %}
+                                                    {{ resume.education|linebreaks }}
+                                                    {% endif %}
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="tab-pane fade" id="company" role="tabpanel" aria-labelledby="company">
+                                <table class="table table-light">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <ul class="pl-3">
+                                                    {% if resume.company_name == None or resume.company_name == "" %}
+                                                    <p>Unable to extract company from resume. Please view the resume for more info.</p>
+                                                    {% else %}
+                                                    {{ resume.company_name|linebreaks }}
+                                                    {% endif %}
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="tab-pane fade" id="designation" role="tabpanel" aria-labelledby="designation">
+                                <table class="table table-light">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <ul class="pl-3">
+                                                    {% if resume.designation == None or resume.designation == "" %}
+                                                    <p>Unable to extract designation from resume. Please view the resume for more info.</p>
+                                                    {% else %}
+                                                    {{ resume.designation|linebreaks }}
+                                                    {% endif %}
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="tab-pane fade" id="experience" role="tabpanel" aria-labelledby="experience">
+                                <table class="table table-light">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <ul class="pl-3">
+                                                    {% if resume.experience == None or resume.experience == "" %}
+                                                    <p>Unable to extract experience from resume. Please view the resume for more info.</p>
+                                                    {% else %}
+                                                    {{ resume.experience|linebreaks }}
+                                                    {% endif %}
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="tab-pane fade" id="skills" role="tabpanel" aria-labelledby="skills">
+                                <table class="table table-light">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <ul class="pl-3" style="column-count: 2">
+                                                    {% if resume.skills == None or resume.skills == "" %}
+                                                    <p>Unable to extract skills from resume. Please view the resume for more info.</p>
+                                                    {% else %}
+                                                    {{ resume.skills|linebreaks }}
+                                                    {% endif %}
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="card card-custom p-4 rounded-0" style="text-align:center">
+                <a href="{{ resume.resume.url }}" class="btn btn-sm btn-info">View Resume</a>
+
+                {% if resume.status == "Available" %}
+                <br>
+                <form method="POST" action="{% url 'resumeanalyzer:shortlist' resume.resumeid %}"
+                    onsubmit='return confirm("Are you sure you want to shortlist {{ resume.name }}?")'>
+                    {% csrf_token %}
+                    <button type="submit" class="btn btn-sm btn-success btn-block">Shortlist</button>
+                </form>
+                {% else %}
+                <br>
+                <form method="POST" action="{% url 'resumeanalyzer:delist' resume.resumeid %}"
+                    onsubmit='return confirm("Are you sure you want to delist {{ resume.name }}?")'>
+                    {% csrf_token %}
+                    <button type="submit" class="btn btn-sm btn-warning btn-block" display: inline-block>Delist</button>
+                </form>
+                {% endif %}
+
+                <br>
+                <form style="display:inline-block;" method="POST"
+                    action="{% url 'resumeanalyzer:deleteResume' resume.resumeid %}"
+                    onsubmit='return confirm("Are you sure you want to delete {{ resume.name }}?")'>
+                    {% csrf_token %}
+                    <button type="submit" class="btn btn-sm btn-danger btn-block">Delete</button>
+                </form>
+                <br><a href="{% url 'resumeanalyzer:resumelist' %}" class="btn btn-sm btn-primary">View All</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="card card-custom">
+        <div class="card-header">
+            <div class="card-title align-items-start mb-0">
+                <span class="mb-0 text-dark">Add notes</span>
+            </div>
+        </div>
+        <form enctype="multipart/form-data" action="{% url 'resumeanalyzer:addNotes' resume.resumeid %}" method="POST" class="p-5 bg-white text-dark">
+            {% csrf_token %}
+            {% if resume.note == None or resume.note == "" %}
+                <p>No notes added.</p>
+            {% else %}
+                <p>{{ resume.note }}</p>
+            {% endif %}
+            <div class="row">
+                <div class="col-10"><input type="text" id="note" name="note" size="100" placeholder="Good match etc."/></div>
+            </div>
+            <br>
+            <button class="btn btn-primary mr-3" type="submit">Update</button>
+            <a href="#" class="btn btn-danger">Cancel</a><br>
+        </form>
+    </div>
+    <br>
+    <div class="card card-custom">
+        <div class="card-header">
+            <div class="card-title align-items-start mb-0">
+                <span class="mb-0 text-dark">Job Matching Results</span>
+            </div>
+        </div>
+        <div class="p-5 bg-white text-dark">
+            <table>
+                {% for result in results %}
+                <tr>
+                    <th width="200px"><a href="{% url 'resumeanalyzer:result' result.jobid_id %}" target="_blank">{{ result.jobid.title }}</a></th>
+                    <th width="200px"><a>{{ result.percentage }}%</a></th>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </div>
+    <br><br><br>
+</div>
+{% endblock content %}

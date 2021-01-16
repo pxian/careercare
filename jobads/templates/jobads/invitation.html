@@ -1,0 +1,69 @@
+{% extends 'employers.html' %} 
+{% load static %}
+
+{% block content %}
+<br>
+<div class="container col-7">
+    <div class="card card-custom">
+        <div class="card-header">
+            <div class="card-title align-items-start mb-0">
+                <span class="mb-0 text-dark job-details">Schedule Interview</span>
+            </div>
+        </div>
+        <form action="" method="post" class="bg-white p-5">
+            {% csrf_token %}
+
+            <div class="row d-flex justify-content-center">
+                <div class="col-10">
+                    <div class="d-flex">
+                        <span class="text-dark">{{ jobads.position_title }}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center mt-4">
+                <div class="col-10">
+                    <div class="input-group col p-0">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">To</span>
+                        </div>
+                        <input type="text" class="form-control" value="{{ candidate.name }}" disabled>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center mt-4">
+                <div class="col-10">
+                    <div class="d-flex">
+                        {{ form.messages }}
+                    </div>
+                </div>
+            </div><br>
+            <div class="row d-flex justify-content-center">
+                <div class="col-5 text-center">
+                    {{ form.booked_date }}
+                </div>
+                <div class="col-5 text-center">
+                    {{ form.booked_time }}
+                </div>
+            </div><br><br><br>
+            <div class="row d-flex justify-content-center">
+                <div class="col-10">
+                    <button type="submit" class="btn btn-primary mr-3">Confirm</button>
+                    <a href="{% url 'jobads:interview' jobads.id %}" class="btn btn-danger">Cancel</a>
+                </div>
+            </div>
+        </form>
+    </div>
+    <br><br>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#id_booked_time').timepicker({
+        'interval': '30',
+        'maxHour': '19',
+        'minTime': '08:00',
+        'timeFormat': 'H:mm',
+    });
+});
+</script>
+{% endblock content %}

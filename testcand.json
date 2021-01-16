@@ -1,0 +1,2886 @@
+[
+  {
+    "model": "test_cand.testcand",
+    "pk": 1,
+    "fields": {
+      "name": "Tee Lat Yeo",
+      "title": "Full Stack Developer - GLADHAND TECHNOLOGIES PRIVATE LIMITED",
+      "location": "Sarawak",
+      "description": "Full-stack developer involved in application development, project management, testing and optimization.Also involved in iOS and Android mobile application development in Ionic(1,2, 3, 4) framework and also start with new project PWA(Progressive Web Application in Ionic4 and angular6). Served as technical lead for a team of developers to redesign and implement a modern solution using standard web technologies including HTML5, CSS3, JavaScript, Ajax, PHP and Mysql.  Experience on up to date web development technologies Angular(2,4, 5, 6), Typescript, NodeJS, NPM, GIT, Heroku, JavaScript, Bootstrap4, Angular Material design, CSS3, HTML5, Laravel5, MVC, Amazon Web Service and start etc.",
+      "skills": "HTML5 (3 years), PHP (3 years), BOOTSTRAP (1 year), APACHE CORDOVA (Less than 1 year), Angular, Javascript, Node, Mysql, Css, Ionic",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 12500
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 2,
+    "fields": {
+      "name": "Muhammad Syahaziq bin Syed Sudirman",
+      "title": "NONE",
+      "location": "Kedah",
+      "description": "To make optimum use of my knowledge and skills, utilize opportunities effectively for \nprofessional growth, betterment of organization and self.",
+      "skills": "JAVA (Less than 1 year), Java, html, css, mysql",
+      "link": "NONE",
+      "preferred_location": "Kedah",
+      "expected_salary": 9800
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 3,
+    "fields": {
+      "name": "Nur Hajjah Fathihah Azli binti Mohmad Malik",
+      "title": "NONE",
+      "location": "Perlis",
+      "description": "NONE",
+      "skills": "EMBEDDED C (2 years), I2C, SPI, UART, ADC, 16/32 BIT MICROCONTROLLER, C, EMBEDDED C (2 years), C (2 years), PWM, EEPROM",
+      "link": "NONE",
+      "preferred_location": "Perlis",
+      "expected_salary": 11000
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 4,
+    "fields": {
+      "name": "N. K. Kamalesvaran",
+      "title": "NONE",
+      "location": "Negeri Sembilan",
+      "description": "With the sense of commitment that I possess, I would like to work for a professional driven organization where I can apply my management knowledge and skills in process increase my learning curve to supplement my own growth in the cooperative world.",
+      "skills": "ms office, PYTHON (Less than 1 year), django, Sql",
+      "link": "NONE",
+      "preferred_location": "Negeri Sembilan",
+      "expected_salary": 8600
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 5,
+    "fields": {
+      "name": "Nadhrah Azrai binti Che Ashraff",
+      "title": "Lead Javascript Web Developer",
+      "location": "Perak",
+      "description": "I was always in the world of web and javascript all my career. Now with around 10 years of total development experience, I had the honor of getting my hands on a wide genre of javascript frameworks and libraries in the web front-end(single page apps, html web components, data visualization components etc..) & server-side( nodejs microservices). This helped me a lot in understanding the driving reasons for their architectural core decisions, letting me choose the right tools for each situation & pushing me towards knowing more alternatives available at my finger tips to be mastered.",
+      "skills": "Javascript (9 years), Html (9 years), SCSS/CSS/LESS (4 years), Reactjs + Redux (1 year), Node.Js (1 year), Sencha/ExtJS (4 years), Sencha Touch (2 years), Angularjs (1 year), Expressjs (1 year), Git (3 years), Svn (3 years), Web Development (9 years)",
+      "link": "https://www.linkedin.com/in/lenins-george-25ba11194/, https://www.linkedin.com/in/lenins-george-25ba11194/",
+      "preferred_location": "Penang",
+      "expected_salary": 7200
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 6,
+    "fields": {
+      "name": "Lah Pow Pam",
+      "title": "Planning Manager by using MS Project, Revit, excel and site executive enginer",
+      "location": "Kuala Lumpur",
+      "description": "First price in national Level Student's Technical Symposium (Orchid College Solapur) \nFirst price in national Olympus (SVERI College Pandarpur.) \nFirst price in national DISTA (Sinhgad College Sholapur) \nFirst price in national Level Student's Technical Symposium (Orchid College Solapur) \n1) Participation in Autodesk national Level 3d Student Design challenge (Pune)",
+      "skills": "AUTO CAD (8 years), CAD (8 years), 3D MODELING (Less than 1 year), COMMERCIAL/RESIDENTIAL (Less than 1 year), EXCEL (Less than 1 year), Google sketchup, MS Project, tally, 3d max., Staad Pro, Revit Architecture",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 6900
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 7,
+    "fields": {
+      "name": "Nadhrah Azrai binti Che Ashraff",
+      "title": "NONE",
+      "location": "Kedah",
+      "description": "NONE",
+      "skills": "ECLIPSE, JAVA, HIBERNATE, JSP, SERVLETS",
+      "link": "https://github.com/sachinsy?tab=repositories, https://www.hackerrank.com/sachin15061997, https://github.com/sachinsy?tab=repositories, https://www.hackerrank.com/sachin15061997",
+      "preferred_location": "Selangor",
+      "expected_salary": 10500
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 8,
+    "fields": {
+      "name": "Abd Zamhari bin Nordiarman",
+      "title": "NONE",
+      "location": "Kelantan",
+      "description": "To secure a position where I can associate myself with an organization where there is an opportunity to share and contribute my knowledge for development of self and organization served.",
+      "skills": "ECLIPSE, JAVA, JSP, SERVLETS, JDBC",
+      "link": "NONE",
+      "preferred_location": "Kelantan, Perlis",
+      "expected_salary": 6100
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 9,
+    "fields": {
+      "name": "Mohamad Hj Khairol Zazlan bin Martonis",
+      "title": "NONE",
+      "location": "Terengganu",
+      "description": "To be an asset for the organization and contribute productively in a continuous learning \nenvironment.",
+      "skills": "C++, DJANGO, BOOTSTRAP, PYTHON, FLASK",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 6700
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 10,
+    "fields": {
+      "name": "V. T. Ramasamy",
+      "title": "Looking For python developer as Fresher",
+      "location": "Pahang",
+      "description": "Seeking a challenging position in software industry where my skill \nand knowledge can be best utilized in successful.",
+      "skills": "BOOTSTRAP (Less than 1 year), DATABASES (Less than 1 year), DJANGO (Less than 1 year), HTML5 (Less than 1 year), JAVASCRIPT (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Selangor, Negeri Sembilan, Pahang",
+      "expected_salary": 12200
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 11,
+    "fields": {
+      "name": "Noor Shafiqa binti Che Shaharudin",
+      "title": "NONE",
+      "location": "Sabah",
+      "description": "To dedicate my service to a reputed organization to expose my talents and skills individually and also in a team to learn many good things from the organization itself..",
+      "skills": "C++ (Less than 1 year), HTML (Less than 1 year), JAVA (Less than 1 year), PHP (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Sabah",
+      "expected_salary": 4900
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 12,
+    "fields": {
+      "name": "Norsyuhada Fairos",
+      "title": "iOS Developer",
+      "location": "Johor",
+      "description": "Exceptionally creative and dependable entry level developer with a very good work ethic \nand broadly knowledgeable in a wide variety of technologies as well as the principles and \ntechniques of website and mobile application development, testing and maintenance. \n \nPROJECTS: \nCryptoCalcy | iOS App \nCryptoCalcy lets users view prices and comparisons between regular fiat money with \ncryptocurrencies allowing them to keep track of their favorite cryptocurrencies like Bitcoin, \nEthereum, Ripple and many more. This app uses an API from CryptoCompare to get prices \nfor various currencies. \n \nFeedetite | iOS App \nFeedetite is an RSS aggregator iOS app that can be used to read RSS, ATOM and JSON feeds. \nIt gets latest news from major news media outlets like CNN, BBC, The Atlantic and many \nothers. Users can follow a feed or add their own source by entering a feed URL from a \nsource. Users can also collect articles in separate journals for future reference. \n \nSeaFood | iOS App \nSeaFood is an iOS App that uses Apple's CoreML framework and Google's InceptionV3 \nmachine learning model to detect and recognize images of objects or scenes taken by the \niPhone's camera by the User. \n \nClima | iOS App \nClima is a weather app that shows weather information about a particular city using the \nOpenWeatherMap API. Users can view weather information for a default city or they can \nsee weather information for any other place by entering the city's name. \n \nTodoey | iOS App \nTodoey is a simple minimalistic to-do list app. Users can add new events to a list and also \nhas the ability to create new categories of lists based on their preferences. \n \nWeight Tracker | React App \nWeight Tracker is a web app that uses React.js on the front-end and Firebase on the \nbackend. A User can login through their existing account or they can create new account. \nEvery time a user enters their weight, it gets stored in the database i.e. on Firebase. The app \npulls those data and plots a graph of their weight with respect to the time of their entry. \n \nCalculator | React App \nThis is a simple calculator web app also based on React. The UI is inspired from iOS \nCalculator app. It performs basic arithmetic operations.",
+      "skills": "iPhone Development, Javascript, Next.js, iPad Development, Java, iOS Development, Redux, React, Xcode, Swift, Web Development",
+      "link": "https://github.com/vigneshwar-d, https://www.linkedin.com/in/vigneshwar-d, https://github.com/vigneshwar-d, https://www.linkedin.com/in/vigneshwar-d",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 3500
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 13,
+    "fields": {
+      "name": "Devasagayam Dhillon a/l Mogan Surendran",
+      "title": "NONE",
+      "location": "Penang",
+      "description": "Seeking a challenging career in a growth oriented organization that provides congenial work and growth \nenvironment, with adequate opportunities to experience the competitive industry work culture, and to \ndevelop technical expertise in relevant areas.",
+      "skills": "ANDROID, BOOTSTRAP, VISUAL STUDIO, C++, HTML",
+      "link": "NONE",
+      "preferred_location": "Penang",
+      "expected_salary": 8100
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 14,
+    "fields": {
+      "name": "Preeta Saunthararajah a/l Puvaneswaran Namasivayam",
+      "title": "NONE",
+      "location": "Kuala Lumpur",
+      "description": "Proven working experience in project management and People Management \nEnsure that all projects are delivered on-time, within scope and within budget \nAssist in the definition of project scope and objectives, involving all relevant stakeholders and ensuring technical feasibility \nExtensive experience in product/feature release planning \nMonitor workflow and make timeline adjustments as needed \nWork as part of an interdisciplinary team to achieve project milestones \nCertified Agile Scrum Master with 5 years of hands on experience by conducting Scrum meetings and track milestones using agile methodologies \nCollaborate with development to plan project sprints \nPerform risk management to minimize project risks \nDelegate project tasks based on junior staff members' individual strengths, skill sets and experience levels \nTrack project performance, specifically to analyze the successful completion of short and long-term goals \nDevelop comprehensive project plans to be shared with clients as well as other staff members \nUse and continually develop leadership skills \nHaving very good functional and Technical knowledge \nDebug the issues while validating the product and propose solutions to the customer \nProject tracking using JIRA by following agile methodology \nPreparing test plan, test cases and test report \nExperience in user acceptance testing for the features developed by developers \nEnsuring that all identified defects are rectified \nProject Risks identification and propose mitigation plans \nPreparation of work burn-down sheets \nParticipating in weekly status meetings with Customer \nDesign and Development of the Application \nVery good knowledge on PYTHON, C++, OOAD, Linux",
+      "skills": "C++, PYTHON, SCRIPTING, SVN, LINUX",
+      "link": "https://www.linkedin.com/in/rameshgm, https://www.linkedin.com/in/rameshgm",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 1700
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 15,
+    "fields": {
+      "name": "Pushpa Pereira a/l Yosri Kaliappan",
+      "title": "Php Developer",
+      "location": "Pahang",
+      "description": "Seeking for a job in challenging and healthy work environment where I can utilize my skill and knowledge effect for organization growth.",
+      "skills": "Php (Less than 1 year), Jquery (Less than 1 year), MySQL (1 year), CSS (Less than 1 year), Html (Less than 1 year), C (1 year), C++ (1 year)",
+      "link": "NONE",
+      "preferred_location": "Selangor, Negeri Sembilan, Pahang",
+      "expected_salary": 10300
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 16,
+    "fields": {
+      "name": "Mohamed Rehan Harun bin W",
+      "title": "Data Scientist - TCS Gurugram",
+      "location": "Terengganu",
+      "description": "I am working as a Data Scientist in TCS Gurugram. I have 1 year and 5 Machine Learning NLP and 1 year and 2 months experience in RPA UiPath. \nMy notice period in TCS is 18 days. \nI am incredibly passionate about all things deep learning can do. Over the past one year, I have dedicated a considerable amount of time and effort in learning AI and would like to apply for a position of Data Scientist. Along with my company's projects ,I have also done a lot of personal projects for self learning.",
+      "skills": "DEEP LEARNING (2 years), AWS (2 years), PYTHON (2 years), ALGORITHMS (2 years), DATA STRUCTURES (2 years), Machine learning (2 years), data science (2 years)",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 2300
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 17,
+    "fields": {
+      "name": "Nurul Fizra binti Yushafiq",
+      "title": "NONE",
+      "location": "Johor",
+      "description": "To secure a challenging position where, I can effectively contribute with my Technical skills. To fully develop myself as a professional and to work with dedication and honesty that leads to the success of company/Organization.",
+      "skills": "Android (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 7400
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 18,
+    "fields": {
+      "name": "Adrian Lok Ung Shih",
+      "title": "Course5 Intelligence - Manager - Hi-Tech Practices",
+      "location": "Negeri Sembilan",
+      "description": "NONE",
+      "skills": "market intelligence, Technology research, competitive analysis, GTM Analysis, swot, Market research, Cloud Market, Secondary research",
+      "link": "https://www.linkedin.com/in/ganesh-gj-08b34231, https://www.linkedin.com/in/ganesh-gj-08b34231",
+      "preferred_location": "Negeri Sembilan",
+      "expected_salary": 12500
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 19,
+    "fields": {
+      "name": "Muhamed Hj Nik Khairun bin Sulong",
+      "title": "Asp.net Developer",
+      "location": "Melaka",
+      "description": "Currently Working in Quadra Software Solutions Private Limited Cochin, Kerala",
+      "skills": ".net+Mvc angular js",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 6500
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 20,
+    "fields": {
+      "name": "Zu Lan Yew",
+      "title": "NONE",
+      "location": "Melaka",
+      "description": "Fresher python developer specializing in front-end development. Well-versed in numerous programming languages including C, MySQL.",
+      "skills": "FABRICATION, INTEGRATION, MECHANICAL ENGINEERING, PAYMENTS, PYTHON",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 3700
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 21,
+    "fields": {
+      "name": "Muhammad Haji Che Rusman Jamaluddin bin Syed Hassan",
+      "title": "NONE",
+      "location": "Johor",
+      "description": "4.5 years of experience in IT Industry in diversified fields and strong knowledge in Front-End development, UI Development this involves migration projects. \n Main areas of expertise are analyzing, developing and testing the frontend of web based projects. \n Experience in React JS, Angular JS, KNOCKOUT JS combined with SEQUELIZE ORM. \n Experience in bootstrap modal binding, front-end crud operations, form validations, react JS routing, knockout JS two way binding, CCAVENUE payment gateway integration, Subversion, GIT, HEROKU, NPM, WEBPACK, WEB SCRAPPING, CHEERIO etc. \n Performance based Loading of data using local storage variables to reduce http requests. \n Good Knowledge on PHONEGAP in creating HYBRID mobile applications. Using CORS in asp.net mvc to share single azure database between website and mobile application. \n Deploying and debugging (using sourcemaps) the application in Heroku. Implementing SSL in azure portal using godaddy ssl certificate. \n Experience in react project initial setup, dynamic form components generation, child to parent callbacks, minification using WEBPACK, unit testing. \n Experience in developing REACT COMPONENTS for code-reusability and performance. Dynamically generating the form components using JSconfig. \n Developed web scrapping controllers to extract data from web portals and further transform, load data into Mysql database. \n Experience in HTML5, REACTSTRAP, FUSION CHARTS, CSS, TYPOGRAPHY. Implemented elegant looking websites using these technologies. \n Extensively worked with various extensions and functionalities like ckeditor binding, reactstrap multiple modal binding, SMTP Custom email logic (zoho), angular js routing, jquery autocomplete, datepicker, timepicker, angular js UI router, moment js, knockout binding handlers, knockout subscriber functions etc. \n Experience in developing logic to communicate within views using mvc session variables and URL's, Knockout JS filtering, Knockout Validations, MVC shared layout's, sbadmin portal for registered users, implementing branch functionality etc. \n Maintained good communication with DBA for performance tuning the backend application. \n Reliability meets demanding deadlines and targets working under pressure. \n \n Worked as Frontend Developer at IBASEIT solutions Shilparamam, Hi-Tech city, Hyderabad, Telangana from Feb' 18 - Jul' 19. \n \n Worked as Frontend Developer at GudeSoft Solutions Nanakramguda, Hyderabad, Telangana from Apr' 14 - Sep' 17. \n \n Worked as Web Designer at Eircom, East point business park, Dublin, Ireland from Dec' 07 - Jul' 11.",
+      "skills": "HTML5 (3 years), Subversion (2 years), SVN (2 years), jQuery (1 year), AWK (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Johor",
+      "expected_salary": 14600
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 22,
+    "fields": {
+      "name": "Nuur Alia Zakaria binti Syed Naim",
+      "title": "JAVA DEVELOPER, SQL DEVELOPER",
+      "location": "Kuala Lumpur",
+      "description": "Looking for a challenging and rewarding career in a reputed organization that offers \nOpportunities to explore my full potential through continuous learning, growth and innovation.",
+      "skills": "ANDROID (Less than 1 year), C++ (Less than 1 year), JAVA (Less than 1 year), LINUX (Less than 1 year), ORACLE (Less than 1 year), Html (Less than 1 year), Css (Less than 1 year), Sql Dba, Plsql",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 2600
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 23,
+    "fields": {
+      "name": "Seoh Kok Sun",
+      "title": "Manager Quality Assurance",
+      "location": "Kuala Lumpur",
+      "description": "About 12.5 years experienced in the field of Automobile manufacturing Quality Assurance & Integrated Management System. \nIdentify & Implement of customer specific requirements. \nImprove quality systems and achieve customer requirements. \nHandling of product complaints and providing CAPA for the same. \nAssessment and maintenance of processes through Internal and External Quality Audits. \nReview of Internal & External Quality performance and analysis reports. \nVendor evaluation and qualification for starting materials and raw materials. \nPreparation of Annual Product Review (APR). \nReview and authorize for Change control management. \nProvide support to the various divisions for effective and efficient implementation of the Quality Management System. \nReview & upgrade Quality Control process & firewalls. \nCo-ordinate with Production, QC, and Maintenance regarding non-conformance & corrective action for the same.",
+      "skills": "IATF 16949-2016 (3 years), SOX, LEAN MANUFACTURING (6 years), AUDITING (8 years), TRAINING (6 years)",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 10900
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 24,
+    "fields": {
+      "name": "Renuga Ramani a/l Kuhan",
+      "title": "NONE",
+      "location": "Perak",
+      "description": "C O NTACT \n \nTo achieve Top notch career through hardworking, self development rehanmondal01@gmail.com \nand obviously use my skills and knowledge to help the coworkers to \nbe succesful.. 6290121925 \n \nGaria, Boral Natunhat Danga Khan",
+      "skills": "C++ (Less than 1 year), HTML (Less than 1 year), JAVA (Less than 1 year), MSME (Less than 1 year), MYSQL (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 7800
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 25,
+    "fields": {
+      "name": "Arulraj Naidu",
+      "title": "Full stack engineer",
+      "location": "Sabah",
+      "description": "NONE",
+      "skills": "Sql, Servlet, Java, Python, Mongodb (Less than 1 year), Spring, iOS developement, firebase, aws, swift, spring-boot",
+      "link": "NONE",
+      "preferred_location": "Sabah",
+      "expected_salary": 7900
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 26,
+    "fields": {
+      "name": "Noor Hajjah Syahira Hairizan",
+      "title": "Full Stack Developer",
+      "location": "Johor",
+      "description": "Seeking a career that will utilise and reinforce my technical skill and abilities and also will help to apply and gain new \ncutting edge skills and experience in a rapidly changing field.",
+      "skills": "NodeJs (1 year), Laravel (Less than 1 year), Core PHP (2 years), mysql (2 years), Mongodb (Less than 1 year), Javascript (2 years)",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 12800
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 27,
+    "fields": {
+      "name": "Muhammet Zainul Shaifuddin",
+      "title": "NONE",
+      "location": "Penang",
+      "description": "To be associated with an organisation which provides adequate opportunity for career development \nand where I can integrate my professional skills and specialized knowledge with the organization \ndynamic and aptly designed operational plans for the effective and efficient achievement of \norganisational objectives and ultimately for the magnificent growth of the organization \n \nCAREER SNAPSHOT \n \nA Competent Chartered Accountant with 3 years of Articleship experience in Statutory Audit, \nInternal Audit, Financial Statement Analysis, Direct Taxation, GST Returns, Filings and GST Audit..",
+      "skills": "ERP, SAP, Tally, ORION, MS OFFICE",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 10800
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 28,
+    "fields": {
+      "name": "Renuga Ganesan a/l Dhillon",
+      "title": "Python Developer, Django, javascript, ERPnext, Frappe",
+      "location": "Kuala Lumpur",
+      "description": "I have knowledge of Python , Django, Flask, HTML, CSS, Javascript, ERPnext and Frappe. I have also knowledge of project deployment on server. Currently i am leading a team. Co-ordinate with clients and get the requirement from them. Delivered to clients.",
+      "skills": "Python (1 year), Django (1 year), Javascript (1 year), Html5 (1 year), Css (1 year), ERPnext (Less than 1 year), Frappe (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 12500
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 29,
+    "fields": {
+      "name": "N. Rasiah",
+      "title": "NONE",
+      "location": "Pahang",
+      "description": "To be associated with a reputed company where I can \nutilize my skills and knowledge to contribute to the progress of the \norganization and to enhance my professional career.",
+      "skills": "AUTHENTICATION (Less than 1 year), DATA VISUALIZATION (Less than 1 year), DEEP LEARNING (Less than 1 year), EXCEL (Less than 1 year), HIGH ACCURACY (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Selangor, Negeri Sembilan, Pahang",
+      "expected_salary": 13100
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 30,
+    "fields": {
+      "name": "Nurul Anas binti Awira Mislan",
+      "title": "FullStack Developer",
+      "location": "Terengganu",
+      "description": "A python web developer looking for a challenging job where I can improve my skills.",
+      "skills": "Python (2 years), Django (2 years), React Js (Less than 1 year), DRF (2 years), GraphQL (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 10300
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 31,
+    "fields": {
+      "name": "Saraswati Thirunavukarasu a/l Kavidhai Rajendran",
+      "title": "web developer - Kha creation",
+      "location": "Johor",
+      "description": "To work in quality environment where I can use my knowledge and skills to my best extent and develop elegant quality software and keep right touch with ever changing trend and technologies in the field.",
+      "skills": "Php, Wordpress, Css, Javascript, Html5, Laravel, React js",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 1500
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 32,
+    "fields": {
+      "name": "M. Patto",
+      "title": "teamlease services Consultant - Mercedes-Benz(client)",
+      "location": "Negeri Sembilan",
+      "description": "Good Experience in Python and C++ programming language on Windows/Linux platform. \nHands on Experience on Documentation using Sphinx and Machine learning algorithms such as spacy using Python. \nWorking experience on Linux platform and shell scripting. \nExposure on use of SVN and Git.",
+      "skills": "C++, PYTHON, SCRIPTING, MATLAB, LINUX",
+      "link": "NONE",
+      "preferred_location": "Negeri Sembilan",
+      "expected_salary": 4600
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 33,
+    "fields": {
+      "name": "Thripura Viswalingam a/l Kamalanathan Ramadass",
+      "title": "NONE",
+      "location": "Melaka",
+      "description": "Synopsis \n \n Qualified MBA(Finance) with rich experience in accounting, Finance, internal audit, taxation \nof Corporates, NGO's, Co-Operative Societies. \n Presently working with: Aneco Industries Pvt. Ltd. as a Accounts Manager \n Strong analytical & organizational abilities with adeptness in formulating accounting systems, preparing accounting records, financial statements. \n Knowledge & skills in ensuring statutory compliance with various regulatory bodies. \n Proficiency in streamlining the working procedures, formulating cost effective solutions for enhancing the accounting, taxation operations.",
+      "skills": "RECONCILIATION, Taxation, INTERNAL CONTROLS, BALANCE SHEET, AUDIT",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 6900
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 34,
+    "fields": {
+      "name": "Mohd Hj Nik Syahrial bin Lufty Hasri",
+      "title": "PHP Developer",
+      "location": "Melaka",
+      "description": "PHP Developer Experienced PHP programmer looking for challenging and \nrewarding opportunities while using open sourced materials to \ndesign Web-based solutions. Comfortable to collaborating with \nCSS and HTML programmers, project managers and designers in \nthe administration of software architecture.",
+      "skills": "HTML, PHP, CODEIGNITER, LARAVEL, Ajax, Css, Bootstrap, Javascript, Jquery",
+      "link": "NONE",
+      "preferred_location": "Melaka",
+      "expected_salary": 9500
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 35,
+    "fields": {
+      "name": "Noor Hasmalinda Zamree binti Nik R Haris",
+      "title": "Full Stack Developer",
+      "location": "Johor",
+      "description": "To work with esteemed organization for a challenging and rewarding career  where I can contribute my creativity and learn new skills",
+      "skills": "Python (1 year), Django (1 year), ReactJS with redux (1 year), Git (1 year), Angular 8, NodeJS (1 year), Express JS (1 year), Javascript (1 year), Docker (Less than 1 year), Typescript",
+      "link": "https://github.com/pkaran26, https://github.com/pkaran26",
+      "preferred_location": "Johor",
+      "expected_salary": 10900
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 36,
+    "fields": {
+      "name": "Kandiah Murugan",
+      "title": "NONE",
+      "location": "Kedah",
+      "description": "Having 4.5 years of Experience in PHP development. \n \nProficient in development using PHP, MYSQL, MVC Smarty, CodeIgniter, Laravel, HTML, XHTML, CSS3, JavaScript, j Query. \nWorking on environments Xampp and Lampp. \nWorking Experience on Apache. \nExperienced in debugging and troubleshooting the existing code. \nWorked on IDE's like Adobe Dreamweaver CS6, Microsoft Visual Studio to build HTML pages. \nExperienced in designing Using Web Standards and in developing table-less layouts. \nStrong analytical and problem-solving skills coupled with good inter-personal skills, Self-motivated and quick learner who is willing to adopt new challenges & technologies. \n \nEXPERIENCE SUMMARY: \n \nIndus IT Valley Deigns, VIJAYAWADA. \nWorking as PHP developer from past 4+ years to till.",
+      "skills": "VISUAL STUDIO, HTML, JAVASCRIPT, SCRIPTING, CSS",
+      "link": "http://www.charge4u.in/, http://www.charge4u.in/",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 10400
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 37,
+    "fields": {
+      "name": "Mohamad Che Habib bin Azri",
+      "title": "deep learning engineering",
+      "location": "Perlis",
+      "description": "NONE",
+      "skills": "C++, KERAS, OPENCV, TENSORFLOW, MACHINE LEARNING (1 year), Deep Learning (1 year), Python (2 years)",
+      "link": "NONE",
+      "preferred_location": "Kedah, Perlis",
+      "expected_salary": 7000
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 38,
+    "fields": {
+      "name": "Chiew Chih Show",
+      "title": "Software Developer",
+      "location": "Negeri Sembilan",
+      "description": "NONE",
+      "skills": "C++ (Less than 1 year), CSS (Less than 1 year), HTML (Less than 1 year), OOP (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Negeri Sembilan",
+      "expected_salary": 3500
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 39,
+    "fields": {
+      "name": "Muhamad Syed Luthfi Alimi bin Yusni Dzikri",
+      "title": "Php developer",
+      "location": "Perak",
+      "description": "To be a self-motivated next generation leader with the ability to adapt to rapidly changing technologies and environments with a strong desire to undertake challenging jobs and to work with the team or as individual to achieve the goals of an organization.",
+      "skills": "C++, JAVASCRIPT, PHP, CODEIGNITER, LARAVEL",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 5300
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 40,
+    "fields": {
+      "name": "Muhamad Nasrullah Jamaludin bin Nik Alilah Zulamin",
+      "title": "Seeking a position of UI Developer/ Web Developer with a reputed organization",
+      "location": "Kuala Lumpur",
+      "description": "Completed Engineering in IT worked as UI Developer. \nSeeking a position of UI Developer/ Web Developer with a reputed organization which provides opportunity to utilize my skills towards the growth of company.",
+      "skills": "Html5 (2 years), CSS3 (2 years), Sass (1 year), Javascript (2 years), Bootstrap (2 years), Angular 2/4/7/8 (2 years)",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 5200
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 41,
+    "fields": {
+      "name": "Muhammet Darwisy bin Wan Iqwan",
+      "title": "PHP Developer",
+      "location": "Kedah",
+      "description": "Seeking a responsible position in an organization, which gives me a chance to improve knowledge, enhance \nmy skills and enable me to strive towards the overall development of the organization.",
+      "skills": "C++, Data Structure, css, Opencart, Java, bootstrap, Php, C, javascript, Sql, html, Angular",
+      "link": "NONE",
+      "preferred_location": "Kedah",
+      "expected_salary": 11500
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 42,
+    "fields": {
+      "name": "Rasammah Elavarasan a/l Sanisvara",
+      "title": "Seeking a challenging technical opportunity in data science, machine learning and data analytics with ample scope for professional growth in cutting edge technology and real-world problem solving. With experience as an application developer and lately as a Data Science consultant have an urge and ideation to be a full throttle Data Enthusiast.",
+      "location": "Kelantan",
+      "description": "Post Graduate Machine Learning Engineer with close to 8 years of IT experience \nProficient in Machine Learning skills and algorithms for multiple applications across domains \nAmple work experience in front-end and middle-ware application development and data handling \nStrong coding abilities in producing efficient & clean code and analyzing code bases in multiple languages \nStrong domain knowledge in Banking and Financial Services (BFS) \nProficient in in AWS in terms of project migration. \nEffective communicator with excellent interpersonal, analytical and client interfacing abilities \nResult oriented and self-motivated programmer",
+      "skills": "Python (3 years), Git, Analytics (3 years), ALGORITHM, Jira (6 years), Sql (7 years), excel VBA (6 years)",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 1400
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 43,
+    "fields": {
+      "name": "Mohamad Syed Hamidoon bin Harmaini",
+      "title": "NONE",
+      "location": "Terengganu",
+      "description": "NONE",
+      "skills": "PYTHON, LINUX",
+      "link": "http://www.linkedin.com/in/gazalashaikh999, https://github.com/GazalaSayyad, http://www.linkedin.com/in/gazalashaikh999, https://github.com/GazalaSayyad",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 3600
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 44,
+    "fields": {
+      "name": "Gan Woh Pan",
+      "title": "PHP Developer",
+      "location": "Perak",
+      "description": "As a fresher, I would like to build up a strong foundation for my career. I am looking out to make a career with a company, which will bring out my potentiality, give more exposure to working and outside world. \nDECLARATION \nI hereby declare that the information furnished above is true and I assure that I solely integrate all my knowledge, skills and abilities towards achieving objectives of the organization with dedication. \n \nDate: ../ ../ \nPlace: New Delhi RAJ KUMAR",
+      "skills": "AJAX (Less than 1 year), BOOTSTRAP (Less than 1 year), CMS (Less than 1 year), CONTENT MANAGEMENT SYSTEM (Less than 1 year), CSS (Less than 1 year), Core PHP, Advance PHP, Mysql, wordpress, CodeIgniter",
+      "link": "NONE",
+      "preferred_location": "Penang, Selangor",
+      "expected_salary": 13400
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 45,
+    "fields": {
+      "name": "Premnath Navarednam a/l Selvakkumar Nagaraj",
+      "title": "Big data developer - Infosys",
+      "location": "Kuala Lumpur",
+      "description": "Around 4+ years of experience in all phases of SDLC including application design, development, production support & maintenance projects. \nHaving 2.5+ years of experience in Hadoop eco systems, HDFS, Spark, Hive, Sqoop and Parquet. \nExpertise in Designing and Architecting Hadoop Applications and recommending the right solutions and technologies for the applications. \nPassionate about dealing with ETL Process, Data Ingestion and Big Data Analysis. \nExcellent capability to explore, learn and understand newer business domains and technology. \nSelf-motivated and ready to learn new Technologies.",
+      "skills": "Hadoop, HDFS, Hive, SQOOP, HADOOP, Apache Spark",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 9000
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 46,
+    "fields": {
+      "name": "Shee Chye Pooi",
+      "title": "NONE",
+      "location": "Kedah",
+      "description": "To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization",
+      "skills": "DJANGO (Less than 1 year), PYTHON (Less than 1 year), ARTICULATE (Less than 1 year), CONFIDENT (Less than 1 year), ECLIPSE (Less than 1 year)",
+      "link": "https://github.com/shivagangula, https://github.com/shivagangula",
+      "preferred_location": "Selangor",
+      "expected_salary": 10100
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 47,
+    "fields": {
+      "name": "T. Tanasekharan",
+      "title": "NONE",
+      "location": "Kelantan",
+      "description": "NONE",
+      "skills": "TIBCO, EAI, WEB SERVICES, ENTERPRISE APPLICATION, APPLICATION INTEGRATION",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 2900
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 48,
+    "fields": {
+      "name": "Tey Neng Cham",
+      "title": "NONE",
+      "location": "Terengganu",
+      "description": "Growing with an organization, which allow me to contribute my abilities in emerging technology and achieve excellence award in my career.",
+      "skills": "Php (1 year), .Net (1 year), Bootstrap (2 years), Java (Less than 1 year), Html (2 years), Html5 (1 year), Css (3 years)",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 6300
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 49,
+    "fields": {
+      "name": "Diljit a/l Varatharaju",
+      "title": "NONE",
+      "location": "Pahang",
+      "description": "A detail oriented and multitasking professional with exceptional coding technique having bachelor of engineering degree in computer science. \nExcellent in presenting and make people understand.",
+      "skills": "Microsoft, c, c++",
+      "link": "NONE",
+      "preferred_location": "Pahang, Selangor",
+      "expected_salary": 9600
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 50,
+    "fields": {
+      "name": "Ramya a/l Ganesh",
+      "title": "NONE",
+      "location": "Sabah",
+      "description": "To obtain a position that will allow me to utilize my technical skills and willingness to learn in making an organization successful.",
+      "skills": ".NET (Less than 1 year), ASP (Less than 1 year), ASP.NET (Less than 1 year), BAKERY (Less than 1 year), C++ (Less than 1 year), Php (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Sabah",
+      "expected_salary": 9000
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 51,
+    "fields": {
+      "name": "Sahira binti Syed Dzulkifli",
+      "title": "Python Developer",
+      "location": "Johor",
+      "description": "Seeking a career that is more innovative and interesting and a job that gives me \nopportunities to learn and enhance my skills and strengths in conjunction with company \ngoals and objectives.",
+      "skills": "API, DJANGO, HTML, JAVASCRIPT, BOOTSTRAP, Python, Django, Jquery",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 7400
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 52,
+    "fields": {
+      "name": "Shuba Nagarajan a/l Shan Veetil",
+      "title": "NONE",
+      "location": "Sarawak",
+      "description": "Optimum utilization of my knowledge, skill and experience towards \nContinues improvement and growth. \n \nStrength: \n \nAbility to work under pressure. \nAbility to grasp new concepts quickly. \nAccept new challenges.",
+      "skills": "EXCEL (4 years), WORD, PHOTOSHOP, TYPING, Tally",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 9500
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 53,
+    "fields": {
+      "name": "Syafiq Zailani bin Hairul",
+      "title": "IT Internal Audit Manager (APAC and ME Lead)",
+      "location": "Kedah",
+      "description": "IT Internal Audit and Risk Management professional with 8 years of experience in IT Risk Management, IT Audits \nand Information Security domains. Worked extensively on engagements including IT application security audits \nand assessments, IT advisory and assurance, IT infrastructure audits, information security, risk management \nconsulting, Sox IT compliance, ISO27001 and COBIT controls framework implementation, BCP/DR management \nand IT risk assurance and advisory roles. \n \nCurrently a part of Accenture's Corporate (Global) IT Internal Audit team and responsible for conducting IT audits \nacross Asia-Pacific and Europe regions.",
+      "skills": "AUDITS (9 years), RISK MANAGEMENT (8 years), SECURITY (8 years), INFORMATION SECURITY (8 years)",
+      "link": "https://in.linkedin.com/pub/pritesh-sapkal/17/945/426, https://in.linkedin.com/pub/pritesh-sapkal/17/945/426",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 8900
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 54,
+    "fields": {
+      "name": "Merican a/l Manikavasagam",
+      "title": "Software Engineer",
+      "location": "Perlis",
+      "description": "Having 2 years of experience as a Frontend and Backend Developer. \n Knowledge on front end designing HTML, CSS, JavaScript. \n Good knowledge of Object-Oriented Programming. \n Ability to learn and adapt quickly and to correctly apply new tools \nand technologies. \n Capable of working alone as well as a team player with strong \ninterpersonal skills.",
+      "skills": "Python (2 years), Django (1 year), Laravel (Less than 1 year), MySQL (2 years), Git, Mongodb (Less than 1 year)",
+      "link": "https://www.linkedin.com/in/kiran-lakote/, https://www.linkedin.com/in/kiran-lakote/",
+      "preferred_location": "Kelantan, Perlis",
+      "expected_salary": 3300
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 55,
+    "fields": {
+      "name": "Angelica Ooi Hiong Kor",
+      "title": "NONE",
+      "location": "Negeri Sembilan",
+      "description": "NONE",
+      "skills": "SATISFACTION, OPERATIONS, PUBLIC RELATIONS, TYPING, BUDGETS",
+      "link": "NONE",
+      "preferred_location": "Negeri Sembilan",
+      "expected_salary": 4100
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 56,
+    "fields": {
+      "name": "Muhamed Haji Shamizan bin Rahman",
+      "title": "11 years of experience into Software Quality Assurance and Test Automation, Web, Mobile, Custom Interface, Product, and API Testing,",
+      "location": "Perak",
+      "description": "NONE",
+      "skills": "PYTHON (2 years), C# (1 year), JAVA (1 year), AWS (Less than 1 year), CHEF (Less than 1 year), MicrosoftServer2012, Appium, HybridCloud, SeleniumGrid, Docker, Javascript, Swagger, IIS, BrowserStack, Azure, Typescript, RESTAssured, Jasmine, Cucumber, Cloud, Jboss, Ruby, Webstorm, MongoDB, SauceLabs, AppiumStudio, SeeTest Automation, Jira, IntelliJ, Calabash, POSTMan, PyCharm, MySQL, Team Foundation Server, Testing, Oracle Pl/Sql, Rally, MTM, Eclipse, VisualStudio, Ansible, Weblogic, REST, Puppet, Jmeter, CodedUI, Apache",
+      "link": "NONE",
+      "preferred_location": "Penang, Kuala Lumpur",
+      "expected_salary": 10100
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 57,
+    "fields": {
+      "name": "Murugayan Thevandran a/l Murugan",
+      "title": "NONE",
+      "location": "Kuala Lumpur",
+      "description": "NONE",
+      "skills": "LINUX (Less than 1 year), SQL (Less than 1 year), WINDOWS XP (Less than 1 year), Pl/Sql (Less than 1 year), Java",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 5600
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 58,
+    "fields": {
+      "name": "Mohamad Syed Noor Wildani bin Syed Innamul",
+      "title": "NONE",
+      "location": "Kedah",
+      "description": "An analytical team player with aptitude for quickly scrutinizing environments to identify and prioritize needs/risks and develop solutions. \nAnalyse, troubleshoot and solve problems in a timely and accurate manner. \nResults driven professional with experience in real-time Object Oriented Analysis & Design. \nStrongly self-motivated and can work independently, Presentation and Problem Solving Skills and committed to learning new technologies.",
+      "skills": "JAVA, HIBERNATE, SPRING, JSP, SERVLETS",
+      "link": "NONE",
+      "preferred_location": "Kedah",
+      "expected_salary": 11500
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 59,
+    "fields": {
+      "name": "Nga Xiu Lien",
+      "title": "NONE",
+      "location": "Kelantan",
+      "description": "My objective in life is to excel in the field of Quality Engineering & Technology. My endeavor \nis to keep myself always upgraded so as to be aware and in sync with the current Good \nEngineering practices. \n \nInteresting Areas: \n \nWeb Applications \n \nSoftware Areas \n \nBusiness Applications",
+      "skills": "DATABASE (2 years), SQL (2 years), Elastic search (2 years), Nodejs (2 years), Javascript (2 years), Redis (2 years)",
+      "link": "NONE",
+      "preferred_location": "Kelantan, Kedah",
+      "expected_salary": 10300
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 60,
+    "fields": {
+      "name": "Mohamed Nik Hidayatullah bin Nik Megat Shukor",
+      "title": "NONE",
+      "location": "Terengganu",
+      "description": "2 yrs experience in python backend development with flask, django",
+      "skills": "DJANGO, HTML, JAVASCRIPT, PYTHON, FLASK",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 3400
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 61,
+    "fields": {
+      "name": "Mohamed Nik Fitiri bin Hasan Raffiq",
+      "title": "PHP Developer - Prisms Communications",
+      "location": "Pahang",
+      "description": "Experienced in designing, developing PHP applications using Joomla Framework, JSON, Rest API's, MySQL. \nKnowledge of MySQL database. \nKnowledge of front end web technologies like HTML, CSS, Angular JS. \nBasic knowledge of Angular JS \nHands-on experience on Git lab.",
+      "skills": "MYSQL (2 years), PHP (2 years), JAVASCRIPT (1 year), ANGULARJS, CSS (1 year)",
+      "link": "NONE",
+      "preferred_location": "Pahang, Selangor",
+      "expected_salary": 8900
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 62,
+    "fields": {
+      "name": "Chia Chuk Moon",
+      "title": "NONE",
+      "location": "Sabah",
+      "description": "An experienced and highly motivated IT professional, with 3 years of experience in analysis, design, development, testing and support of Business Intelligence products and services in Tableau and Microsoft Power BI. Hands on experience in development, administration, managing, designing and testing of enterprise wide reporting systems. Strong data architecture, business requirement analysis using agile methodologiesPossesses exemplary technical problem solving skills and accustomed to delivering results under considerable pressure, remaining calm and effective and prioritizing wisely.",
+      "skills": "DATABASE, SQL SERVER, ORACLE, SQL, POWER BI",
+      "link": "NONE",
+      "preferred_location": "Sabah, Selangor",
+      "expected_salary": 2400
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 63,
+    "fields": {
+      "name": "Santhara Elavarasan a/l Sanisvara Sivanesan",
+      "title": "NONE",
+      "location": "Johor",
+      "description": "Result-oriented Professional & Certified Internal ISO Auditor with over 15 years of experience in IT Infrastructure Management, Application Management, Project Management, IT Budgeting, Vendor Management, System Implementation, Patch Management and Team Management with Virtualization & Maintain of DB Server. \nSkilled in ERP Installation & Implementation of IC Soft 4.0 \nProficient in taking daily backup of SQL servers, General Files, Payroll systems & critical user data thru Arcserve Backup Software. \nExpertise in mapping client's requirements, custom designing solutions & troubleshooting for complex Information Systems Management - Infrastructure/ Project Management \nSwift in executing projects with competent cross-functional skills and making sure on time deliverables within cost parameters \nPivotal in defining and implementing IT policies, procedures and best practices \nAn enterprising leader with skills in leading engineers for hardware and software maintenance towards accomplishment of common goals",
+      "skills": "CISCO, NETWORKING, SYSTEM ADMINISTRATION, CATALYST, INFRASTRUCTURE MANAGEMENT",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 2100
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 64,
+    "fields": {
+      "name": "Athi Soti a/l Arulraj Lakshmi",
+      "title": "Developer, UI Developer - Dell International Services",
+      "location": "Penang",
+      "description": "A competent professional with 4 years 8 Months of Development expertise with focus in Banking, Insurance & Service areas. \n During this tenure worked with three prestigious clients in different categories of industry for channelizing and enhancing their critical customer relationship processes for Banking and Insurance. \n Excellent reporting skills, communication & interpersonal skills \n \nLeadership / Personal Attributes \n \n Quick Learner & Proactive in work. \n Work effectively independently as well as a team player. \n Ability to research, investigate and resolve problems accurately. \n Adaptability to meet rapidly changing customer priorities. \n Exercise a degree of business judgment and sound reasoning.",
+      "skills": "Ajax (3 years), CSS (3 years), java (5 years), JQuery (3 years), JSF (3 years)",
+      "link": "NONE",
+      "preferred_location": "Penang, Selangor",
+      "expected_salary": 7500
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 65,
+    "fields": {
+      "name": "Muhamad Haji Asrul Zar'ai",
+      "title": "process premium auditor, designated as Subject Matter Expert",
+      "location": "Kuala Lumpur",
+      "description": "Driven by the desire for continuous growth and career development, I would like to obtain a management position in a business firm where I can utilize my analytical & communication skills which can benefit the growth of the company as well as my growth.",
+      "skills": "Subject matter expert in claims processing, team management, quality analyst, auditor",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 6600
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 66,
+    "fields": {
+      "name": "Khor Shea Ching",
+      "title": "NONE",
+      "location": "Pahang",
+      "description": "To obtain a full time position in a reputable organization. Can assist with the implementation of innovative ideas, creativity and skills for an organization.",
+      "skills": "VISUAL STUDIO, C++, HTML, JAVASCRIPT, .NET CORE",
+      "link": "NONE",
+      "preferred_location": "Pahang, Selangor",
+      "expected_salary": 14800
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 67,
+    "fields": {
+      "name": "Nur Suhaina binti Nik Husnul",
+      "title": "Tech savvy deep learning enthusiast",
+      "location": "Terengganu",
+      "description": "A computer vision enthusiast aspiring for challenging assignments in IT Software \ndevelopment. \n1.5+ years of experience in C++ and Python in Image Processing, Machine Learning. \nWorking at Spookfish Innovations for Industrial Automation and Sports sector. \nHobbyist hardware tinkerer and home automation designer. \nFrequently publishing guides on GitHub and active participation in Stackoverflow.",
+      "skills": "VISUAL STUDIO, C++, Git, PYTHON, KERAS",
+      "link": "http://linkedin.com/in/rakshithgb, http://github.com/RakshithGB, http://linkedin.com/in/rakshithgb, http://github.com/RakshithGB",
+      "preferred_location": "Selangor",
+      "expected_salary": 4700
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 68,
+    "fields": {
+      "name": "Nurul Hjh Hadiyatul Azlan binti Baharin",
+      "title": "NONE",
+      "location": "Johor",
+      "description": "To achieve professional satisfaction, career progression and personal development by working in a \nlearning environment that encourages growth and enriches my experience.",
+      "skills": "BACK END, HTML, JAVA, CSS",
+      "link": "NONE",
+      "preferred_location": "Johor",
+      "expected_salary": 5200
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 69,
+    "fields": {
+      "name": "Ramesh Pillai",
+      "title": "NONE",
+      "location": "Negeri Sembilan",
+      "description": "Seeking a responsible and challenging position to utilize my skills and abilities In the field of Information Technology",
+      "skills": ".NET (Less than 1 year), C++ (Less than 1 year), COBOL (Less than 1 year), HTML (Less than 1 year), JAVA (Less than 1 year), PHP , JavaScript",
+      "link": "NONE",
+      "preferred_location": "Negeri Sembilan, Pahang",
+      "expected_salary": 10200
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 70,
+    "fields": {
+      "name": "Pushpa Narayan",
+      "title": "NONE",
+      "location": "Melaka",
+      "description": "Experienced software engineer with 7+ years of experience in developing innovative programs that \nfocused on improving customer satisfaction and organizational success. Analytical thinker, problem \nsolver with strong written and verbal communication skills. Proven ability in helping businesses to \nimplement technology solutions in a cost-effective way. Well versed in all SDLC phases and data \nanalysis using analytics tools.",
+      "skills": "HDFS, ETL, INFORMATICA, ABINITIO, SQL SERVER, Spark, Hive, Pyspark",
+      "link": "NONE",
+      "preferred_location": "Melaka",
+      "expected_salary": 11800
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 71,
+    "fields": {
+      "name": "Chen Von Wo",
+      "title": "UI Developer - Webmore Technologies",
+      "location": "Melaka",
+      "description": "Competent & result-oriented Web Developer, having 9 years' experience across UI Development and Maintenance of sites with an indomitable urge to learn and apply. \n \nCurrently working as UI Developer with Web More Technologies, Delhi; proficiency in developing applications using JavaScript & HTML with innovative implementation in technologies. \nAdept at full software life cycle experience with design, code, test and deployment; proficient in developing web applications using experience in delivery & implementation of projects as per scheduled milestones and within budget. \nFocused and hard working with well developed communication skills with reputation of unwavering accuracy, credibility & integrity, exceptional presentation skills; ability to perform above expectations.",
+      "skills": "CSS (8 years), HTML (8 years), jQuery (8 years), UI (2 years), USER INTERFACE (2 years)",
+      "link": "NONE",
+      "preferred_location": "Melaka",
+      "expected_salary": 9200
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 72,
+    "fields": {
+      "name": "Tan Jia Hok",
+      "title": "Teamcenter and Devops Developer",
+      "location": "Johor",
+      "description": "To establish global career in PLM field which offers challenges and growth opportunities, scope to learn and implication of new ideas to enrich my knowledge and skills while contributing my best to the organization.",
+      "skills": "C++ (3 years), CLEARCASE (3 years), DATABASE (3 years), Git (3 years), JAVA (3 years), Jenkins (2 years), Workflows (3 years), Structure Manager (3 years), RAC Customization (3 years), Groovy Script (2 years), DevOps (3 years), C (3 years), Poweshell Scripting, Dispatcher (3 years), Access Manager (3 years), BMIDE (3 years), Teamcenter Organization (3 years), Batch Script (2 years), Teamcenter (3 years), ITK Customization (3 years), Report Builder (3 years), Query Builder (3 years), Jira (2 years), Sonarqube (2 years)",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 7900
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 73,
+    "fields": {
+      "name": "Mohamed Haji Wan A'zizul Isfarhan",
+      "title": "NONE",
+      "location": "Kuala Lumpur",
+      "description": "To become part of a dynamic organization to achieve best utilization of my talent & skills to enhance self-development in the development of the organization.",
+      "skills": "HTML, PHP, CMS, CSS, WORDPRESS",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 14000
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 74,
+    "fields": {
+      "name": "Kong Zet Jien",
+      "title": "NONE",
+      "location": "Kuala Lumpur",
+      "description": "NONE",
+      "skills": "BUSINESS DEVELOPMENT, HOSPITAL PHARMACY, PHARMACY, HEALTHCARE MANAGEMENT, HEALTHCARE",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 14800
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 75,
+    "fields": {
+      "name": "Nor Hajjah Farah Aizat binti Pa'aing",
+      "title": "NONE",
+      "location": "Perak",
+      "description": "Myself, Rishan Ibrahim, a graduate in Computer Science and Engineering, pursuing my knowledge in the Data Science. \nThe realization that everything we do revolves around the data produced by different means brought me to the field \nof Data Science and the way we can get insights from the data has pushed me to finding new dimensions in data \nscience. Passionate about working with large amounts of Data and to turn this data into information, information \ninto insight and insight into business decisions. I'm also fascinated by the power to compress complex datasets into \napproachable and appealing graphics.",
+      "skills": "PYTHON, MACHINE LEARNING, NLP, DEEP LEARNING, Dialogflow, Hadoop, Tableau",
+      "link": "NONE",
+      "preferred_location": "Penang",
+      "expected_salary": 9900
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 76,
+    "fields": {
+      "name": "Shayira 'Aizat binti Akhmal",
+      "title": "NONE",
+      "location": "Sabah",
+      "description": "Have been working for TCS since 2.2 yrs \nWork on experience in design & development of Network Applications \nWork on Experience with EMS and NMS systems and familiar with telecom domain standards \nWork on experience and have good knowledge on SNMP protocols \nExperienced in developing the CM, FM, PM support for IP based Network Elements \nHave great knowledge on FCAPS functionality \nExperienced in Java, Ejb, Jboss, SQL basics, UNIX basics, Groovy. \nWell versed in programming language, Java \nExperience in working as part of Agile/Scrum teams \nAbility to prioritize and deliver on mission critical tasks within defined SLAs \nHave good knowledge on telecom domain \nAcquired foundation level certification in telecom domain \nHave keen interest in learning new technologies.",
+      "skills": "JIRA, JUNIT, APPLICATION SERVER, Git, GROOVY",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 1200
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 77,
+    "fields": {
+      "name": "Uthaya a/l Vishnu",
+      "title": "Fintech | Digital Payments | IIT Kanpur",
+      "location": "Johor",
+      "description": "NONE",
+      "skills": "Manager, Java",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 4300
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 78,
+    "fields": {
+      "name": "Kee Jing Pei",
+      "title": "NONE",
+      "location": "Penang",
+      "description": "Seeking to work in a Firm equipped with a broad knowledge of concepts and \nstrategies to yield the best possible outcomes in all sectors.Developing incommunication, multi- \ntaskingand problem solving with nice track record.",
+      "skills": "FINANCIAL ANALYSIS, FICO, SAP, Tally, MS OFFICE",
+      "link": "NONE",
+      "preferred_location": "Penang, Selangor",
+      "expected_salary": 2200
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 79,
+    "fields": {
+      "name": "Muhammed Haji Shaikh bin Syed Azry Azizan",
+      "title": "Web Developer with 2+ Years of Experience and Teamwork Skills",
+      "location": "Kuala Lumpur",
+      "description": "To be a part of a Professionally Managed & Lucrative Organization where there is individual growth along with growth of the Organization with scope for a challenging career, opportunity for learning and strive for excellence. \n \nACHIVEMENTS: \nHost the game and anchoring at college level \nActively participated in the debates, general knowledge competition in school and won rewards.",
+      "skills": "MONGODB (2 years), Vuejs (2 years), Nodejs (2 years)",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 7500
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 80,
+    "fields": {
+      "name": "Muhamed Nik Al bin Ramlan",
+      "title": "JAVA DEVELOPER",
+      "location": "Pahang",
+      "description": "Experienced Web Developer is adept in all stages of advanced web development. Knowledgeable in a user interface, testing, and debugging processes. Bringing forth expertise in the development, installation, testing, and maintenance of web systems.",
+      "skills": "jsp, jee",
+      "link": "NONE",
+      "preferred_location": "Pahang, Selangor",
+      "expected_salary": 13200
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 81,
+    "fields": {
+      "name": "Mohammed Sharul bin Syed Syakirul",
+      "title": "Jr. Web developer with 1.9 years of experience",
+      "location": "Terengganu",
+      "description": "An Energetic quick learner software professional with 1.9 years of experience in developing web applications using JavaScript, JQuery, React JS, Node JS, SQL. \nResponsible of application coding and debugging. \nHave much experience in teamwork and excellent problem-solving skill.",
+      "skills": "BOOTSTRAP (1 year), CSS (1 year), HTML5 (1 year), JAVASCRIPT (1 year), jQuery (1 year), React js (1 year), Node js (1 year)",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 11500
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 82,
+    "fields": {
+      "name": "Anita Sodhy a/l Ramkarpal Rasiah",
+      "title": "NONE",
+      "location": "Johor",
+      "description": "V KARTHIBAN To work in a reputed organization where I can utilize my knowledge for \nthe growth of the organization. \n \nArea of interest: \n \nData base concepts \n \nWeb development \n \nNetworking",
+      "skills": "python (1 year), django (Less than 1 year), django rest framework (Less than 1 year), aws, ec2, RDS, Heroku, S3 (Less than 1 year), java (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Johor",
+      "expected_salary": 8700
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 83,
+    "fields": {
+      "name": "Nur Hjh Mysarah Amzah binti Syed Zuhaili",
+      "title": "Backend Developer",
+      "location": "Negeri Sembilan",
+      "description": "NONE",
+      "skills": "Python, NLP, machine learning, data science, Django, Postgresql",
+      "link": "https://abhijitkulkarni.herokuapp.com/, https://abhijitkulkarni.herokuapp.com/",
+      "preferred_location": "Negeri Sembilan, Pahang",
+      "expected_salary": 14300
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 84,
+    "fields": {
+      "name": "Heng Shay Luu",
+      "title": "NONE",
+      "location": "Melaka",
+      "description": "To establish myself as a successful professional through intelligent contribution in growth of the organization which offer me great prospect for development. Working as Shift Incharge, Downtime Manager and Leading process improvement projects with 9+ years of experience in The Times Of India at position of Deputy Manager.",
+      "skills": "ROBOTICS, SIEMENS, ROBOT, KUKA, MAINTENANCE",
+      "link": "https://www.linkedin.com/in/sudipto-samaddar-5455b5168, https://www.linkedin.com/in/sudipto-samaddar-5455b5168",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 6900
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 85,
+    "fields": {
+      "name": "Mah Sham Nan",
+      "title": "NONE",
+      "location": "Melaka",
+      "description": "To work in a challenging atmosphere by exhibiting my skills with utmost \nsincerity and dedicated smart work for the growth of your esteemed \norganisation along with mine",
+      "skills": "APPLICATION DEVELOPMENT, HTML, PYTHON, CSS, WEB DESIGN",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 6100
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 86,
+    "fields": {
+      "name": "Joharudin Normansah",
+      "title": "NONE",
+      "location": "Johor",
+      "description": "Highly-skilled software development professional bringing more than 7 years in software development and integration. Advanced knowledge of Node.JS , Vue.js, MySQL, PostgeSQL, AWS Services, PHP",
+      "skills": "VISUAL STUDIO, DOCKER, Git, JAVASCRIPT, BOOTSTRAP",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 3000
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 87,
+    "fields": {
+      "name": "Che Raja Maarof bin Che Haqimie",
+      "title": "Androis developer.",
+      "location": "Kedah",
+      "description": "Total 1.3 year of experience in the Android application development \nCohesive team worker, having strong analytical, problem solving. \nCan write clean, clear, efficient, well-tested, and maintainable code. \nProficiency in technical documentation, design, development and troubleshooting for mobile applications",
+      "skills": "ANDROID, ANDROID SDK, MVVM, UI, ANDROID STUDIO, Git, Junit, Bitbucket, Rest, Espresso, Xml, Json",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 1300
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 88,
+    "fields": {
+      "name": "Kong Zhao Chun",
+      "title": "Full stack developer",
+      "location": "Perlis",
+      "description": "NONE",
+      "skills": ".NET (Less than 1 year), ASP (Less than 1 year), ASP.NET (Less than 1 year), Asp.Net, Csharp, Html html5",
+      "link": "NONE",
+      "preferred_location": "Perlis",
+      "expected_salary": 12800
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 89,
+    "fields": {
+      "name": "Halimatussa'diah Salehudin binti Shohaimi Taqiuddin",
+      "title": "ETL Developer",
+      "location": "Negeri Sembilan",
+      "description": "NONE",
+      "skills": "Ab Initio (3 years), Oracle (2 years), Hadoop (2 years), Informatica (Less than 1 year)",
+      "link": "https://kingslyroche.github.io/, https://github.com/kingslyroche/, https://kingslyroche.github.io/, https://github.com/kingslyroche/",
+      "preferred_location": "Negeri Sembilan, Pahang",
+      "expected_salary": 7300
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 90,
+    "fields": {
+      "name": "Thripura a/l Devamany",
+      "title": "Technical Content Writer(KIPS Publishing World, Noida)",
+      "location": "Perak",
+      "description": "Creative and resourceful person with proven ability to enhance performance, offering 14+ years of varied instructional experience. Possess a positive and effective approach with the willingness to work above and beyond the call of duty.",
+      "skills": "Artificial intelligence, Internet of Things, , Microsoft products, ",
+      "link": "NONE",
+      "preferred_location": "Perak",
+      "expected_salary": 10700
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 91,
+    "fields": {
+      "name": "Sivarasa Kumari",
+      "title": "NONE",
+      "location": "Kuala Lumpur",
+      "description": "NONE",
+      "skills": "HTML, JAVASCRIPT, PHP, PYTHON, MYSQL",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 10100
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 92,
+    "fields": {
+      "name": "M. K. Jeevananthan",
+      "title": "NONE",
+      "location": "Kedah",
+      "description": "Results-oriented software engineering professional with expertise in building secure applications. An excellent team player with a positive attitude. Seeking to leverage my technical and functional knowledge to grow in the new role at your organization.",
+      "skills": "JAVASCRIPT, BOOTSTRAP, PHP, CODEIGNITER, SVN",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 5700
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 93,
+    "fields": {
+      "name": "Nor Nazirah Faiz binti Syed Isa",
+      "title": "NONE",
+      "location": "Kelantan",
+      "description": "NONE",
+      "skills": "C (Less than 1 year), CSS (Less than 1 year), Database (Less than 1 year), HTML (Less than 1 year), Javascript (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Kelantan, Perlis",
+      "expected_salary": 8200
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 94,
+    "fields": {
+      "name": "Muhamed Che Khusaini bin Zuheeryrizal",
+      "title": "Web Developer",
+      "location": "Terengganu",
+      "description": "To work in an Organization that would give an opportunity to me for implementation of academic and practical knowledge with dedication, team spirit, and co-operation; hoping to grow with the organization and to perform the best in the assigned tasks.",
+      "skills": "VISUAL STUDIO, ANDROID STUDIO, C++, DJANGO, HTML, Python PHP HTML",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 13400
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 95,
+    "fields": {
+      "name": "Loganathan a/l Thamboosamy",
+      "title": "NONE",
+      "location": "Perak",
+      "description": "\nAiming to achieve a challenging & successful career where I can make a significant contribution using my innovative ideas, knowledge, skills, and experience with the objective of development & growth of the Organization.",
+      "skills": "C++, DJANGO, HTML, BOOTSTRAP, PHP, Python (1 year)",
+      "link": "NONE",
+      "preferred_location": "Perak",
+      "expected_salary": 14900
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 96,
+    "fields": {
+      "name": "Mohammed Hj Nik Fariz bin Iyad Hazlin",
+      "title": "Java Developer - Cognizant Technology Solutions with good communication skills and content writing skills",
+      "location": "Kuala Lumpur",
+      "description": "To work efficiently and passionately in a challenging environment for overall growth and to meet organizational goals and objectives.",
+      "skills": "JAVA (2 years), C++ (2 years), COMPUTER PROGRAMMING (2 years), CSS (2 years), Content Writing",
+      "link": "NONE",
+      "preferred_location": "Selangor, Penang",
+      "expected_salary": 2800
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 97,
+    "fields": {
+      "name": "Ramya Thanabalasingam a/l Sasikumar",
+      "title": "NONE",
+      "location": "Kedah",
+      "description": "To work in a challenging and creative environment that will provide opportunities to explore my technical skills and effectively contribute towards the goals of the organization. I am currently looking for a full time position in an environment that offers a greater challenge, increased benefits for my family, and the opportunity to help the company advance efficiently and productively",
+      "skills": "ASP, CSS, ASP.NET, VISUAL STUDIO, C#",
+      "link": "NONE",
+      "preferred_location": "Kedah",
+      "expected_salary": 6200
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 98,
+    "fields": {
+      "name": "Nur Nursham binti Dzulfahmi",
+      "title": "NONE",
+      "location": "Kelantan",
+      "description": "Seeking for a job with a dynamic and growth oriented organization to utilize my skills \nand enhance my competencies by working in the organization.",
+      "skills": "Python (Less than 1 year), Python (Less than 1 year), Data Analysis (Less than 1 year), Machine learning (Less than 1 year), Artificial intelligence (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Kelantan, Kedah",
+      "expected_salary": 2400
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 99,
+    "fields": {
+      "name": "Sutheaswari Malayalam",
+      "title": "Looking for opportunities in Nodejs to learn and implement for the growth of myself & the organization i will be working for.",
+      "location": "Terengganu",
+      "description": "Looking for a challenging position in IT company where i can use my capabilities and learn everything which \ncontributes in growth of organization",
+      "skills": "BOOTSTRAP (Less than 1 year), CSS (Less than 1 year), DATABASES (Less than 1 year), Nodejs, express, Html5, node, full stack, Mongodb, rest, Javascript, Jquery, html, css3, MySQL (Less than 1 year), mysql, Reactjs (Less than 1 year)",
+      "link": "http://github.com/mukulshakya, http://github.com/mukulshakya",
+      "preferred_location": "Selangor",
+      "expected_salary": 4700
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 100,
+    "fields": {
+      "name": "Ramesh a/l Veloo",
+      "title": "NONE",
+      "location": "Pahang",
+      "description": "Creative and dependable Software Developer with excellent work ethic. I am knowledgeable in a \nwide variety of computer languages as well as the principles and techniques of website \nconstruction and maintenance. Highly adept at conveying complex technical information to a \nvariety of professional and lay audiences in a clear and understandable manner.",
+      "skills": "ANDROID STUDIO, FRONT-END, HTML, JAVASCRIPT, TYPESCRIPT",
+      "link": "NONE",
+      "preferred_location": "Pahang, Selangor",
+      "expected_salary": 9300
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 101,
+    "fields": {
+      "name": "Woon Ley Cheang",
+      "title": "NONE",
+      "location": "Sabah",
+      "description": "Seeking a challenging career in organizational development and wish to be a part of the organizational. In achieving its ultimate goals and objectives given an opportunity. I never let it slip by without a dedicated endeavor to prove my worth. I firmly believes in my confidence. Single minded determination teamwork and hardworking & good aptitude for learning. \n \nADVANCED EXCEL SKILSET \n \n Goal seak, Scenario Manager, Group Analysis, Conditional Formatting, \n Vlookup, Hlookup, Pivot table, Pivot Chart etc., \n Macros, Visual Basic Application, Command Buttons and Using Forms.",
+      "skills": "Tally, VBA, EXCEL, Advanced Excel (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 12200
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 102,
+    "fields": {
+      "name": "V. T. Gopinathan",
+      "title": "PHP Web Developer - Vallmann Tech Pvt Ltd",
+      "location": "Johor",
+      "description": "To work with the best of my ability in a reputed organization where my talent and ideas are encouraged and to take up the challenging position with integrity and grow with the organization.",
+      "skills": "HTML, PHP, CODEIGNITER, LARAVEL, AJAX",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 6300
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 103,
+    "fields": {
+      "name": "Sim Yue Wong",
+      "title": "Innovator,Mentor,Firefighter",
+      "location": "Terengganu",
+      "description": "Looking Forward to opportunity for working in a dynamic challenging environment, where I can utilize my skills for developing my career and for the growth of the organization.",
+      "skills": "CSS (Less than 1 year), MySQL, NodeJS, JQuery, HTML, Javascript, Php (Less than 1 year), Laravel (Less than 1 year), Angularjs (Less than 1 year), Ajax (Less than 1 year)",
+      "link": "http://linkedin.com/in/ajay-kumar-a1ab43146, http://linkedin.com/in/ajay-kumar-a1ab43146",
+      "preferred_location": "Selangor",
+      "expected_salary": 10200
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 104,
+    "fields": {
+      "name": "Wee Mar Yuk",
+      "title": "MTS - 1 Software Engineer, Verizon",
+      "location": "Johor",
+      "description": "AI developer with comprehensive experience in Machine Learning models, NLP and AWS Cloud Platform. Skilled in designing neural networks, Developing Conversational Chatbot, Creating microservices using python flask and architecting the AWS cloud Infrastructure with the DevOps Model.",
+      "skills": "Chatbot (2 years), Python, Python Flask, Neural network, Artificial Intelligence, Machine Learning, Data Science, Rasa, Amazon Lex, Amazon Web Services",
+      "link": "NONE",
+      "preferred_location": "Johor",
+      "expected_salary": 14900
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 105,
+    "fields": {
+      "name": "Sybil Subramaniam a/l Premnath Namasivayam",
+      "title": "NONE",
+      "location": "Negeri Sembilan",
+      "description": "To work in a challenging atmosphere by exhibiting my skills with utmost sincerity and \ndedicated smart work for the growth of your esteemed organization.",
+      "skills": "C++, HTML, PHP, VISUAL BASIC, ENTERPRISE RESOURCE PLANNING",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 1800
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 106,
+    "fields": {
+      "name": "Mohd Atan Murshidi bin Fakhri",
+      "title": "Big Data Engineer - Exponentia Datalabs Pvt. Ltd",
+      "location": "Melaka",
+      "description": "Principle Big Data Developer with 1+ year experience in Big Data Technologies and Cloud. \nAn experienced IT professional having strong analytical skills with deep expertise in the application of \nBig Data and Analytics, Data Mining and Machine Learning Algorithms. I am looking forward for a \nsubstantial opportunity in Big Data Domain.",
+      "skills": "APACHE HADOOP SQOOP (Less than 1 year), AWS (Less than 1 year), BI (Less than 1 year), BUSINESS INTELLIGENCE (Less than 1 year), EMR (Less than 1 year)",
+      "link": "https://www.linkedin.com/in/rishikesh-pote-82162b126, https://www.linkedin.com/in/rishikesh-pote-82162b126",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 8400
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 107,
+    "fields": {
+      "name": "Ramkarpal Retinam a/l Chengara",
+      "title": "PL/SQL Developer - NTT DATA",
+      "location": "Melaka",
+      "description": "B.Tech in Information technology from Krishna Engineering College. Seeking a challenging career as an ETL developer. Strive for excellence with dedication, proactive approach towards the work which enable me to utilize my skillset for own and organization growth.",
+      "skills": "ORACLE (4 years), PL/SQL (4 years), SQL (4 years), UNIX (4 years), MS SQL SERVER (1 year)",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 5200
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 108,
+    "fields": {
+      "name": "Mohamed Haji Izzuddin Fareesnizra bin Saipol Putra",
+      "title": "To succeed in an environment of growth and excellence and earn a job which provides me job satisfaction and self-development and help me achieve personal as well as organizational goals.",
+      "location": "Johor",
+      "description": "NONE",
+      "skills": "Html bootstrap javascript nodejs mongodb jquery",
+      "link": "https://drive.wps.com/d/AH2MqACT3O4pwZ3v1I6dFA%20%20%5BFile%5DRohit_Gundage%20%20BE-ENTC%20(2017).docx, http://drive.wps.com/d/AEZ3WE2T3O4pocf21I6dFA%20%20%5BFile%5DRohit_Gundage%20%20BE-ENTC.pdf, https://drive.wps.com/d/AH2MqACT3O4pwZ3v1I6dFA%20%20%5BFile%5DRohit_Gundage%20%20BE-ENTC%20(2017).docx, http://drive.wps.com/d/AEZ3WE2T3O4pocf21I6dFA%20%20%5BFile%5DRohit_Gundage%20%20BE-ENTC.pdf",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 14700
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 109,
+    "fields": {
+      "name": "Lyndel Xiong Mua Nee",
+      "title": "NONE",
+      "location": "Kedah",
+      "description": "Overall 4 years of extensive experience in analysing, designing, coding, developing business application and various segments of SDLC, using PHP Frameworks. \nAbility to work well in both a team environment and individual environment. Self-motivated Web Developer with high level of experience working on multiple projects. \nPassionate and hardworking with penchant for meeting deadlines.",
+      "skills": "HTML, JAVASCRIPT, PHP, AJAX, CSS",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 13400
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 110,
+    "fields": {
+      "name": "Darlina Haikal binti Faudzi",
+      "title": "PHP Web Developer",
+      "location": "Perlis",
+      "description": "8 Months of IT experience in Web Development. \nContributed to the full website development like requirement gathering, designing, development, testing and \ndeployment. \nHands on experience in scripting language like JavaScript, PHP. And mark-up language like HTML, CSS.\nHave knowledge of framework like Codeigniter and Bootstrap.\nHave knowledge of programming language like C, C++, JAVA.\nHave knowledge of database like MySQL.\nExcellent self-starter and quick learner of new concepts, technology and open to any challenges at workplace. ?\u20ac?",
+      "skills": "VISUAL STUDIO, C++, HTML, JAVASCRIPT, BOOTSTRAP, Php, Jquery, Sql Dba, Css",
+      "link": "NONE",
+      "preferred_location": "Perlis",
+      "expected_salary": 13800
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 111,
+    "fields": {
+      "name": "Nur Nadia Rosmawi binti Syed Jumat",
+      "title": "NONE",
+      "location": "Negeri Sembilan",
+      "description": "Python Developer Intern at a startup. Completed Engineering in 2018.",
+      "skills": "Networking, Sql, PC Assembly, Windows Troubleshooting, MS Office, Linux, Hardware, Python (Less than 1 year), MYSQL, Git, Scrapy Framework (Less than 1 year), BeautifulSoup (Less than 1 year)",
+      "link": "https://twitter.com/narendrai1211, https://www.youtube.com/user/1211narendra, https://twitter.com/narendrai1211, https://www.youtube.com/user/1211narendra",
+      "preferred_location": "Selangor",
+      "expected_salary": 6400
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 112,
+    "fields": {
+      "name": "Mohammad Aniq Hamid bin Che Dzulfahmi",
+      "title": "NONE",
+      "location": "Perak",
+      "description": "To obtain a position that will enable me to use my strong organizational skills, award-winning educational \nbackground, and ability to work well with people.",
+      "skills": "C++, HTML, JAVASCRIPT, BOOTSTRAP, PHP",
+      "link": "NONE",
+      "preferred_location": "Perak",
+      "expected_salary": 8700
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 113,
+    "fields": {
+      "name": "Thayaparan Rajhans",
+      "title": "Open Source Enthusiast, MERN Stack Developer",
+      "location": "Kuala Lumpur",
+      "description": "NONE",
+      "skills": "Web Development, Javascript, NodeJs, Typescript, Mongodb, Python, ReactJS, Swagger (Less than 1 year), Redux, Express Js, Data Structures, Java, Socket.io, Git, SCRUM, Jira, Material-Ui, AntD",
+      "link": "http://linkedin.com/in/shubhamchinda, http://twitter.com/shubhamchinda, http://github.com/Shubhamchinda, http://linkedin.com/in/shubhamchinda, http://twitter.com/shubhamchinda, http://github.com/Shubhamchinda",
+      "preferred_location": "Selangor, Penang",
+      "expected_salary": 6000
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 114,
+    "fields": {
+      "name": "Nur Hjh Hanni Sa'ari binti Nazry",
+      "title": "Android application development",
+      "location": "Kedah",
+      "description": "To pursue a challenging career and be part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization.",
+      "skills": "ACCESS (Less than 1 year), ANDROID (Less than 1 year), C++ (Less than 1 year), DATABASE (Less than 1 year), DOT (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 14300
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 115,
+    "fields": {
+      "name": "Mohamed Haji Azman bin Ariffin Pisol",
+      "title": "NONE",
+      "location": "Kelantan",
+      "description": "- \n3.5+ Years of overall IT experience as a JAVA/J2EE developer \nCurrently Working as Professional 1 Product developer in DXC Technology \nGood technical and functional knowledge of software development \nHave good knowledge and experience i",
+      "skills": "Core Java, J2EE, Spring, Springboot, hibernate, Jsp, Servlets, Javascript, Html, Css (3 years)",
+      "link": "NONE",
+      "preferred_location": "Kelantan",
+      "expected_salary": 1700
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 116,
+    "fields": {
+      "name": "Sutheaswari Moorthy",
+      "title": "NONE",
+      "location": "Terengganu",
+      "description": "I am a result oriented professional with approx 6.2 years of experience in Web development using Java, \nScala, Spring, Hibernate and Play frameworks with micro-service architecture. I have done MCA from \nPunjabi University, Patiala with 73% and BCA from Punjab University Chandigarh with 72%. Summary of \nskill sets are listed below: \n \n Hands on experience in microservice architecture using Spring Boot, Hibernate, Zul, Consul \n(service registry) and Key Cloak integration. \n \n Versed in both agile and waterfall development techniques. Skilled in requirements analysis and \nproject development \n Experience in Stock Exchange / Finance Domain and E-commerce domain projects. \n Working on microservice architecture and latest technologies like Spring Play, Scala, Akka, Kafka \nand NoSQL DB (Cassandra). \n Good command over Java 8 concepts, concurrency, multi threading, and Collections frameworks. \n Experienced in web development Java, J2EE with latest frameworks such as J-Koss, Spring, \nSpring Boot, Hibernate, NodeJs and AngularJS. \n Proficient with MVC development using JSP, Servlets, EJB concepts. Working on the latest \nframeworks for web development. \n Capable of developing web project using scripting technologies like NodeJs, AngularJs, ReactJs \nand JavaScript with Ajax and Jquery. \n Hands on experience in android development and maintenance. \n Experience in web front-end development using HTML, Zkoss, and Bootstrap. \n Have good knowledge of RESTful APIs and SOAP. \n Knowledge of web application deployment in Tomcat & Weblogic web server. \n Basic knowledge of Docker and Jenkins. Involved in app deployment process.",
+      "skills": "JAVA, HIBERNATE, SPRING, jQuery, JSP",
+      "link": "NONE",
+      "preferred_location": "Terengganu",
+      "expected_salary": 8000
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 117,
+    "fields": {
+      "name": "Chakra Jaidka a/l Shanmugam Rishyakaran",
+      "title": "Web Developer",
+      "location": "Sarawak",
+      "description": "NONE",
+      "skills": "Bootstrap (Less than 1 year), JavaScript (1 year), jQuery (1 year), MySQL (1 year), Php (1 year)",
+      "link": "NONE",
+      "preferred_location": "Sarawak",
+      "expected_salary": 6400
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 118,
+    "fields": {
+      "name": "Phua Ke Moh",
+      "title": "WEB Developer",
+      "location": "Kedah",
+      "description": "Aim to be associated with an esteemed and progressive organization that gives me the scope to apply my PHP knowledge and skills that dynamically works towards the growth of the organization.",
+      "skills": "dreamweaver, Wordpress, bootstrap, php, Jquery, Html5, MySQL, Javascript, Laravel, VueJs",
+      "link": "NONE",
+      "preferred_location": "Kedah",
+      "expected_salary": 7500
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 119,
+    "fields": {
+      "name": "Pushpa a/l Mahathir",
+      "title": "NONE",
+      "location": "Perlis",
+      "description": "Results-driven Python Developer with over 1.5 years of experience with expertise in Django, Django- \nRest, Flask, Web Scrapping using Python, Postgres, MySql, MogoDB, Docker, coding, System and \nIntegration Testing for data from different domains. I enjoy going into companies whose products and services have the potential to change people's lives for the better and helping them to be happy. \nCompetency",
+      "skills": "API, APPLICATION DEVELOPMENT, DJANGO, DOCKER, FRONT-END",
+      "link": "https://www.linkedin.com/in/amarsingh5536, https://www.linkedin.com/in/amarsingh5536, https://www.linkedin.com/in/amarsingh5536, https://www.linkedin.com/in/amarsingh5536",
+      "preferred_location": "Perlis",
+      "expected_salary": 4200
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 120,
+    "fields": {
+      "name": "Muhamed Hj Syahmi Mossanif bin Syed Djuhandie",
+      "title": "NONE",
+      "location": "Negeri Sembilan",
+      "description": "To grab an opportunity and set myself a goal where I can be innovative \nand attain a challenging position by exercising my interpersonal and professional \nskills to the fullest for the growth of the organization and mine as well.",
+      "skills": "C++ (Less than 1 year), HTML (Less than 1 year), JAVA (Less than 1 year), JSP (Less than 1 year), MS OFFICE (Less than 1 year), Java, Sql (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 11200
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 121,
+    "fields": {
+      "name": "Liow Chow Nee",
+      "title": "iT",
+      "location": "Perak",
+      "description": "Seeking a responsible position in an organization which gives a challenging work environment \nand where I can use my skill in a effective and efficient way along with my knowledge for \norganizational development as well as personal growth. \n \nORGANISATIONAL NAME & EXPERIENCE \n \nTotal 4Year IT experience. \n \nADITECH SOLUTIONS. \n \no Associated with ADITECH SOLUTIONS. From 4thth Oct 2015 to 10th June 2016. \no Working in web enabled application developments, using \nCORE PHP, HTML, CSS, BOOTSTRAP, JQUERY, JAVASCRIPT, AJAX, MYSQL. \n \nARM TECHNOLOGIES \n \no Associated with ARM TECHNOLOGIES. From 1st October 2016 to 1st November 2017. \no Working in web enabled application developments, using \nCORE PHP, HTML, CSS, BOOTSTRAP, JQUERY, JAVASCRIPT, AJAX, MYSQL. \n \nGROVILL EDUCATION PVT LTD. (IIM Calcutta)",
+      "skills": "Php, MySQL, ",
+      "link": "NONE",
+      "preferred_location": "Perak",
+      "expected_salary": 2200
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 122,
+    "fields": {
+      "name": "Pavandeep a/l Sarath",
+      "title": "NONE",
+      "location": "Kuala Lumpur",
+      "description": "To take challenging position as certified Core Java professional in Computer (IT) field so as I can contribute towards the growth of the company and my career.",
+      "skills": "AMBITIOUS (Less than 1 year), BOOTSTRAP (Less than 1 year), CSS (Less than 1 year), EXCEL (Less than 1 year), FORENSICS (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Selangor, Penang",
+      "expected_salary": 4100
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 123,
+    "fields": {
+      "name": "Kavita Sakadivan a/l Manogaran",
+      "title": "As a web developer",
+      "location": "Sarawak",
+      "description": "To succeed in an environment of growth and excellence, and earn \na job which provides me job satisfaction and self-development and \nhelp me achieve personal as well as organization goals.",
+      "skills": "ADOBE PHOTOSHOP (Less than 1 year), ANDROID (Less than 1 year), AWARD (Less than 1 year), CSS (Less than 1 year), HTML (Less than 1 year), Python",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 4900
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 124,
+    "fields": {
+      "name": "Hasrin Ishak bin Apizan",
+      "title": "Machine learning",
+      "location": "Kedah",
+      "description": "NONE",
+      "skills": "API, C++, PYTHON, SQL",
+      "link": "https://www.linkedin.com/in/alok-raj-139707123, http://www.linkedin.com/in/alok-raj-139707123, https://www.linkedin.com/in/alok-raj-139707123, http://www.linkedin.com/in/alok-raj-139707123",
+      "preferred_location": "Selangor",
+      "expected_salary": 10400
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 125,
+    "fields": {
+      "name": "Jeevandran a/l Merican Balan",
+      "title": "Machine learning",
+      "location": "Perlis",
+      "description": "NONE",
+      "skills": "API, C++, PYTHON, SQL",
+      "link": "https://www.linkedin.com/in/alok-raj-139707123, http://www.linkedin.com/in/alok-raj-139707123, https://www.linkedin.com/in/alok-raj-139707123, http://www.linkedin.com/in/alok-raj-139707123",
+      "preferred_location": "Selangor",
+      "expected_salary": 7100
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 126,
+    "fields": {
+      "name": "Tee Leu Sui",
+      "title": "NONE",
+      "location": "Negeri Sembilan",
+      "description": "To work on a challenging job profile which provides an opportunity to enhance my \ntechnical skills and knowledge, this could provide me an insight into new aspects so that \nit would be helpful for my career.",
+      "skills": "ASP (Less than 1 year), ASP.NET (Less than 1 year), C++ (Less than 1 year), CSS (Less than 1 year), FRONT PAGE (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 5800
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 127,
+    "fields": {
+      "name": "Chu Tiong Woh",
+      "title": "NONE",
+      "location": "Perak",
+      "description": "To work in a creative and challenging environment and learning the responsibility \nalong with present technologies where I could constantly learn and successfully \ndeliver solution to the problems. \n \nTo be in a position in a result-oriented environment that seeks an ambitious and \ndare person where acquired skills and education will be utilized towards \ncontinuous growth and advancement. \n \nThere by building my career which would enable me to innovate and contribute to \nthe mission through my technical expertise and leadership skills",
+      "skills": "WRITTEN AND VERBAL, PRESENTATION SKILLS, PROBLEM-SOLVING, C++, CODING",
+      "link": "NONE",
+      "preferred_location": "Perak",
+      "expected_salary": 11100
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 128,
+    "fields": {
+      "name": "Thamil Veerasamy a/l Huzir Ambumamee",
+      "title": "NONE",
+      "location": "Kuala Lumpur",
+      "description": "NONE",
+      "skills": "Javascript node js HTML CSS",
+      "link": "http://linkedin.com/in/gautam-barfa, http://linkedin.com/in/gautam-barfa",
+      "preferred_location": "Selangor, Penang",
+      "expected_salary": 8800
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 129,
+    "fields": {
+      "name": "Liong Shui Moon",
+      "title": "NONE",
+      "location": "Sarawak",
+      "description": "NONE",
+      "skills": ".NET, C#, C++, XML, J2EE",
+      "link": "https://www.linkedin.com/in/sanjib-rakshit, https://www.linkedin.com/in/sanjib-rakshit",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 11500
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 130,
+    "fields": {
+      "name": "Gobind a/l Sothinathan",
+      "title": "Web Developer",
+      "location": "Kedah",
+      "description": "Over 2.9 years real-time Web Development experience, with proven background successfully managing all facets of site development, from initial design and architecture to site deployment.",
+      "skills": "HTML, JAVASCRIPT, BOOTSTRAP, PHP, CODEIGNITER, Mysql",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 8300
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 131,
+    "fields": {
+      "name": "Vivien Loi Zhau Yin",
+      "title": "NONE",
+      "location": "Perlis",
+      "description": "NONE",
+      "skills": "C, Java, Database Management, Html, Java, Javascript, Java J2Ee",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 2500
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 132,
+    "fields": {
+      "name": "Alice Loh Tee Bin",
+      "title": "NONE",
+      "location": "Negeri Sembilan",
+      "description": "Intend to build a carrier with your corporate of hi-tech environment which provides ideal \nlearning, challenging and a creative environment, which stimulates my professional and personal \ngrowth and be a part of a team that dynamically works towards the growth of the organization.",
+      "skills": "LINUX, HTML, PHP, CSS, MYSQL",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 6700
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 133,
+    "fields": {
+      "name": "Rani Vadaketh a/l Palanivel Rasiah",
+      "title": "NONE",
+      "location": "Perak",
+      "description": "NONE",
+      "skills": "ECLIPSE, JAVA, HIBERNATE, SPRING, jQuery",
+      "link": "NONE",
+      "preferred_location": "Perak",
+      "expected_salary": 6500
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 134,
+    "fields": {
+      "name": "Sittampalam Veerasenan",
+      "title": "NONE",
+      "location": "Kuala Lumpur",
+      "description": "To secure a challenging career which demands the best of my professional ability in terms of technical and analytical skills and help me in broadening and enhancing my current skill and knowledge.",
+      "skills": "HTML (Less than 1 year), JAVA (Less than 1 year), Ms office, java, sql (Less than 1 year), SQL (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Selangor, Penang",
+      "expected_salary": 3100
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 135,
+    "fields": {
+      "name": "Mohamed Umair Danish bin Ezam Nazmi",
+      "title": "IT Manager Job",
+      "location": "Kedah",
+      "description": "NONE",
+      "skills": "Resource management",
+      "link": "NONE",
+      "preferred_location": "Kedah",
+      "expected_salary": 12600
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 136,
+    "fields": {
+      "name": "Phor Liem Khay",
+      "title": "Fresher",
+      "location": "Kelantan",
+      "description": "To associate myself with a reputed organisation, enhance my skills and enrich my working experience for the ultimate growth of the organisation.",
+      "skills": "DATABASE, DBMS, SQL, SOFTWARE ENGINEERING, C++",
+      "link": "NONE",
+      "preferred_location": "Kelantan",
+      "expected_salary": 7800
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 137,
+    "fields": {
+      "name": "Karpal a/l Kulasegaran",
+      "title": "NONE",
+      "location": "Terengganu",
+      "description": "NONE",
+      "skills": "INCIDENT RESPONSE, NETWORKING, INFORMATION SECURITY, OPERATIONS, RISK MANAGEMENT, Customer Service, Exchange, Network Administration, IT Management, Strategic Planning, Vmware, Networking",
+      "link": "NONE",
+      "preferred_location": "Terengganu",
+      "expected_salary": 3300
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 138,
+    "fields": {
+      "name": "Anand a/l Manoharan Devandran",
+      "title": "NONE",
+      "location": "Pahang",
+      "description": "To work in the firm with the positive atmosphere, this will inspire me to enhance my skills and will \nbe always co-operative.",
+      "skills": "HTML, JAVASCRIPT, BOOTSTRAP, PHP, LARAVEL",
+      "link": "NONE",
+      "preferred_location": "Pahang, Selangor",
+      "expected_salary": 2400
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 139,
+    "fields": {
+      "name": "Yunalis binti Che Muhaimi",
+      "title": "NONE",
+      "location": "Sabah",
+      "description": "AIM TO ASSOCIATE, WITH A PROGRESSIVE ORGANIZATION AND WORK IN A CHALLENGING \nENVIRONMENT THAT GIVES ME SCOPE FOR CONTINUOUS PROGRESS ON BOTH PROFESSIONAL AND \nPERSONAL FRONTS THROUGH ALL ROUND SKILLS WITH EMPHASIS ON ASSIGNED TARGETS. AND TO BE \nPART OF A TEAM THAT DYNAMICALLY WORKS TOWARDS THE GROWTH OF THE ORGANIZATION",
+      "skills": "FRONT-END, HTML, BOOTSTRAP, PHP, FIREWALL",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 11900
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 140,
+    "fields": {
+      "name": "Shamini a/l Kamal",
+      "title": "NONE",
+      "location": "Johor",
+      "description": "Experienced Data Scientist with experience in Retail, e-Commerce, Energy, and Banking industries with solid \nanalytical and quantitative skills, having completed Bachelor's degree from IIT Kharagpur and Master's degree from \nTexas A&M University. \n Strong background in Linear Algebra, Numerical Methods, Multivariate Calculus, descriptive and inferential \nstatistical modeling and experiment design \n Experience with Natural Language Processing and Machine Learning algorithms like Linear Regression, \nLogistic Regression, K-means Clustering, SVM, Naive-Bayes, Decision Tree, Random Forest, XGBoost \n Experience with Computer Vision (CNN), Sequence Models (RNN, GRU, LSTM) using Tensorflow and Keras \n Experience with Big Data Technologies like Spark, Hive",
+      "skills": "Git, Hive, PYTHON, KERAS, MATPLOTLIB",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 8900
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 141,
+    "fields": {
+      "name": "Hannah Poon Ley Xu",
+      "title": "NONE",
+      "location": "Penang",
+      "description": "Currently working in TechnoCipher IT Solution, Pune since October - 2019. \n1.3 years of IT experience in Software Development. \nRewarded as rising star. \nDuring this tenure involved in various project development activities like Requirements Gathering, \nAnalysis, Solution Design, Development, Testing, Maintenance, Troubleshooting and Support for Day-to- \nDay activity in Different products. \nHaving confidence that, I can work on any technology as per project requirement. In my short \nprofessional career worked on different projects having different technology (CORE JAVA, Advance java, \nHTML, JavaScript, MySQL).",
+      "skills": "ECLIPSE, JAVA, JSP, SERVLET, HTML",
+      "link": "NONE",
+      "preferred_location": "Penang",
+      "expected_salary": 14400
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 142,
+    "fields": {
+      "name": "Loi Kim Shan",
+      "title": "NONE",
+      "location": "Kuala Lumpur",
+      "description": "To pursue a challenging role to achieve a chartered status by contributing effectively and \nefficiently towards the attainment of goals through teamwork, integrity and continuous self \nimprovement.",
+      "skills": "WINDOWS 8, PROBLEM SOLVING, PYTHON, RASPBERRY PI",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 2200
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 143,
+    "fields": {
+      "name": "Lye Thung Woon",
+      "title": "NONE",
+      "location": "Pahang",
+      "description": "NONE",
+      "skills": "JAVA, C++, HTML, XML, SELENIUM",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 14800
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 144,
+    "fields": {
+      "name": "Yu Loon Hen",
+      "title": "Seeking a challenging opportunity where I will be able to utilize my strong organizational skills and educational background which will allow me to grow personally and professionally.",
+      "location": "Terengganu",
+      "description": "Completed MCA in Computer Science & Applications from Chaudhary Ranbir Singh University, Jind \n Acquired good knowledge and understanding in subjects of computer science. \n Proficiency at grasping new technical concepts quickly & utilising it in a productive manner. \n Believes in continuous learning and an innovative approach. \n Adaptable and a quick learner with skills to work under pressure. \n Strong management, communication & interpersonal skills with decision making skills and positive attitude. \n \nTraining Exposure",
+      "skills": "BOOTSTRAP (Less than 1 year), C++ (Less than 1 year), CSS (Less than 1 year), DATABASE MANAGEMENT (Less than 1 year), Python (Less than 1 year), Java, Javascript",
+      "link": "NONE",
+      "preferred_location": "Terengganu",
+      "expected_salary": 6600
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 145,
+    "fields": {
+      "name": "Muhammed Asrul Qayyuum bin Husain Haron",
+      "title": "NONE",
+      "location": "Johor",
+      "description": "I have strong technical and product management skills around software development and performance engineering. I have worked in product based as well service based software companies for more than 19 yrs. \nI am currently working as Applicaiton development manager (Vice President) for JP Morgan India for Global Regulatory reporting technology team (Corporate and Investment banking). My current role is to technically contribute and manage delivery. I have worked earlier in performance and development team of Yahoo India, Misys, Oracle India, Covansys, QualityKiosk \nI have done M.Sc. (physics) from IIT Mumbai and MS (computer science) from Manipal University. I have received JP Morgan Annual Excellence award 2018 -Innovation category from Global CEO of Corporate and Investment Banking. Invited by Google to attend GTAC (Google Testing and automation conference) in Boston, US in 2015 based on selection on my whitepaper. \n \n",
+      "skills": "DATA ANALYTICS, JBOSS, SOFTWARE ENGINEERING, C#, C++",
+      "link": "NONE",
+      "preferred_location": "Johor",
+      "expected_salary": 2600
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 146,
+    "fields": {
+      "name": "Noor Farah Amni binti Che Budi",
+      "title": "NONE",
+      "location": "Negeri Sembilan",
+      "description": "To utilize my skills and abilities in an organization that offers professional \ngrowth while being resourceful, innovative and flexible. \n \nAcademic Skills",
+      "skills": "C++, HTML, JAVASCRIPT, Java, C, Css",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 4100
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 147,
+    "fields": {
+      "name": "Uthaya Prakash a/l Munshi Jeevananthan",
+      "title": "NONE",
+      "location": "Melaka",
+      "description": "I would like to a part of an organization where I want a better utilization of my knowledge and skills. \nPROFILE AT A GLANCE \n Having 1 year experience of Java, AngularJs, Angular 4, 6, 7, HTML5, CSS3, XML, JAVASCRIPT, JSON, AJAX. \n Good Perception of Object Oriented Programming (OOP) Concepts.. \n Expensive experience in developing the Web Application in MVC Framewok. \n Experience of developing four projects on angular6. \n Ability to quickly adapt to new technologies. \n Experience to Work with google map Api to develop map application.",
+      "skills": "CSS, ANGULAR6, HTML, Angularjs, JAVASCRIPT, BOOTSTRAP, JSON, XML, ANGULAR4, JQUERY, AJAX",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 5800
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 148,
+    "fields": {
+      "name": "Nur Ros binti Che Zharaubi",
+      "title": "Experienced Software Developer with a demonstrated history of working in the information technology and services industry. Skilled in Python API, Django, DRF, HomeAutomation, IOT, SQL Engineering. Strong engineering professional with a Bachelor?\u20ac?s Degree focused in Information Technology from the College of Engineering Roorkee, Roorkee.",
+      "location": "Melaka",
+      "description": "I have an overall experience of 5.6 years of diverse experience in Information Technology with expertise in Client \nRequirement Study and Software Development. \nSound knowledge of Object Oriented (OO) Software Development Approach. \nSound knowledge of developing software applications using Python, Django, Django rest framework, IOT, SQL, Java \nScript, AWS, GIT, UNIX. \nExperience in using Eclipse, Pycharm, Visual Studio and SublimeText while developing different application in python. \nGood experience in Amazon Web Services (AWS) environment and good knowledge of AWS services like Elastic \nCompute Cloud(EC2), S3 Bucket. \nExperience in Agile software development- a framework that delivers customer collaboration and interaction with processes and tools. \nWorked on JIRA for bug tracking and communicating for better results.",
+      "skills": "AMAZON WEB SERVICES, DJANGO, DOCKER, Git, JAVASCRIPT, Flask, Python, Django Rest Framework",
+      "link": "http://www.linkedin.com/in/akashgusain, http://www.linkedin.com/in/akashgusain",
+      "preferred_location": "Selangor",
+      "expected_salary": 7200
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 149,
+    "fields": {
+      "name": "Mohamad Jani Izad bin Zulfahmi",
+      "title": "Data Scientist",
+      "location": "Johor",
+      "description": "Master's degree holder in Artificial Intelligence from University of Bonn, Bonn, Germany with 2.5 years of rich Industrial \nexperience in Information Technology sector looking for career opportunities in India. Expert level understanding of \nMachine Learning Algorithms, Neural Networks, Knowledge Graph Analytics, Big Data Analytics and Deep Learning \nAlgorithms with Hands-on experience in working on AI tools Apache Spark, Apache Storm, Hadoop, Eclipse 4.10, IntelliJ \nIdea, SCALA IDE, Python, R, SQL. \nExecuted multiple projects as a part of completing the course curriculum in Master of Science degree which includes \nRecommender Systems, Mining Semantic Association Rules, Hyperparameter Analysis of ML Algorithm. \nOffering Over 2.5 years of rich, Frond end web development experience in the IT and Financial Services industries; \nexpertise in full software life-cycle implementation, upgrades, production support, rollout & enhancement. Thorough \ndomain expertise knowledge in Insurance and Consumer Banking Domain. Expert understanding of SDLC processes and \nAgile flavored development methodologies (Waterfall, Scrum, Agile Framework, Principles).",
+      "skills": "APACHE SPARK, Hadoop, PYTHON, ECLIPSE, J2EE",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 7800
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 150,
+    "fields": {
+      "name": "Gobind Munisamy a/l Puaneswaran",
+      "title": "Developer - Pinnacle Infologix",
+      "location": "Kuala Lumpur",
+      "description": "2 years of experience in web application development and Magento 2 \n Flexible to work on different frameworks and environments. \n Dedicated team player with strong learning ability, communication, presentation & interpersonal skills, good time management skills and good problem solving ability. \n Ability to work in tight schedules and meet the requirements. \n Can quickly learn new technologies, think creatively and solve problems in a critical environment.",
+      "skills": "APACHE (Less than 1 year), DATABASE (Less than 1 year), HTML (Less than 1 year), PHP, Magento, Bootstrap, Javascript, css, CORE PHP, MVC, Laravel",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 14100
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 151,
+    "fields": {
+      "name": "Nurwadiyah binti Khairudin Shueib",
+      "title": "20+ years US experience, Successful Entrepreneur, Analytics, Big Data / AI & Cloud Technology Veteran, Ex-Big4 Executive, Healthcare Payer / Provider Domains",
+      "location": "Kuala Lumpur",
+      "description": "Healthcare Big Data & Cloud and AI engagement leader with 20 years of experience, including 10 years as a successful entrepreneur and co-founder of a healthcare AI company, Jvion, seeking Senior Leadership positions in technology. Prior to Jvion I spent close to 10 years with Accenture Healthcare involved in delivering large scale technology projects for health care payers like Blue Cross Blue Shield, United Health, Wellpoint and Anthem. \nProfessional Experience Summary: \n \nJvion Inc (Co-founder & CIO) 2010 current (healthcare bigdata, AI, cloud) \nAccenture (Senior Manager) 2001 2010 (healthcare payer technology and delivery leadership)",
+      "skills": "Artificial Intelligence, Machine Learning, Amazon Web Services, AWS Platform (Redshift EC2, DynamoDB), Java, C#, Asp.Net, MS SQL Server, Azure, Python, Big Data Architecture, Data lake strategies, Tableau, Salesforce, Spark, Mongodb, NOSQL Technologies, R Studio, Healthcare - HEDIS, Healthcare - Revenue Cycle Management (RCM), HL7 and Provider data sources, EMR integrations with Epic, Cerner, Meditech, EDI 837/835, CDI, Social determinants impact on health, Population health strategies (ACO models), Risk Adjustment Models (HCC), Clinical Ontologies (Snomed, RxNorm, ICD, LOINC)",
+      "link": "https://www.linkedin.com/in/suryavadlamani/, https://www.linkedin.com/in/suryavadlamani/",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 7600
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 152,
+    "fields": {
+      "name": "Rakesh a/l Nandakumar",
+      "title": "NONE",
+      "location": "Perak",
+      "description": "NONE",
+      "skills": "Microsoft office, Jse, jee, hibernate, spring, sql (1 year)",
+      "link": "NONE",
+      "preferred_location": "Penang",
+      "expected_salary": 4900
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 153,
+    "fields": {
+      "name": "V. T. Theiviya",
+      "title": "UI developer - Viprem Associates Private Limited",
+      "location": "Sabah",
+      "description": "NONE",
+      "skills": "BOOTSTRAP (Less than 1 year), CSS (Less than 1 year), HTML (Less than 1 year), PHOTOSHOP (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Sabah, Selangor",
+      "expected_salary": 9200
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 154,
+    "fields": {
+      "name": "Vinod Goundar a/l Namasivayam",
+      "title": "NONE",
+      "location": "Johor",
+      "description": "I am having 1+ Years of experience in IT, In that 8 Months of Professional experience on Qlikview, Which \nincludes 1 year of Professional experience on QlikSense, Mashups. \nHaving hands in Business Intelligence, Analysis, Design, Software development, Architec ture. \nInvolved in collecting the business requirements, Building the Data Model, creating reports as per client's \nrequirements and scheduling the reports. \nQlik View Complexity and Performance Index Reduction. \nImplemented Data Modeling (Star Schema, Snow Flake Schema). \nLoading Data into Qlik View application from different QVDs, QVW applications, HTML Files, XML Files and Excel \nFiles. \nHands on retrieving of external data to Qllik View Dashboard in terms of QVDs by making connecting through \nODBC and OLEDB. \nDeveloped Qlik View Dashboards using different List box, Multibox, Slider Object, Button Object, Text Object, \nContainer Object, Triggers and Charts (Bar, Line, Combo, Gauge, Scatter, Straight/Pivot tables)etc \nHands on integrating/ retrieving data from Share Point / Sales force to prepare dashboards in Qlikview. \nWorked on Incremental Load to reduce the reload time of different applicatons. \nWorked on various functions Qlik View like Date & Time, Keep, Jion, Mapping, String, Numeric and \nAggregation etc \nImplemented Set Analysis in Qlik View Application. \nKnowledge in using Qlik View complicated functionalities like Cross Table, Resolve Synthetic Keys and Section \nAccess. \nHave good experience in creating Dashboards with optimization techniques. \nImplemented Set Analysis and optimization Techniques. \nSelf-learner, excellent technical resource, a team player with good analytical and strong communication skills.",
+      "skills": "MS ACCESS, SQL, QLIKVIEW, RDBMS, SAP",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 4300
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 155,
+    "fields": {
+      "name": "Nur Syazwana Amri binti Luthfi Hasif",
+      "title": "Accountant",
+      "location": "Penang",
+      "description": "Seeking a challenging career with a progressive organisation, which will utilize my skills, ability and education in a progressive field. I foresee myself to be part of top-notch of professionals with sincerity, creativity and dedication. I myself a career objective person.",
+      "skills": "TDS, gst, tally, Accounts, brs, income tax",
+      "link": "NONE",
+      "preferred_location": "Penang",
+      "expected_salary": 5200
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 156,
+    "fields": {
+      "name": "Mohammed Nazrin Jaini bin Nurakmal",
+      "title": "Semi pro Python Developer",
+      "location": "Kuala Lumpur",
+      "description": "NONE",
+      "skills": "Web scraping, Programming, Java, Image Processing, C++, Flutter, Python, Data Structure",
+      "link": "http://linkedin.com/in/nishant-ghanate-, http://github.com/NishantGhanate, http://linkedin.com/in/nishant-ghanate-, http://github.com/NishantGhanate",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 3800
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 157,
+    "fields": {
+      "name": "Shanmugam Sinnathamby a/l Samarasan",
+      "title": "Solutions focused and result oriented professional offering 18+ years",
+      "location": "Pahang",
+      "description": "Solutions focused and result oriented professional offering 18+ years of a successful career in: \nProject Management Delivery Management Team Management \nWebsite Development Software Development Maintenance Support \nWeb Development Client Relationship Management MIS Reporting \nStrong capability in juggling priorities so that deadlines are met while retaining consistently high quality outcomes \nHighly energetic and delivery focused, with the ability to deliver quality results with a challenging but positive and \ninfluential style \nExperienced in onsite-offshore delivery model for production support projects \nOwner operator mindset, with demonstrable ability to be seen as a strong technology partner / Technology SME \nGood interpersonal skills and ability to work effectively with others in and across the organization to accomplish team \ngoals \nAnalytical skills, the ability to decompose high-level information into details \nStrong knowledge on SDLC / Agile Methodology \nTake accountability for the management of projects, end to end, ensuring that the project is delivered to time, cost, and \nquality \nKnowledge of Project Management Process groups and knowledge areas. \nExcellent communication skills with the ability to present technical concepts to a non-technical audience and \nleadership to manage projects",
+      "skills": "ADO, MS ACCESS, ADO.NET, SQL SERVER, SQL SERVER 2005",
+      "link": "https://in.linkedin.com/in/oberoiamit77, http://makinghealthyindia.com/, http://www.tiffincart.com/, https://in.linkedin.com/in/oberoiamit77, http://makinghealthyindia.com/, http://www.tiffincart.com/",
+      "preferred_location": "Selangor",
+      "expected_salary": 4500
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 158,
+    "fields": {
+      "name": "Siah Pom Jan",
+      "title": "Full Stack Developer with 1+ years of experience in application development. I am cognitive developer familiar with data mining and data correlation Algorithms. My Aim is to see myself as a core data scientist who can correlate and extract data from any kind of data provided. My Ultimate Goal is to make a contribution of efficient and fastest learning model in the world of artificial intelligence.",
+      "location": "Terengganu",
+      "description": "Dedicated and efficient full stack developer with 1+ Years of Experience in MVT (Django) flows \n. Thorough with creating views, providing protection, safety and integrating third party tools. \n \nWell versed with client-based Technologies like HTML, JavaScript, jQuery. \nFirebase Integration with Django.",
+      "skills": "PYTHON, Html5 (1 year), css (1 year), django (1 year), firebase (1 year), heroku server (1 year), Javascript (2 years), jqu (2 years), Mongodb (Less than 1 year), sqlserver (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 4500
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 159,
+    "fields": {
+      "name": "Gong Whey Sian",
+      "title": "NONE",
+      "location": "Johor",
+      "description": "To qench my thirst of pursing a challenging career in IT field and render my services and to put all my faculties in optimum utilization and to see growth of the organization that will ensure my growth.",
+      "skills": "WRITTEN AND VERBAL, HTML, PYTHON, XML, CSS",
+      "link": "NONE",
+      "preferred_location": "Johor",
+      "expected_salary": 11300
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 160,
+    "fields": {
+      "name": "Shahiera Shmsul binti Noraffendi",
+      "title": "NONE",
+      "location": "Negeri Sembilan",
+      "description": "NONE",
+      "skills": "MYSQL, ORACLE, ORACLE 10G, SQL, ECLIPSE",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 13300
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 161,
+    "fields": {
+      "name": "Quan Zhao Thee",
+      "title": "Wordpress Developer - Scorpio Technologies",
+      "location": "Melaka",
+      "description": "A creative Developer with more than 2+ Years experience as User Interface Developer. Well experienced with Wordpress, Bootstrap, HTML, CSS, Javascript, Basic Knowledge in Adobe Photoshop.",
+      "skills": "HTML (3 years), APACHE (2 years), BOOTSTRAP (2 years), CSS (2 years), EXCEL (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 11900
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 162,
+    "fields": {
+      "name": "Suresh Ramani a/l Surendran Ramadas",
+      "title": "I'm looking night shift php developer job.",
+      "location": "Melaka",
+      "description": "i have good knowledge about PHP development, \ni have 2 year experience in opencart.",
+      "skills": "Bootstrap (2 years), CSS (2 years), HTML (3 years), JAVASCRIPT (2 years), JQuery (2 years), Php (2 years), Opencart (2 years)",
+      "link": "http://vickyvishal.epizy.com/opencart/autoreply/upload/, http://vickyvishal.epizy.com/opencart/autoreply/upload/",
+      "preferred_location": "Selangor",
+      "expected_salary": 1300
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 163,
+    "fields": {
+      "name": "Aiza Azraai",
+      "title": "Software Developer - AIMonk",
+      "location": "Johor",
+      "description": "I am very passionate about coding and want to be part of a high-performance team entrusted with \nsolving complex challenges using technology under tight timelines.",
+      "skills": "AWS (2 years), DATABASE (1 year), ALGORITHMS (Less than 1 year), BASH (Less than 1 year), C++ (Less than 1 year), Deep Learning, opencv, keras, computer vision, Tensorflow, Python",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 6700
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 164,
+    "fields": {
+      "name": "Yang Xiong Leng",
+      "title": "NONE",
+      "location": "Kedah",
+      "description": "NONE",
+      "skills": "ECLIPSE, J2EE, JAVA, HIBERNATE, SPRING",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 6300
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 165,
+    "fields": {
+      "name": "Stephen Lau Tew Tow",
+      "title": "Software Engineer - TVSR TECHNOLOGIES",
+      "location": "Perlis",
+      "description": "Having 2+ years of IT experience in various technologies like Java, Spring MVC, Spring JDBC, Hibernate, J2EE, JSP, Servlets, JDBC, Spring Boot And Cloud With Micro services. \nWorking knowledge on Spring MVC, Spring JDBC architecture. \nSound knowledge in My SQL. \nExpertise in implementing J2EE technologies (JSP, Servlets, JDBC) to develop software applications. \nHas the motivation to take independent responsibility as well as ability to contribute and be a productive team player. \nCapable of adopting to work on new Technologies and Environments easily. \nAbility to learn new Technologies and tools quickly",
+      "skills": "Java , j2ee, spring , hibernate, servlets, jsp, jdbc, springboot, microservices (2 years), CLIENTS (Less than 1 year), CODING (Less than 1 year), DATABASES (Less than 1 year), ECLIPSE (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 9600
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 166,
+    "fields": {
+      "name": "Daniel Chan Eh Hom",
+      "title": "UI Developer",
+      "location": "Negeri Sembilan",
+      "description": "I can work with html, css, javascript .",
+      "skills": "Html5, Javascript, Css",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 12700
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 167,
+    "fields": {
+      "name": "Liow Khiang Ko",
+      "title": "java developer - Thribs Infosoft",
+      "location": "Perak",
+      "description": "B. E. - CSE from Swami Ramanand Teerth University, Latur in 2017. \n- An efficient key player in challenging & creative environments with excellent capacity to adapt to new technologies and skills. \n- Possesses communication skills. \n- Meticulous and possess strong analytical skill.",
+      "skills": "JAVA (Less than 1 year), CSS (Less than 1 year), DATABASES (Less than 1 year), ECLIPSE (Less than 1 year), HTML (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 3300
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 168,
+    "fields": {
+      "name": "Manickavasagam a/l Gunasekaran Perumal",
+      "title": "Java developer",
+      "location": "Kuala Lumpur",
+      "description": "To work in a progressive organization, where my professional skills are used and \nwhere I will put best of mine to the organization and want to work in a challenging position.",
+      "skills": "ARTIFICIAL INTELLIGENCE (Less than 1 year), C++ (Less than 1 year), DATABASE (Less than 1 year), GAME DEVELOPMENT (Less than 1 year), JAVA (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 12200
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 169,
+    "fields": {
+      "name": "Priya a/l Kishor",
+      "title": "NONE",
+      "location": "Kedah",
+      "description": "NONE",
+      "skills": "C# (Less than 1 year), C++ (Less than 1 year), CCNA (Less than 1 year), CODING (Less than 1 year), DATABASE (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 12300
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 170,
+    "fields": {
+      "name": "Mohammad Jahari Abdullah",
+      "title": "Php developer",
+      "location": "Kelantan",
+      "description": "Email Id: mr.vijayshukla527@gmail.com \n \nSeeking a challenging position with opportunities for career \nadvancement and learning to emerge as a Technical professional for \norganization.",
+      "skills": "C++ (Less than 1 year), ERP (Less than 1 year), JAVASCRIPT (Less than 1 year), jQuery (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 6200
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 171,
+    "fields": {
+      "name": "Muhamad Che Syazani bin Che Juhari",
+      "title": "NONE",
+      "location": "Terengganu",
+      "description": "NONE",
+      "skills": "HTML, JAVASCRIPT, BOOTSTRAP, TYPESCRIPT, Angularjs (1 year), Javascript (2 years), vuejs (1 year)",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 10300
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 172,
+    "fields": {
+      "name": "Nuur Nursyarina Husna binti Ridzwan Nawawi",
+      "title": "Software Developer - Technopark",
+      "location": "Perak",
+      "description": "3+ Years of experience as Software Developer in software design, analysis, development, \ntesting and implementation of web and client server applications using Microsoft",
+      "skills": "jQuery (2 years), MODEL VIEW CONTROLLER (2 years), MODEL-VIEW-CONTROLLER (2 years), MS SQL SERVER (2 years), MVC (2 years)",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 14100
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 173,
+    "fields": {
+      "name": "Stella Gan Thau Nai",
+      "title": "NONE",
+      "location": "Kuala Lumpur",
+      "description": "I have a deep understanding of many technical subjects. I am an avid open source developer. I love to be creative and inventive. I have over 5 years of rich experience in Software Designing/Development and Implementation of the application using proven technical capabilities, analytical and problem-solving skills. I have performed various roles as a software developer and operations support analyst working in various projects and SDLCs like waterfall and agile. \nMy current work areas revolve around working as an individual contributor and a mentor to junior resources for my project, providing custom solutions, working on creating new productions, maintaining and fixing the product as and when needed and providing production support for the product. \nWith a strong technical background, I look forward to challenging roles which would give me exposure to multiple domains, processes and technologies cutting across industry verticals. \n5+ year of experience on implementing Health Information Exchange solutions for hospitals using InterSystems Healthshare. \n5+ years of experience on Cache Object Scripts and InterSystems Cache/Mumps and Ensemble. \n3+ years of experience with SOAP and Restful APIs. \n5+ years of experience in HealthCare Domain (US health care with various systems LIS, HIS) \n3+ years of hands-on experience in Angular JS. \n1.5+ years of hands-on experience in ASP.NET MVC, ASP.NET Web APIs. \n1.5+ years of hands-on experience in Azure Services (Cosmos DB, Blob Storage, Function Apps, Bot Service, Application Insights). \nHands-on experience in React JS. \nProficient in Client interaction and requirement analysis/gathering. \nGathered experience in Mentoring/Training new joiners. \nExperience in working under Agile/Scrum as well as waterfall and Iterative methodologies for software development framework. \nInvolved in all phases of the project (Documentation, designing pages, coding, unit testing, bug fixing and deployment).",
+      "skills": "Cache Object Script (5 years), Intersystems HealthShare (5 years), Intersystems Ensemble (5 years), Angularjs (3 years), C# (2 years)",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 14500
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 174,
+    "fields": {
+      "name": "Kanagaraj Rayer a/l Magendran Arujunan",
+      "title": "NONE",
+      "location": "Kedah",
+      "description": "Certified project management IT Professional with 22+ years of experience delivering on end-to-end project and delivery management goals for global clients in the healthcare, manufacturing, oil & gas, and utility segments. Expertise in setting up PMOs, project planning, execution & management right from pre-sales to delivery and handover for application development and package implementations. Scaled up the overall strategic operational efficiency of the projects and steered commercial discipline, client relationship management, value engineering and building delivery capabilities.",
+      "skills": "Application Development, Application Management, Application Migration, Package Implementation and Roll Out, SaaS Customization, Implementation and Support, Project Governance, Planning and Financial Management, Scope and Requirements Management, Change Control, Client Relationship Management, Resource Management, Risk Management, Issue Management, Infrastucture Management, Procument Management, Supplier Management, Configuration Management, Communication Management, Quality Management, Knowledge Management, Organization Development",
+      "link": "https://www.linkedin.com/in/yeldopvarghese, https://www.linkedin.com/in/yeldopvarghese",
+      "preferred_location": "Kedah",
+      "expected_salary": 10100
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 175,
+    "fields": {
+      "name": "Lam Leat Fey",
+      "title": "Mulesoft Developer",
+      "location": "Kelantan",
+      "description": "Expertise in developing web applications in JAVA Technologies, Spring Framework. \nHands on Experience on UI Technologies and Restful Web services (Rest API). \nHands on Experience on Maintaining Database. \nExperience in Web Applications Development and Testing. \nHands on experience of debugging an application and enhancement of application. \nAbility to quickly grasp new technologies and concepts. \nDeveloping existing project according to need. \nLearning Artificial Intelligence, Machine learning, Python. \nInterested in Artificial Intelligence/Technology Improvement. \nWorking on MuleSoft. (MuleSoft certified)",
+      "skills": "SQL, JAVA, Linux (1 year), Android (1 year), Python (1 year), Machine Learning (Less than 1 year), AI (Less than 1 year), Mulesoft (Less than 1 year), Microsoft Office (5 years), XML (Less than 1 year), Spring (1 year), Hibernate (1 year), Sql Server, HTML, Javascript",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 6400
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 176,
+    "fields": {
+      "name": "Mohd Hj Wan Mastura Saleh",
+      "title": "Agnisikha Guria_iOS developer",
+      "location": "Terengganu",
+      "description": "Total 3.5+ years of experience in iOS application development. \nPresently working as iOS Developer in Webskitters Technology Solutions since last 1 year. \nFormerly Junior Software Developer in Optimize IT Systems, Kolkata for 2 years 7 months. \nExpert knowledge in Swift 5.0 and Objective C. \nExperience of working in Xcode and its components. \nGood knowledge in Source Code Version Management tools (GIT, STASH) and issue tracker (JIRA). \nGood knowledge in Class Diagram, Sequence Diagram, Use Case Diagram and other UML Diagrams. \nExperience of following MVC and MVVM structure. \nExperience of following Workflow Engine concepts. \nExperience of end user and client interaction/ agile project method.",
+      "skills": "FIREBASE, JSON, DATABASE, SQLITE, USER INTERFACE",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 12100
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 177,
+    "fields": {
+      "name": "Iryani binti Syed Hilmi Noraffendi",
+      "title": "Developer",
+      "location": "Pahang",
+      "description": "NONE",
+      "skills": "DATABASE (Less than 1 year), JAVA (Less than 1 year), ORACLE (Less than 1 year), BOOTSTRAP (Less than 1 year), C++ (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 12700
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 178,
+    "fields": {
+      "name": "Muhammed Hj Basiran Wahab bin Hoirussalam",
+      "title": "Manager Technology - QA Automation - Verizon Data Services India Pvt Ltd",
+      "location": "Sabah",
+      "description": "Software Quality Assurance (QA) Manager with total 18 years' experience, 10+ years' experience as technical QA manager with top MNCs (Cisco, Oracle, Symantec and Verizon) . Experience in Internet of Things (IoT), Network and Security domain, mainly software application development & testing. 4 years of software development and 14 years of software testing experience. \n M Tech in Artificial Intelligence from University of Hyderabad; associated with Verizon, Bangalore as Tech Manager, previously with Oracle, Bangalore as Senior QA Manager since June 2015 and previously with Cisco Systems India Pvt. Ltd, Bangalore as experienced QA Manager for 8 years 7 months. \n Exceptional technical skills in Java based applications development and testing. \n Excellent skill in complete software development life cycle from requirement collection, design, development, testing, documentation, deployment and support. \n Specialize in setting up team for new product development, black box, white box, functional and non-functional (stress, performance, security and longevity) testing. \n Worked with Top MNCs (Cisco, Oracle, Symantec and Verizon) and also Startups (Intoto & Orillion)  Hands on with technology, provide technical guidance & troubleshoot the issues faced by the team and initiate and drive group activities. \n Experience of building successful teams and have the ability to attract and retain top talents. \n Certified Scrum Master and PG Diploma in Project Management. Having 9+ experience of Agile-Scrum software process. \n Received \"Cisco Achievement Program (CAP) \"award 5 times in recognition of exceptional contribution to test automation, maximum number of defects found and team work at Cisco Systems.",
+      "skills": "TESTING (10+ years), JAVA (10+ years), CISCO (8 years), WEB SERVICES (3 years), ANDROID (1 year)",
+      "link": "http://www.linkedin.com/in/manikanti, http://www.linkedin.com/in/manikanti",
+      "preferred_location": "Selangor",
+      "expected_salary": 12600
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 179,
+    "fields": {
+      "name": "Hajjah Salwa Haziq binti Nik Shohaimi",
+      "title": "Looking for new opportunities....",
+      "location": "Johor",
+      "description": "To excel in my field through hard work. I want to be an asset in a developing organization where \nI can share my knowledge, ability and skills and I have 1+ year of working experience in \nsoftware company.",
+      "skills": "ALGORITHMS (1 year), ANGULARJS (1 year), ASP (1 year), ASP.NET (1 year), BOOTSTRAP (1 year)",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 13100
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 180,
+    "fields": {
+      "name": "Muhammad Syed Ridwan Hairunnezam",
+      "title": "Matlab Developer",
+      "location": "Sarawak",
+      "description": "Aspiring a suitable response in an organization that provides me an opportunity to prove myself and polish my skills through challenging tasks to improve myself as well as for the organization. \n \nTECHNICAL SUBJECTS \nArtificial Intelligence, Machine Learning, Neural Networks, Image and Signal Processing.",
+      "skills": "Matlab, C, Python (1 year)",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 9700
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 181,
+    "fields": {
+      "name": "Wan Hanif Takiudin bin Anuar",
+      "title": "I had my education in Master of Computer Application (MCA) From Sree Narayana Guru Institute of Science and Technology (SNGIST) which is affiliated to Kerala Technological University (KTU) and had completed the course on October 2019. I had completed my Bachelor of Computer Applications (BCA) from Matha College of Technology which is affiliated to MG University with 50% marks. I had done my final year Post Graduate project in PHP as the front end MySQL as the backend. I had done my project as internship from a IT firm in Infopark Kochi. I also had a certification in Digital Marketing (Fundamentals of Digital Marketing ) by Google Digital Garrage (Online platform of Google) and I have good Communication skill and a good team member",
+      "location": "Kedah",
+      "description": "NONE",
+      "skills": "PHP (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 1500
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 182,
+    "fields": {
+      "name": "Noor Hajjah Antaza binti Safuan Dini",
+      "title": "Developer - iOS Mobile Dev",
+      "location": "Perlis",
+      "description": "To work towards attaining a responsible position within a company, to develop and \nutilize My capability to drive the organization and myself to higher achievements. To \nachieve a position where I can look back at my past and proudly say: \n \n\"This is what I have done\"",
+      "skills": "Objective C, swift, React-Native",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 12900
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 183,
+    "fields": {
+      "name": "Shanthi Narayan a/l Rama",
+      "title": "iOS Developer | B.Tech | CSE | Navi Mumbai | India",
+      "location": "Negeri Sembilan",
+      "description": "Software Developer with three and half years of experience in coding, designing, reviewing program functionality, testing, memory management and application performance improvements. Equally adept at developing software or Application for iOS devices.",
+      "skills": "ENCRYPTION (Less than 1 year), Sqlite, Swift, Objective C, Push Notification, iPhone, iOS, Mobile Application Developer, iOS Developer",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 7200
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 184,
+    "fields": {
+      "name": "Muhammad Syed Sharsham Pisol bin Rifqi Maserun",
+      "title": "Backend Developer",
+      "location": "Perak",
+      "description": "My objective is complete a goal within that particular time period and by not sacrificing any features of that goal.",
+      "skills": "CSS (Less than 1 year), HTML (2 years), JAVA (Less than 1 year), Php (2 years), Wordpress (2 years), Mysql (3 years), Javascript",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 11100
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 185,
+    "fields": {
+      "name": "Cham Mok Sung",
+      "title": "NONE",
+      "location": "Kuala Lumpur",
+      "description": "Seeking a position to utilize my skills and abilities in the information technology industry that offers security and professional growth while being resourceful, innovative and flexible.",
+      "skills": "C++ (8 years), Java (10+ years), Database Management (8 years), DATABASE (Less than 1 year), Web Development (9 years)",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 9500
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 186,
+    "fields": {
+      "name": "Ahwali bin Rusli Hafiz",
+      "title": "NONE",
+      "location": "Kedah",
+      "description": "Around 5 Years of IT experience in analysis, design, development, implementation, maintenance and production support of web based enterprise applications using Technologies ( angularJs, Angular8, Java and Jive). \nGood experience in developing single-page applications (SPAs) using various Java Script frame works like AngularJS, Angular8, Angular UI Router and Bootstrap. \nExpertise to client side technologies -angular8, angularJs, JavaScript, JQuery, Bootstrap, CSS and HTML. \nKnowledge on SQL. \nKnowledge on NodeJs. \nConversant with SDLC & Agile methodology with Scrum framework. \nTesting internal routes and Get, Put, Post, delete methods using Postman. \nHands on experience in Documentation. \nResponsible as a defect preventive representative to streamline the communication between QA, BA and development teams. \nUsing JIRA for Agile to get Requirements and tracking defects. \nWorked on Bugzilla. \nKnowledge of building and deploying enterprise applications using build tool like Maven and logging utility Log4J. \nDeveloped applications using various IDE's like VisualStudioCode, Eclipse, RAD, and Database IDE's such as TOAD AND SQL Server. \nHands on Experience in using tools sublime and notepad++. \nWorking experience with version control systems: TFS, SVN and Git. \nExperience with UNIX shell scripts and worked on tools like Putty, WinScp. \nExpertise in working with the servers - IBM WebSphere, JBOSS and Apache Tomcat. \nExpertise in creating Page, Portlet using WCI (Oracle Web Centre Integration). \nExpertise on using Jive Admin Console. \nKnowledge on IBM Portlet API JSR 168 and JSR 286. \nSupport for ADA Compliance using Jaws Reader. \nStrong communication, organizational and interpersonal competencies along with detail-oriented and problem solving skills in the technology area. \nConstantly upgraded my technical skills as per the ever-changing technical stack requirements. \nDelivered on time and high quality deliverable within allowable Delivery Excellence Metrics, adhering to Process, Methods and Tools for the project. \nPassion and willingness to learn new things.",
+      "skills": "HTML5 (3 years), JAVASCRIPT, BOOTSTRAP, Angularjs (1 year), Angular8 (Less than 1 year), Java (Less than 1 year), CSS (3 years), jquery (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 12400
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 187,
+    "fields": {
+      "name": "Kwong Pong Zeo",
+      "title": "NONE",
+      "location": "Kelantan",
+      "description": "NONE",
+      "skills": "HTML, PHP, UNIX, MS OFFICE, SQL",
+      "link": "NONE",
+      "preferred_location": "Kelantan",
+      "expected_salary": 11200
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 188,
+    "fields": {
+      "name": "M. G. Veerasamy",
+      "title": "NONE",
+      "location": "Terengganu",
+      "description": "I seek the position that offers me challenging assignments to grow as an effective Professional which will nurture and bring forth the best I have to offer to the Organization by keeping good frontline relationship. \n \nACADEMIC RECORDS \nM.E Computer science \"First Class\"with 8.1% CGPA, from Chendhuran college of Engineering technology, Anna University affiliated, Pudukkottai, Tamilnadu, India. \nB.E Computer science \"First Class\"with 7.63% CGPA, from Mookambigai college of Engineering technology, Anna University affiliated, Pudukkottai, Tamilnadu, India. \nHSC with 90% in 2008 from Sacred Heart higher secondary school, Pudukkottai. \nSSLC - 95.2% in 2005 from Sacred Heart higher secondary school, Pudukkottai.",
+      "skills": "DATABASE, C++, PHP, WIRELESS, WIRELESS NETWORKS",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 9800
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 189,
+    "fields": {
+      "name": "Mohamed Syed Syahru bin Che Tarmizi",
+      "title": "NONE",
+      "location": "Pahang",
+      "description": "To get a growth oriented position in a reputed organization where my skills can be utilized for improvement \nand success of the organization.",
+      "skills": "MATLAB (4 years), PCB (1 year), PCB DESIGN (Less than 1 year), PYTHON (1 year), NODE-RED, PCB DESIGN, ARDUINO IDE, C, IOT, RASPBERRY PI, Embedded C, Embedded System, Javascript, nodejs, Html5, Css/bootstrap",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 6200
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 190,
+    "fields": {
+      "name": "Surendran a/l Vijandren",
+      "title": "Programme Head & Technical Architect - Oxford University and Royal Military College of Science, UK Educated",
+      "location": "Sabah",
+      "description": "Project Management - Both Software and IT Infrastructure projects; \nOxford University and Royal Military College of Science, UK Educated",
+      "skills": "UNIX (6 years), ORACLE (4 years), AIX (3 years), ACCESS (1 year), CLIPPER (1 year)",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 12700
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 191,
+    "fields": {
+      "name": "Asha a/l Rajagobal",
+      "title": "Looking for a job as a UI designer",
+      "location": "Johor",
+      "description": "To make a benchmark career as a Front-end Developer in an organization, where I can apply my knowledge for the wellbeing of the organization.",
+      "skills": "Bootstrap (1 year), CSS (1 year), HTML (1 year), jQuery (1 year)",
+      "link": "NONE",
+      "preferred_location": "Johor",
+      "expected_salary": 7800
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 192,
+    "fields": {
+      "name": "Qian Kean Lu",
+      "title": "NONE",
+      "location": "Penang",
+      "description": "Challenging position with a creative work environment to enhance expertise in web development and application design. \nI wish to contribute towards organizational goals through my technical skills, hard work and creativity.",
+      "skills": "Javascript, Typescript, Mongoose, NODE.JS, Jquery",
+      "link": "https://www.linkedin.com/in/keshav-garg-68b406164, https://www.linkedin.com/in/keshav-garg-68b406164",
+      "preferred_location": "Penang",
+      "expected_salary": 2300
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 193,
+    "fields": {
+      "name": "Hamira Izman",
+      "title": "Software Developer - Randstad India Pvt Ltd",
+      "location": "Kuala Lumpur",
+      "description": "Having 3.6 years of hands on experience as Front end developer in developing Web Applications using Angular JS/Angular (2/7), Node.js, jQuery, HTML 5, CSS, SCSS, Bootstrap 4 \n \nDeveloped Front end for Hybrid Mobile Application for Android and iOS platform using Ionic (1/3/4) \n \nFamiliar in using both SOAP & REST Web services \n \nHands on experience in IBM Watson Assistant AI \n \nUsed IDE's such as Eclipse, Visual Studio Code and Webserver such as Tomcat 8.5 \n \nInvolved in all the stages of Software Development Life Cycle (SDLC) \n \nEfficient Team player and also capable of working independently. \n \nWilling to learn and can adapt to new technologies quickly and effectively. \n \nGood in Communication, Analytical and Problem Solving skills.",
+      "skills": "CSS (2 years), jQuery (2 years), REST (1 year), BOOTSTRAP (1 year), BACKBONE (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 3300
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 194,
+    "fields": {
+      "name": "Mohammad Hj Che Chailan bin Amami",
+      "title": "Ui developer",
+      "location": "Pahang",
+      "description": "Aspiring a suitable response position in an organization that provide me an opportunity to prove myself and polish my skills through challenging tasks to improve myself as well as for the organization.",
+      "skills": "API, HTML, JAVASCRIPT, BOOTSTRAP, REACTJS",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 8100
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 195,
+    "fields": {
+      "name": "Mohammed Che Zikril Daniel bin Adam Yaakob",
+      "title": "NONE",
+      "location": "Terengganu",
+      "description": "To seek a position for a software developer to work in a challenging environment where I can utilize my skills \nand use my knowledge, which will help me as a professional to grow while fulfilling organizational goals.",
+      "skills": "DJANGO, JAVASCRIPT, JSON, PYTHON, FLASK",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 8400
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 196,
+    "fields": {
+      "name": "Nurul Shamira Zaki",
+      "title": "Software Developer - Siemens Technology",
+      "location": "Johor",
+      "description": "Looking for a Software Engineer/ Developer position in Artificial Intelligence and Machine Learning domain.",
+      "skills": "PYTHON (2 years), C# (1 year), ALGORITHMS (Less than 1 year), DATA STRUCTURES (Less than 1 year), JAVA (Less than 1 year), Machine learning (1 year), Deep Learning (1 year), Neural networks (1 year), Artificial Intelligence (1 year), Computer vision (1 year), Natural Language Processing (1 year)",
+      "link": "https://www.github.com/prasum, https://www.github.com/prasum",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 12000
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 197,
+    "fields": {
+      "name": "Sim An Thea",
+      "title": "Java Developer",
+      "location": "Negeri Sembilan",
+      "description": "Dada patilwadi, Thane west",
+      "skills": "Java, Css, C, Html, Javascript, Struts, Servlet, Hibernate",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 3400
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 198,
+    "fields": {
+      "name": "Ng Joo Sun",
+      "title": "NONE",
+      "location": "Melaka",
+      "description": "NONE",
+      "skills": "Communication, writing, public relations",
+      "link": "http://bsc.mm/, http://bsc.mm/",
+      "preferred_location": "Selangor",
+      "expected_salary": 1400
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 199,
+    "fields": {
+      "name": "K. R. Balachandra",
+      "title": "NONE",
+      "location": "Melaka",
+      "description": "NONE",
+      "skills": "Html, database, vb. Net, Linux",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 5400
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 200,
+    "fields": {
+      "name": "Kunanlan Rajan a/l Pavandeep Jayaram",
+      "title": "Php developer with 1.4 years of experience",
+      "location": "Johor",
+      "description": "Html,css, javascript, bootstrap,cake php,core php",
+      "skills": "ASP.NET (1 year), SQL (1 year), Html5 (1 year), Css (1 year), Javascript (1 year), MYSql (1 year), Core php (1 year), Cake php (1 year)",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 5600
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 201,
+    "fields": {
+      "name": "Hafis Hanafia bin Nik Azry",
+      "title": "NONE",
+      "location": "Kuala Lumpur",
+      "description": "A well-equipped position in a result oriented company that seeks ambitious and career \nconscious person, where acquired skills will be utilized towards continued growth and \nadvancements.",
+      "skills": "Ajax (Less than 1 year), C (Less than 1 year), Dreamweaver (Less than 1 year), HTML5 (Less than 1 year), Java (Less than 1 year), Css (Less than 1 year), C++ (Less than 1 year), Php (Less than 1 year), Javascript (Less than 1 year), Jquery (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 6000
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 202,
+    "fields": {
+      "name": "Noor Najiha binti R",
+      "title": "Seeking a challenging position to utilize my skills and abilities in area of Teaching, Education and pinnacle in the computing and research field with sheer determination, dedication and hard work.",
+      "location": "Kuala Lumpur",
+      "description": "Well versed in HTML, PHP, CSS, JS, Illustrator, Photoshop & Database management. \n Analytical, good at problem solving and excellent in maintaining interpersonal relationship. \n Good verbal and written skill",
+      "skills": "PHOTOSHOP (Less than 1 year), .NET (Less than 1 year), ANDROID (Less than 1 year), ARTIFICIAL INTELLIGENCE (Less than 1 year), COREL DRAW (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Kuala Lumpur",
+      "expected_salary": 10200
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 203,
+    "fields": {
+      "name": "Muhamad Nik Ghazali bin Nik Rohem",
+      "title": "Hadoop Developer - Agero",
+      "location": "Perak",
+      "description": "8+ years of professional experience in IT, including 4 years of work experience in Hadoop Eco system, and Big-Data Analytics in Finance, healthcare and retail industries. \nTechnical expertise on major components in Hadoop Ecosystem like Hadoop Map Reduce, YARN, HDFS, HIVE, PIG, HBase, Sqoop, Oozie, Flume and Splunk. \nExperience with Oozie Workflow Engine in running workflow jobs with actions that run Hadoop Map/Reduce and Pig jobs. \nWell versed in installation, configuration, supporting and managing of Big Data and underlying infrastructure of Hadoop Cluster. \nExperience in managing and reviewing Hadoop Log files. \nHaving experience on RDD architecture and implementing spark operations on RDD and also optimizing transformations and actions in spark. \nImplemented Apache Kafka and Spark streaming for real time processing of data. \nGood knowledge on spark components like Spark SQL, MLib, Spark Streaming and GraphX, involved in ingestion and parsing of JSON file format using Spark \nHands on experience on NoSQL databases such as Cassandra and MongoDB \nExtending Hive and Pig core functionality by writing custom UDFs. \nExperience in Hadoop administration activities such as installation and configuration of clusters using Cloudera and Hortonworks. \nGood Knowledge in Amazon AWS concepts like EC2, EMR and Cloud watch web services which provides fast and efficient processing of Big Data. \nHands on experience in designing and coding web applications using Core Java and J2EE technologies. \nExperience on using build automation tools like Maven and Ant \nExperience in continues integration and testing using Jenkins \nExperienced the integration of various data sources like Java, RDBMS, Shell Scripting, Spreadsheets, and Text files. \nExperience in Web Services using XML, HTML, SOAP and REST. \nExcellent Java development skills using J2EE, J2SE, Servlets, JUnit, JSP, JDBC. \nFamiliarity working with popular frameworks likes Struts, Hibernate, spring, MVC and AJAX. \nExtensive experience in developing components using JDBC, Java, Oracle, XML and UNIX Shell Scripting. \nWorked in Various Software Methodologies such as Agile, Waterfall and Prototyping \nHave the motivation to take independent responsibility as well as ability to contribute and be a productive team member. \nAbility to blend technical expertise with strong Conceptual, Business and Analytical skills to provide quality solutions and result-oriented problem solving technique and leadership skills.",
+      "skills": "JAVA (8 years), LINUX (6 years), APACHE HADOOP SQOOP (5 years), APACHE HBASE (5 years), Hadoop (5 years)",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 8500
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 204,
+    "fields": {
+      "name": "Mohamed Haji Wan Mikhail Lazim bin Subhi",
+      "title": "Web Application developer",
+      "location": "Sabah",
+      "description": "Result oriented Software Engineer with 5 years of experience in analysis, development, testing and implementation of various web-based applications. Proficient in a variety of platforms, languages, skilled at team collaboration while working independently in any environment.",
+      "skills": "AJAX (4 years), CMS (4 years), CONTENT MANAGEMENT SYSTEM (4 years), CSS (4 years), DATABASE (4 years), PHP (4 years), Mysql (4 years), Wordpress (4 years), Drupal (1 year), Nodejs (3 years), Expressjs (3 years), Mongodb (3 years), Laravel (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Selangor",
+      "expected_salary": 2700
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 205,
+    "fields": {
+      "name": "Nuur Harma binti Khirul",
+      "title": "NONE",
+      "location": "Johor",
+      "description": "To work for an organization, where creative environment prevails and helps me to contribute my optimum potential towards achievement of the goals, ultimately leading to accomplishment of the organizational objective and to be a true.",
+      "skills": "ADOBE PHOTOSHOP (Less than 1 year), PHOTOSHOP (Less than 1 year), WINDOWS 7 (Less than 1 year), WINDOWS 8 (Less than 1 year), WINDOWS XP (Less than 1 year)",
+      "link": "NONE",
+      "preferred_location": "Johor",
+      "expected_salary": 8700
+    }
+  },
+  {
+    "model": "test_cand.testcand",
+    "pk": 206,
+    "fields": {
+      "name": "Nuur Ayesha Bahri binti Asmawi",
+      "title": "2018 BE pass out with 1+ working experience in android, Java,SQL for mobile development",
+      "location": "Penang",
+      "description": "Jr. Android Developer. \n \nRecent Project \n \n1) Library Management System. Under IBM, Pune. \nDetail: This Project contain All Data About book's.Total no. of books, auther detail, \nstudent detail, price etc. \n \n2) Design Jokes App For Zuberant System, Pune. \nLink: https://play.google.com/store/apps/detailsid=com.gauri.vrush.myapplication. \n \n3) Design App For SourceKode Institute, Pune. \nDetail: This app contain All information Institute. like Abailable cources and fees. \nAlso placement Detail's and inquiry form for student who can inquiry. \nAlso have online notes and Raring for student's.",
+      "skills": "ANDROID (Less than 1 year), C++ (Less than 1 year), DATABASE (Less than 1 year), ECLIPSE (Less than 1 year), HTML (Less than 1 year), iOS, Team Management, React Native",
+      "link": "https://play.google.com/store/apps/detailsid=com.gauri.vrush.myapplication, https://play.google.com/store/apps/detailsid=com.gauri.vrush.myapplication",
+      "preferred_location": "Penang",
+      "expected_salary": 10800
+    }
+  }
+]

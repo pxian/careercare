@@ -1,0 +1,1677 @@
+[
+  {
+    "model": "jobads.jobad",
+    "pk": 1,
+    "fields": {
+      "user": 5,
+      "position_title": "Customer Service Executives - Call Centre",
+      "employment_type": "Full-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Services",
+      "job_description": "To ensure that proper order taking and scheduling via call is being practiced based on the parameters of the concrete grade, location, type of structure, unloading and traveling time provided by customer and salesperson.Comply to set schedule on working hours to ensure efficiency of taking orders and allocation.To ensure proper co-ordination via call between production, sales and credit control and customers for placement of orders and efficient deliveries by adhering to procedures and policies set by Company and superiors.To ensure that monitoring of Truck Movement for concrete in Command Series & Quarry deliveries are carried out efficiently.To plan and allocate trucks to fulfill customer requirements.To liaise closely via call with quarry weighbridge operators and batching plants on delivery requirement by the customers.To assist Truck Allocation Manager to provide reports as assigned to.Monitor & reports through Quarry & Concrete Operations on daily weighbridge operations.",
+      "job_requirements": "Candidate must possess at least a Diploma, Advanced/Higher/Graduate Diploma, Bachelor's Degree, Post Graduate Diploma or Professional Degree, Logistic/Transportation, Business Studies/ Administration/ Management or equivalent.Preferably Junior Customer Service Executives specializing in Logistics/Supply Chain or equivalent. (Fresh Graduates are encouraged to apply)Required skill(s): able to work under pressure to meet critical production deadlines, must be hands-on and highly independent, self-motivated individual, high level of energy and commitment towards continual improvement.Required language(s): Bahasa Malaysia, EnglishFull-Time position(s) available.6days work and able to work on night shift only",
+      "location": "Selangor",
+      "min_salary": "3200",
+      "max_salary": "4000",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 2,
+    "fields": {
+      "user": 6,
+      "position_title": "Regional Sales Administrator, Finance Assistant Client Support",
+      "employment_type": "Full-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Admin/Human Resources",
+      "job_description": "Invoicing and vendor registrationDebt controlSet up of our online accounts; support to our clients using our online accountsAdmin Support (using Salesforce, NetSuite, MS office) to our sales staff and consultantsFirst line support to our customers (through phone or email)",
+      "job_requirements": "Candidate must possess at least Secondary School/SPM/\"O\" Level, Higher Secondary/STPM/\"A\" Level/Pre-U is desirable, Professional Certificate in Administration Finance, Accountancy or Secretarial.Required language(s):\u00a0English, \u00a0Bahasa Malaysia.\u00a0Mandarin/Cantonese is desirableAt least 2 Year(s) of working experience in the related field is required for this position.Required Skill(s): Interpersonal Skills, Numerical Skills, Administrative Skills, MS Office (Netsuite, Salesforce appreciated)Preferably Junior Executive specialized in Clerical/Administrative Support or equivalent.",
+      "location": "Kuala Lumpur",
+      "min_salary": "2800",
+      "max_salary": "3500",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 3,
+    "fields": {
+      "user": 6,
+      "position_title": "Purchasing Assistant",
+      "employment_type": "Full-Time",
+      "position_level": "Non-Executive",
+      "job_specialization": "Manufacturing",
+      "job_description": "Receive sales order & issue PO to suppliersDelivery & inventory controlTrack orders and ensure timely deliveryImplementing, monitoring and control of shipment arrangement with suppliersTo execute and support purchasing activities\u00a0 to ensure all requirements are processed promptly and accurately.Maintain updated records of purchase products, delivery information and update in systemHandling products complaintsPrepare inventory report\u00a0Coordinate with warehouse to ensure proper stock allocationCoordinating on shipment and custom application\u00a0\u00a0Any others duties as assigned by superior",
+      "job_requirements": "Candidate must possess at least Primary/Secondary School/SPM/\"O\" Level, Higher Secondary/STPM/\"A\" Level/Pre-U, Diploma/Advanced/Higher/Graduate Diploma in Business Studies/Administration/Management or equivalent.Required language(s): Mandarin, Bahasa Malaysia, EnglishAt least 2 Year(s) of working experience in the related field is required for this position.Preferably Junior Executive specialized in Purchasing/Inventory/Material & Warehouse Management or equivalent.Experience in import procedures are advantagedAble read & communicate with suppliers in Mandarin\u00a0Applicants is willing to work in Jalan Meru, Klang",
+      "location": "Selangor",
+      "min_salary": "3000",
+      "max_salary": "3500",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 4,
+    "fields": {
+      "user": 7,
+      "position_title": "Customer Service Specialist_OEMD (Outsourcing)",
+      "employment_type": "Contract",
+      "position_level": "Senior Executive",
+      "job_specialization": "Services",
+      "job_description": "Make sure critical customer feedback is captured and shared with relevant stakeholders across the companyEnhance sources and collect valuable customer feedback from across companyCommunicate critical customer driven data and insights to relevant stakeholdersContinuously acquire feedback from business, including management team, on focus area of VOC to improve User Experience and/or BU OperationCollaborate with other functions, and other business units (BU) if needed, to continuously improve VOC feedback loop to achieve quality, fast and efficient feedbackIdentify improvement opportunities based on VOC/VOP/VOT analysis, and support BU management in prioritizing initiatives/actionsAnalyze VOC, and create and distribute VOC report, on a regular basisMake proposals for new initiatives to BU management based on VOC feedback or analysis (VOC initiatives)Support BU management in prioritizing VOC initiatives based on factors including significance, urgency, cost & benefit and risksLead and facilitate VOC initiatives and actionsLead and support preparation and kick-off of VOC initiatives, including scope and goal settings, project planning and team buildingFollow-up and provide project management support to VOC initiatives through completionMaintain list of the initiatives to raise the visibility in the companyProvide project management support in other BU agendaUpon request, provide project management support in the BU\u2019s strategic initiativesWilling to be based in Malaysia or Thailand.",
+      "job_requirements": "Customer oriented.Showing strong customer orientation, to represent customers when communicating with company\u2019s internal stakeholders.Problem solving and analytical skills (both quantitative and qualitative).Regularly analyse customer feedback collected from across the organization, and summarize and extract management implication.Understanding and commanding a standard approach of problem solving.Effective in compiling, analysing data and creating documentation.Project management skills.Able to propose, facilitate and follow-up on BU/Function initiatives.Having experience with project/program management in cross-functional and international environment.Strong Business acumen.",
+      "location": "Kuala Lumpur",
+      "min_salary": "8000",
+      "max_salary": "6000",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 5,
+    "fields": {
+      "user": 7,
+      "position_title": "Customer Service Manager_OEMD (Outsourcing)",
+      "employment_type": "Contract",
+      "position_level": "Senior Executive",
+      "job_specialization": "Services",
+      "job_description": "Responsible for the establishment of e-commerce service business system in Asia Pacific region, optimization of service business process, and improvement of E2E service perception of e-commerce consumers.Responsible for the daily operation and production order management of the e-commerce service site in the Asia-Pacific region, ensuring the rapid response and closed loop of various customer needs of Huawei platform, and ensuring the professional and efficient operation of the site.Responsible for the voice management and analysis of Company's product\u00a0 E-commerce users in the Asia-Pacific region, responsible for improving the professional capture and delivery capabilities of VOCs, collecting and analyzing consumer voices and needs, enhancing the value of sensory navigation, and promoting the continuous optimization of internal and external organizations and operations in the mall .Responsible for the design of company platform service solutions or service products in the Asia-Pacific region, and responsible for promoting service product operations and service branding.Responsible for planning and operating the new business and value-added service capabilities of the company's platform, enhancing the medium- and long-term stickiness of mall users, enhancing the profits of the mall, and being responsible for the operational efficiency and quality results of the new business and value-added services of the platform.",
+      "job_requirements": "Insight into 3C or e-commerce consumer psychology, with good industry insight and reference abilityPossess the ability of project management, team management and data analysisVOC analysis and platform management capabilities",
+      "location": "Kuala Lumpur",
+      "min_salary": "7000",
+      "max_salary": "5500",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 6,
+    "fields": {
+      "user": 8,
+      "position_title": "Warehouse Operation Assistant (\u4ed3\u5e93\u7f51\u5356\u52a9\u7406\uff09",
+      "employment_type": "Full-Time",
+      "position_level": "Entry Level",
+      "job_specialization": "Sales/Marketing",
+      "job_description": "Key In customer's order data to computer system, acknowledge order, check completed work for accuracy.Print and issue delivery orders and invoice for delivery.Able to manage online shopping platform to fulfill customer's order",
+      "job_requirements": "Pack and fulfill customer's order (SHOPEE, LAZADA, Qoo10 and etc) with accuracy.",
+      "location": "Selangor",
+      "min_salary": "1200",
+      "max_salary": "1400",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 7,
+    "fields": {
+      "user": 9,
+      "position_title": "Relationship Manager - East Malaysia",
+      "employment_type": "Full-Time",
+      "position_level": "Manager",
+      "job_specialization": "Sales/Marketing",
+      "job_description": "Responsible for providing updates and services of the Company to distributors and clients.Execute sales programs and activitiesDevelop business in the regionMaintain and strengthen the business relationship with distributorsFacilitate training, events and campaignsExecute product briefing/ training and joint sales calls with distributors",
+      "job_requirements": "Possess Bachelor\u2019s Degree, preferably in Business Management, Finance, Economics or InvestmentAt least 2 years of experience in sales, preferably in asset management /relationship banking /private bankingDemonstrate passion, teamwork, strong desire to learn and driven by pursuit of excellenceAble to travel frequentlyGood presentation and interpersonal skillGood command in spoken and written in English and Bahasa Malaysia. Mandarin will be an added advantage.Possessing FIMM and/or CMSRL license is an added advantageWork location: East Malaysia (Sabah & Sarawak)",
+      "location": "Sarawak",
+      "min_salary": "9000",
+      "max_salary": "8500",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 8,
+    "fields": {
+      "user": 10,
+      "position_title": "Service Desk Analyst",
+      "employment_type": "Full-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Services",
+      "job_description": "Monthly base salary with 15-20% commissionUnlimited outpatient insurance coverageParking included (in the same building)13 months salaryFree flow coffee and teaPlay area in officeCompany tripsBadminton clubFootball clubMovie nightsCasual working environmentOffice location: TTDI (close to 1U, The Curve, IKEA)",
+      "job_requirements": "3+ years relevant IT helpdesk and support experience.Willingly to provide support to remote users after office hours on ad-hoc basis due to regional time differences.Attend group meeting after office hour (once a week).An understanding of back office hardware e.g. Networking, Firewalls, Routers etc.Global knowledge of Office 365 Environment (Skype for Business, Exchange Online, Azure AD, Sharepoint Online).",
+      "location": "Kuala Lumpur",
+      "min_salary": "4000",
+      "max_salary": "5000",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 9,
+    "fields": {
+      "user": 11,
+      "position_title": "Customer Service Assistant",
+      "employment_type": "Full-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Services",
+      "job_description": "Handling booking enquiry and sending booking confirmation to customers.Attending and handling customer calls and enquiries.To provide information of vessel details and shipping schedule to customers.Preparation of daily reports on booking.Liaise with internal and external colleagues to ensure smooth work flow.To assist immediate superior on any adhoc task.",
+      "job_requirements": "Candidates must possess at least a Diploma/Advanced/Higher/Graduate Diploma, Bachelor's Degree, Post Graduate Diploma, Professional Degree in Logistics/Transportation, Business Administration or equivalent.Candidates with 1-2 years customer service background in similar industry would be needed for this role.A team player, self-driven and independent to work under pressure to meet deadlines.Strong analytical, good interpersonal and communication skills.Proficient in MS Office applications.Must be prepared to learn new system applications.Speaks and write good English.Candidate must be willing to work in Klang, Selangor.",
+      "location": "Selangor",
+      "min_salary": "3000",
+      "max_salary": "5000",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 10,
+    "fields": {
+      "user": 11,
+      "position_title": "Trade Coordinator",
+      "employment_type": "Full-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Services",
+      "job_description": "Daily updates on bookings into the system.Preparing reports and statistics to principal office.Handle customer\u2019s enquiries via phone and e-mail.Assist trade manager for rates/free time filling.Checking on space and allocation with principal office.Assist team in quotations / sailing schedules to customers.Assist to track and trace shipment for customers/agents via our Tracking system.Provide support to Customer Service and Sales team as and when require.Reports to Trade ManagerAny other task assigned by trade manager / superior",
+      "job_requirements": "Candidates must possess at least a Bachelor's Degree in Logistics/Transportation, Business Administration or equivalent.Candidate with 2-3 years of working experience in trade management / indoor sales shipping will be added advantage.Candidate must be able to speaks and write good English.Meticulous, self-driven and independent to work under pressure to meet deadlinesIf you are a strong in analytical and good in communication skills, we encourage you to apply.Proficient in all MS Office applications.Candidate must be prepared to learn new system applications.Full-Time position available in Klang, Selangor.",
+      "location": "Selangor",
+      "min_salary": "3000",
+      "max_salary": "5000",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 11,
+    "fields": {
+      "user": 11,
+      "position_title": "Senior HR & Administrative Executive",
+      "employment_type": "Full-Time",
+      "position_level": "Senior Executive",
+      "job_specialization": "Admin/Human Resources",
+      "job_description": "Maintain accurate data for HR related and employee related data in HRIS and Payroll System.Support to generate required HR reports from HRIS system to support HR Manager for local data analytics;Provide training and guidance to local end users on usage of HRIS system.Responsible for local end-to-end recruitment, from placement of job advertisement, to interviewing and final shortlisting process with hiring manager.Support in Talent Management initiatives as required, including internship programs;Provide HR administrative support, including work pass applications and renewals, government applications, submission of labor market survey and preparing employment agreements and related letters;Handle and manage employees\u2019 data for insurance benefits, including inception of new hires and termination of resignees with appointed insurance broker;Manage and arrange employee\u2019s training courses with respective head of depts and submission of HRDF;Serve as a backup, in absence of HR Manager to manage payroll processing timely and accurately;Undertake any HR Projects and duties as and when assigned;Act as back-up to other Senior HR &Administration Executive (Admin) to coordinate business travel related arrangements including flights and hotels, supplier and procurement processes, daily office administrative task including guest hospitality;Perform other administrative duties as assigned.",
+      "job_requirements": "Candidate must possess at least a Diploma, Advanced/Higher/Diploma, Bachelor's Degree in Business Admin, Human Resource or equivalent.Candidates must be have at least 3-5 years working experience in HR role.Candidate with exposure in MNC for this role will be an added advantage.Candidates must be able to speak and write good and fluent English.Able to work independently with minimum supervision, self-motivated, organized, hardworking, result oriented.Excellent interpersonal and communication skills at all levels.Microsoft Office knowledge is compulsory.Able to adapt to new environment including learning new processes and system.Applicant must be willing to work in Klang, Selangor",
+      "location": "Selangor",
+      "min_salary": "5000",
+      "max_salary": "7000",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 12,
+    "fields": {
+      "user": 12,
+      "position_title": "Accounts Assistant",
+      "employment_type": "Full-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Accounting/Finance",
+      "job_description": "Prepare and verify collection of parental contribution and reconciliation reports.Checking and updating receivables accounts, trade receivables, petty cash transaction via MYOB system.Updating and checking cheque donations, Wang Pos Malaysia and Credit Card donation in the Receipting system.Collecting cash donations from walk-in donors.Participate in audits and inventory check twice a year.Ensures audits compliance on all transactions, entries and reports.Assisting in bank reconciliation, filing and documentations.Any other tasks which may be assigned from time to time.",
+      "job_requirements": "Candidate must possess at least LCCI, Diploma/Advanced/Higher/ Graduate Diploma in Finance/Accountancy or equivalentAt least 1-3 Year(s) of working experience in the related field is required.Knowledge of MYOB Accounting software will be an advantage.Required language(s): English and Bahasa MalaysiaMatured, able to work independently, Self-motivated, pleasant personality and keen to learn.",
+      "location": "Selangor",
+      "min_salary": "3000",
+      "max_salary": "5000",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 13,
+    "fields": {
+      "user": 13,
+      "position_title": "Human Resource & Admin Executive",
+      "employment_type": "Full-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Admin/Human Resources",
+      "job_description": "Work closely with management and be overall responsible for the Group's human resource functions covering recruitment, payroll, compensation and benefits, employee discipline, employee development.Handle the overal human resource function and office general administration. Reports directly to CEO.Liase with executive and employees at all levels and ensure that the staff relations are establish and maintained with an open door policy to all employee.Responsible in ensuring operational compliance with legal and social obligations.Developing and producing key human resource information and reports.Handling staffing issues either by counselling or implementing disciplinary action, termination and other employee related matters in compliance with labour law.Assist in handling performance improvement plan and industrial relation cases.Performance any other task and responsibilities as assigned by immediate superior or management from time to time.",
+      "job_requirements": "Candidate must possess at least Bachelor's Degree/Post Graduate Diploma/Professional Degree in Business Studies/Administration/Management or equivalent.At least 1\u00a0Year(s) of working experience in the related field is required for this position.Preferably Junior Executive specialized in Human Resources or equivalent.Ability to handle high levels of pressure and make critical decision-making.Has good interpersonal and communication skills and the ability to interact and engage with employee at all levels.",
+      "location": "Penang",
+      "min_salary": "2500",
+      "max_salary": "3500",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 14,
+    "fields": {
+      "user": 14,
+      "position_title": "Customer Experience Specialist - Hospitality (Korean Speaker)",
+      "employment_type": "Full-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Services",
+      "job_description": "Provide friendly and efficient service to the travel community of our client.Be a first point of contact to handle and resolve customer complaints.Respond professionally to inbound phone calls, including urgent situations.Identify and escalate issues appropriately.Compose thoughtful and accurate messages or customize prepared responses to customer emails.Research information and troubleshoot problems using available resources.Arbitrate in situations between users.Monitor and control numerous concurrent tasks in tandem.Proactively and independently work to meet targets and goalsAny other duties and responsibilities that may be assigned to you by the management from time to time, within your category of employment in the organization and for the effective implementation, maintenance and continual improvement of the ISO9001 and ISO18295-1 Quality Management System of TDCX.",
+      "job_requirements": "Preferable with 2 year(s) of working experience in the related field is required for this position. However, fresh graduates are encouraged to apply.Candidate must possess at least a Diploma, Advanced/Higher/Graduate Diploma, Bachelor's Degree, Post Graduate Diploma, Professional Degree, Master's Degree, any field.Must be available for a regular schedule of 40 hours a week, one that spans weekends and holidays as our customers need us. Shifts may include evening or early morning hoursFlawless verbal communication skills in English & Korean language is essential.Patience, empathy, and a unique ability to manage stress.Skilled and eloquent in writing.Strong communication and interpersonal skills.Ability to work under pressure and adapt quickly to adverse situations.Technical aptitude and the ability to pick up new technology quickly.Knowledge of and experience with measuring and improving customer satisfaction and loyalty across broad functional areas and diverse geographies.Familiarity with ticketing systems.Experience with policy work, or help resource project managementPrevious, demonstrable experience with creation of online help resourcesEarly adopter of technology.",
+      "location": "Kuala Lumpur",
+      "min_salary": "2000",
+      "max_salary": "2500",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 15,
+    "fields": {
+      "user": 15,
+      "position_title": "Admin Manager",
+      "employment_type": "Full-Time",
+      "position_level": "Manager",
+      "job_specialization": "Admin/Human Resources",
+      "job_description": "Able to handle HR related aspects : Recruitment & Selection, Compensation & Benefits, Performance Management and Employees RelationsAble to ensure all data relating to employees are kept Confidential, accurately maintained and readily avaialbleAble to record and monitor for each employee ; Attendance record, leave records, medical leave records, performanceAble to ensure HR / Admin duties are carried out within the Company's Acts and PoliciesAble to handle administrative works : Renewal company's insurance, renewal of doctor's Annual Practicing Certificate (APC), applying and renewal licenses, liasion with the Government Departments (EPF, SOCSO, LHDN, etc.)Able to process the payrollsAble to handle other duties instructed by the Director",
+      "job_requirements": "Candidate must have good interpersonal and communication skillsGood both spoken and written at least in Bahasa Malaysia and EnglishGood in writing and replying emails related to correspondencesComputer skills in Microsoft Office application is compulsoryAble to handle basic accounting relatedAt least 3 - 5 years working experience in HR or relevant fieldsExperienced in medical field is an added advantage",
+      "location": "Penang",
+      "min_salary": "2600",
+      "max_salary": "3000",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 16,
+    "fields": {
+      "user": 16,
+      "position_title": "Data Entry",
+      "employment_type": "Part-Time",
+      "position_level": "Non-Executive",
+      "job_specialization": "Building/Construction",
+      "job_description": "Maintains database by entering new and updated Company informationPrepares source data for computer entry by compiling and sorting informationVerifies entered Company\u2019s data by reviewing, correcting, deleting, or reentering dataSecures information by completing data base backupsMaintains operations by following policies, procedures and reporting needed changesMaintains Company confidence and protects operations by keeping information confidentialWork on scanning all statutory documents into e-documents",
+      "job_requirements": "Candidate must possess at least a Primary/Secondary School/SPM/\"O\" Level, Higher Secondary/STPM/\"A\" Level in any fieldData entry experience or related office experienceGood command of written and spoken English and Bahasa MalaysiaProficient in using MS Excel, MS Word and MS Power PointStrong organization skill and detail-oriented with high level of accuracyContract / Part-time position(s) available",
+      "location": "Selangor",
+      "min_salary": "2000",
+      "max_salary": "2500",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 17,
+    "fields": {
+      "user": 17,
+      "position_title": "Customer Service Representative (Remote)",
+      "employment_type": "Full-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Services",
+      "job_description": "Provide 24/7 customer support through chats and emailsRespond effectively to customers\u2019 query regarding products, services, processes and proceduresAssist in processing account related request and overall account managementEnsure complete and accurate information are recorded in the systemHandle complaints and provide appropriate resolution on a given time frameWork closely with internal and external department in escalating issues to provide resolution to each problem\u00a0Contributes to team effort by accomplishing related results as needed",
+      "job_requirements": "21 \u2013 35 years oldGood command of EnglishCan work remotely \u2013 with stable and reliable internet connection and personal laptop/ desktop with extra monitorKnowledgeable in using MS Office application and internetShould have one of the following accounts: Neteller, Bitcoin or Paypal to receive monthly salary",
+      "location": "Kuala Lumpur",
+      "min_salary": "4000",
+      "max_salary": "5000",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 18,
+    "fields": {
+      "user": 19,
+      "position_title": "Unit Trust Consultant",
+      "employment_type": "Part-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Sales/Marketing",
+      "job_description": "Opportunity to build your own business at almost no costFlexible working hours, ( PART TIME/ FULL TIME )Enjoy up to eight types of incomeAchieve financial independenceFree trips and recognitionSpecial housing and car loan subsidy",
+      "job_requirements": "Assist customers to achieve their financial goals by promoting Public Mutual products.Develop and implement marketing activitiesAttend trainings",
+      "location": "Johor",
+      "min_salary": "5000",
+      "max_salary": "10000",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 19,
+    "fields": {
+      "user": 19,
+      "position_title": "Security Administrator & Assurance",
+      "employment_type": "Full-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Computer/Information Technology",
+      "job_description": "To assist in the following : -Formulation of IT security policies and procedures.Ensure security compliance of IT systems and operations against all security and risk management Process and Procedures (P&P).Assessment of IT risks in relation to application enhancement and/or any new system implementation.Review of security audit logs and ensure compliance with audit and risk management requirements.Conduct periodic review of user access, security setting and configuration of IT systems.Perform daily user access administrative tasks for IT systems.Provisioning and carrying out access control tasks which include testings during project implementation stage.To be on stand-by duties as and when required.",
+      "job_requirements": "Degree or Diploma in Information Technology, Computer Science or equivalent.Working experience in IT security, audit, risk and administration area is an added advantage.Self-driven and able to work independently.Strong command of English with good communication and writing skills.",
+      "location": "Kuala Lumpur",
+      "min_salary": "3000",
+      "max_salary": "3600",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 20,
+    "fields": {
+      "user": 19,
+      "position_title": "Technical Support Engineer - System Security",
+      "employment_type": "Full-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Computer/Information Technology",
+      "job_description": "Responsible for the following : -Administration and maintenance of network related security systemsIT security related incident investigationsPeriodic security enhancement implementationsSecurity infrastructure design and architect of network and server systemsEnsure all network communications (LAN and WAN)\u00a0are properly monitored and securedMaintain systems such as firewalls, VPN related systems, IPS, anti-virus, email gateway and internet proxyHandle access control between internal and external networksPerform and review vulnerability assessments and penetration testing to assess the residual risks and mitigation plansFormulate IT security policiesReview network equipment (router, switches, load balancer, etc), servers and server systems",
+      "job_requirements": "Degree or Diploma in Information Technology, Computer Science or equivalentAt least 2 years of working experience in IT securityExperience in handling security devices (Firewalls, IPS, web & mail gateway, WAF, APT and etc.) is an added advantageSelf-driven, self-motivated and able to work independentlyStrong command of English with good communication and writing skills",
+      "location": "Kuala Lumpur",
+      "min_salary": "3000",
+      "max_salary": "4000",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 21,
+    "fields": {
+      "user": 19,
+      "position_title": "Mobile Web Developer",
+      "employment_type": "Full-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Computer/Information Technology",
+      "job_description": "Design and build advanced applications on iOS and Android platform by using native and hybrid technologiesPerform analysis, design and develop software according to the specificationsPerform research and evaluate technologies on software technical areaDemonstrate solutions by developing documentation, flowcharts, layouts, diagrams, charts, code comments, etcResponsible for all web relevant duties, e.g. determining the structure and designing of web pagesDevelop and conceptualise comprehensive UI/UX design strategy for the applications/ website or collaborate with other UI/UX designers to meet the demanding requirements of the businessStrike a balance between functional and aesthetic design and develop features to enhance the user experienceBuild reusable code for future use and keep abreast with new media formats in order to incorporate them into projectsKeep up with front end technology and make recommendations when neededMaintain and support existing softwareWork on bug fixing and improve application performanceTo deliver work of the highest quality and ensure responsiveness of applicationsTo be involved in other ad-hoc projects as and when required",
+      "job_requirements": "Degree/ Diploma in Information Technology or Computer StudiesAt least 1 year of working experience in the following areas : -Mobile web application development Interaction with REST API and XML web/ mobile servicesProficiency in HTML, CSS, JavaScript, jQuery and integration of API (SOAP, XML-RPC, JSON-RPC, REST, etc)Knowledge in the following areas will be an added advantage : -Visual Studio (.Net/C#)XCodeAngular6, 7, 8React NativeNativeScriptJavascriptJavaSwiftAndroid StudioHTML5MSSQL Server or Oracle DatabaseCross-browser compatibility standards and behaviourMust be able to work independently and collaboratively on complex assignmentsPossess strong troubleshooting and debugging skillsHighly responsible, proactive and result-oriented",
+      "location": "Kuala Lumpur",
+      "min_salary": "3000",
+      "max_salary": "3500",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 22,
+    "fields": {
+      "user": 20,
+      "position_title": "Beauty Therapist cum Consultant",
+      "employment_type": "Contract",
+      "position_level": "Junior Executive",
+      "job_specialization": "Services",
+      "job_description": "Perform beauty therapist and facial treatmentsAssisting doctors in performing procedures & to communicate effectively with patients.Manage patient's clinic appointment, according to doctor's schedule and convenience of patientBuild strong rapport with customers by understanding their needs and going beyond their expectationsFollow up with customers, encourage customers for frequent treatments to ensure better resultProvide professional recommendation on treatment packages and products to customerUpdate and maintain treatment recordsWork closely with the Branch Manager to achieve sales objective",
+      "job_requirements": "Candidate must possess at least SPM in Personal Services or equivalent.Required language(s): English, Mandarin.At least 2 Year(s) of working experience in the Beauty Industry.Passionate about beauty and willing to learnExperience in facial treatment will be an advantageMust have basic skills and knowledge on facial therapy. Able to work in team. Good customer services (service-oriented) & communication skillsPossess a positive attitude, self-motivated and hardworkingPleasant appearance",
+      "location": "Selangor",
+      "min_salary": "2150",
+      "max_salary": "3500",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 23,
+    "fields": {
+      "user": 20,
+      "position_title": "Customer Relationship Consultant",
+      "employment_type": "Contract",
+      "position_level": "Junior Executive",
+      "job_specialization": "Services",
+      "job_description": "Telemarketing, cold-calling to business expansions for prospects clients.Building relationships with clients and understand their needs,Arranging and conducting appointment.",
+      "job_requirements": "Excellent in communication and interpersonal skillsPositive and outgoing individualSelf- motivated and driven for successTraining will be providedRequired language(s):\u00a0English, MandarinAt least 2\u00a0Year(s) of working experience in the related field is required for this position.",
+      "location": "Kuala Lumpur",
+      "min_salary": "3200",
+      "max_salary": "3800",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 24,
+    "fields": {
+      "user": 20,
+      "position_title": "Aesthetic Doctor with LCP",
+      "employment_type": "Contract",
+      "position_level": "Senior Executive",
+      "job_specialization": "Healthcare",
+      "job_description": "Consulting dermatology and aesthetic cases.Performing lasers and various aesthetic treatments.Provide a comprehensive consultation to our customers in regards to aesthetics improvement.",
+      "job_requirements": "Candidate must possess at least Bachelor's Degree/Post Graduate Diploma/Professional Degree in Medicine or equivalent.Required language(s):\u00a0Bahasa Malaysia, English, MandarinAt least 3 Year(s) of working experience in the Aesthetic industry.Preferably Senior Executive specialized in Healthcare - Doctor/Diagnosis or equivalent.Doctors with LCP and experience will be of advantage.Must be a team player with good interpersonal skill and pleasant disposition6 working days a week including weekends.",
+      "location": "Kuala Lumpur",
+      "min_salary": "15000",
+      "max_salary": "19500",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 25,
+    "fields": {
+      "user": 20,
+      "position_title": "Human Resources Executive",
+      "employment_type": "Contract",
+      "position_level": "Junior Executive",
+      "job_specialization": "Admin/Human Resources",
+      "job_description": "Responsible for the recruitment process for local worker right from the planning, requisition stage to advertisement, sourcing, selecting and coordinating interview, communicate with the hiring manager, reference check and hiring.\nSource and sort candidates according to specification and ensuring the organisation manpower requirements is meet at the recruitment plan/ recruitment timeline.\nDevelop a pool of qualified candidates in advance of need.\nWork together with the HODs on manpower requirements and maintain a manpower requisition database.\nResponsible for preparing and follow up on HR documentations such as: -\nEmployment Letter \nTargeted Branch Organisation Chart and ect\u2026Assist immediate superior to conduct orientation program to new employee.Prepare and provide timely and updated manpower statistics and reports.Responsible to conducting exit interviews on terminating/resigned employeesLiaise with all government agencies to ensure adherence to compliance.Understand and adhere to all pertinent labor laws, company's rules & regulation.Provide administration support on all HR functions such as attendance report analysis, training activities, and other ad-hoc duties as assigned.Manage day-to-day administrative and operational activities of the company in its day to day operations.To undertake other related jobs as directed by the superior from time to time.",
+      "job_requirements": "Candidate must possess at least a Higher Secondary/STPM/'A' Level/Pre-U, Diploma, Advanced/Higher/Graduate Diploma, Bachelor's Degree, Post Graduate Diploma, Professional Degree\nRequired language(s): Bahasa Malaysia, Mandarin, English\nAt least 3 year(s) of working experience in the related field is required for this position.Able to keep confidential information.Excellent leadership, problem solving, integration and interpersonal skills.Ability to meet tight deadlines and maintain high standard of confidentiality.Self motivated and able to work independently with minimum supervision.Required Skill(s): Microsoft OfficeMust be familiar with Employment Act, Industrial Relation Act and other related employment law.Applicants must be willing to work in KepongHave own transport",
+      "location": "Kuala Lumpur",
+      "min_salary": "3200",
+      "max_salary": "3800",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 26,
+    "fields": {
+      "user": 21,
+      "position_title": "Customer Service Executive",
+      "employment_type": "Full-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Sales/Marketing",
+      "job_description": "Serve customers by providing product and service information and resolving product and service problems.Attract and retain customers by answering questions and providing suggestions that lead to short- and long-term success.Work collaboratively with teammates to solve customer issues as quickly and as efficiently as possible.Build lasting relationships with customers and ensuring they feel supported and valued.Work effectively across a variety of communication channels: in-person, phone, email, live-chat, social media, etc.",
+      "job_requirements": "Candidate must possess at least Professional Certificate, Diploma/Advanced/Higher/Graduate Diploma, Bachelor's Degree/Post Graduate Diploma/Professional Degree\u00a0in any field.Required language(s):\u00a0English, Mandarin, Bahasa MalaysiaAt least 1\u00a0Year(s) of working experience in the related field is required for this position.Preferably Junior Executive specialized in Sales - Engineering/Technical/IT or equivalent.Work collaboratively with teammates to solve customer issues as quickly and as efficiently as possible.The ability to\u00a0prioritise and multitask, with excellent\u00a0time management skills.Excellent customer service skills including maintening focus on customer issue in a fast-paced environment.",
+      "location": "Selangor",
+      "min_salary": "2500",
+      "max_salary": "3500",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 27,
+    "fields": {
+      "user": 21,
+      "position_title": "Web Developer",
+      "employment_type": "Full-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Computer/Information Technology",
+      "job_description": "Responsible for designing, coding and modifying websites, from layout to function and according to a client's specifications. Strive to create visually appealing sites that feature user-friendly design and clear navigation.Consistently create well-designed, tested code using best practices for website development, including mobile and responsive site design.Create websites and user interfaces, using standard HTML/CSS practices, while incorporating data from back-end databases and services.Create and maintain workflows with teams to provide visibility and to ensure workload balance for consistent visual designs.Develop or validate testing schedules, addressing all browsers and devices to ensure various computers can access content.Maintain updated knowledge of new and emerging industry trends and technology.",
+      "job_requirements": "Positive attitude and strong passion in programming.At least 1 year working experience in the related field is required.Possess skill for PHP, SQL, Web programming, basic computer and networking knowledge.Analytical, independent, hardworking, fast-learner and team player with ability to multi-task.",
+      "location": "Selangor",
+      "min_salary": "3500",
+      "max_salary": "3800",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 28,
+    "fields": {
+      "user": 22,
+      "position_title": "Plant Operator (QC)",
+      "employment_type": "Full-Time",
+      "position_level": "Non-Executive",
+      "job_specialization": "Manufacturing",
+      "job_description": "Communicate with customer regarding on-site cube making and slump checkingPerform various cubes and slump tests according to project site specificationsTransport cubes between the lab, site and plant for testing and curingCollecting the cube mould for cleaningAssist in collecting delivery orders from customersConduct regular site visits to spot check on construction progress statusEnsure cube making and test cube results are accurately recordedProvide technical advice to the customers and/or contractorsProvide feedback on site matters to supervisorSupport plant production arrangementsMonitor technician making cube on siteAny other duties assigned",
+      "job_requirements": "Must have valid driving licenseFamiliar to site conditionsKnowledgeable in the different grades of concrete commonly usedOral and written communication skillsSecondary education level or equivalentPossess working experience",
+      "location": "Johor",
+      "min_salary": "2000",
+      "max_salary": "2800",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 29,
+    "fields": {
+      "user": 22,
+      "position_title": "Full Stack Developer (Kuala Lumpur)",
+      "employment_type": "Full-Time",
+      "position_level": "Senior Executive",
+      "job_specialization": "Computer/Information Technology",
+      "job_description": "Build front-end to back-end web applications using world class tech stackDesign and develop scalable, testable, maintainable and high-performance software components and APIsDevelop automated test scripts for continuous delivery & integration",
+      "job_requirements": "Experience in J2EE, Angular 6+, Bootstrap, Hibernate, GIT, SpringExperience in relational data modelling, MSSQL and system integrationExperience in production system deployment, maintenance and troubleshootingBachelor's degree in Computer Science, IT, or equivalent with 5 years\u2019 working experience.",
+      "location": "Kuala Lumpur",
+      "min_salary": "6000",
+      "max_salary": "7500",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 30,
+    "fields": {
+      "user": 22,
+      "position_title": "Sales Executive",
+      "employment_type": "Full-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Sales/Marketing",
+      "job_description": "Execute day-to-day sales activities including attending to sales enquiries, customers feedback, and preparation and follow-up of quotations and tendersPlan and execute sales growth plans to achieve sales performance targets and increased profit marginCreate new business contacts to develop the businessProvide technical sales and marketing support to customersTo be knowledgeable of industry and market trendsWork closely with stakeholders to maximize sales and profitabilityEnsure and review requirements for corporate governance and trade complianceFully responsible for all trade accounts receivables for customers and ensure zero bad debtsOther ad-hoc assignments as assigned",
+      "job_requirements": "Posses excellent communication, presentation and customer relationship skillsProficient in Microsoft Excel and PowerPointPossesses own vehicleGood command of both written and spoken English and Bahasa Malaysia, ability to speak Mandarin would be an added advantageAt least a Professional Certificate / Diploma / Advance Diploma in Business Studies or equivalentAt least 1 - 5 years of working experience in related fields is required for this position.Fresh graduates are encouraged to apply.",
+      "location": "Penang",
+      "min_salary": "",
+      "max_salary": "3800",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 31,
+    "fields": {
+      "user": 24,
+      "position_title": "Account Helpdesk Agent ( Japanese Speaker )",
+      "employment_type": "Full-Time",
+      "position_level": "Entry Level",
+      "job_specialization": "Services",
+      "job_description": "We are looking for a customer service-oriented Accounts Helpdesk Agent to provide technical support to users/ customers from designed in an efficient and accurate manner. You will be considered as the firm\u2019s front liner and will solve technical problems and provide support for all assigned areas in designated countries. The goal is to make sure customer value is maintained to the standards set forth by the company.Key areas of responsibility \u2013 Based on designated countriesProvide 1st level contact & convey resolutions for any payments/billings/taxes/contract terms and services related to IWG business through emails and callsResolves cases within the established SLA\u2019sEscalate unresolved cases within the team or Global Support teamFollow up on pending cases and keep customers updated on status of each caseManaging customers statement of Account, Billing & Payment Disputes",
+      "job_requirements": "Our Successful Candidates Have: \u00a0Minimum Qualifications:Diploma / Degree in any fieldProficiency in Mandarin and English (written and spoken)Mathematics & AccountingBasic Accounting BackgroundTechnical Skills: (Added Advantage)Microsoft Dynamic: CRM / TitanFinance Add-InMicrosoft ExcelBusiness writing skillsOur Successful Candidate is able to:Have strong client facing and communication skillsProvide high level Customer serviceWork on Public Holidays when requiredWork on shift & mid night shift when required",
+      "location": "Kuala Lumpur",
+      "min_salary": "3500",
+      "max_salary": "3800",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 32,
+    "fields": {
+      "user": 24,
+      "position_title": "Account Helpdesk Agent ( Bilingual )",
+      "employment_type": "Full-Time",
+      "position_level": "Entry Level",
+      "job_specialization": "Services",
+      "job_description": "We are looking for a customer service-oriented Accounts Helpdesk Agent to provide technical support to users/ customers from designed in an efficient and accurate manner. You will be considered as the firm\u2019s front liner and will solve technical problems and provide support for all assigned areas in designated countries. The goal is to make sure customer value is maintained to the standards set forth by the company.Key areas of responsibility \u2013 Based on designated countriesProvide 1st level contact & convey resolutions for any payments/billings/taxes/contract terms and services related to IWG business through emails and callsResolves cases within the established SLA\u2019sEscalate unresolved cases within the team or Global Support teamFollow up on pending cases and keep customers updated on status of each caseManaging customers statement of Account, Billing & Payment Disputes",
+      "job_requirements": "Our Successful Candidates Have: \u00a0Minimum Qualifications:Diploma / Degree in any fieldProficiency in Mandarin and English (written and spoken)Mathematics & AccountingBasic Accounting BackgroundTechnical Skills: (Added Advantage)Microsoft Dynamic: CRM / TitanFinance Add-InMicrosoft ExcelBusiness writing skillsOur Successful Candidate is able to:Have strong client facing and communication skillsProvide high level Customer serviceWork on Public Holidays when requiredWork on shift & mid night shift when required",
+      "location": "Kuala Lumpur",
+      "min_salary": "3500",
+      "max_salary": "3800",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 33,
+    "fields": {
+      "user": 25,
+      "position_title": "Talent Acquisition Specialist (1 year Contract)",
+      "employment_type": "Contract",
+      "position_level": "Senior Executive",
+      "job_specialization": "Admin/Human Resources",
+      "job_description": "1. Partner closely with HRBPs and Hiring Managers to ensure sourcing and hiring strategies are aligned with TikTok people strategies.\n2. Partner with business leaders and hiring managers to assess their talent requirements and fulfill hiring plans along with business timelines.\n3. Use your established networks to discover, and attract experienced, diverse, ambitious talent to join our team.\n4. Screen and select candidates effectively by assessing both their previous experience as well as culture fit with TikTok environment.\n5. Lead key initiatives and projects with the Trust & Safety team, and other recruiting teams, that will continuously improve and scale our recruiting operations and results.\n6. Provide an efficient and high-touch experience for every candidate from the application stage to offer, evaluating skill level, driving the interview process and offer process, including reference checks, salary recommendations and closing of candidates.",
+      "job_requirements": "1. Strong communication and organisational skills.\n2. Keen attention to detail, and experience in both building and executing recruiting processes.\n3. Passionate about providing a great experience for all our candidates, whether they pass or not.\n4. Entrepreneurial and creative problem-solving ability - you'll have lots of support but often have to figure out the solution yourself.\n5. Experience closing senior and/or executive-level candidates and negotiating complex compensation packages.\n6. Optimistic and collaborative - we're building an awesome team and looking for someone excited to roll their sleeves up and join us as we start this journey.",
+      "location": "Kuala Lumpur",
+      "min_salary": "5000",
+      "max_salary": "7000",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 34,
+    "fields": {
+      "user": 25,
+      "position_title": "HR Operations Manager - KL",
+      "employment_type": "Full-Time",
+      "position_level": "Manager",
+      "job_specialization": "Admin/Human Resources",
+      "job_description": "1. Enhance the people and workplace experience through localized people initiatives throughout the employee lifecycle, including process improvements, data & insights.\n2. Provide support and knowledge to the business for the whole employee lifecycle. Continually, work on the enhancement of the employee lifecycle through process improvements, automation, data & insights.\n3. Help scale various HR programs to create efficient and simple people processes, systems, policies, and programs.\n4. Maintain partnerships with geographically distributed HRBPs, TA and other HR Operations team members.\n5. Exercise independent judgment and discretion do determine appropriate actions or solutions to problems.",
+      "job_requirements": "1. Bachelor's degree or above.\n2. 6+ years of People Operations/Human Resources related experience.\n3. Support employees and improve employee experience by providing end to end HR solution to solve their issues.\n4. Actively educate employees and managers on how to stay within legal guidelines regarding on-the-job behaviour, investigate workplace violations, and respond to stakeholder queries though a combination of referring to internal experts, and/or interpreting both policies and changes to policy.\n5. Strong business partnering skills and HR acumen, including problem solving skills, critical thinking abilities, coaching skills, project management & leadership abilities.\n6. Analytical and problem-solving skills.\n7. Player-coach role, with the experience of managing a small team.\n8. High level of discretion, confidentiality, and ethics.\n9. Humility, flexibility, good interpersonal & customer facing skills are a must.\n10. Highly proficient and excellent communication skills in English.",
+      "location": "Kuala Lumpur",
+      "min_salary": "6000",
+      "max_salary": "7000",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 35,
+    "fields": {
+      "user": 25,
+      "position_title": "HR Operations Consultant - KL",
+      "employment_type": "Full-Time",
+      "position_level": "Senior Executive",
+      "job_specialization": "Admin/Human Resources",
+      "job_description": "1. Enhance the people and workplace experience through localized people initiatives throughout the employee lifecycle, including process improvements, data & insights.\n2. Provide support and knowledge to the business for the whole employee lifecycle. Continually, work on the enhancement of the employee lifecycle through process improvements, automation, data & insights.\n3. Help scale various HR programs to create efficient and simple people processes, systems, policies, and programs.\n4. Maintain partnerships with geographically distributed HRBPs, TA and other HR Operations team members.\n5. Exercise independent judgment and discretion do determine appropriate actions or solutions to problems.",
+      "job_requirements": "1. Bachelor's degree or above.\n2. 3+ years of People Operations/Human Resources related experience.\n3. Familiar with labour/compliance laws and cultural nuances within Malaysia.\n4. Experience with employee lifecycle (onboarding, transfers, performance cycles, leaves of absence and offboarding). 5. Support employees and improve employee experience by providing end to end HR solution to solve their issues.\n6. Analytical and problem-solving skills.\n7. High level of discretion, confidentiality, and ethics.\n8. Humility, flexibility, and good interpersonal&customer facing skills are a must.\n9. Highly proficient and excellent communication skills English.",
+      "location": "Kuala Lumpur",
+      "min_salary": "6000",
+      "max_salary": "7000",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 36,
+    "fields": {
+      "user": 25,
+      "position_title": "Content Quality Assurance (Burmese Speaker)",
+      "employment_type": "Full-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Manufacturing",
+      "job_description": "Perform daily audit on internal system and videos by users.\nProvide analysis of errors and feedback to respective team.\nWork with Internal Training Team to align Policy understanding of QA and moderation teams.\nProvide support on Policy/Quality related questions on ad-hoc basis.\nResponsible in guiding new joiners in order to achieve Ramp up target.\nWork closely with Operation Team in order to provide feedback on quality.\nIdentify potential failure of Policy Update and propose recovery plan in advance.\nConduct Quality meeting with the team to analyze errors.",
+      "job_requirements": "Minimum Diploma in linguistics, mass communications, advertising, business administration, or any relevant field of studies.\nMinimum 1 year working experience as Content Quality Assurance Analyst / Content Moderator would be an added advantage.\nExperience in Content Moderation/Content Quality/Content Safety will be an added advantage.\nAttention to details, able to handle various contents, multitasking, work under pressure, good interpersonal skills, team player, able to work independently. \nAbility to speak and read in Burmese is a must and able to converse in English.\nWilling to be based in Kuala Lumpur, Malaysia\nWorking visa will be provided for Non Malaysian for suitable candidates",
+      "location": "Kuala Lumpur",
+      "min_salary": "3500",
+      "max_salary": "4000",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 37,
+    "fields": {
+      "user": 25,
+      "position_title": "Content Moderator (Thai Speaker)",
+      "employment_type": "Full-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Manufacturing",
+      "job_description": "Review content on short-video platforms and conduct the content quality control in Southeast markets.\nMake sure the contents comply with local policies, regulations and culture\nHandle complaints and reports with respect to users and community\nInterpret and apply complex policies and guidelines to content by understanding the review policies and guidelines\nIdentify improvement opportunities in workflow by using daily data analysis and suggest solutions\nAnalyze the risk level of incidents and assess the safety status of the community and products\nAttention to details and ability to work differing 7*24 work rotations/shifts as required.",
+      "job_requirements": "Minimum Diploma in linguistics, mass communications, advertising, business administration, or any relevant field of studies.\nMinimum 1 year working experience as Content Quality Assurance Analyst / Content Moderator would be an added advantage.\nExperience in Content Moderation/Content Quality/Content Safety will be an added advantage.\nAttention to details, able to handle various contents, multitasking, work under pressure, good interpersonal skills, team player, able to work independently. \nAbility to speak and read in Thai is a must and able to converse in English.\nWilling to be based in Kuala Lumpur, Malaysia\nWorking visa will be provided for Non Malaysian for suitable candidates",
+      "location": "Kuala Lumpur",
+      "min_salary": "3500",
+      "max_salary": "4000",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 38,
+    "fields": {
+      "user": 25,
+      "position_title": "Payroll Analyst - Malaysia",
+      "employment_type": "Full-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Admin/Human Resources",
+      "job_description": "1. Responsible for monthly payroll activities such as collating and validating inputs, output and statutory payments.\n2. With proven track record in providing high standard of payroll verification and checking skills.\n3. Managing and improving payroll operations.\n4. Experience in legal and compliance audits in payroll, such as income taxes, statutory social securities.\n5. Effectively manage payroll vendors by strictly adhering to the contract and SLA.\n6. Develop relationships with local authorities, not limited to Social Security, Tax, etc.\n7. Partnering and work collaboratively with HR Business Partners, HR Operations team to elevate employee experience.",
+      "job_requirements": "1. Bachelor's degree or above.\n2. Hands-on, strong functional knowledge and a minimum of 3 years inhouse payroll operation experience.\n3. Payroll and tax knowledge in Malaysia.\n4. Strong vendor management and project management skills.\n5. Strong influence and stakeholder management skills.\n6. Excellent English and Malay.\n7. Preferably with an added language.",
+      "location": "Kuala Lumpur",
+      "min_salary": "3500",
+      "max_salary": "4000",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 39,
+    "fields": {
+      "user": 25,
+      "position_title": "Content Quality Assurance (Vietnamese Speaker)",
+      "employment_type": "Full-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Manufacturing",
+      "job_description": "Perform daily audit on internal system and videos by users.\nProvide analysis of errors and feedback to respective team.\nWork with Internal Training Team to align Policy understanding of QA and moderation teams.\nProvide support on Policy/Quality related questions on ad-hoc basis.\nResponsible in guiding new joiners in order to achieve Ramp up target.\nWork closely with Operation Team in order to provide feedback on quality.\nIdentify potential failure of Policy Update and propose recovery plan in advance.\nConduct Quality meeting with the team to analyze errors.",
+      "job_requirements": "Minimum Diploma in linguistics, mass communications, advertising, business administration, or any relevant field of studies.\nMinimum 1 year working experience as Content Quality Assurance Analyst / Content Moderator would be an added advantage.\nExperience in Content Moderation/Content Quality/Content Safety will be an added advantage.\nAttention to details, able to handle various contents, multitasking, work under pressure, good interpersonal skills, team player, able to work independently. \nAbility to speak and read in Vietnamese is a must and able to converse in English.\nWilling to be based in Kuala Lumpur, Malaysia\nWorking visa will be provided for Non Malaysian for suitable candidates",
+      "location": "Kuala Lumpur",
+      "min_salary": "3000",
+      "max_salary": "6000",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 40,
+    "fields": {
+      "user": 25,
+      "position_title": "Content Quality Assurance (Tagalog Speaker)",
+      "employment_type": "Full-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Manufacturing",
+      "job_description": "Perform daily audit on internal system and videos by users.\nProvide analysis of errors and feedback to respective team.\nWork with Internal Training Team to align Policy understanding of QA and moderation teams.\nProvide support on Policy/Quality related questions on ad-hoc basis.\nResponsible in guiding new joiners in order to achieve Ramp up target.\nWork closely with Operation Team in order to provide feedback on quality.\nIdentify potential failure of Policy Update and propose recovery plan in advance.\nConduct Quality meeting with the team to analyze errors.",
+      "job_requirements": "Minimum Diploma in linguistics, mass communications, advertising, business administration, or any relevant field of studies.\nMinimum 1 year working experience as Content Quality Assurance Analyst / Content Moderator would be an added advantage.\nExperience in Content Moderation/Content Quality/Content Safety will be an added advantage.\nAttention to details, able to handle various contents, multitasking, work under pressure, good interpersonal skills, team player, able to work independently. \nAbility to speak and read in Tagalog (Filipino) is a must and able to converse in English.\nWilling to be based in Kuala Lumpur, Malaysia\nWorking visa will be provided for Non Malaysian for suitable candidates",
+      "location": "Kuala Lumpur",
+      "min_salary": "3500",
+      "max_salary": "3800",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 41,
+    "fields": {
+      "user": 25,
+      "position_title": "Content Quality Assurance (Lao Speaker)",
+      "employment_type": "Full-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Manufacturing",
+      "job_description": "Perform daily audit on internal system and videos by users.\nProvide analysis of errors and feedback to respective team.\nWork with Internal Training Team to align Policy understanding of QA and moderation teams.\nProvide support on Policy/Quality related questions on ad-hoc basis.\nResponsible in guiding new joiners in order to achieve Ramp up target.\nWork closely with Operation Team in order to provide feedback on quality.\nIdentify potential failure of Policy Update and propose recovery plan in advance.\nConduct Quality meeting with the team to analyze errors.",
+      "job_requirements": "Minimum Diploma in linguistics, mass communications, advertising, business administration, or any relevant field of studies.\nMinimum 1 year working experience as Content Quality Assurance Analyst / Content Moderator would be an added advantage.\nExperience in Content Moderation/Content Quality/Content Safety will be an added advantage.\nAttention to details, able to handle various contents, multitasking, work under pressure, good interpersonal skills, team player, able to work independently. \nAbility to speak and read in Lao is a must and able to converse in English.\nWilling to be based in Kuala Lumpur, Malaysia\nWorking visa will be provided for Non Malaysian for suitable candidates",
+      "location": "Kuala Lumpur",
+      "min_salary": "3500",
+      "max_salary": "3800",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 42,
+    "fields": {
+      "user": 25,
+      "position_title": "Content Quality Assurance (Thai Speaker)",
+      "employment_type": "Full-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Manufacturing",
+      "job_description": "Perform daily audit on internal system and videos by users.\nProvide analysis of errors and feedback to respective team.\nWork with Internal Training Team to align Policy understanding of QA and moderation teams.\nProvide support on Policy/Quality related questions on ad-hoc basis.\nResponsible in guiding new joiners in order to achieve Ramp up target.\nWork closely with Operation Team in order to provide feedback on quality.\nIdentify potential failure of Policy Update and propose recovery plan in advance.\nConduct Quality meeting with the team to analyze errors.",
+      "job_requirements": "Minimum Diploma in linguistics, mass communications, advertising, business administration, or any relevant field of studies.\nMinimum 1 year working experience as Content Quality Assurance Analyst / Content Moderator would be an added advantage.\nExperience in Content Moderation/Content Quality/Content Safety will be an added advantage.\nAttention to details, able to handle various contents, multitasking, work under pressure, good interpersonal skills, team player, able to work independently. \nAbility to speak and read in Thai is a must and able to converse in English.\nWilling to be based in Kuala Lumpur, Malaysia\nWorking visa will be provided for Non Malaysian for suitable candidates",
+      "location": "Kuala Lumpur",
+      "min_salary": "3500",
+      "max_salary": "3800",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 43,
+    "fields": {
+      "user": 25,
+      "position_title": "Content Quality Assurance (Bengali Speaker)",
+      "employment_type": "Full-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Manufacturing",
+      "job_description": "Perform daily audit on internal system and videos by users.\nProvide analysis of errors and feedback to respective team.\nWork with Internal Training Team to align Policy understanding of QA and moderation teams.\nProvide support on Policy/Quality related questions on ad-hoc basis.\nResponsible in guiding new joiners in order to achieve Ramp up target.\nWork closely with Operation Team in order to provide feedback on quality.\nIdentify potential failure of Policy Update and propose recovery plan in advance.\nConduct Quality meeting with the team to analyze errors.",
+      "job_requirements": "Minimum Diploma in linguistics, mass communications, advertising, business administration, or any relevant field of studies.\nMinimum 1 year working experience as Content Quality Assurance Analyst / Content Moderator would be an added advantage.\nExperience in Content Moderation/Content Quality/Content Safety will be an added advantage.\nAttention to details, able to handle various contents, multitasking, work under pressure, good interpersonal skills, team player, able to work independently. \nAbility to speak and read in Bengali is a must and able to converse in English.\nWilling to be based in Kuala Lumpur, Malaysia\nWorking visa will be provided for Non Malaysian for suitable candidates",
+      "location": "Kuala Lumpur",
+      "min_salary": "3500",
+      "max_salary": "3800",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 44,
+    "fields": {
+      "user": 25,
+      "position_title": "Content Quality Assurance (Urdu Speaker)",
+      "employment_type": "Full-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Manufacturing",
+      "job_description": "Perform daily audit on internal system and videos by users.\nProvide analysis of errors and feedback to respective team.\nWork with Internal Training Team to align Policy understanding of QA and moderation teams.\nProvide support on Policy/Quality related questions on ad-hoc basis.\nResponsible in guiding new joiners in order to achieve Ramp up target.\nWork closely with Operation Team in order to provide feedback on quality.\nIdentify potential failure of Policy Update and propose recovery plan in advance.\nConduct Quality meeting with the team to analyze errors.",
+      "job_requirements": "Minimum Diploma in linguistics, mass communications, advertising, business administration, or any relevant field of studies.\nMinimum 1 year working experience as Content Quality Assurance Analyst / Content Moderator would be an added advantage.\nExperience in Content Moderation/Content Quality/Content Safety will be an added advantage.\nAttention to details, able to handle various contents, multitasking, work under pressure, good interpersonal skills, team player, able to work independently. \nAbility to speak and read in Urdu is a must and able to converse in English.\nWilling to be based in Kuala Lumpur, Malaysia\nWorking visa will be provided for Non Malaysian for suitable candidates",
+      "location": "Kuala Lumpur",
+      "min_salary": "3500",
+      "max_salary": "3800",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 45,
+    "fields": {
+      "user": 25,
+      "position_title": "Content Quality Assurance (Khmer Speaker)",
+      "employment_type": "Full-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Manufacturing",
+      "job_description": "Perform daily audit on internal system and videos by users.\nProvide analysis of errors and feedback to respective team.\nWork with Internal Training Team to align Policy understanding of QA and moderation teams.\nProvide support on Policy/Quality related questions on ad-hoc basis.\nResponsible in guiding new joiners in order to achieve Ramp up target.\nWork closely with Operation Team in order to provide feedback on quality.\nIdentify potential failure of Policy Update and propose recovery plan in advance.\nConduct Quality meeting with the team to analyze errors.",
+      "job_requirements": "Minimum Diploma in linguistics, mass communications, advertising, business administration, or any relevant field of studies.\nMinimum 1 year working experience as Content Quality Assurance Analyst / Content Moderator would be an added advantage.\nExperience in Content Moderation/Content Quality/Content Safety will be an added advantage.\nAttention to details, able to handle various contents, multitasking, work under pressure, good interpersonal skills, team player, able to work independently. \nAbility to speak and read in Khmer is a must and able to converse in English.\nWilling to be based in Kuala Lumpur, Malaysia\nWorking visa will be provided for Non Malaysian for suitable candidates",
+      "location": "Kuala Lumpur",
+      "min_salary": "3000",
+      "max_salary": "6000",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 46,
+    "fields": {
+      "user": 25,
+      "position_title": "Content Quality Assurance (Indonesian Speaker)",
+      "employment_type": "Full-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Manufacturing",
+      "job_description": "Perform daily audit on internal system and videos by users.\nProvide analysis of errors and feedback to respective team.\nWork with Internal Training Team to align Policy understanding of QA and moderation teams.\nProvide support on Policy/Quality related questions on ad-hoc basis.\nResponsible in guiding new joiners in order to achieve Ramp up target.\nWork closely with Operation Team in order to provide feedback on quality.\nIdentify potential failure of Policy Update and propose recovery plan in advance.\nConduct Quality meeting with the team to analyze errors.",
+      "job_requirements": "Minimum Diploma in linguistics, mass communications, advertising, business administration, or any relevant field of studies.\nMinimum 1 year working experience as Content Quality Assurance Analyst / Content Moderator would be an added advantage.\nExperience in Content Moderation/Content Quality/Content Safety will be an added advantage.\nAttention to details, able to handle various contents, multitasking, work under pressure, good interpersonal skills, team player, able to work independently. \nAbility to speak and read in Bahasa Indonesia is a must and able to converse in English.\nWilling to be based in Kuala Lumpur, Malaysia\nWorking visa will be provided for Non Malaysian for suitable candidates",
+      "location": "Kuala Lumpur",
+      "min_salary": "3600",
+      "max_salary": "4000",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 47,
+    "fields": {
+      "user": 26,
+      "position_title": "Assistant Manager, Actuarial",
+      "employment_type": "Full-Time",
+      "position_level": "Senior Executive",
+      "job_specialization": "Sciences",
+      "job_description": "Manage and provide support to various reporting and experience analysis function.Manage the quarterly / yearly reserving workflow for timely submission to BNM.Communicate with various stakeholder to articulate necessary information and perform analyses to assist Appointed Actuary in preparing the Financial Condition Report (FCR).Perform internal capital modelling and present the results to regional office.Provide technical support to ICAAP stress test and prescribed stress test.Provide technical support to Reinsurance treaty team in managing annual reinsurance treaty renewal.Assist in managing the implementation of IFRS17 project.Assist in managing the preparation of quarterly experience study for various line of business.Other ad-hoc support as required.",
+      "job_requirements": "Qualified or Nearly Qualified Actuary under Casualty Actuarial Society (CAS) / Institute of Actuaries of Australia (IOAA) /\u00a0Institute and Faculty of Actuaries (IFoA)\u00a0or equivalent.Minimum five (5) years working experience in actuarial for General Insurance or related role.Well verse Knowledge in IFRS17, experience in SAS, ResQ and ReMetrica is an added advantage.Good understanding on actuarial principles.Good understanding on local regulatory requirements and General Insurance business or products.Project management experience with strong numerical and analytical skills.",
+      "location": "Kuala Lumpur",
+      "min_salary": "5000",
+      "max_salary": "7000",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 48,
+    "fields": {
+      "user": 26,
+      "position_title": "Manager, Marketing (Based at Pahang)",
+      "employment_type": "Full-Time",
+      "position_level": "Senior Executive",
+      "job_specialization": "Sales/Marketing",
+      "job_description": "Responsible for the achievement of production of individual budget, team budget and portfolio mix.Recruitment and retention of agents.Maximizing business support from agents through regular servicing and visitations.Supervise and conduct training for agents and Marketing Officer.Provide marketing and technical support to agents and Marketing Officer.Gather market feedback on competitors\u2019 activities.To ensure risk is in compliance with Underwriting Standing Order.Monitoring Underwriting results of agents.Collection of premiums in compliance with Credit Control Policy.Preparation of yearly budgets.Resolve and escalate operation issues emanating from agents.Managing document flow between agents and company.",
+      "job_requirements": "Degree in any discipline or professional certification in DMII/ AMII.Minimum Seven (7) years of working experience in relevant insurance industry.Successfully delivered on KPIs with proven track record in production, recruitment of agents and business development.Effective communication in writing, business presentation and interpersonal communication across various levels of seniority.",
+      "location": "Pahang",
+      "min_salary": "7000",
+      "max_salary": "8500",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 49,
+    "fields": {
+      "user": 26,
+      "position_title": "Manager, Enterprise Risk Management",
+      "employment_type": "Full-Time",
+      "position_level": "Manager",
+      "job_specialization": "Accounting/Finance",
+      "job_description": "Be a Business Partner to functions of the company to actively participate in identifying potential risks and providing timely recommendations and support business units to manage risks.Assists the Senior Manager in ensuring completion of Risk Management Initiatives.Ensure timely identification, assessment, measurement and monitoring of risks together with actionable mitigation plans.Execute the assigned Risk Management Initiatives which cover Risk Assessments, Risk Monitoring, Business Continuity Management, etc (especially on Technology related risks) efficiently and effectively.\u00a0 The Initiatives are completed in all material aspects, assignments are well planned and executed as planned.Day-to-day focus includes consultative discussions with the business units in the resolution of the potential risks and issues.Promote risk awareness.Support the Chief Risk Officer/ Senior Manager in maintaining an open and effective working relationship with relevant stakeholders.Performs any other duties as assigned by the Chief Risk Officer/Senior Manager as and when necessary.",
+      "job_requirements": "Minimum a Bachelor\u2019s Degree in Degree in Accounting, Actuarial, Finance or Risk Management.Professional qualifications related to accounting, risk management, internal control, actuarial and/or IT (i.e. ISACA).Minimum 6 years of experience in Risk Management, Risk Advisory, Internal Audit, External Audit, Finance, Actuarial or Compliance.Experience in IT risk/ audit background will be added advantage.Experience and knowledge in insurance background will be added advantage.Strong presentation skills in writing, business presentations and in interpersonal communication.Ability to multi-task.Strong business acumen and organisation awareness to be an effective Business Partner to various Business Units.Strong problem solving skills.",
+      "location": "Kuala Lumpur",
+      "min_salary": "7500",
+      "max_salary": "10500",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 50,
+    "fields": {
+      "user": 27,
+      "position_title": "Customer Service Executive (GL Assessment - Insurance)",
+      "employment_type": "Full-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Healthcare",
+      "job_description": "Assess the Admission / Discharge case accordance to the Insurance\u2019s policy terms and conditions.Ensure all the documents received are complete with info that required for Guarantee Letter (GL) issuance.Issue GL for the requests coming in via E-fax, dedicated e-mail from client and phone calls.Follow up with hospital on documents (breakdown bill, dosage of medication\u2026etc) / reports for those incomplete documents cases.Calling hospital to confirm received on the Outpatient (OP) GL.Follow up with the sender if the documents received were incomplete.Result orientated with sense of urgency, co cooperativeness & eagerness in ensuring efficient teamwork in delivering excellent services to clientele.Responding to email enquiry received pertaining to admission and discharge.",
+      "job_requirements": "Diploma/Degree holders with 2 to 3 years working experience in Third Party Administration (TPA) / Insurance Industry (H&S) / Medical / Hospital. Candidate with knowledge in GHS / handling GL issuance is added advantage.Good communication skills.Good computer skills and meticulous with details.Must be able to read and write English & Bahasa Malaysia due to clientele portfolio.Has a pleasant disposition and clear intonation over the telephone.Able to work in fast paced environment, independent, customer focused, result oriented & disciplined.Willingness to work on shift / work as / when required.Possess own transport.",
+      "location": "Johor",
+      "min_salary": "1800",
+      "max_salary": "2800",
+      "closing_date": "2020-12-15",
+      "timestamp": "2020-11-25T10:48:24.186Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 51,
+    "fields": {
+      "user": 27,
+      "position_title": "RA Pharmacist / Executive",
+      "employment_type": "Full-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Healthcare",
+      "job_description": "Be responsible for and follow the agreed plan and timelines for Registration Projects to meet client and internal stakeholder objectivesMonitor and update the changes of regulatory affairs and government policies related to healthcare, and support the Regulatory Manager on Pharmacovigilance, and other regulatory affairs matter as necessaryEnsure continuous knowledge update on the registration process for Pharmaceuticals, Supplements, Generics, Medical Device and Cosmetics in MalaysiaWork closely with internal and external stakeholders (i.e. Pharmacovigilance, Marketing, Finance, Regulatory Authorities) to ensure all the responsibilities and agreed services for the clients are met.Understand and adhere to company\u2019s regulatory affairs SOPFull understanding on the business models and key processes related to Zuellig Pharma\u2019s operations and structure that will affect services and responsibilitiesSupport the Regulatory Affairs team for any regulatory affairs adhoc requests, not limiting to Product Review, Regulations, Guidelines.Promote and adhere to Zuellig Pharma\u2019s core values when carrying out day-to-day responsibilities and interactions",
+      "job_requirements": "Knowledge of Regulatory Submission for Pharmaceuticals And Medical DevicesUnderstanding Regulations, Acts and Guidelines for Registration, GMP, GDP, PharmacovigilanceUnderstanding Licensing and Certification requirements for Company, Wholesale, Distribution and maintaining these licenses and certificatesUnderstanding advertising guidelines and requirementsMinimum Degree in Pharmacy or related fields.At least 3 years\u2019 working experience in Regulatory Affairs and or related fields.Possession of a valid certificate of registration as a Pharmacist if applicable.Experience in dealing with Regulations and Enforcements within the laws of Malaysia for Pharmaceutical industry.Good Bahasa Melayu and English writing and communication skills.",
+      "location": "Selangor",
+      "min_salary": "3500",
+      "max_salary": "3800",
+      "closing_date": "2021-01-04",
+      "timestamp": "2020-11-25T10:43:39.387Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 52,
+    "fields": {
+      "user": 27,
+      "position_title": "Sales Representative (Trade)",
+      "employment_type": "Full-Time",
+      "position_level": "Entry Level",
+      "job_specialization": "Sales/Marketing",
+      "job_description": "Meet and exceed sales targets; achieve maximum sales in assigned territory through approved and allocated channels\r\nExecute the commercial strategy in each of the assigned account / customer, to meet the objectives of sell in, sell out, distribution and share profitablyIncrease market share by promoting and selling products, communicate and present trade marketing programs and new products, conduct dealer/retailers training, and drive new customer developmentPlan and manage weekly/monthly work schedules with Business Manager to enable an efficient, effective work execution and achieve coverage and frequency targets (quantity & quality) and deliver agreed customer centric activities within operating budgetAchieve SFE KPIs and effectively utilize the relevant SFE software to maintain quality records and to report daily callsKeep abreast of competition, regulatory and market development, and update the information to the Company in a timely mannerContinuous improvement on the functional core competenciesEnsure compliance with the company policies and the local industry\u2019s code of conduct to ensure that the company conducts business with integrityPromote and adhere to Zuellig Pharma\u2019s core values when carrying out day-to-day responsibilities and interactions",
+      "job_requirements": "TECHNICAL COMPETENCYSelling skillPresentation skillProduct KnowledgePlanning & Organizing SkillProblem Solving Skill & Decision MakingStrong Communication Skills (Both Verbal and Written)MINIMUM JOB REQUIREMENTS EDUCATION:Graduate of Diploma/Degree in Marketing, Business Administration or relevant discipline.RELATED WORK EXPERIENCE:5PM / STPM or Certificate in Marketing with 2 - 3 years' experience in sales, preferably in FMCG, OTC/ Healthcare products or infant formula milk power or in nutritional products.Fresh degree holders are also encouraged to apply.",
+      "location": "Kuala Lumpur",
+      "min_salary": "2500",
+      "max_salary": "3000",
+      "closing_date": "2021-01-27",
+      "timestamp": "2020-11-25T10:43:48.296Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 53,
+    "fields": {
+      "user": 27,
+      "position_title": "Billing Executive",
+      "employment_type": "Full-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Accounting/Finance",
+      "job_description": "Perform invoicing for clients and admin fee billingPerform closing for manual direct accounts for other clientsIssuance of debit and credit notes to clients and reimbursementAssist Account Receivable (AR) on collection of paymentsIssuance of official receipt, receipt vouchers and perform allocation of paymentManual entry for invoices along with posting and verificationAssist in monthly bank reconciliation for collectionsSorting and filling for invoices and collection documentations",
+      "job_requirements": "Diploma/Degree holders with 2 to 3 years working experience in Third Party Administration (TPA) / call centre and hospitality industry is added advantage.Good communication skills.Good computer skills and meticulous with details.Must be able to read and write English & Bahasa Malaysia due to clientele portfolio.Able to work in fast paced environment, independent, customer focused, result oriented & disciplined.Posses own transport.",
+      "location": "Selangor",
+      "min_salary": "2000",
+      "max_salary": "2800",
+      "closing_date": "2021-01-05",
+      "timestamp": "2020-11-25T10:49:10.349Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 54,
+    "fields": {
+      "user": 27,
+      "position_title": "Claims Executive",
+      "employment_type": "Full-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Accounting/Finance",
+      "job_description": "Process authorized Inpatient & Outpatient claims (GP, SP, Dental, Optical,Maternity and Wellness as within the requirement benchmarks (TAT).To interact and communicate with members on the procedures of Inpatient/Outpatient claims submission (e-Claims) and their turnaround time.Manage customer enquiries/complaints through email, e-helpdesk or written complaint and provide feedback/response within designated timeline.To investigate potential fraudulent claims and report to superior on claims irregularities involving corporate clients.Create Batch Numbers ad and prepares Claims submission listing.",
+      "job_requirements": "Minimum diploma/degree holder, preferable with minimum\u00a02 years working experience.Candidate with medical insurance/nursing/medical science/hospital\u00a0background will be added advantage.Pleasant personality with excellent interpersonal and organizational skills.Highly self motivated, energetic and persistent with good interpersonal and communication skills in English & Bahasa Malaysia language. Ability to speak in Mandarin/Tamil will be added advantages.Computer literate.Able to work in fast paced environment, independent, customer focused, result oriented & disciplined.Willing to work beyond normal office hours.Diligent, aggressive and productive performer.Having traits of Reliability, Empathy and Resourceful.",
+      "location": "Johor",
+      "min_salary": "1800",
+      "max_salary": "2500",
+      "closing_date": "2020-11-30",
+      "timestamp": "2020-11-25T10:44:07.964Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 55,
+    "fields": {
+      "user": 28,
+      "position_title": "Store Crew",
+      "employment_type": "Full-Time",
+      "position_level": "Non-Executive",
+      "job_specialization": "Sales/Marketing",
+      "job_description": "Store StandardsPerforms cleaning duties.Ensure shelves are stock with products in line with planogram.Performs tasks (that improves/maintains store standards) as assigned by Store Manager.Provides customer service in line with 7-Eleven customer service standards.CompliancePerforms cashiering duties in line with Cash Handling & Loss Prevention policy.Performs CDU stock count.Performance accurate receiving/returns procedure in line with receiving SOPs.PeopleAssist SM/ASM to guide new staff in performing their day to day duties.CommercialObserves customer profile, store product assortment and performs/proposes accurate ordering.Diligently performs plus selling and promotion, sales building mechanics.Ensure minimal OOS at stores by performing accurate ordering and follows up with non-fulfilment.Ensure store compliance towards planogram.Ensure the promotion product/POSM being displayed accordingly.OthersPerform ad-hoc task instructed by SM/ASM.Any changes on JD based on company's instruction.",
+      "job_requirements": "Annual leaveMedical and insurance coverageEPF\u00a0SOCSOUniform will be providedOpportunity for career advancement based on performance",
+      "location": "Johor",
+      "min_salary": "1800",
+      "max_salary": "2500",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 56,
+    "fields": {
+      "user": 28,
+      "position_title": "Merchandising Executive (Chilled & Frozen Category)",
+      "employment_type": "Full-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Sales/Marketing",
+      "job_description": "To negotiate best costing for product quote by supplier.To plan on future promotions, schedule of items to supply and displaying of inventory on gondola/shelf.To monitor on the sales progress and performance monthly; providing the monthly review of sales and gains.To work together with manager on upcoming events or planning of the particular department, monitor inventory turnover, sales performance and achievement.Liaise with local and overseas suppliers for product sourcing, developing and pricing requirements.Analyze pricing and negotiate with 5 Rs (Right source, Right price, Right quality, Right timing and Right quantity).Analyze market information to identify product trends/price trends/opportunities in order to develop competitive products/price to customers.Decorate the product layout, schematic plan and display of store.To perform any other work as and when required.",
+      "job_requirements": "Degree in Business/Marketing or equivalent.Minimum 2 years buying experiences in FMCG or retail line.Proficient in English and Bahasa Malaysia.Intermediate Excel and PowerPoint skills.Self-motivated and able to work independently with minimal supervision.Result-oriented, strong communication and interpersonal skills.Independent, outgoing, good public relations, pleasant personality.",
+      "location": "Kuala Lumpur",
+      "min_salary": "3200",
+      "max_salary": "3700",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 57,
+    "fields": {
+      "user": 28,
+      "position_title": "Advertising And Promotion Executive",
+      "employment_type": "Full-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Sales/Marketing",
+      "job_description": "Manage the execution of proprietary brand campaigns.Co-ordinating and monitoring promotional campaigns with consumer activities / events.Provide creative thought leadership around the creation and rollout of monthly / seasonal A&P.Preparing and monitoring online and in-store marketing campaigns.Monitoring the division\u2019s budget and expenditure as per pre-determined.Creation and publication of all A&P / PB material in line with pre-agreed plans.Work closely with cross-functional teams to ensure Merchandizing and Operations objectives are comprehensively supported by the seasonal retail marketing plans.Monitor and report on effectiveness of A&P / PB initiatives by defining and implementing KPI metrics to collect accurate qualitative and quantitative ROI.To guide and monitor the team from campaign planning to execution and review that is aligned to timeline and budget.To execute and oversee any additional assigned duties / work scope as requested by the Manager and Head of Department.To assist in the administrative work.To perform any other work as and when required.",
+      "job_requirements": "Candidate must possess at least a Bachelor's Degree, Post Graduate Diploma, Professional Degree, Advertising/Media, Mass Communications, Marketing or equivalent.Possess 3 to 5 years of working experience in advertising agency or retail industry is required for this position.Experience in at least basic analytics and ability to prepare analysis report.Excellent interpersonal and communication skills (written and verbal).Strong PC skills especially Microsoft Office (Excel, Word, Power Point).Required language(s): Bahasa Malaysia, English",
+      "location": "Kuala Lumpur",
+      "min_salary": "3500",
+      "max_salary": "4000",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 58,
+    "fields": {
+      "user": 28,
+      "position_title": "Assistant Manager Internal Audit & Risk Management",
+      "employment_type": "Full-Time",
+      "position_level": "Senior Executive",
+      "job_specialization": "Sales/Marketing",
+      "job_description": "To undertake audit planning & fieldwork to ensure well documented working papers to support the audit conclusion and results.Review operating management processes to identify major risks & their mitigating controls via risk assessment tools such as Risk Management & Internal Control self-assessment Questionnaire.Recommend appropriate controls & value added measures to address the root cause of the control issues or to improve the operational efficiency.Prepare audit report and perform follow-up review to monitor the implementation of controls and process improvements.Assist in the planning & performance of monthly audit activities including special investigation, due diligence and forensic audit.",
+      "job_requirements": "Candidate must possessed at least a Bachelor Degree or professional degree in accounting & finance.\u00a0Preferably a member of Malaysian Institute of Internal Auditors.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Well versed with Bursa Listing Requirement, guidelines of Securities Commission & Malaysian Code of Corporate Governance.Minimum of 4 years audit work experience from accounting firms & multinational companies.Good written & verbal communication skill.",
+      "location": "Kuala Lumpur",
+      "min_salary": "5000",
+      "max_salary": "7000",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 59,
+    "fields": {
+      "user": 28,
+      "position_title": "Senior Executive, Server & Network",
+      "employment_type": "Full-Time",
+      "position_level": "Senior Executive",
+      "job_specialization": "Computer/Information Technology",
+      "job_description": "To manage the Data Center, Backup/Restore, Hardware, Operating System and Office Automation.Establishing and identifying the needs of application/users and monitoring application/user access and security.Define and align SEM requirement with System/Storage/Backup Infrastructure Service Level (SLA).Monitoring and managing Server, Storage and backup performance/load/availability and Cloud.Mapping out the conceptual design for a planned infrastructure architecture in outline.Design, Install, configure and testing new Server, Storage, backup and cloud.Proactively manage and maintain Server, Storage and backup standards, including adherence to the Data Protection Act.Troubleshoot System/Storage/Backup issues within the defined Service Level (SLA).Design and Implement monitoring, configuration management and reporting functions that will make a hands-off environment.Controlling access permissions and privileges.Developing, managing and testing back-up and recovery plans.Ensuring that server, storage, back-up and recovery procedures are functioning correctly.Capacity planning.Maintain Inventory and asset configuration documentation.Working closely with IT project managers, vendors, database and programmers.Communicating regularly with database administrator, applications and operational staff to ensure Server, Storage and backup integrity and security.Commissioning and installing new applications and customizing existing applications in order to make them fit for purpose.Carry out special tasks or ad-hoc tasks at Management\u2019s direction.Assist PC, laptop and printer.Manage Data Center.Develop network security infrastructure solutions including financial analysis of technical alternatives to meet business requirements.Produce and maintain timely, accurate documentation to support implementation, operations support and quality/compliance requirements.The ability to provide clear and concise technical documentation that is understandable to both the technical community and senior management.A successful candidate will play a key role in ensuring routine system check. Monitoring security, resolving systems issue and to keep a good documentation.To perform any other work as and when required.Network or Server technical skillset is requiredKnowledge on Cloud environment.Require on standby during after working hours, public holiday and weekend.",
+      "job_requirements": "To manage the Data Center, Backup/Restore, Hardware, Operating System and Office Automation.Establishing and identifying the needs of application/users and monitoring application/user access and security.Define and align SEM requirement with System/Storage/Backup Infrastructure Service Level (SLA).Monitoring and managing Server, Storage and backup performance/load/availability and Cloud.Mapping out the conceptual design for a planned infrastructure architecture in outline.Design, Install, configure and testing new Server, Storage, backup and cloud.Proactively manage and maintain Server, Storage and backup standards, including adherence to the Data Protection Act.Troubleshoot System/Storage/Backup issues within the defined Service Level (SLA).Design and Implement monitoring, configuration management and reporting functions that will make a hands-off environment.Controlling access permissions and privileges.Developing, managing and testing back-up and recovery plans.Ensuring that server, storage, back-up and recovery procedures are functioning correctly.Capacity planning.Maintain Inventory and asset configuration documentation.Working closely with IT project managers, vendors, database and programmers.Communicating regularly with database administrator, applications and operational staff to ensure Server, Storage and backup integrity and security.Commissioning and installing new applications and customizing existing applications in order to make them fit for purpose.Carry out special tasks or ad-hoc tasks at Management\u2019s direction.Assist PC, laptop and printer.Manage Data Center.Develop network security infrastructure solutions including financial analysis of technical alternatives to meet business requirements.Produce and maintain timely, accurate documentation to support implementation, operations support and quality/compliance requirements.The ability to provide clear and concise technical documentation that is understandable to both the technical community and senior management.A successful candidate will play a key role in ensuring routine system check. Monitoring security, resolving systems issue and to keep a good documentation.To perform any other work as and when required.Network or Server technical skillset is requiredKnowledge on Cloud environment.Require on standby during after working hours, public holiday and weekend.",
+      "location": "Kuala Lumpur",
+      "min_salary": "5500",
+      "max_salary": "7000",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 60,
+    "fields": {
+      "user": 28,
+      "position_title": "Category Manager, Beverage (Non-Alcohol)",
+      "employment_type": "Full-Time",
+      "position_level": "Manager",
+      "job_specialization": "Sales/Marketing",
+      "job_description": "Achieve forecast profits and sales of the designated product category.Product sourcing & development that suits the need of the market.Controlling stock levels based on forecasts for the season.Analyzing products & suppliers and execute next steps.Ensuring that best sellers are fully potentialsManaging space and range and product seasonality.Promotion planning and brand building.Gathering information relating to customer profile to products.Analyzing previous season's sales and reporting on the current season's lines.Visiting suppliers, factory and stores.Meeting with suppliers and managing the distribution of stock, possibly negotiating cost prices with suppliers.Identifying production and supply difficulties and dealing with them as and when they occur.Manage & training team member with succession planning.Identifying and resolve ordering system issues.To perform any other work as and when required.",
+      "job_requirements": "Candidate must possess at least a Bachelor's Degree, Post Graduate Diploma, Professional Degree, Business Studies/Administration/Management, Marketing or equivalent.Required language(s): Bahasa Malaysia, English.At least 5 year(s) of working experience in the retail managerial environment is required for this position.Self-motivated and able to work independently with minimal supervision.Result-oriented, strong communication and interpersonal skills.Independent, outgoing, good public relations, pleasant personality.Preferably Managers specializing in Merchandising or equivalent.",
+      "location": "Kuala Lumpur",
+      "min_salary": "4000",
+      "max_salary": "7000",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 61,
+    "fields": {
+      "user": 29,
+      "position_title": "Learning & Development Assistant Manager",
+      "employment_type": "Full-Time",
+      "position_level": "Manager",
+      "job_specialization": "Education/Training",
+      "job_description": "Serve as an internal trainer to conduct soft skills and leadership development workshops to enhance the competencies and capabilities of all staff.Conduct training needs analysis (TNA) to identify the training needs for all staff in meeting the behavioral competency gaps.Design and develop training calendar, training programme outline, structure and recommend learning solutions to close performance gaps and increase business value.Manage the overall training administration which includes training applications, HRDF claims, audit and etc.Analyse and evaluate effectiveness of learning and development solutions mainly in the area of soft skills training.Source and recommend training vendors and ensure sustainability of positive learning environment in delivering key learning objectives.Assist in planning and managing the yearly budgeting process, provide guidance to staff in setting the departmental budget and managing within the approved budget.Develop, implement, and ensure the end to end effectiveness of Orientation Program for all new employees.Work closely with relevant parties to drive e-learning initiatives.Actively support organisational development activities in meeting company\u2019s development objectives.",
+      "job_requirements": "5 \u2013 6 years of working experience in learning & development or relevant field.Experienced in establishing an e-learning programme/patform will be an added advantage.",
+      "location": "Kuala Lumpur",
+      "min_salary": "8000",
+      "max_salary": "9000",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 62,
+    "fields": {
+      "user": 30,
+      "position_title": "Engineer (Co-ordination & Facilities)",
+      "employment_type": "Full-Time",
+      "position_level": "Junior Executive",
+      "job_specialization": "Building/Construction",
+      "job_description": "To apply for regular renewal of  business licenses, permits, certificates and approvals from Government Bodies such as local authority, BOMBA, DOE, MCM, DOSH.To manage utilities items on the premises.To manage, review, monitor and record facilities part lifespan.To apply for any new permit and/or license as required by company from time to time.Responsible on the standardization for all facilities adjustment procedure.To liaise with the transporter company's representative about the arrival time and date of the motor vessel (ship)To attend a pre-operation meeting at the Port and provide a letter authorizing the discharging slag during drizzles on behalf of.To monitor the traffic of the lorries coming in and going out of our Premises during the discharging period of 3 to 5 days.To furnish a shipment analysis report to the General Manager for his information, based on our own Receiving and Dispatch report, the Draft Surveyor's report and the Shipping Agent's Statement of Facts.",
+      "job_requirements": "Candidate must possess at least Bachelor's Degree/Post Graduate Diploma/Professional Degree in Engineering (Civil) or equivalent.At least 3 - 4 Year(s) of working experience in the facilities/building management is required for this position.Having experience dealing with government authorities (DOSH, DOE, BOMBA, MPPG) for all permits application and renewal matters Preferably Executive specialized in Engineering - Facilities Management.",
+      "location": "Johor",
+      "min_salary": "3800",
+      "max_salary": "4000",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 63,
+    "fields": {
+      "user": 31,
+      "position_title": "Customer Service Executive | Attractive Salary Package (Basic + Allowances)",
+      "employment_type": "Full-Time",
+      "position_level": "Entry Level",
+      "job_specialization": "Services",
+      "job_description": "Delivering excellent customer service to customer via phone (inbound). This may be extended to other channels (email, live chat, social media) based on your skills.Providing accurate information on products and services to customer.Consistently meeting individual and team KPIS and goalsMaintaining high degree of integrity and confidentiality \u2013 keeping customers\u2019 information confidential at all times.",
+      "job_requirements": "Must possess at least an SPM, Diploma, Bachelor\u2019s Degree or higher, in any fieldsFresh graduates are encourage to applyGood command in spoken Mandarin is an additional advantageAbilities to read and write simplified and tranditional Mandarin are additional advantageGood command in English & Bahasa Malaysia in both spoken and writtenProper phone etiquette with excellent interpersonal and active listening skillsResourceful, proactive and able to work independentlyFast learner with good analytical thinking and problem solving skillsReady to work in shift rotations (AM/PM/Midnight shifts) based on business needsAble to work on public holidays and weekends (based on business needs)",
+      "location": "Kuala Lumpur",
+      "min_salary": "2200",
+      "max_salary": "3000",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 64,
+    "fields": {
+      "user": 31,
+      "position_title": "Call Center Operation Manager",
+      "employment_type": "Full-Time",
+      "position_level": "Manager",
+      "job_specialization": "Services",
+      "job_description": "Managing and coordinating call centre day-to-day operation to fulfill Clients\u2019 requirements and to deliver KPIs with the highest standards in accordance with the businees needs.To effectively manage call centre operation for constant performance achievements.Responsible for implementing policies, guidelines, processes, and procedures as well as areas of improvements for call centre operation.Headcount and capacity planning for call centre operation based on the requirements set by the Clients.Responsible in preparing reports and data analysing.Generating report from CRM system independently, proactively, and creatively, in order to store and manage database accordingly.Creating report templates, report filing and reports analysing which include customization and automation report to ease analysis and reporting processes, and to perform any ad hoc reports as required by the Clients.To identify relevant training needs for employees in developing their skills for internal growth.Planning for costing for new prospects and existing clients as required.Collaborating with other divisions and departments for the benefits to be gained within the call centre operation.Maintaining good relationship with the Clients in sustaining the business.Other ad hoc tasks as assigned by the\u00a0higher level of management.",
+      "job_requirements": "Candidate must possess at least Diploma, Bachelor Degree or above with minimum 3.0 CGPAAt least 5 year(s) of working experience in Call Centre or BPO industry is required for this position, preferably Manager or Senior Supervisor positionsExcellent interpersonal and communication skillsGood command of spoken and written English and Bahasa Malaysia (Spoken Mandarin is an added advantage).Must be target-oriented person and willing to adopt to new working environmentMust possess strong analysis and reporting skills with advanced knowledge in Microsoft Excel and Powerpoint applicationsAbility to multitask and prioritize responsibilities",
+      "location": "Kuala Lumpur",
+      "min_salary": "5000",
+      "max_salary": "8500",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.jobad",
+    "pk": 65,
+    "fields": {
+      "user": 31,
+      "position_title": "Customer Care Associate | Immediate Hiring",
+      "employment_type": "Full-Time",
+      "position_level": "Entry Level",
+      "job_specialization": "Services",
+      "job_description": "Delivering excellent customer service to customer via phone (inbound). This may be extended to other channels (email, live chat, social media) based on your skills.Providing accurate information on products and services to customer.Consistently meeting individual and team KPIS and goalsMaintaining high degree of integrity and confidentiality \u2013 keeping customers\u2019 information confidential at all times.",
+      "job_requirements": "Must possess at least an SPM, Diploma, Bachelor\u2019s Degree or higher, in any fieldsFresh graduates are encourage to applyGood command in spoken Mandarin is an additional advantageAbilities to read and write simplified and tranditional Mandarin are additional advantageGood command in English & Bahasa Malaysia in both spoken and writtenProper phone etiquette with excellent interpersonal and active listening skillsResourceful, proactive and able to work independentlyFast learner with good analytical thinking and problem solving skillsReady to work in shift rotations (AM/PM/Midnight shifts) based on business needsAble to work on public holidays and weekends (based on business needs)",
+      "location": "Kuala Lumpur",
+      "min_salary": "2200",
+      "max_salary": "3000",
+      "closing_date": "2021-01-28",
+      "timestamp": "2020-07-28T10:49:41.381Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 1,
+    "fields": {
+      "user": 27,
+      "jobad": 50,
+      "cand": 42,
+      "status": null,
+      "timestamp": "2020-12-07T04:28:08.281Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 2,
+    "fields": {
+      "user": 27,
+      "jobad": 50,
+      "cand": 68,
+      "status": null,
+      "timestamp": "2020-12-03T08:57:23.007Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 3,
+    "fields": {
+      "user": 27,
+      "jobad": 50,
+      "cand": 28,
+      "status": "Processed",
+      "timestamp": "2020-12-24T15:05:21.488Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 4,
+    "fields": {
+      "user": 27,
+      "jobad": 50,
+      "cand": 40,
+      "status": null,
+      "timestamp": "2020-12-07T04:51:50.129Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 5,
+    "fields": {
+      "user": 27,
+      "jobad": 50,
+      "cand": 165,
+      "status": "Processed",
+      "timestamp": "2020-12-24T15:05:26.865Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 6,
+    "fields": {
+      "user": 27,
+      "jobad": 50,
+      "cand": 141,
+      "status": null,
+      "timestamp": "2020-12-11T07:34:46.234Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 7,
+    "fields": {
+      "user": 27,
+      "jobad": 50,
+      "cand": 136,
+      "status": null,
+      "timestamp": "2020-12-11T09:40:15.125Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 8,
+    "fields": {
+      "user": 27,
+      "jobad": 50,
+      "cand": 73,
+      "status": null,
+      "timestamp": "2020-12-11T09:40:35.638Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 9,
+    "fields": {
+      "user": 27,
+      "jobad": 51,
+      "cand": 161,
+      "status": null,
+      "timestamp": "2020-12-07T04:28:08.281Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 10,
+    "fields": {
+      "user": 27,
+      "jobad": 51,
+      "cand": 158,
+      "status": null,
+      "timestamp": "2020-12-03T08:57:23.007Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 11,
+    "fields": {
+      "user": 27,
+      "jobad": 51,
+      "cand": 188,
+      "status": null,
+      "timestamp": "2020-12-07T02:43:23.641Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 12,
+    "fields": {
+      "user": 27,
+      "jobad": 51,
+      "cand": 173,
+      "status": null,
+      "timestamp": "2020-12-07T04:51:50.129Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 13,
+    "fields": {
+      "user": 27,
+      "jobad": 51,
+      "cand": 50,
+      "status": null,
+      "timestamp": "2020-12-07T05:01:59.289Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 14,
+    "fields": {
+      "user": 27,
+      "jobad": 51,
+      "cand": 155,
+      "status": null,
+      "timestamp": "2020-12-11T07:34:46.234Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 15,
+    "fields": {
+      "user": 27,
+      "jobad": 51,
+      "cand": 128,
+      "status": null,
+      "timestamp": "2020-12-11T09:40:15.125Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 16,
+    "fields": {
+      "user": 27,
+      "jobad": 51,
+      "cand": 172,
+      "status": null,
+      "timestamp": "2020-12-11T09:40:35.638Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 17,
+    "fields": {
+      "user": 27,
+      "jobad": 51,
+      "cand": 121,
+      "status": null,
+      "timestamp": "2020-12-07T04:28:08.281Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 18,
+    "fields": {
+      "user": 27,
+      "jobad": 51,
+      "cand": 101,
+      "status": null,
+      "timestamp": "2020-12-03T08:57:23.007Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 19,
+    "fields": {
+      "user": 27,
+      "jobad": 51,
+      "cand": 35,
+      "status": null,
+      "timestamp": "2020-12-07T02:43:23.641Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 20,
+    "fields": {
+      "user": 27,
+      "jobad": 51,
+      "cand": 141,
+      "status": null,
+      "timestamp": "2020-12-07T04:51:50.129Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 21,
+    "fields": {
+      "user": 27,
+      "jobad": 51,
+      "cand": 53,
+      "status": null,
+      "timestamp": "2020-12-07T05:01:59.289Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 22,
+    "fields": {
+      "user": 27,
+      "jobad": 52,
+      "cand": 111,
+      "status": null,
+      "timestamp": "2020-12-11T07:34:46.234Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 23,
+    "fields": {
+      "user": 27,
+      "jobad": 52,
+      "cand": 193,
+      "status": "Processed",
+      "timestamp": "2020-12-24T15:58:52.044Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 24,
+    "fields": {
+      "user": 27,
+      "jobad": 52,
+      "cand": 117,
+      "status": "Processed",
+      "timestamp": "2020-12-24T15:19:08.217Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 25,
+    "fields": {
+      "user": 27,
+      "jobad": 52,
+      "cand": 44,
+      "status": "Processed",
+      "timestamp": "2020-12-24T15:59:04.610Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 26,
+    "fields": {
+      "user": 27,
+      "jobad": 52,
+      "cand": 48,
+      "status": null,
+      "timestamp": "2020-12-03T08:57:23.007Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 27,
+    "fields": {
+      "user": 27,
+      "jobad": 52,
+      "cand": 78,
+      "status": "Processed",
+      "timestamp": "2020-12-24T15:20:19.253Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 28,
+    "fields": {
+      "user": 27,
+      "jobad": 52,
+      "cand": 169,
+      "status": "Processed",
+      "timestamp": "2020-12-24T15:22:09.994Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 29,
+    "fields": {
+      "user": 27,
+      "jobad": 52,
+      "cand": 73,
+      "status": null,
+      "timestamp": "2020-12-07T05:01:59.289Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 30,
+    "fields": {
+      "user": 27,
+      "jobad": 53,
+      "cand": 51,
+      "status": null,
+      "timestamp": "2020-12-11T07:34:46.234Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 31,
+    "fields": {
+      "user": 27,
+      "jobad": 53,
+      "cand": 38,
+      "status": null,
+      "timestamp": "2020-12-11T09:40:15.125Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 32,
+    "fields": {
+      "user": 27,
+      "jobad": 54,
+      "cand": 169,
+      "status": null,
+      "timestamp": "2020-12-11T09:40:35.638Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 33,
+    "fields": {
+      "user": 27,
+      "jobad": 54,
+      "cand": 203,
+      "status": null,
+      "timestamp": "2020-12-07T04:28:08.281Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 34,
+    "fields": {
+      "user": 27,
+      "jobad": 54,
+      "cand": 18,
+      "status": null,
+      "timestamp": "2020-12-03T08:57:23.007Z"
+    }
+  },
+  {
+    "model": "jobads.unprocessed",
+    "pk": 35,
+    "fields": {
+      "user": 27,
+      "jobad": 54,
+      "cand": 204,
+      "status": null,
+      "timestamp": "2020-12-07T02:43:23.641Z"
+    }
+  },
+  {
+    "model": "jobads.shortlist",
+    "pk": 1,
+    "fields": {
+      "user": 27,
+      "jobad": 53,
+      "cand": 38,
+      "timestamp": "2020-12-24T06:16:56.514Z"
+    }
+  },
+  {
+    "model": "jobads.shortlist",
+    "pk": 2,
+    "fields": {
+      "user": 27,
+      "jobad": 50,
+      "cand": 141,
+      "timestamp": "2020-12-24T06:21:43.895Z"
+    }
+  },
+  {
+    "model": "jobads.shortlist",
+    "pk": 3,
+    "fields": {
+      "user": 27,
+      "jobad": 52,
+      "cand": 117,
+      "timestamp": "2020-12-24T15:06:23.400Z"
+    }
+  },
+  {
+    "model": "jobads.shortlist",
+    "pk": 4,
+    "fields": {
+      "user": 27,
+      "jobad": 52,
+      "cand": 44,
+      "timestamp": "2020-12-24T15:19:15.413Z"
+    }
+  },
+  {
+    "model": "jobads.shortlist",
+    "pk": 5,
+    "fields": {
+      "user": 27,
+      "jobad": 52,
+      "cand": 78,
+      "timestamp": "2020-12-24T15:20:19.248Z"
+    }
+  },
+  {
+    "model": "jobads.shortlist",
+    "pk": 6,
+    "fields": {
+      "user": 27,
+      "jobad": 52,
+      "cand": 169,
+      "timestamp": "2020-12-24T15:20:24.324Z"
+    }
+  },
+  {
+    "model": "jobads.shortlist",
+    "pk": 7,
+    "fields": {
+      "user": 27,
+      "jobad": 52,
+      "cand": 193,
+      "timestamp": "2020-12-24T15:22:29.589Z"
+    }
+  },
+  {
+    "model": "jobads.interview",
+    "pk": 1,
+    "fields": {
+      "user": 27,
+      "jobad": 50,
+      "cand": 28,
+      "timestamp": "2020-12-24T15:05:21.484Z"
+    }
+  },
+  {
+    "model": "jobads.interview",
+    "pk": 2,
+    "fields": {
+      "user": 27,
+      "jobad": 52,
+      "cand": 117,
+      "timestamp": "2020-12-24T15:06:20.539Z"
+    }
+  },
+  {
+    "model": "jobads.interview",
+    "pk": 3,
+    "fields": {
+      "user": 27,
+      "jobad": 52,
+      "cand": 44,
+      "timestamp": "2020-12-24T15:59:04.604Z"
+    }
+  },
+  {
+    "model": "jobads.notsuitable",
+    "pk": 1,
+    "fields": {
+      "user": 27,
+      "jobad": 50,
+      "cand": 165,
+      "timestamp": "2020-12-24T15:05:26.859Z"
+    }
+  },
+  {
+    "model": "jobads.notsuitable",
+    "pk": 2,
+    "fields": {
+      "user": 27,
+      "jobad": 52,
+      "cand": 117,
+      "timestamp": "2020-12-24T15:06:16.901Z"
+    }
+  }
+]

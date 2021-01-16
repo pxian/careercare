@@ -1,0 +1,126 @@
+{% extends 'employers.html' %}
+{% load static %}
+{% block content %}
+
+{% if messages %}
+<div class="message">
+    {% for message in messages %}
+    <div class="alert alert-{{ message.tags }} alert-dismissible fade show" id="msg" style="margin-left: 12%">
+        {% if message.level == DEFAULT_MESSAGE_LEVELS.ERROR %}Important: {% endif %}
+        {{ message }}
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+<div class="ftco-section bg-light">
+    <div class="container">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="{% url 'resumeanalyzer:uploadresume' %}">Import Resume(s)</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'resumeanalyzer:resumelist' %}">View All Resumes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'resumeanalyzer:uploadjob' %}">Perform Matching</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'resumeanalyzer:history' %}">View Matching History</a>
+            </li>
+          </ul>
+          <br><br>
+        <a href="{% url 'resumeanalyzer:index' %}" class="btn btn-sm btn-secondary">Back</a><br><br>
+        <div class="row">
+            <div class="col-12 filter-text">
+                <form action="{% url 'resumeanalyzer:filter' job.jobid %}" enctype="multipart/form-data" method="POST">
+                    {% csrf_token %}
+                    <div class="job-post-item bg-white p-4">
+                        <h6 class="pl-1 pb-2" style="color: black">FILTER BY:</h6>
+                        <div class="d-flex bd-highlight">
+                            <div class="p-1 flex-grow-1 bd-highlight">
+                                <input type="radio" id="all" name="filter" value="all"><label for="all">All candidates &nbsp&nbsp&nbsp&nbsp&nbsp</label>
+                                <input type="radio" id="shortlisted" name="filter" value="shortlisted"><label for="shortlisted">Shortlisted candidates</label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 mt-2">Apply</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-xl-12">
+                <div class="card bg-light shadow h-100">
+                    <div class="card-header bg-white border-0">
+                        <div class="row align-items-center">
+                            <div class="col-8">
+                                <h3 class="mb-0">Resume Matching #{{ title }}</h3>
+                            </div>
+                            <div class="col-4 text-right">
+                                <a href="{% url 'resumeanalyzer:uploadjob' %}" class="btn btn-sm btn-success">Create</a>
+                                <a href="{% url 'resumeanalyzer:visualise' job.jobid %}" class="btn btn-sm btn-info">View Visualisation</a>
+                                <a href="{% url 'resumeanalyzer:history' %}" class="btn btn-sm btn-primary">View History</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table align-items-center table-flush">
+                            <thead class="thead-light">
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Matching Percentage</th>
+                                    <th scope="col">Status</th>
+                                    <th scope="col"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for key, value in sorted_dict.items %}
+                                <tr>
+                                    <td>{{ forloop.counter }}</td>
+                                    <td>{{ key.name|upper }}</td>
+                                    <td>{{ value|floatformat:2 }}%</td>
+                                    <td>{{ key.status }}</td>
+                                    <td class="text-right">
+                                        <div class="dropdown">
+                                            <a class="btn btn-secondary btn-sm dropdown-toggle" href="#" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true"
+                                                aria-expanded="false">Action</a>
+                                            <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+                                                <a class="dropdown-item"
+                                                    href="{% url 'resumeanalyzer:details' key.resumeid %}">View Details</a>
+                                                {% if key.status == "Available" %}
+                                                <form method="POST"
+                                                    action="{% url 'resumeanalyzer:shortlist' key.resumeid %}"
+                                                    onsubmit='return confirm("Are you sure you want to shortlist {{ key.name }}?")'>
+                                                    {% csrf_token %}
+                                                    <button type="submit" class="dropdown-item">Shortlist</button>
+                                                </form>
+                                                {% else %}
+                                                <form method="POST"
+                                                    action="{% url 'resumeanalyzer:delist' key.resumeid %}"
+                                                    onsubmit='return confirm("Are you sure you want to delist {{ key.name }}?")'>
+                                                    {% csrf_token %}
+                                                    <button type="submit" class="dropdown-item">Delist</button>
+                                                </form>
+                                                {% endif %}
+                                                <form method="POST"
+                                                    action="{% url 'resumeanalyzer:deleteResume' key.resumeid %}"
+                                                    onsubmit='return confirm("Are you sure you want to delete {{ key.name }}?")'>
+                                                    {% csrf_token %}
+                                                    <button type="submit" class="dropdown-item">Delete</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}

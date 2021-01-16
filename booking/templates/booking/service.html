@@ -1,0 +1,124 @@
+{% extends 'employers.html' %} 
+{% load static %}
+
+{% block content %}
+<br>
+<div class="container col-10 text-dark">
+    <div class="bg-white p-4">
+        <div class="w-100 d-flex align-items-center align-middle">
+            <div class="mr-3">
+                <img src="{% static '/images/users/default.jpg' %}" class="ssearch-img">
+            </div>
+            <div class="mr-auto pl-2">
+                <h6 class="pt-3">{{ details.name|upper}}</h6>
+                <p class="mb-3">{{ details.duration }}</p>
+            </div>
+            <div class="pr-4 text-right border-right">
+                <i class="fa fa-check-circle text-success pr-1"></i>
+                {{  details.jobs_completed }}<br>
+                Jobs completed
+            </div>
+            <div class="pl-4 pr-3 text-right">
+                <i class="fa fa-star text-warning pr-1"></i>
+                {{ details.rating|floatformat:1 }}<br>
+                Ratings
+            </div>
+        </div>
+    </div><br>
+    <div class="row">
+        <div class="col-8">
+            <div class="card card-custom rounded-0">
+                <div class="card-header d-flex border-0 p-4">
+                    <div class="card-toolbar">
+                        <ul class="nav nav-bold nav-pills">
+                            <li class="nav-item">
+                                <a class="nav-link active ml-0" data-toggle="tab" href="#about">Overview</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#contact">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#photos">Photos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-body px-4 pb-4 pt-0">
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="about">
+                            <table class="table table-light">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            {{ details.description|capfirst|linebreaks }}
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade" id="services" role="tabpanel" aria-labelledby="services">
+                            <table class="table table-light">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            {{ details.service_offer|linebreaks }}
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact">
+                            <table class="table table-light">
+                                <tbody>
+                                    <tr>
+                                        <td width="20%">
+                                            <p>Name</p>
+                                            Address
+                                        </td>
+                                        <td>
+                                            <p>{{ details.contact_person|title }}</p>
+                                            {% if details.address_2 %}
+                                                {{ details.address_1|title }} {{ details.address_2|title }}<br>
+                                                {{ details.pcode|title }}, {{ details.city|title }}, {{ details.state|title }}
+                                            {% else %}
+                                                {{ details.address_1|title }}<br>
+                                                {{ details.pcode|title }}, {{ details.city|title }}, {{ details.state|title }}
+                                            {% endif %}
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade text-center" id="photos" role="tabpanel" aria-labelledby="photos">
+                            <table class="table table-light">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <img class='mx-auto mt-2' width='250' src='/static/images/no_photos.png' style='cursor: auto'>
+                                            <p class='mx-auto pt-3'>No photos to display</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card card-custom p-4 rounded-0">
+                <h6>Interested?</h6>
+                <p>Book by sending a private request!</p><br>
+                <a href="{% url 'booking:bookservice' details.id %}" class="btn btn-primary py-2">
+                    Request service &nbsp;
+                    <i class="fa fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <br><br>
+</div>
+{% endblock content %}

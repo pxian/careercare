@@ -1,0 +1,142 @@
+{% extends 'customadmin.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container col-12">
+    <div class="d-md-flex align-items-center mb-3">
+        <h5 class="pt-2"></h5>
+        <div class="ml-auto d-flex">
+            <button type="button" class="btn btn-primary py-2 px-3" data-toggle="modal" data-target="#generateReport">Generate Report</a>
+        </div>
+        <div class="modal fade" id="generateReport" tabindex="-1" role="dialog" aria-labelledby="generateReportTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class="mb-0 text-dark job-details" id="generateReportTitle">Report</span>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Preview Report
+                    </div>
+                    <div class="modal-footer">
+                        <form action="{% url 'customadmin:dashboard' %}" method="post">
+                            {% csrf_token %}
+                            <button type="submit" class="btn btn-primary">Download</button>
+                        </form>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="col-4">
+            <div class="job-post-item bg-white p-4 d-block jobads-row">
+                <div class="border-bottom">
+                    <h6 class="text-dark mb-4">Total Employers</h6>
+                </div>
+                <div class="row text-center mt-4">
+                    <div class="col border-right">
+                        <h6 class="value-text">{{ queryset_1.0 }}</h6>
+                        <span class="text-dark">Organisation</span>
+                    </div>
+                    <div class="col">
+                        <h6 class="value-text">{{ queryset_1.1 }}</h6>
+                        <span class="text-dark">Individual</span>
+                    </div>
+                </div>
+            </div>
+            <div class="job-post-item bg-white p-4 d-block jobads-row align-items-center mt-4">
+                <div class="border-bottom">
+                    <h6 class="text-dark mb-4">Total Posts</h6>
+                </div>
+                <div class="row text-center mt-4">
+                    <div class="col border-right">
+                        <h6 class="value-text">{{ queryset_2.0 }}</h6>
+                        <span class="text-dark">Jobs</span>
+                    </div>
+                    <div class="col">
+                        <h6 class="value-text">{{ queryset_2.1 }}</h6>
+                        <span class="text-dark">Services</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="job-post-item bg-white p-4 d-block jobads-row" style="height: 415px; !important">
+                <div>
+                    <div class="border-bottom">
+                        <h6 class="text-dark mb-4">Most Demanded Service Type</h6>
+                    </div>
+                    <div class="p-2 mt-1">
+                        {% autoescape off %}
+                        {{ queryset_3 }}
+                        {% endautoescape %}
+                    </div>
+                </div>
+            </div>
+        </div><br>
+        <div class="col-4">
+            <div class="job-post-item bg-white p-4 d-block jobads-row" style="height: 415px; !important">
+                <div>
+                    <div class="border-bottom">
+                        <h6 class="text-dark mb-4">Location of Individual</h6>
+                    </div>
+                    <div class="p-2 mt-1">
+                        {% autoescape off %}
+                        {{ queryset_4 }}
+                        {% endautoescape %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="col-4">
+            <div class="job-post-item bg-white p-4 d-block jobads-row" style="height: 415px; !important">
+                <div>
+                    <div class="border-bottom">
+                        <h6 class="text-dark mb-4">Organisation by Size</h6>
+                    </div>
+                    <div class="p-2 mt-1">
+                        {% autoescape off %}
+                        {{ queryset_5 }}
+                        {% endautoescape %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+           <div class="job-post-item bg-white p-4 d-block jobads-row align-items-center" style="height: 415px; !important">
+                <div>
+                    <div class="border-bottom">
+                        <h6 class="text-dark mb-4">10 Biggest Hiring Industries</h6>
+                    </div>
+                    <div class="p-2 mt-1">
+                        {% autoescape off %}
+                        {{ queryset_6 }}
+                        {% endautoescape %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="job-post-item bg-white p-4 d-block jobads-row" style="height: 415px; !important">
+                <div>
+                    <div class="border-bottom">
+                        <h6 class="text-dark mb-4">Location of Job Offer</h6>
+                    </div>
+                    <div class="p-2 mt-1">
+                        {% autoescape off %}
+                        {{ queryset_7 }}
+                        {% endautoescape %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+</div>
+{% endblock content %}

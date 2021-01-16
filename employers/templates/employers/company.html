@@ -1,0 +1,138 @@
+{% extends 'employers.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container col-12">
+    {% include 'settings.html' %}
+
+        <div class="col-8">
+           <div class="card card-custom">
+                <div class="card-header">
+                    <div class="card-title align-items-start mb-0">
+                        <span class="mb-0 text-dark">Company Information</span>
+                    </div>
+                </div>
+                <div class="p-5 bg-white company">
+                    <div class="row mb-2">
+                        <div class="col-6 text-dark">
+                            <label>Name</label><br>
+                            <input class="form-control w-75" placeholder="{{ employer.name }}" disabled>
+                        </div>
+                        <div class="col-6 text-dark">
+                            <label>Size</label><br>
+                            <input class="form-control w-75" placeholder="{{ employer.size }}" disabled>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="row mb-2">
+                        <div class="col-6 text-dark">
+                            <label>Website</label><br>
+                            <input class="form-control w-75" placeholder="{{ employer.website }}" disabled>
+                        </div>
+                        <div class="col-6 text-dark">
+                            <label>Industry</label><br>
+                            <input class="form-control w-75" placeholder="{{ employer.industry }}" disabled>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="row mb-2">
+                        <div class="col-6 text-dark">
+                            <label>Address Line 1</label><br>
+                            <input class="form-control w-75" placeholder="{{ employer.address_1 }}" disabled>
+                        </div>
+                        <div class="col-6 text-dark">
+                            <label>Address Line 2</label><br>
+                            <input class="form-control w-75" placeholder="{{ employer.address_2 }}" disabled>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="row mb-2">
+                        <div class="col-6 text-dark">
+                            <label>State</label><br>
+                            <input class="form-control w-75" placeholder="{{ employer.state }}" disabled>
+                        </div>
+                        <div class="col-6 text-dark">
+                            <label>City</label><br>
+                            <input class="form-control w-75" placeholder="{{ employer.city }}" disabled>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="row mb-2">
+                        <div class="col-6 text-dark">
+                            <label>Postal Code</label><br>
+                            <input class="form-control w-75" placeholder="{{ employer.pcode }}" disabled>
+                        </div>
+                    </div>
+                    <br><br><br>
+                    <button type="button" class="btn btn-primary mr-3" onclick="update()">Update</button>
+                </div>
+                <form action="{% url 'employers:company' %}" method="post" class="p-5 bg-white" hidden>
+                    {% csrf_token %}
+
+                    <div class="row mb-2">
+                        <div class="col-6 text-dark">
+                            <label>Name</label><br>
+                            {{ form.name }}
+                        </div>
+                        <div class="col-6 text-dark">
+                            <label>Size</label><br>
+                            {{ form.size }}
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="row mb-2">
+                        <div class="col-6 text-dark">
+                            <label>Website</label><br>
+                            {{ form.website }}
+                        </div>
+                        <div class="col-6 text-dark">
+                            <label>Industry</label><br>
+                            {{ form.industry }}
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="row mb-2">
+                        <div class="col-6 text-dark">
+                            <label>Address Line 1</label><br>
+                            {{ form.address_1 }}
+                        </div>
+                        <div class="col-6 text-dark">
+                            <label>Address Line 2</label><br>
+                            {{ form.address_2 }}
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="row mb-2">
+                        <div class="col-6 text-dark">
+                            <label>State</label><br>
+                            {{ form.state }}
+                        </div>
+                        <div class="col-6 text-dark">
+                            <label>City</label><br>
+                            {{ form.city }}
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="row mb-2">
+                        <div class="col-6 text-dark">
+                            <label>Postal Code</label><br>
+                            {{ form.pcode }}
+                        </div>
+                    </div>
+                    <br><br><br>
+                    <button type="submit" class="btn btn-primary mr-3">Save</button>
+                    <a href="{% url 'employers:company' %}" class="btn btn-danger">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <br><br>
+</div>
+
+<script type="text/javascript">
+function update() {
+    $(".company").hide();
+    $("form").prop("hidden", false);
+}
+</script>
+{% endblock content %}

@@ -1,0 +1,515 @@
+[
+  {
+    "model": "employers.employer",
+    "pk": 1,
+    "fields": {
+      "user": 5,
+      "name": "Hanson Quarry Products Sdn Bhd",
+      "industry": "Manufacturing/Production",
+      "address_1": "W501 5th Floor West Tower",
+      "address_2": "Wisma Consplant 1, No 2 Jalan SS16/4",
+      "state": "Subang Jaya",
+      "city": "Selangor",
+      "pcode": "47500",
+      "size": "1001 - 2000 Employees",
+      "website": "hanson.com.my",
+      "rating": "4.2",
+      "processing_time": "13 days",
+      "timestamp": "2020-07-28T10:14:48.503Z"
+    }
+  },
+  {
+    "model": "employers.employer",
+    "pk": 2,
+    "fields": {
+      "user": 6,
+      "name": "Company Confidential",
+      "industry": "Consumer Products/FMCG",
+      "address_1": "Menara Cosway, Plaza Berjaya, 12, Jalan Imbi",
+      "address_2": null,
+      "state": "Kuala Lumpur",
+      "city": "Federal Territory of Kuala Lumpur",
+      "pcode": "55100",
+      "size": "201 - 500 Employees",
+      "website": "-",
+      "rating": "3.3",
+      "processing_time": "13 days",
+      "timestamp": "2020-07-28T10:14:48.503Z"
+    }
+  },
+  {
+    "model": "employers.employer",
+    "pk": 3,
+    "fields": {
+      "user": 7,
+      "name": "Company Confidential",
+      "industry": "Computer/Information Technology (Software)",
+      "address_1": "NO. 1-2, 2nd Floor, Jalan Tasik Utama 4,",
+      "address_2": "Medan Niaga Tasik Damai,",
+      "state": "Kuala Lumpur",
+      "city": "Sungai Besi",
+      "pcode": "57100",
+      "size": "51 - 200 Employees",
+      "website": "-",
+      "rating": "3",
+      "processing_time": "28 days",
+      "timestamp": "2020-07-28T10:14:48.503Z"
+    }
+  },
+  {
+    "model": "employers.employer",
+    "pk": 4,
+    "fields": {
+      "user": 8,
+      "name": "DAI DAI PYLON PLT",
+      "industry": "Others",
+      "address_1": "No. 601C Jalan 559A/13",
+      "address_2": null,
+      "state": "Selangor",
+      "city": "Petaling Jaya",
+      "pcode": "47300",
+      "size": "1 - 50 Employees",
+      "website": "shopee.com.my",
+      "rating": "-",
+      "processing_time": "-",
+      "timestamp": "2020-07-28T10:14:48.503Z"
+    }
+  },
+  {
+    "model": "employers.employer",
+    "pk": 5,
+    "fields": {
+      "user": 9,
+      "name": "Hong Leong Asset Management Bhd",
+      "industry": "Stockbroking/Securities",
+      "address_1": "Level 22, No 3, Menara HLA, Jalan Kia Peng  ",
+      "address_2": null,
+      "state": "Kuala Lumpur",
+      "city": "Kuala Lumpur",
+      "pcode": "50450",
+      "size": "More than 5000 Employees",
+      "website": "unittrust.hongleong.com.my",
+      "rating": "3",
+      "processing_time": "a day",
+      "timestamp": "2020-07-28T10:14:48.503Z"
+    }
+  },
+  {
+    "model": "employers.employer",
+    "pk": 6,
+    "fields": {
+      "user": 10,
+      "name": "JP Associates",
+      "industry": "Human Resources Management/Consulting",
+      "address_1": "The Colony @ Eco City",
+      "address_2": null,
+      "state": "Kuala Lumpur",
+      "city": "Kuala Lumpur",
+      "pcode": "50450",
+      "size": "1 - 50 Employees",
+      "website": "jp-associates.asia",
+      "rating": "-",
+      "processing_time": "-",
+      "timestamp": "2020-07-28T10:14:48.503Z"
+    }
+  },
+  {
+    "model": "employers.employer",
+    "pk": 7,
+    "fields": {
+      "user": 11,
+      "name": "Mediterranean Shipping Company (M) Sdn Bhd",
+      "industry": "Transportation/Logistics",
+      "address_1": "No 10-1 -10-8, Level 10, Port Tech Tower",
+      "address_2": "Jalan Tiara 3/KU 01, Bandar Baru Klang,",
+      "state": "Selangor",
+      "city": null,
+      "pcode": "41150",
+      "size": "201 - 500 Employees",
+      "website": "msc.com",
+      "rating": "3.8",
+      "processing_time": "27 days",
+      "timestamp": "2020-07-28T10:14:48.503Z"
+    }
+  },
+  {
+    "model": "employers.employer",
+    "pk": 8,
+    "fields": {
+      "user": 12,
+      "name": "Montfort Boys Town",
+      "industry": "Non-Profit Organisation/Social Services/NGO",
+      "address_1": "Jalan Montfort",
+      "address_2": null,
+      "state": "Selangor",
+      "city": "Shah Alam",
+      "pcode": "40150",
+      "size": "51 - 200 Employees",
+      "website": "-",
+      "rating": "4",
+      "processing_time": "4 days",
+      "timestamp": "2020-07-28T10:14:48.503Z"
+    }
+  },
+  {
+    "model": "employers.employer",
+    "pk": 9,
+    "fields": {
+      "user": 13,
+      "name": "Siang Pharmacy Sdn Bhd",
+      "industry": "Retail/Merchandise",
+      "address_1": "11, Lorong Jawi Jaya 3, Taman Jawi Jaya",
+      "address_2": null,
+      "state": "Penang",
+      "city": "Sungai Jawi",
+      "pcode": "14200",
+      "size": "51 - 200 Employees",
+      "website": "-",
+      "rating": "3.2",
+      "processing_time": "4 days",
+      "timestamp": "2020-07-28T10:14:48.503Z"
+    }
+  },
+  {
+    "model": "employers.employer",
+    "pk": 10,
+    "fields": {
+      "user": 14,
+      "name": "TDCX",
+      "industry": "Call Center/IT-Enabled Services/BPO",
+      "address_1": "Level 9, Axiata Tower, No. 9,",
+      "address_2": "Jalan Stesen Sentral 5, Kuala Lumpur Sentral,",
+      "state": "Kuala Lumpur",
+      "city": "Kuala Lumpur",
+      "pcode": "50470",
+      "size": "2001 - 5000 Employees",
+      "website": "tdcx.com",
+      "rating": "3.8",
+      "processing_time": "10 days",
+      "timestamp": "2020-07-28T10:14:48.503Z"
+    }
+  },
+  {
+    "model": "employers.employer",
+    "pk": 11,
+    "fields": {
+      "user": 15,
+      "name": "Tejani Emergency Assistance (Malaysia) Sdn. Bhd.",
+      "industry": "Healthcare/Medical",
+      "address_1": "547-M, Jalan Wee Hein Tze,",
+      "address_2": null,
+      "state": "Penang",
+      "city": "Tanjung Bungah",
+      "pcode": "11200",
+      "size": "1001 - 2000 Employees",
+      "website": "-",
+      "rating": "-",
+      "processing_time": "-",
+      "timestamp": "2020-07-28T10:14:48.503Z"
+    }
+  },
+  {
+    "model": "employers.employer",
+    "pk": 12,
+    "fields": {
+      "user": 16,
+      "name": "Tropicana Corporation Berhad",
+      "industry": "Property/Real Estate",
+      "address_1": "Tropicana City Office Tower SS 20/27",
+      "address_2": null,
+      "state": "Selangor",
+      "city": "Petaling Jaya",
+      "pcode": "40150",
+      "size": "1001 - 2000 Employees",
+      "website": "-",
+      "rating": "3.4",
+      "processing_time": "29 days",
+      "timestamp": "2020-07-28T10:14:48.503Z"
+    }
+  },
+  {
+    "model": "employers.employer",
+    "pk": 13,
+    "fields": {
+      "user": 17,
+      "name": "Zimi Tech, Inc.",
+      "industry": "Call Center/IT-Enabled Services/BPO",
+      "address_1": "No. 12, Solok Raja Lumu, Pandamaran,",
+      "address_2": null,
+      "state": "Selangor",
+      "city": "Klang",
+      "pcode": "42000",
+      "size": "51 - 200 Employees",
+      "website": "-",
+      "rating": "-",
+      "processing_time": "-",
+      "timestamp": "2020-07-28T10:14:48.503Z"
+    }
+  },
+  {
+    "model": "employers.employer",
+    "pk": 14,
+    "fields": {
+      "user": 18,
+      "name": "AMBER PRO SOLUTIONS",
+      "industry": "Call Center/IT-Enabled Services/BPO",
+      "address_1": "Mutiara Office Suites, Jalan Ipoh",
+      "address_2": null,
+      "state": "Kuala Lumpur",
+      "city": null,
+      "pcode": "51200",
+      "size": "51 - 200 Employees",
+      "website": "17 days",
+      "rating": "3.8",
+      "processing_time": "-",
+      "timestamp": "2020-07-28T10:14:48.503Z"
+    }
+  },
+  {
+    "model": "employers.employer",
+    "pk": 15,
+    "fields": {
+      "user": 19,
+      "name": "Public Mutual Berhad",
+      "industry": "Stockbroking/Securities",
+      "address_1": "78, Jalan Raja Chulan",
+      "address_2": null,
+      "state": "Kuala Lumpur",
+      "city": "Kuala Lumpur",
+      "pcode": "50200",
+      "size": "1001 - 2000 Employees",
+      "website": "publicmutual.com.my",
+      "rating": "3.9",
+      "processing_time": "15 days",
+      "timestamp": "2020-07-28T10:14:48.503Z"
+    }
+  },
+  {
+    "model": "employers.employer",
+    "pk": 16,
+    "fields": {
+      "user": 20,
+      "name": "Klinik Dr Chong Sdn. Bhd.",
+      "industry": "Healthcare/Medical",
+      "address_1": "37 Jalan Metro Perdana Barat 1, Taman Usahawan Kepong",
+      "address_2": null,
+      "state": "Kuala Lumpur",
+      "city": "Kuala Lumpur",
+      "pcode": "50450",
+      "size": "1 - 50 Employees",
+      "website": "drchongclinic.com",
+      "rating": "-",
+      "processing_time": "10 days",
+      "timestamp": "2020-07-28T10:14:48.503Z"
+    }
+  },
+  {
+    "model": "employers.employer",
+    "pk": 17,
+    "fields": {
+      "user": 21,
+      "name": "EBS Systems Sdn Bhd",
+      "industry": "Computer/Information Technology (Hardware)",
+      "address_1": "IOI Business Park 1",
+      "address_2": "Persiaran Puchong Jaya Selatan, Bandar Puchong Jaya,",
+      "state": "Selangor",
+      "city": "Puchong",
+      "pcode": "47100",
+      "size": "1 - 50 Employees",
+      "website": "ebs2u.com",
+      "rating": "2.9",
+      "processing_time": "13 days",
+      "timestamp": "2020-07-28T10:14:48.503Z"
+    }
+  },
+  {
+    "model": "employers.employer",
+    "pk": 18,
+    "fields": {
+      "user": 22,
+      "name": "Fortis Star Sdn Bhd",
+      "industry": "Construction/Building/Engineering",
+      "address_1": "Lot 44689, Kawasan Perindustrian,",
+      "address_2": "Jalan Perusahaan 2,",
+      "state": "Selangor",
+      "city": "Batu Caves",
+      "pcode": "68100",
+      "size": "51 - 200 Employees",
+      "website": "panunited.com.sg",
+      "rating": "4",
+      "processing_time": "11 days",
+      "timestamp": "2020-07-28T10:14:48.503Z"
+    }
+  },
+  {
+    "model": "employers.employer",
+    "pk": 19,
+    "fields": {
+      "user": 23,
+      "name": "ASSAB Steels (Malaysia) Sdn Bhd",
+      "industry": "Manufacturing/Production",
+      "address_1": "Lot 19 Jalan Perusahaan Dua, Kawasan Industri Batu Caves",
+      "address_2": null,
+      "state": "Selangor",
+      "city": "Batu Caves",
+      "pcode": "68100",
+      "size": "51 - 200 Employees",
+      "website": "assab.com",
+      "rating": "3.7",
+      "processing_time": "-",
+      "timestamp": "2020-07-28T10:14:48.503Z"
+    }
+  },
+  {
+    "model": "employers.employer",
+    "pk": 20,
+    "fields": {
+      "user": 24,
+      "name": "IWG",
+      "industry": "Property/Real Estate",
+      "address_1": "The Troika Persiaran KLCC",
+      "address_2": null,
+      "state": "Kuala Lumpur",
+      "city": "Kuala Lumpur",
+      "pcode": "50450",
+      "size": "More than 5000 Employees",
+      "website": "regus.com.my",
+      "rating": "3.1",
+      "processing_time": "12 days",
+      "timestamp": "2020-07-28T10:14:48.503Z"
+    }
+  },
+  {
+    "model": "employers.employer",
+    "pk": 21,
+    "fields": {
+      "user": 25,
+      "name": "ByteDance",
+      "industry": "Entertainment/Media",
+      "address_1": "Kuala Lumpur Sentral",
+      "address_2": null,
+      "state": "Kuala Lumpur",
+      "city": null,
+      "pcode": "50470",
+      "size": "More than 5000 Employees",
+      "website": "tiktok.com",
+      "rating": "4.2",
+      "processing_time": "18 days",
+      "timestamp": "2020-07-28T10:14:48.503Z"
+    }
+  },
+  {
+    "model": "employers.employer",
+    "pk": 22,
+    "fields": {
+      "user": 26,
+      "name": "Tokio Marine Insurans (Malaysia) Berhad",
+      "industry": "Insurance",
+      "address_1": "Level 20, Menara Hap Seng 3,",
+      "address_2": "Plaza Hap Seng, No. 1, Jalan P. Ramlee, ",
+      "state": "Kuala Lumpur",
+      "city": "Kuala Lumpur",
+      "pcode": "50250",
+      "size": "501 - 1000 Employees",
+      "website": "tokiomarine.com",
+      "rating": "3.3",
+      "processing_time": "9 days",
+      "timestamp": "2020-07-28T10:14:48.503Z"
+    }
+  },
+  {
+    "model": "employers.employer",
+    "pk": 23,
+    "fields": {
+      "user": 27,
+      "name": "Zuellig Pharma Sdn Bhd",
+      "industry": "Healthcare/Medical",
+      "address_1": "15, Persiaran Pasak Bumi,",
+      "address_2": "Seksyen U8, Perindustrian Bukit Jelutong,",
+      "state": "Selangor",
+      "city": "Shah Alam",
+      "pcode": "40150",
+      "size": "501 - 1000 Employees",
+      "website": "zuelligpharma.com",
+      "rating": "3.7",
+      "processing_time": "-",
+      "timestamp": "2020-07-28T10:14:48.503Z"
+    }
+  },
+  {
+    "model": "employers.employer",
+    "pk": 24,
+    "fields": {
+      "user": 28,
+      "name": "7-Eleven Malaysia Sdn Bhd",
+      "industry": "Retail/Merchandise",
+      "address_1": "Podium Block, Plaza Berjaya,",
+      "address_2": "12 Jalan Imbi, Pudu,",
+      "state": "Kuala Lumpur",
+      "city": null,
+      "pcode": "5510",
+      "size": "More than 5000 Employees",
+      "website": "7eleven.com.my",
+      "rating": "3.9",
+      "processing_time": "16 days",
+      "timestamp": "2020-07-28T10:14:48.503Z"
+    }
+  },
+  {
+    "model": "employers.employer",
+    "pk": 25,
+    "fields": {
+      "user": 29,
+      "name": "Malayan Flour Mills Berhad",
+      "industry": "Manufacturing/Production",
+      "address_1": "22nd Floor Wisma MCA, 163 Jalan Ampang",
+      "address_2": null,
+      "state": "Kuala Lumpur",
+      "city": "Kuala Lumpur",
+      "pcode": "50450",
+      "size": "2001 - 5000 Employees",
+      "website": "mfm.com.my",
+      "rating": "-",
+      "processing_time": "16 days",
+      "timestamp": "2020-07-28T10:14:48.503Z"
+    }
+  },
+  {
+    "model": "employers.employer",
+    "pk": 26,
+    "fields": {
+      "user": 30,
+      "name": "Meridian Maplestar Sdn Bhd",
+      "industry": "Manufacturing/Production",
+      "address_1": "Plo 184, Jalan Rumbia 7,",
+      "address_2": "Kws. Perindustrian Tanjung Langsat",
+      "state": "Johor",
+      "city": "Pasir Gudang",
+      "pcode": "81700",
+      "size": "1 - 50 Employees",
+      "website": "panunited.com.sg",
+      "rating": "1.7",
+      "processing_time": "-",
+      "timestamp": "2020-07-28T10:14:48.503Z"
+    }
+  },
+  {
+    "model": "employers.employer",
+    "pk": 27,
+    "fields": {
+      "user": 31,
+      "name": "TRANSCOSMOS (MALAYSIA) SDN. BHD.",
+      "industry": "Call Center/IT-Enabled Services/BPO",
+      "address_1": "Kuala Lumpur Sentral",
+      "address_2": null,
+      "state": "Kuala Lumpur",
+      "city": null,
+      "pcode": "50450",
+      "size": "51 - 200 Employees",
+      "website": "-",
+      "rating": "3.2",
+      "processing_time": "15 days",
+      "timestamp": "2020-07-28T10:14:48.503Z"
+    }
+  }
+]

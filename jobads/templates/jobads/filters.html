@@ -1,0 +1,93 @@
+<div class="col-3 filter-text">
+    <form action="{% url 'jobads:unprocessed' jobads.id %}" method="get">
+        {% csrf_token %}
+        
+        <div class="job-post-item bg-white p-4">
+            <h6 class="pl-1 pb-2" style="color: black">FILTER BY:</h6>
+            <div class="d-flex bd-highlight" onclick="filter('location')">
+                <div class="p-1 flex-grow-1 bd-highlight">
+                    <span class="text" data-toggle="collapse" href="#collapseExample" 
+                        aria-expanded="false" aria-controls="collapseExample">
+                        Location
+                    </span>
+                </div>
+                <div class="p-2 bd-highlight">
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="collapse mb-2 location mr-4 p-1">
+                <div class="mb-3 mb-md-0 text-left">
+                    <select class="js-example-basic-multiple" name="location[]" multiple="multiple" style="width: 100%">
+                        <option value="Perlis">Perlis</option>
+                        <option value="Perak">Perak</option>
+                        <option value="Johor">Johor</option>
+                        <option value="Sabah">Sabah</option>
+                        <option value="Kedah">Kedah</option>
+                        <option value="Melaka">Melaka</option>
+                        <option value="Pahang">Pahang</option>
+                        <option value="Penang">Penang</option>
+                        <option value="Sarawak">Sarawak</option>
+                        <option value="Kelantan">Kelantan</option>
+                        <option value="Selangor">Selangor</option>
+                        <option value="Terengganu">Terengganu</option>
+                        <option value="Kuala Lumpur">Kuala Lumpur</option>
+                        <option value="Negeri Sembilan">Negeri Sembilan</option>
+                    </select>
+                </div>
+            </div>
+            <div class="d-flex bd-highlight" onclick="filter('experience')">
+                <div class="p-1 flex-grow-1 bd-highlight">
+                    <span class="text" data-toggle="collapse" href="#collapseExample" 
+                        aria-expanded="false" aria-controls="collapseExample">
+                        Experience
+                    </span>
+                </div>
+                <div class="p-2 bd-highlight">
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="collapse mb-2 experience mr-4">
+                <input type="number" min="0" placeholder="0" name="experience" class="form-control ml-1" style="width: 243px">
+            </div>
+            <div class="d-flex bd-highlight" onclick="filter('education')">
+                <div class="p-1 flex-grow-1 bd-highlight">
+                    <span class="text" data-toggle="collapse" href="#collapseExample" 
+                        aria-expanded="false" aria-controls="collapseExample">
+                        Education Level
+                    </span>
+                </div>
+                <div class="p-2 bd-highlight">
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="collapse mb-2 education mr-4">
+                <select class="js-example-basic-multiple" name="education[]" multiple="multiple" style="width: 100%">
+                    <option value="Diploma">Diploma</option>
+                    <option value="Bachelor">Bachelor's Degree</option>
+                    <option value="Master">Master's Degree</option>
+                    <option value="Doctorate">Doctorate Degree</option>
+                    <option value="Others">Others</option>
+                </select>
+            </div>
+            <br>
+            {% if filtered %}
+                <div class="row">
+                    <div class="col">
+                        <button type="submit" class="btn btn-primary w-100 mt-2">Apply</button>
+                    </div>
+                    <div class="col">
+                        <a href="{% url 'jobads:unprocessed' jobads.id %}" class="btn btn-primary w-100 mt-2">Clear</a>
+                    </div>
+                </div>
+            {% else %}
+                <button type="submit" class="btn btn-primary w-100 mt-2">Apply</button>
+            {% endif %}
+        </div>
+    </form>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.js-example-basic-multiple').select2();
+});
+</script>

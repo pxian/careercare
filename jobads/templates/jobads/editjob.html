@@ -1,0 +1,76 @@
+{% extends 'employers.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container col-12">
+    <div class="d-md-flex align-items-center mb-3"></div>
+    <div class="card card-custom">
+        <div class="card-header">
+            <div class="card-title align-items-start mb-0">
+                <span class="mb-0 text-dark job-details">Job Details</span>
+            </div>
+        </div>
+        <form action="" method="post" class="p-5 bg-white">
+            {% csrf_token %}
+
+            <div class="row">
+                <div class="col-2 text-dark"><label>Position Title</label></div>
+                <div class="col-10">{{ form.position_title }}</div>
+            </div><br>
+            <div class="row">
+                <div class="col-2 text-dark"><label>Employment Type</label></div>
+                <div class="col-10">{{ form.employment_type }}</div>
+            </div><br>
+            <div class="row">
+                <div class="col-2 text-dark"><label>Position Level</label></div>
+                <div class="col-10">
+                    {{ form.position_level }}
+                </div>
+            </div><br>
+            <div class="row">
+                <div class="col-2 text-dark"><label>Job Specialization</label></div>
+                <div class="col-10">{{ form.job_specialization }}</div>
+            </div><br>
+            <div class="row">
+                <div class="col-2 text-dark"><label>Job description</label></div>
+                <div class="col-10">{{ form.job_description }}</div>
+            </div><br>
+            <div class="row">
+                <div class="col-2 text-dark"><label>Job requirements</label></div>
+                <div class="col-10">{{ form.job_requirements }}</div>
+            </div><br>
+            <div class="row">
+                <div class="col-2 text-dark"><label>Location</label></div>
+                <div class="col-10">{{ form.location }}</div>
+            </div><br>
+            <div class="row">
+                <div class="col-2 text-dark"><label>Monthly Salary</label></div>
+                <div class="input-group col-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">MYR</span>
+                    </div>
+                    {{ form.min_salary }}
+                </div>
+                <div class="input-group col-3 pr-1">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">MYR</span>
+                    </div>
+                    {{ form.max_salary }}
+                </div>
+            </div><br>
+            <div class="row mb-2">
+                <div class="col-2 text-dark"><label>Closing Date</label></div>
+                <div class="col-10">
+                    <input type="text" name="closing_date" value="{{ obj.closing_date|date:'m/d/Y' }}" 
+                    class="form-control" data-provide="datepicker" id="id_closing_date">
+                </div>
+            </div><br>
+            
+            <br><br>
+            <button type="submit" class="btn btn-primary mr-3">Save</button>
+            <a href="{% url 'jobads:jobads' %}" class="btn btn-danger">Cancel</a>
+        </form>
+    </div>
+    <br><br>
+</div>
+{% endblock content%}

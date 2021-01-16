@@ -1,0 +1,73 @@
+{% extends 'employers.html' %}
+{% load static %}
+{% block content %}
+
+{% if messages %}
+<div class="message">
+  {% for message in messages %}
+  <div class="alert alert-{{ message.tags }} alert-dismissible fade show" id="msg" style="margin-left: 12%">
+    {% if message.level == DEFAULT_MESSAGE_LEVELS.ERROR %}Important: {% endif %}
+    {{ message }}
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+<div class="ftco-section bg-light">
+  <div class="container">
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" href="{% url 'resumeanalyzer:uploadresume' %}">Import Resume(s)</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'resumeanalyzer:resumelist' %}">View All Resumes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'resumeanalyzer:uploadjob' %}">Perform Matching</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'resumeanalyzer:history' %}">View Matching History</a>
+      </li>
+    </ul>
+    <br><br>
+    <a href="{% url 'resumeanalyzer:index' %}" class="btn btn-sm btn-secondary">Back</a><br><br>
+    <div class="row">
+      <div class="card" style="width:1200px">
+        <div class="card-header">
+          <div class="row align-items-center">
+            <div class="col-8">
+              <h3 class="mb-0">Import Resume(s)</h3>
+            </div>
+            <div class="col-4 text-right">
+              <a href="{% url 'resumeanalyzer:resumelist' %}" class="btn btn-sm btn-primary">View All</a>
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <form enctype="multipart/form-data" method="POST">
+            {% csrf_token %}
+            <div class="pl-lg-4">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <input type="file" name="resume" multiple /><br>
+                    <label class="font-weight-bold">Only accepts pdf and docx files. Multiple files are
+                      allowed.</label><br><br>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-4 offset-4">
+                  <button type="submit" class="btn btn-success btn-block">Upload</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock content %}

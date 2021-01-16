@@ -1,0 +1,152 @@
+{% extends 'employers.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container col-12">
+    {% include 'jobads/checklist.html' %}
+
+    <div class="row">
+        {% include 'jobads/filters.html' %}
+
+        <div class="row col-9 pr-0">
+        {% if queryset_array %}
+            <div class="job-post-item bg-white p-4 d-block d-md-flex align-items-top w-100 ml-4">
+                <div class="portlet-body w-100">
+                    <div class="table-scrollable table-scrollable-borderless">
+                        <table class="table table-light text-dark dataTable">
+                            <thead><tr><td></td><td></td><td></td></tr></thead>
+                            <tbody>
+                                {% for results in queryset_array %}
+                                    <tr>
+                                        <td>
+                                            <div class="py-3">
+                                                <h6>{{ results.0.0.name|upper }}</h6>
+                                                <i class="fa fa-graduation-cap pr-1"></i>
+                                                {% if results.1 is empty %}
+                                                    <span>None</span><br>
+                                                {% else %}
+                                                    {{ results.1.title|title }} &nbsp;<br>
+                                                {% endif %}
+                                                <i class="fa fa-briefcase text-primary"></i>
+                                                {% if results.2 == 0 %}
+                                                    &nbsp; No work experience<br>
+                                                {% elif results.2 == 1%}
+                                                    &nbsp; 1 work experience<br>
+                                                {% else %}
+                                                    &nbsp; {{ results.2 }} work experiences<br>
+                                                {% endif %} 
+                                                <i class="fa fa-map-marker text-danger" 
+                                                style="font-size:14px; padding-left:2.8px"></i>
+                                                &ensp; {{ results.0.0.location }}<br>
+                                                <i class="fa fa-money text-success" 
+                                                style="font-size:14px; padding-right:6.8px"></i>
+                                                RM {{ results.0.0.expected_salary }}
+                                            </div>
+                                        </td>
+                                        <td width="5%"></td>
+                                        <td class="align-middle" width="23%">
+                                            <div class="d-flex">
+                                                <a href="{% url 'jobads:candidate' jobads.id results.0.0.id %}" class="btn btn-primary mr-3"
+                                                    data-toggle="tooltip" data-placement="bottom" title="More Info">
+                                                    <i class="fa fa-info-circle"></i></a>
+                                                <form action="{% url 'jobads:shortlist' jobads.id %}" method="post">
+                                                    {% csrf_token %}
+                                                    <button type="submit" name="{{ results.0.0.id }}" class="btn btn-primary mr-3"
+                                                        data-toggle="tooltip" data-placement="bottom" title="Shortlist">
+                                                        <i class="fa fa-list"></i></button>
+                                                </form>
+                                                <form action="{% url 'jobads:interview' jobads.id %}" method="post">
+                                                    {% csrf_token %}
+                                                    <button type="submit" name="{{ results.0.0.id }}" class="btn btn-primary mr-3"
+                                                        data-toggle="tooltip" data-placement="bottom" title="Interview">
+                                                        <i class="fa fa-comment"></i></button>
+                                                </form>
+                                                <form action="{% url 'jobads:notsuitable' jobads.id %}" method="post">
+                                                    {% csrf_token %}
+                                                    <button type="submit" name="{{ results.0.0.id }}" class="btn btn-primary"
+                                                        data-toggle="tooltip" data-placement="bottom" title="Not Suitable">
+                                                        <i class="fa fa-frown-o"></i></button>
+                                                </form>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div><br><br>
+        {% elif queryset_array is empty %}
+            <div class="text-center w-100">
+                <div class="mt-4 row">
+                    <img class="mx-auto" src="/static/images/empty.png" width="420" style="cursor: auto">
+                </div>
+                <div class="pt-3 row">
+                    <p class="mx-auto text-dark">No applications yet</p>
+                </div>
+            </div><br><br>
+        {% else %}
+            <div class="job-post-item bg-white p-4 d-block d-md-flex align-items-center w-100 ml-4">
+                <div class="portlet-body w-100">
+                    <div class="table-scrollable table-scrollable-borderless">
+                        <table class="table table-light text-dark dataTable">
+                            <thead><tr><td></td><td></td><td></td></tr></thead>
+                            <tbody>
+                                {% for results in queryset_array %}
+                                    <tr><td></td><td></td><td></td></tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div><br><br>
+        {% endif %}
+    </div>
+</div>
+
+{% comment %} 
+l - Length changing
+f - Filtering input
+t - The Table!
+i - Information
+p - Pagination
+r - pRocessing 
+{% endcomment %}
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.dataTable').DataTable({
+        "searching": false,
+        "sDom": "<'top'<'row'<'col-6'i><'col-6'<'pull-right'f>>>>rt" +
+                "<'bottom'<'row'<'col-6'l><'col-6'<'pull-right'p>>><'#refresh'>><'clear'>",
+        "language": {
+            "zeroRecords": "<div class='p-3'><img class='mx-auto py-3' width='250' src='/static/images/completed.png' style='cursor: auto'>" + 
+                           "<p class='mx-auto'>All applications have been processed!</p></div>"
+        },
+        fnDrawCallback: function() {
+            $(".dataTable thead").remove();
+        }
+    });
+
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+
+    $(window).bind("pageshow", function(event) {
+        if (performance.navigation.type == 2) {
+            location.reload(true);
+        }
+    });
+});
+
+function filter(type) {
+    if (type == "location") {
+      $(`.${type}`).toggle();
+    } else if (type == "experience") {
+      $(`.${type}`).toggle();
+    } else {
+    $(`.${type}`).toggle();
+    }
+}
+</script>
+{% endblock content%}

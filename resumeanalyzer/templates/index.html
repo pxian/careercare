@@ -1,0 +1,54 @@
+{% extends 'employers.html' %}
+{% load static %}
+{% block content %}
+
+<div class="container col-12">
+    <div class="row align-items-center">
+        <div class="col-lg-7 ml-auto order-lg-2">
+            <img src="/static/images/resumeanalyzer/home1.png" style="width:800px;height:650px;float:right">
+        </div>
+        <div class="col-lg-5">
+            <h1>Resume Matching</h1>
+            <p>Designed for the use of recruiters to help speed up the repetitive process of screening resumes.</p>
+            <div class="dropdown">
+                <a href="{% url 'resumeanalyzer:uploadresume' %}" class="btn btn-primary py-2 px-3" style="margin:5px;"
+                role="button">Import resume(s)</a>
+                <a href="{% url 'resumeanalyzer:uploadjob' %}" class="btn btn-info py-2 px-3" style="margin:5px;"
+                role="button">Perform Matching</a>
+
+                <!-- <button type="button" class="btn btn-info py-2 px-3 dropdown-toggle" style="margin:5px;display:block inline"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Perform Matching</button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Fill in job description</a>
+                    <a class="dropdown-item" href="{% url 'resumeanalyzer:uploadjob' %}">Upload job description file</a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<h3 style="text-align:center">How it works</h3><br>
+<table style="margin-left:auto; margin-right:auto;">
+    <tr>
+        <th width="400px" style="text-align:center"><img src="/static/images/resumeanalyzer/upload.png"
+                style="width:150px;height:200px;"></th>
+        <th width="400px" style="text-align:center"><img src="/static/images/resumeanalyzer/scan.png"
+                style="width:150px;height:200px;"></th>
+        <th width="400px" style="text-align:center"><img src="/static/images/resumeanalyzer/result.png"
+                style="width:150px;height:200px;"></th>
+    </tr>
+    <tr>
+        <th width="400px" style="text-align:center">
+            <p>Import resumes and upload job description to perform matching.</p>
+        </th>
+        <th width="400px" style="text-align:center">
+            <p>Wait while the magic happens.</p>
+        </th>
+        <th width="400px" style="text-align:center">
+            <p>View ranking of resumes according to the matching rate with job description.</p>
+        </th>
+    </tr>
+</table>
+<br><br><br><br>
+
+{% endblock content %}

@@ -1,0 +1,20 @@
+# pip install -r requirements.txt
+django
+plotly
+pandas
+reportlab
+shapely
+pgeocode
+# operator
+# functools
+docx2txt
+nltk
+pdfplumber
+pyresparser
+sklearn
+spacy
+# python -m spacy download en_core_web_sm
+# python -m nltk.downloader words
+gensim
+matplotlib
+seaborn

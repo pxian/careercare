@@ -1,0 +1,45 @@
+<div class="job-post-item bg-white p-4 d-block d-md-flex align-items-center">
+    <div class="d-flex bd-highlight w-100">
+        <div class="p-1 flex-grow-1 bd-highlight">
+            <h5 class="my-auto">{{ jobads.position_title }}</h5>
+        </div>
+        <div class="bd-highlight">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item my-auto">
+                    <a class="nav-link" href="{% url 'jobads:unprocessed' jobads.id %}">
+                        Total ({{ get_count.0 }})
+                    </a>
+                </li>
+                
+                <li class="nav-item my-auto">
+                    <a class="nav-link" href="{% url 'jobads:shortlist' jobads.id %}">
+                        Shortlist ({{ get_count.1 }})
+                    </a>
+                </li>
+                <li class="nav-item my-auto">
+                    <a class="nav-link" href="{% url 'jobads:interview' jobads.id %}">
+                        Interview ({{ get_count.2 }})
+                    </a>
+                </li>
+                <li class="nav-item my-auto">
+                    <a class="nav-link" href="{% url 'jobads:notsuitable' jobads.id %}">
+                        Not Suitable ({{ get_count.3 }})
+                    </a>
+                </li>
+                <li class="nav-item my-auto">
+                    <a class="nav-link" href="{% url 'jobads:invited' jobads.id %}">
+                        Invited ({{ get_count.4 }})
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div><br>
+
+<script type="text/javascript">
+$(document).ready(function () {
+    var pathname = window.location.pathname;
+    $('.nav-item > a[href="' + pathname + '"]')
+    .addClass("active");
+});
+</script>

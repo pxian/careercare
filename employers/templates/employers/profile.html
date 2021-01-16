@@ -1,0 +1,82 @@
+{% extends 'employers.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container col-12">
+    {% include 'settings.html' %}
+
+        <div class="col-8">
+           <div class="card card-custom">
+                <div class="card-header">
+                    <div class="card-title align-items-start mb-0">
+                        <span class="mb-0 text-dark">Profile Settings</span>
+                    </div>
+                </div>
+                <div class="p-5 bg-white profile">
+                    <div class="row mb-2">
+                        <div class="col-6 text-dark">
+                            <label>First Name</label><br>
+                            <input class="form-control w-75" placeholder="{{ user.first_name }}" disabled>
+                        </div>
+                        <div class="col-6 text-dark">
+                            <label>Last Name</label><br>
+                            <input class="form-control w-75" placeholder="{{ user.last_name }}" disabled>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="row mb-2">
+                        <div class="col-6 text-dark">
+                            <label>Username</label><br>
+                            <input class="form-control w-75" placeholder="{{ user.username }}" disabled>
+                        </div>
+                        <div class="col-6 text-dark">
+                            <label>Email Address</label><br>
+                            <input class="form-control w-75" placeholder="{{ user.email }}" disabled>
+                        </div>
+                    </div>
+
+                    <br><br><br>
+                    <button type="button" class="btn btn-primary mr-3" onclick="update()">Update</button>
+                </div>
+                <form action="{% url 'employers:profile' %}" method="post" class="p-5 bg-white" hidden>
+                    {% csrf_token %}
+
+                    <div class="row mb-2">
+                        <div class="col-6 text-dark">
+                            <label>First Name</label><br>
+                            {{ form.first_name }}
+                        </div>
+                        <div class="col-6 text-dark">
+                            <label>Last Name</label><br>
+                            {{ form.last_name }}
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="row mb-2">
+                        <div class="col-6 text-dark">
+                            <label>Username</label><br>
+                            {{ form.username }}
+                        </div>
+                        <div class="col-6 text-dark">
+                            <label>Email Address</label><br>
+                            {{ form.email }}
+                        </div>
+                    </div>
+                    
+                    <br><br><br>
+                    <button type="submit" class="btn btn-primary mr-3">Save</button>
+                    <a href="{% url 'employers:profile' %}" class="btn btn-danger">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <br><br>
+</div>
+
+<script type="text/javascript">
+function update() {
+    $(".profile").hide();
+    $("form").prop("hidden", false);
+}
+</script>
+{% endblock content %}

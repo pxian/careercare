@@ -1,0 +1,122 @@
+[
+  {
+    "model": "search.ssearch",
+    "pk": 1,
+    "fields": {
+      "user": 50,
+      "category": "Home",
+      "service_type": "Plumbing",
+      "location": "Selangor",
+      "total_search": "5",
+      "timestamp": "2020-12-11T03:42:58.174Z"
+    }
+  },
+  {
+    "model": "search.ssearch",
+    "pk": 2,
+    "fields": {
+      "user": 50,
+      "category": "Events",
+      "service_type": "Entertainment",
+      "location": "Sarawak",
+      "total_search": "1",
+      "timestamp": "2020-12-07T07:49:28.395Z"
+    }
+  },
+  {
+    "model": "search.ssearch",
+    "pk": 3,
+    "fields": {
+      "user": 50,
+      "category": "Home",
+      "service_type": "Cleaning",
+      "location": "Selangor",
+      "total_search": "10",
+      "timestamp": "2020-12-11T03:44:10.917Z"
+    }
+  },
+  {
+    "model": "search.ssearch",
+    "pk": 4,
+    "fields": {
+      "user": 50,
+      "category": "Office",
+      "service_type": "Office Maintenance",
+      "location": "Melaka",
+      "total_search": "4",
+      "timestamp": "2020-12-07T07:50:11.942Z"
+    }
+  },
+  {
+    "model": "search.ssearch",
+    "pk": 5,
+    "fields": {
+      "user": 50,
+      "category": "Lessons",
+      "service_type": "Lifestyle & Hobby",
+      "location": "Selangor",
+      "total_search": "1",
+      "timestamp": "2020-12-07T07:51:28.786Z"
+    }
+  },
+  {
+    "model": "search.ssearch",
+    "pk": 6,
+    "fields": {
+      "user": 50,
+      "category": "Home",
+      "service_type": "Plumbing",
+      "location": "Perak",
+      "total_search": "3",
+      "timestamp": "2020-12-11T03:43:27.507Z"
+    }
+  },
+  {
+    "model": "search.ssearch",
+    "pk": 7,
+    "fields": {
+      "user": 50,
+      "category": "Home",
+      "service_type": "Pet Grooming",
+      "location": "Selangor",
+      "total_search": "1",
+      "timestamp": "2020-12-07T07:56:50.209Z"
+    }
+  },
+  {
+    "model": "search.ssearch",
+    "pk": 8,
+    "fields": {
+      "user": 50,
+      "category": "Office",
+      "service_type": "Office Space Rental",
+      "location": "Sarawak",
+      "total_search": "3",
+      "timestamp": "2020-12-07T07:57:31.757Z"
+    }
+  },
+  {
+    "model": "search.ssearch",
+    "pk": 9,
+    "fields": {
+      "user": 50,
+      "category": "Office",
+      "service_type": "Office Maintenance",
+      "location": "Penang",
+      "total_search": "2",
+      "timestamp": "2020-12-11T03:43:37.259Z"
+    }
+  },
+  {
+    "model": "search.ssearch",
+    "pk": 10,
+    "fields": {
+      "user": 50,
+      "category": "Office",
+      "service_type": "Office Maintenance",
+      "location": "Selangor",
+      "total_search": "1",
+      "timestamp": "2020-12-10T10:11:09.585Z"
+    }
+  }
+]

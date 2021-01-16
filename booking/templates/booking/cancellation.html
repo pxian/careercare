@@ -1,0 +1,46 @@
+{% extends 'employers.html' %} 
+{% load static %}
+
+{% block content %}
+<br>
+<div class="container col-7">
+    <div class="card card-custom">
+        <div class="card-header">
+            <div class="card-title align-items-start mb-0">
+                <span class="mb-0 text-dark job-details">Cancellation Form</span>
+            </div>
+        </div>
+        <form action="{% url 'booking:cancelbooking' booking.id %}" method="post" class="bg-white p-5">
+            {% csrf_token %}
+
+            <div class="text-dark">
+                <p>Please let us know your reason: </p>
+                {{ form.reasons.0 }}<br>
+                {{ form.reasons.1 }}<br>
+                {{ form.reasons.2 }}<br>
+                {{ form.reasons.3 }}<br>
+                <label for="id_reasons_4">
+                    <input type="radio" name="reasons" value="Others" class="list-unstyled" maxlength="100" 
+                           id="id_reasons_4" onclick="showInput('others')">
+                    Others
+                </label><br>
+                <input type="text" name="other_reasons" class="form-control w-75 ml-4 this mt-1" 
+                       placeholder="Please specify your reason" hidden>
+            </div><br><br><br>
+            <button type="submit" class="btn btn-primary mr-3">Confirm</button>
+            <a href="{% url 'booking:booking' %}" class="btn btn-danger">Cancel</a>
+        </form>
+    </div>
+</div>
+
+<script type="text/javascript">
+function showInput(type) {
+    if (type == "others") {
+        $('.this').prop("hidden", false);
+        $('.this').prop("required", true);
+    } else {
+        $('.this').prop("hidden", true);
+    }
+}
+</script>
+{% endblock content %}

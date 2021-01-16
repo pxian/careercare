@@ -1,0 +1,44 @@
+[
+    {
+      "model": "jobads.joblist",
+      "pk": 1,
+      "fields": {
+        "job_name": "software management engineer"
+      }
+    },
+    {
+        "model": "jobads.joblist",
+        "pk": 2,
+        "fields": {
+          "job_name": "requirement engineer"
+        }
+      },
+      {
+        "model": "jobads.joblist",
+        "pk": 3,
+        "fields": {
+          "job_name": "system designer"
+        }
+      },
+      {
+        "model": "jobads.joblist",
+        "pk": 4,
+        "fields": {
+          "job_name": "programmer"
+        }
+      },
+      {
+        "model": "jobads.joblist",
+        "pk": 5,
+        "fields": {
+          "job_name": "tester"
+        }
+      },
+      {
+        "model": "jobads.joblist",
+        "pk": 6,
+        "fields": {
+          "job_name": "evaluator"
+        }
+      }
+  ]

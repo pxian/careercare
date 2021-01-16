@@ -1,0 +1,64 @@
+{% extends 'employers.html' %} 
+{% load static %}
+
+{% block content %}
+<div class="container col-12 text-dark">
+    <br>
+    <div class="job-post-item bg-white p-4 mb-0">
+        <div class="mb-md-0 w-100 d-flex">
+            <div class="mr-auto p-2 pl-2">
+                <h6>{{ details.name|upper }}</h6>
+                {% if d_address.0.1 %}
+                    <span>{{ d_address.0.0 }} {{ d_address.1.0 }}</span><br>
+                    <span>{{ d_address.2.0 }}, {{ d_address.3.0 }}, {{ d_address.4.0 }}</span>
+                {% else %}
+                    <span>{{ d_address.0.0 }}</span><br>
+                    <span>{{ d_address.2.0 }}, {{ d_address.3.0 }}, {{ d_address.4.0 }}</span>
+                {% endif %}
+            </div>
+            <div class="text-left">
+                <label class="label-warning py-1 px-2">
+                    {{ remaining }} days left
+                </label>
+            </div>
+        </div><br>
+        <div class="py-2 mb-2 mt-3 complete-header">Booked Service</div>
+        <table class="table table-light text-dark">
+            <thead>
+                <td width=11%>Date</td>
+                <td width=11%>Time</td>
+                <td width=13%>Category</td>
+                <td width=23%>Type</td>
+                <td>Venue</td>
+                <td width="15%">Contact Person</td>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{ booking.booked_date|date:"d/m/Y" }}</td>
+                    <td>{{ booking.booked_time|date:"g:i A" }}</td>
+                    <td>{{ details.category }}</td>
+                    <td>{{ details.service_type }}</td>
+                    <td>
+                        {% if booking.address %}
+                            <span>{{ b_address.0 }}, </span><br>
+                            <span>{{ b_address.1 }} </span>
+                        {% else %}
+                            {% if i_address.0.1 %}
+                                <span>{{ i_address.0.0 }} {{ i_address.1.0 }}</span><br>
+                                <span>{{ i_address.2.0 }}, {{ i_address.3.0 }}, {{ i_address.4.0 }}</span>
+                            {% else %}
+                                <span>{{ i_address.0.0 }}</span><br>
+                                <span>{{ i_address.2.0 }}, {{ i_address.3.0 }}, {{ i_address.4.0 }}</span>
+                            {% endif %}
+                        {% endif %}
+                    </td>
+                    <td>
+                        {{ details.contact_person|title }}
+                    </td>
+                </tr>
+            </tbody>
+        </table><br>
+    </div>
+    <br><br>
+</div>
+{% endblock content %}

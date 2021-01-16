@@ -1,0 +1,139 @@
+{% extends 'employers.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container col-12">
+    {% include 'jobads/checklist.html' %}
+
+        {% if get_candidate %}
+            <div class="job-post-item bg-white p-4 d-block d-md-flex align-items-top w-100">
+                <div class="portlet-body w-100">
+                    <div class="table-scrollable table-scrollable-borderless">
+                        <table class="table table-light text-dark dataTable">
+                            <thead>
+                                <tr>
+                                    <td>Candidate Details</td>
+                                    <td></td>
+                                    <td>Expected Salary</td>
+                                    <td>Preferred Location</td>
+                                    <td>Actions</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for single in get_candidate %}
+                                    <tr>
+                                        <td>
+                                            <div class="py-3">
+                                                <h6>{{ single.0.name|upper }}</h6>
+                                                <i class="fa fa-graduation-cap pr-1"></i>
+                                                {% if single.1 is empty %}
+                                                    <span>None</span><br>
+                                                {% else %}
+                                                    {{ single.1.title|title|truncatechars:60 }} &nbsp;<br>
+                                                {% endif %}
+                                                <i class="fa fa-briefcase text-primary"></i>
+                                                {% if single.2 == 0 %}
+                                                    &nbsp; No work experience<br>
+                                                {% elif single.2 == 1%}
+                                                    &nbsp; 1 work experience<br>
+                                                {% else %}
+                                                    &nbsp; {{ single.2 }} work experiences<br>
+                                                {% endif %} 
+                                            </div>
+                                        </td>
+                                        <td width="3%"></td>
+                                        <td width="18%" class="align-middle">RM {{ single.0.expected_salary }}</td>
+                                        <td width="19%" class="align-middle">{{ single.0.location }}</td>
+                                        <td class="align-middle" width="12%">
+                                            <div class="d-flex">
+                                                <a href="{% url 'jobads:candidate' jobads.id single.0.id %}" class="btn btn-primary mr-3"
+                                                    data-toggle="tooltip" data-placement="bottom" title="More Info">
+                                                    <i class="fa fa-info-circle"></i></a>
+                                                <form action="{% url 'jobads:interview' jobads.id %}" method="post">
+                                                    {% csrf_token %}
+                                                    <button type="submit" name="{{ single.0.id }}/shortlist" class="btn btn-primary mr-3"
+                                                        data-toggle="tooltip" data-placement="bottom" title="Interview">
+                                                        <i class="fa fa-comment"></i></button>
+                                                </form>
+                                                <form action="{% url 'jobads:notsuitable' jobads.id %}" method="post">
+                                                    {% csrf_token %}
+                                                    <button type="submit" name="{{ single.0.id }}/shortlist" class="btn btn-primary"
+                                                        data-toggle="tooltip" data-placement="bottom" title="Not Suitable">
+                                                        <i class="fa fa-frown-o"></i></button>
+                                                </form>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        {% elif get_candidate is empty %}
+            <div class="text-center w-100">
+                <div class="mt-4 row">
+                    <img class="mx-auto" src="/static/images/empty.png" width="420" style="cursor: auto">
+                </div>
+                <div class="pt-3 row">
+                    <p class="mx-auto text-dark">No applications yet</p>
+                </div>
+            </div>
+        {% else %}
+            <div class="job-post-item bg-white p-4 d-block d-md-flex align-items-center w-100">
+                <div class="portlet-body w-100">
+                    <div class="table-scrollable table-scrollable-borderless">
+                        <table class="table table-light text-dark dataTable">
+                            <thead>
+                                <tr>
+                                    <td>Candidate Details</td>
+                                    <td width="3%"></td>
+                                    <td width="18%">Expected Salary</td>
+                                    <td width="19%">Preferred Location</td>
+                                    <td width="17%">Actions</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for single in get_candidate %}
+                                    <tr>
+                                        <td></td>
+                                        <td width="3%"></td>
+                                        <td width="18%"></td>
+                                        <td width="19%"></td>
+                                        <td width="17%"></td>
+                                    </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        {% endif %}
+    </div>
+    <br><br>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.dataTable').DataTable({
+        "ordering": false,
+        "sDom": "<'top'<'row'<'col-6'i><'col-6'<'pull-right'f>>>>rt" +
+                "<'bottom'<'row'<'col-6'l><'col-6'<'pull-right'p>>><'#refresh'>><'clear'>",
+        "language": {
+            "zeroRecords": "<div class='p-3'><img class='mx-auto py-3' width='250' src='/static/images/empty.png' style='cursor: auto'>" + 
+                           "<p class='mx-auto'>Your list is empty</p></div>"
+        }
+    });
+
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+
+    $(window).bind("pageshow", function(event) {
+        if (performance.navigation.type == 2) {
+            location.reload(true);
+        }
+    });
+});
+</script>
+{% endblock content%}

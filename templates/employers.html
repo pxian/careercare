@@ -1,0 +1,145 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CareerCare</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="/static/css/open-iconic-bootstrap.min.css">
+        <link rel="stylesheet" href="/static/css/animate.css">
+        <link rel="stylesheet" href="/static/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="/static/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="/static/css/magnific-popup.css">
+        <link rel="stylesheet" href="/static/css/aos.css">
+        <link rel="stylesheet" href="/static/css/select2.min.css">
+        <link rel="stylesheet" href="/static/css/ionicons.min.css">
+        <link rel="stylesheet" href="/static/css/bootstrap-datepicker.css">
+        <link rel="stylesheet" href="/static/css/jquery.timepicker.css">
+        <link rel="stylesheet" href="/static/css/flaticon.css">
+        <link rel="stylesheet" href="/static/css/icomoon.css">
+        <link rel="stylesheet" type="text/css" href="/static/DataTables/datatables.min.css"/>
+        <link rel="stylesheet" href="/static/css/yw_custom.css">
+        <link rel="stylesheet" href="/static/css/yw_style.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+            <div class="container col-12">
+                <a href="{% url 'dashboard:dashboard' %}" class="navbar-brand" >CareerCare</a>
+
+                {% for i in user.groups.all %}
+                    {% if i.id == 1 %}
+                        <div class="collapse navbar-collapse" id="ftco-nav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a href="{% url 'dashboard:dashboard' %}" class="nav-link">Dashboard</a></li>
+                                <li class="nav-item"><a href="{% url 'jobads:jobads' %}" class="nav-link">Job Ads</a></li>
+                                <li class="nav-item"><a href="{% url 'search:search' %}" class="nav-link">Talent Search</a></li>
+                                <li class="nav-item"><a href="{% url 'resumeanalyzer:index' %}" class="nav-link">Resume Analyzer</a></li>
+                                <li class="nav-item"><a href="{% url 'employers:profile' %}" class="nav-link">Settings</a></li>
+                            </ul>
+                        </div>
+                    {% else %}
+                        <div class="collapse navbar-collapse" id="ftco-nav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a href="{% url 'dashboard:dashboard' %}" class="nav-link">Dashboard</a></li>
+                                <li class="nav-item"><a href="{% url 'booking:booking' %}" class="nav-link">Bookings</a></li>
+                                <li class="nav-item"><a href="{% url 'search:search' %}" class="nav-link">Service Search</a></li>
+                                <li class="nav-item"><a href="{% url 'employers:profile' %}" class="nav-link">Settings</a></li>
+                            </ul>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+
+                <div class="collapse navbar-collapse" id="ftco-nav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Hi, {{ user.get_username }}
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <form action="{% url 'employers:logout' %}" method="post">
+                                    {% csrf_token %}
+                                    <button class="dropdown-item" type="submit">Logout</button>
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+	    </nav>
+        
+        <div class="container col-12">
+            <br><br><br><br>
+            {% block content %}
+            {% endblock content%}
+    	</div>
+
+        <script src="/static/js/jquery.min.js"></script>
+        <script src="/static/js/jquery-migrate-3.0.1.min.js"></script>
+        <script src="/static/js/popper.min.js"></script>
+        <script src="/static/js/bootstrap.min.js"></script>
+        <script src="/static/js/jquery.easing.1.3.js"></script>
+        <script src="/static/js/jquery.waypoints.min.js"></script>
+        <script src="/static/js/jquery.stellar.min.js"></script>
+        <script src="/static/js/owl.carousel.min.js"></script>
+        <script src="/static/js/jquery.magnific-popup.min.js"></script>
+        <script src="/static/js/aos.js"></script>
+        <script src="/static/js/jquery.animateNumber.min.js"></script>
+        <script src="/static/js/bootstrap-datepicker.js"></script>
+        <script src="/static/js/scrollax.min.js"></script>
+        <script src="/static/js/select2.min.js"></script>
+        <script src="/static/js/main.js"></script>
+        <script type="text/javascript" src="/static/DataTables/datatables.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
+        <script src="/static/js/dashboard.js"></script>
+        <script src="/static/js/jobstatus.js"></script>
+        <script src="/static/js/servicesearch.js"></script>
+        
+        <script type="text/javascript">
+        $(document).ready(function () {
+            var pathname = window.location.pathname;
+            $("li").each(function () {
+                $('.navbar-nav > li > a[href="' + pathname + '"]')
+                .parent()
+                .addClass("active");
+                if (~pathname.indexOf("employers")) {
+                $('.navbar-nav > li > a[href="{% url "employers:profile" %}"]')
+                    .parent()
+                    .addClass("active");
+                } else if (~pathname.indexOf("jobads")) {
+                $('.navbar-nav > li > a[href="{% url "jobads:jobads" %}"]')
+                    .parent()
+                    .addClass("active");
+                } else if (~pathname.indexOf("booking")) {
+                $('.navbar-nav > li > a[href="{% url "booking:booking" %}"]')
+                    .parent()
+                    .addClass("active");
+                }
+            });
+        });
+
+        $(window).scroll(function(e) {
+            var scroll = $(window).scrollTop();
+            if (scroll >= 150) {
+                $('.navbar').removeClass("awake");
+            }
+        });
+    </script>
+    <script>
+        setTimeout(function () {
+            if ($('#msg').length > 0) {
+                $('#msg').remove();
+            }
+        }, 2500)
+    </script>
+
+</body>
+
+</html>

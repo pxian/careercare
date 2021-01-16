@@ -1,0 +1,237 @@
+{% extends 'employers.html' %} 
+{% load static %}
+
+{% block content %}
+<style>
+.row{
+    display:none;
+}
+.btn-size{
+    margin-right: 20px;
+    margin-top: 40px;
+    padding: 40px;
+    color:rgb(130, 31, 211);
+    background-color: rgb(226, 209, 224);
+}
+.fa{
+    margin-left: 5px;
+    color:rgb(55, 80, 221);
+}
+
+.table td{
+        border: 2px solid rgb(136, 126, 126);;
+    }
+    .table th{
+        border: 2px solid rgb(136, 126, 126);
+}
+</style>
+
+<div class="ftco-section bg-light">
+    <div class="container">
+        <h2 style="text-transform: capitalize; font-family:sans-serif;">{{jobads.position_title}}</h2>
+        <a class="btn btn-info" href="{% url 'jobads:jobads' %}"><i class="fa fa-arrow-left"></i> Back</a>
+        <br></br>
+        <button type="button" class="btn btn-info btn-size">Personality 5/5 Matches <br><br><i class="fa fa-plus"></i></button>
+        <div class="row"> 
+            <div class="col-md-12"> 
+                <table class="table table-striped table-bordered" style="color:black;">
+                    <tbody><br>    
+                        <tr> 
+                            {% for data in df5%} 
+                                <th style="text-align: center; text-transform: capitalize;">{{ data }}</th> 
+                            {% endfor %} 
+                            {% if df5|length != 0 %}
+                                {% for _, record in df5.iterrows %} 
+                                    <tr> 
+                                        {% for value in record %} 
+                                            {% if value == "✓" %}
+                                                <td style="text-align: center; background-color:rgb(106, 226, 106);">{{ value }} </td>
+                                            {% elif value == "✗" %} 
+                                                <td style="text-align: center; background-color:rgb(233, 131, 136);">{{ value }} </td>
+                                            {% else %}
+                                                <td style="text-align: center;">{{ value }} </td>
+                                            {% endif %}
+                                        {% endfor %} 
+                                    </tr> 
+                                {% endfor %} 
+                            {% else %}
+                                <br><p>No record found</p>
+                            {% endif %}
+                        </tr> 
+                    </tbody>
+                </table> 
+            </div>
+        </div>
+        <button type="button" class="btn btn-info btn-size">Personality 4/5 Matches <br><br><i class="fa fa-plus"></i></button>
+        <div class="row"> 
+            <div class="col-md-12"> 
+                <table class="table table-striped table-bordered" style="color:black;">
+                    <tbody><br>    
+                        <tr> 
+                            {% for data in df4%} 
+                                <th style="text-align: center; text-transform: capitalize;">{{ data }}</th> 
+                            {% endfor %} 
+                            {% if df4|length != 0 %}
+                                {% for _, record in df4.iterrows %} 
+                                    <tr> 
+                                        {% for value in record %} 
+                                            {% if value == "✓" %}
+                                                <td style="text-align: center; background-color:rgb(106, 226, 106);">{{ value }} </td>
+                                            {% elif value == "✗" %} 
+                                                <td style="text-align: center; background-color:rgb(233, 131, 136);">{{ value }} </td>
+                                            {% else %}
+                                                <td style="text-align: center;">{{ value }} </td>
+                                            {% endif %}
+                                        {% endfor %} 
+                                    </tr> 
+                                {% endfor %} 
+                            {% else %}
+                                <br><p>No record found</p>
+                            {% endif %}
+                        </tr> 
+                    </tbody>
+                </table> 
+            </div>
+        </div><button type="button" class="btn btn-info btn-size">Personality 3/5 Matches <br><br><i class="fa fa-plus"></i></button>
+        <div class="row"> 
+            <div class="col-md-12"> 
+                <table class="table table-striped table-bordered" style="color:black;">
+                    <tbody><br>    
+                        <tr> 
+                            {% for data in df3%} 
+                                <th style="text-align: center; text-transform: capitalize;">{{ data }}</th> 
+                            {% endfor %} 
+                            {% if df3|length != 0 %}
+                                {% for _, record in df3.iterrows %} 
+                                    <tr> 
+                                        {% for value in record %} 
+                                            {% if value == "✓" %}
+                                                <td style="text-align: center; background-color:rgb(106, 226, 106);">{{ value }} </td>
+                                            {% elif value == "✗" %} 
+                                                <td style="text-align: center; background-color:rgb(233, 131, 136);">{{ value }} </td>
+                                            {% else %}
+                                                <td style="text-align: center;">{{ value }} </td>
+                                            {% endif %}
+                                        {% endfor %} 
+                                    </tr> 
+                                {% endfor %} 
+                            {% else %}
+                                <br><p>No record found</p>
+                            {% endif %}
+                        </tr> 
+                    </tbody>
+                </table> 
+            </div>
+        </div><button type="button" class="btn btn-info btn-size">Personality 2/5 Matches <br><br><i class="fa fa-plus"></i></button>
+        <div class="row"> 
+            <div class="col-md-12"> 
+                <table class="table table-striped table-bordered" style="color:black;">
+                    <tbody><br>    
+                        <tr> 
+                            {% for data in df2%} 
+                                <th style="text-align: center; text-transform: capitalize;">{{ data }}</th> 
+                            {% endfor %} 
+                            {% if df2|length != 0 %}
+                                {% for _, record in df2.iterrows %} 
+                                    <tr> 
+                                        {% for value in record %} 
+                                            {% if value == "✓" %}
+                                                <td style="text-align: center; background-color:rgb(106, 226, 106);">{{ value }} </td>
+                                            {% elif value == "✗" %} 
+                                                <td style="text-align: center; background-color:rgb(233, 131, 136);">{{ value }} </td>
+                                            {% else %}
+                                                <td style="text-align: center;">{{ value }} </td>
+                                            {% endif %}
+                                        {% endfor %} 
+                                    </tr> 
+                                {% endfor %} 
+                            {% else %}
+                                <br><p>No record found</p>
+                            {% endif %}
+                        </tr> 
+                    </tbody>
+                </table> 
+            </div>
+        </div><button type="button" class="btn btn-info btn-size">Personality 1/5 Matches <br><br><i class="fa fa-plus"></i></button>
+        <div class="row"> 
+            <div class="col-md-12"> 
+                <table class="table table-striped table-bordered" style="color:black;">
+                    <tbody><br>    
+                        <tr> 
+                            {% for data in df1%} 
+                                <th style="text-align: center; text-transform: capitalize;">{{ data }}</th> 
+                            {% endfor %} 
+                            {% if df1|length != 0 %}
+                                {% for _, record in df1.iterrows %} 
+                                    <tr> 
+                                        {% for value in record %} 
+                                            {% if value == "✓" %}
+                                                <td style="text-align: center; background-color:rgb(106, 226, 106);">{{ value }} </td>
+                                            {% elif value == "✗" %} 
+                                                <td style="text-align: center; background-color:rgb(233, 131, 136);">{{ value }} </td>
+                                            {% else %}
+                                                <td style="text-align: center;">{{ value }} </td>
+                                            {% endif %}
+                                        {% endfor %} 
+                                    </tr> 
+                                {% endfor %} 
+                            {% else %}
+                                <br><p>No record found</p>
+                            {% endif %}
+                        </tr> 
+                    </tbody>
+                </table> 
+            </div>
+        </div><button type="button" class="btn btn-info btn-size">Personality 0/5 Matches <br><br><i class="fa fa-plus"></i></button>
+        <div class="row">
+            <div class="col-md-12"> 
+                <table class="table table-striped table-bordered" style="color:black;">
+                    <tbody><br>    
+                        <tr> 
+                            {% for data in df0%} 
+                                <th style="text-align: center; text-transform: capitalize;">{{ data }}</th> 
+                            {% endfor %} 
+                            {% if df0|length != 0 %}
+                                {% for _, record in df0.iterrows %} 
+                                    <tr> 
+                                        {% for value in record %} 
+                                            {% if value == "✓" %}
+                                                <td style="text-align: center; background-color:rgb(106, 226, 106);">{{ value }} </td>
+                                            {% elif value == "✗" %} 
+                                                <td style="text-align: center; background-color:rgb(233, 131, 136);">{{ value }} </td>
+                                            {% else %}
+                                                <td style="text-align: center;">{{ value }} </td>
+                                            {% endif %}
+                                        {% endfor %} 
+                                    </tr> 
+                                {% endfor %} 
+                            {% else %}
+                                <br><p>No record found</p>
+                            {% endif %}
+                        </tr> 
+                    </tbody>
+                </table> 
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+var coll = document.getElementsByClassName("btn btn-info");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+{% endblock content %}

@@ -1,0 +1,5342 @@
+[
+  {
+    "model": "test_cand.candedu",
+    "pk": 1,
+    "fields": {
+      "cand": 1,
+      "title": "Master of Computer Application",
+      "school": "IGNOU University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 2,
+    "fields": {
+      "cand": 1,
+      "title": "PGDCA",
+      "school": "IGNOU University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 3,
+    "fields": {
+      "cand": 2,
+      "title": "Higher Secondary School Certificate",
+      "school": "Shivaji University",
+      "city": "Kolhapur",
+      "state": "Maharashtra",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 4,
+    "fields": {
+      "cand": 3,
+      "title": "Bachelor of Engineering in Electronics & Communication Engineering",
+      "school": "Anna University",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "duration": "2016"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 5,
+    "fields": {
+      "cand": 3,
+      "title": "Education",
+      "school": "Government Higher Secondary School",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2012"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 6,
+    "fields": {
+      "cand": 3,
+      "title": "Secondary School Leaving Certificate in Singalandhapuram",
+      "school": "Government Higher Secondary School",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2010"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 7,
+    "fields": {
+      "cand": 4,
+      "title": "Bachelor of Technology",
+      "school": "Vaagdevi Engineering College",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2015"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 8,
+    "fields": {
+      "cand": 4,
+      "title": "Diploma in EEE",
+      "school": "Dr.paulraj Engg College",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2010 to 2014"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 9,
+    "fields": {
+      "cand": 5,
+      "title": "Master's Degree in Master of Computer Applications",
+      "school": "School of Technology and Applied Sciences (Mahathma Gandhi University)",
+      "city": "Ernakulam",
+      "state": "Kerala",
+      "duration": "June 2006 to March 2009"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 10,
+    "fields": {
+      "cand": 6,
+      "title": "Bachelor of Engineering",
+      "school": "University of solapur Sholapur",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 11,
+    "fields": {
+      "cand": 7,
+      "title": "Bachelor of Engineering in Computer Engineering",
+      "school": "University of Mumbai",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "duration": "2018"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 12,
+    "fields": {
+      "cand": 7,
+      "title": "Secondary School Certificate",
+      "school": "Maharashtra State Board",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "duration": "2014"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 13,
+    "fields": {
+      "cand": 7,
+      "title": "Secondary School Certificate",
+      "school": "Maharashtra State Board",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "duration": "2012"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 14,
+    "fields": {
+      "cand": 8,
+      "title": "Bachelor of Technology in Computer Science Engineering",
+      "school": "Eluru College Of Engineering and Technology",
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "duration": "2017"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 15,
+    "fields": {
+      "cand": 8,
+      "title": "NONE",
+      "school": "sri chaithanya Junior College",
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "duration": "2013"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 16,
+    "fields": {
+      "cand": 9,
+      "title": "Bachelor of Technology",
+      "school": "GGSIP UNIVERSITY",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2014 to 2018"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 17,
+    "fields": {
+      "cand": 9,
+      "title": "Central Board of Secondary Education",
+      "school": "HAPPY HOME PUBLIC SCHOOL",
+      "city": "Delhi",
+      "state": "Delhi",
+      "duration": "2014"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 18,
+    "fields": {
+      "cand": 9,
+      "title": "Central Board of Secondary Education",
+      "school": "ROCKFIELD PUBLIC SCHOOL",
+      "city": "Delhi",
+      "state": "Delhi",
+      "duration": "2012"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 19,
+    "fields": {
+      "cand": 10,
+      "title": "Master's in Computer Science",
+      "school": "Dr Baba saheb amBachelor of Engineeringddkar university aurangabad",
+      "city": "Aurangabad",
+      "state": "Maharashtra",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 20,
+    "fields": {
+      "cand": 10,
+      "title": "Bachelor of Computer Science",
+      "school": "University Marathwada",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 21,
+    "fields": {
+      "cand": 10,
+      "title": "Higher Secondary School Certificate",
+      "school": "Godavari Junior College",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 22,
+    "fields": {
+      "cand": 10,
+      "title": "Secondary School Certificate",
+      "school": "Godavari Public School",
+      "city": "Aurangabad",
+      "state": "Maharashtra",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 23,
+    "fields": {
+      "cand": 11,
+      "title": "Master's in Computer science",
+      "school": "Bharat institute of technology meerut",
+      "city": "Meerut",
+      "state": "Uttar Pradesh",
+      "duration": "August 2018 to Present"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 24,
+    "fields": {
+      "cand": 11,
+      "title": "Bachelor of Computer Application in computer science and programming",
+      "school": "St RC college of higher education -CCSU",
+      "city": "Muzaffarnagar",
+      "state": "Uttar Pradesh",
+      "duration": "August 2014 to June 2017"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 25,
+    "fields": {
+      "cand": 12,
+      "title": "Bachelor of Engineering, Computer Science and Engineering",
+      "school": "Francis Xavier Engineering College",
+      "city": "Tirunelveli",
+      "state": "Tamil Nadu",
+      "duration": "2014 to Present"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 26,
+    "fields": {
+      "cand": 13,
+      "title": "Bachelor of Computer Application",
+      "school": "M G University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 27,
+    "fields": {
+      "cand": 14,
+      "title": "Masters of Business Administration in Operations",
+      "school": "IGNOU University",
+      "city": "Delhi",
+      "state": "Delhi",
+      "duration": "2015"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 28,
+    "fields": {
+      "cand": 14,
+      "title": "NONE",
+      "school": "Board of Intermediate education",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "duration": "1998"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 29,
+    "fields": {
+      "cand": 15,
+      "title": "Bachelor of Computer Application",
+      "school": "Magadh University Bodh Gaya Bihar",
+      "city": "Gaya",
+      "state": "Bihar",
+      "duration": "2018"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 30,
+    "fields": {
+      "cand": 15,
+      "title": "NONE",
+      "school": "Board/University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 31,
+    "fields": {
+      "cand": 16,
+      "title": "Bachelor of Engineering in Electronics",
+      "school": "Thapar University",
+      "city": "Patiala",
+      "state": "Punjab",
+      "duration": "2012 to 2016"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 32,
+    "fields": {
+      "cand": 17,
+      "title": "Bachelor of Engineering in Information Technology Engineering",
+      "school": "Shantilal Shah Engineering College",
+      "city": "Bhavnagar",
+      "state": "Gujarat",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 33,
+    "fields": {
+      "cand": 18,
+      "title": "Masters of Business Administration in Marketing",
+      "school": "Nitte Meenakshi Institute of Technology",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "duration": "November 2009"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 34,
+    "fields": {
+      "cand": 18,
+      "title": "Bachelor of Engineering in Information Science",
+      "school": "Rajiv Gandhi Institute of Technology",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "duration": "September 2005"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 35,
+    "fields": {
+      "cand": 18,
+      "title": "NONE",
+      "school": "Class",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 36,
+    "fields": {
+      "cand": 19,
+      "title": "Master of Computer Application",
+      "school": "University of KTU",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2016 to 2018"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 37,
+    "fields": {
+      "cand": 19,
+      "title": "Bachelor of Computer Application in Pezhakkapilly",
+      "school": "MG University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2013 to 2016"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 38,
+    "fields": {
+      "cand": 19,
+      "title": "Higher Secondary School Certificate",
+      "school": "Kerala State Board",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2011 to 2013"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 39,
+    "fields": {
+      "cand": 19,
+      "title": "Secondary School Leaving Certificate",
+      "school": "Kerala State Board",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 40,
+    "fields": {
+      "cand": 20,
+      "title": "Bachelor of Technology in Mechanical Engineering",
+      "school": "University of Calicut",
+      "city": "Calicut",
+      "state": "Kerala",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 41,
+    "fields": {
+      "cand": 21,
+      "title": "Bachelors in Electronics Communications and Engineering",
+      "school": "Vidya Jyothi Institute Of Technology",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 42,
+    "fields": {
+      "cand": 21,
+      "title": "PGDip in Applied Computing for Technologists",
+      "school": "Dublin Institute Of Technology",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 43,
+    "fields": {
+      "cand": 22,
+      "title": "Bachelor of Engineering in P.D.V.V.P.V.O.E.Ahmednagar",
+      "school": "PUNE University",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "duration": "2016"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 44,
+    "fields": {
+      "cand": 22,
+      "title": "Higher Secondary School Certificate",
+      "school": "Maharashtra State Board",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2012"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 45,
+    "fields": {
+      "cand": 22,
+      "title": "Secondary School Certificate in Kanya prashala bhoom",
+      "school": "Maharashtra State Board",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2010"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 46,
+    "fields": {
+      "cand": 22,
+      "title": "NONE",
+      "school": "Board/University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 47,
+    "fields": {
+      "cand": 23,
+      "title": "Masters of Business Administration",
+      "school": "Sikkim Manipal University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2016 to 2018"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 48,
+    "fields": {
+      "cand": 23,
+      "title": "Diploma in Engineering",
+      "school": "Govt. Polytechnic",
+      "city": "Delhi",
+      "state": "Delhi",
+      "duration": "2004 to 2007"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 49,
+    "fields": {
+      "cand": 23,
+      "title": "Central Board of Secondary Education",
+      "school": "School No",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2003"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 50,
+    "fields": {
+      "cand": 24,
+      "title": "Diploma in Computer Science",
+      "school": "South Calcutta Polytechnic",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "duration": "July 2016 to July 2019"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 51,
+    "fields": {
+      "cand": 25,
+      "title": "Master of Computer Application",
+      "school": "National Institute of Technology Raipur",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 52,
+    "fields": {
+      "cand": 26,
+      "title": "Bachelor of Engineering. in Computer Science and Engineering",
+      "school": "Institute of Engineering Jiwaji University Gwalior",
+      "city": "Gwalior",
+      "state": "Madhya Pradesh",
+      "duration": "2013 to 2017"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 53,
+    "fields": {
+      "cand": 26,
+      "title": "Class XII",
+      "school": "Board of Secondary Education",
+      "city": "Bhopal",
+      "state": "Madhya Pradesh",
+      "duration": "2013"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 54,
+    "fields": {
+      "cand": 26,
+      "title": "Class X",
+      "school": "Board of Secondary Education",
+      "city": "Bhopal",
+      "state": "Madhya Pradesh",
+      "duration": "2011"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 55,
+    "fields": {
+      "cand": 27,
+      "title": "NONE",
+      "school": "Board/University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 56,
+    "fields": {
+      "cand": 27,
+      "title": "Bachelor of Computer in General",
+      "school": "Osmania University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2018"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 57,
+    "fields": {
+      "cand": 27,
+      "title": "Intermediate Education",
+      "school": "Institute of Chartered Accountants",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2015"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 58,
+    "fields": {
+      "cand": 27,
+      "title": "Secondary School Certificate",
+      "school": "Board of Secondary Education",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2013"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 59,
+    "fields": {
+      "cand": 28,
+      "title": "Bachelor of Engineering in Electrical Engineer in Electrical Engineer",
+      "school": "University of Pune",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2015"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 60,
+    "fields": {
+      "cand": 28,
+      "title": "Higher Secondary (12th Pass) in Biology and mathematics",
+      "school": "Maharashtra state board",
+      "city": "Malegaon",
+      "state": "Maharashtra",
+      "duration": "June 2010 to June 2011"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 61,
+    "fields": {
+      "cand": 28,
+      "title": "Secondary (10th Pass) in Semi- english",
+      "school": "Maharashtra State Board",
+      "city": "Malegaon",
+      "state": "Maharashtra",
+      "duration": "June 2008 to June 2009"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 62,
+    "fields": {
+      "cand": 29,
+      "title": "Bachelor Of Technology in Education",
+      "school": "Engineering College",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2015"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 63,
+    "fields": {
+      "cand": 29,
+      "title": "Secondary School Certificate",
+      "school": "Loyola High School",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2013"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 64,
+    "fields": {
+      "cand": 30,
+      "title": "Bachelor of Technology",
+      "school": "St. Thomas' College West Bachelor of Engineeringngal",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "July 2015 to 2016"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 65,
+    "fields": {
+      "cand": 30,
+      "title": "Computer Science",
+      "school": "Engineering & University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "July 2008 to July 2009"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 66,
+    "fields": {
+      "cand": 30,
+      "title": "Diploma in Computer",
+      "school": "SCM Institute",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 67,
+    "fields": {
+      "cand": 31,
+      "title": "Bachelor of Technology",
+      "school": "Kashi Institute of Technology, Varanasi",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "duration": "2015"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 68,
+    "fields": {
+      "cand": 31,
+      "title": "NONE",
+      "school": "U.P. Board",
+      "city": "Allahabad",
+      "state": "Uttar Pradesh",
+      "duration": "2008"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 69,
+    "fields": {
+      "cand": 32,
+      "title": "Master of Technology in UVCE",
+      "school": "Bangalore University",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "duration": "2013 to 2015"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 70,
+    "fields": {
+      "cand": 33,
+      "title": "Masters of Business Administration",
+      "school": "Sikkim Manipal University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "September 2012"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 71,
+    "fields": {
+      "cand": 33,
+      "title": "Bachelor of Commerce in Financial Accounting and Auditing",
+      "school": "Mumbai University",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "duration": "1995"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 72,
+    "fields": {
+      "cand": 34,
+      "title": "Bachelor of Computer Applications in Biology Science + Maths Stream",
+      "school": "Yeldho Mar Baselios College",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2014 to 2017"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 73,
+    "fields": {
+      "cand": 34,
+      "title": "Higher Secondary (12th Pass) in Biology",
+      "school": "St. Joseph's H S S Paingottor",
+      "city": "Ernakulam",
+      "state": "Kerala",
+      "duration": "June 2012 to April 2014"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 74,
+    "fields": {
+      "cand": 34,
+      "title": "Secondary (10th Pass)",
+      "school": "St. Augustines G H S S, Kothamangalam",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 75,
+    "fields": {
+      "cand": 34,
+      "title": "Master of Computer Applications (MCA) in Distance Education",
+      "school": "IGNOU University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2019 to Present"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 76,
+    "fields": {
+      "cand": 35,
+      "title": "Master of Computer Application in Computer Science (CGPA 6.82)",
+      "school": "National Centre",
+      "city": "Bilaspur",
+      "state": "Chhattisgarh",
+      "duration": "July 2015 to July 2018"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 77,
+    "fields": {
+      "cand": 35,
+      "title": "Bachelor of Computer Application in Computer Science (69.49%)",
+      "school": "Dr. CV Raman University Kota, Bilaspur CG",
+      "city": "Kota",
+      "state": "Chhattisgarh",
+      "duration": "July 2011 to July 2014"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 78,
+    "fields": {
+      "cand": 35,
+      "title": "12th in Mathematics (51%)",
+      "school": "Seventy Plus Progressive H S S",
+      "city": "Raipur",
+      "state": "Chhattisgarh",
+      "duration": "July 2010 to July 2011"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 79,
+    "fields": {
+      "cand": 35,
+      "title": "10th in Secondary Education (72%)",
+      "school": "Sant Shri Aasaram Gurukul H S S School",
+      "city": "Chhindwara",
+      "state": "Madhya Pradesh",
+      "duration": "July 2008 to July 2009"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 80,
+    "fields": {
+      "cand": 36,
+      "title": "Bachelor's",
+      "school": "NONE",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 81,
+    "fields": {
+      "cand": 37,
+      "title": "Electronics",
+      "school": "Govt. Polytechnic",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2014"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 82,
+    "fields": {
+      "cand": 37,
+      "title": "DAC in Advance",
+      "school": "Pune university",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "duration": "2017"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 83,
+    "fields": {
+      "cand": 37,
+      "title": "Diploma in DAC",
+      "school": "CDAC",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "April 2018 to Present"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 84,
+    "fields": {
+      "cand": 38,
+      "title": "Bachelor of Technology (CSE) in Computer Science",
+      "school": "Gauhati University",
+      "city": "Guwahati",
+      "state": "Assam",
+      "duration": "August 2015 to July 2019"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 85,
+    "fields": {
+      "cand": 39,
+      "title": "Master's",
+      "school": "ISTAR, Sardar Patel University, Vallabh Vidyanagar",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 86,
+    "fields": {
+      "cand": 40,
+      "title": "Bachelor's in Information Technology",
+      "school": "Savitribai Phule Pune University",
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "duration": "July 2013 to June 2016"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 87,
+    "fields": {
+      "cand": 40,
+      "title": "Diploma in Computer Science",
+      "school": "MSBTE",
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "duration": "June 2009 to May 2013"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 88,
+    "fields": {
+      "cand": 40,
+      "title": "Secondary School Certificate",
+      "school": "State Board",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "June 2008 to May 2009"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 89,
+    "fields": {
+      "cand": 41,
+      "title": "Bachelor of Engineering (Information Technology)",
+      "school": "Padmabhooshan vasantdada patil institute of technology,bavdhan,pune",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 90,
+    "fields": {
+      "cand": 42,
+      "title": "Bachelor of Technology in AI and ML",
+      "school": "Great Lakes Institute of Management",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2020"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 91,
+    "fields": {
+      "cand": 42,
+      "title": "Bachelor of Technology in Information Technology",
+      "school": "Mahatma Gandhi University",
+      "city": "Kottayam",
+      "state": "Kerala",
+      "duration": "2011"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 92,
+    "fields": {
+      "cand": 43,
+      "title": "Bachelor of Engineering. in E&TC",
+      "school": "Sinhgad Institute of Technology",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "duration": "2013"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 93,
+    "fields": {
+      "cand": 43,
+      "title": "Diploma in E&TC",
+      "school": "Govt. Polytechnic",
+      "city": "Solapur",
+      "state": "Maharashtra",
+      "duration": "2010"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 94,
+    "fields": {
+      "cand": 43,
+      "title": "NONE",
+      "school": "Jawantrao Sawant College of Engineering Hadapsar",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "duration": "2018"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 95,
+    "fields": {
+      "cand": 44,
+      "title": "Master of Computer Application",
+      "school": "IGNOU University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2012"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 96,
+    "fields": {
+      "cand": 44,
+      "title": "Bachelor of Computer Application",
+      "school": "IGNOU University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2011"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 97,
+    "fields": {
+      "cand": 45,
+      "title": "Bachelor of Engineering in Computer",
+      "school": "Siddhant College of Engineering Pune",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "duration": "2014"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 98,
+    "fields": {
+      "cand": 45,
+      "title": "NONE",
+      "school": "High School, State Maharashtra Board",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2007"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 99,
+    "fields": {
+      "cand": 46,
+      "title": "Bachelor of Technology in Electrical & Electronics Engineering",
+      "school": "JNTU",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2015 to 2018"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 100,
+    "fields": {
+      "cand": 46,
+      "title": "Diploma in Electrical & Electronics Engineering",
+      "school": "TRR College of Engineering and Technology",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2012 to 2015"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 101,
+    "fields": {
+      "cand": 46,
+      "title": "Secondary School Certificate",
+      "school": "Uppal Model High School",
+      "city": "Uppal",
+      "state": "Andhra Pradesh",
+      "duration": "2010 to 2012"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 102,
+    "fields": {
+      "cand": 47,
+      "title": "Master of Computer Application",
+      "school": "Osmania University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 103,
+    "fields": {
+      "cand": 48,
+      "title": "Master of Computer Application in Computer Application",
+      "school": "BMS College of Engineering",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 104,
+    "fields": {
+      "cand": 48,
+      "title": "Bachelor of Computer Application in Computer Application",
+      "school": "Bangalore University",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 105,
+    "fields": {
+      "cand": 48,
+      "title": "Certificate in Secondary Education Examination Board",
+      "school": "Our Lady Fatima English High School",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 106,
+    "fields": {
+      "cand": 48,
+      "title": "NONE",
+      "school": "Department Of Pre University Education",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 107,
+    "fields": {
+      "cand": 49,
+      "title": "Bachelor of Engineering in Computer science engineering",
+      "school": "MADHA Institute of Engineering and Technology",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "duration": "2017"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 108,
+    "fields": {
+      "cand": 49,
+      "title": "Higher Secondary School Certificate",
+      "school": "St Theresa Girls Higher Sec. school",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "duration": "2013"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 109,
+    "fields": {
+      "cand": 49,
+      "title": "Secondary School Leaving Certificate",
+      "school": "St Theresa Girls Higher Sec. school",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "duration": "2011"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 110,
+    "fields": {
+      "cand": 50,
+      "title": "Secondary School Certificate in U.P Board",
+      "school": "Board/University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 111,
+    "fields": {
+      "cand": 51,
+      "title": "Master of Computer Application",
+      "school": "HP University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "June 2019"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 112,
+    "fields": {
+      "cand": 51,
+      "title": "Bachelor of Computer Application",
+      "school": "HP University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "April 2006"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 113,
+    "fields": {
+      "cand": 52,
+      "title": "Bachelor's in BA sociology",
+      "school": "Mumbai",
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "duration": "February 2010"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 114,
+    "fields": {
+      "cand": 53,
+      "title": "Masters of Business Administration in MBA",
+      "school": "University of Pune",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "duration": "2009 to 2011"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 115,
+    "fields": {
+      "cand": 53,
+      "title": "Bachelor's in Computer Applications",
+      "school": "University of Pune",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "duration": "2006 to 2009"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 116,
+    "fields": {
+      "cand": 54,
+      "title": "Master of Computer Application in Computer Application",
+      "school": "Central University of Karnataka",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2014 to 2017"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 117,
+    "fields": {
+      "cand": 54,
+      "title": "Bachelor of Computer Application in Computer Application",
+      "school": "Sri Satyam College, Gulbarga University",
+      "city": "Gulbarga",
+      "state": "Karnataka",
+      "duration": "2011 to 2014"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 118,
+    "fields": {
+      "cand": 55,
+      "title": "Bachelor in Commerce in Accounts & Marketing",
+      "school": "Mumbai University",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "duration": "1996"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 119,
+    "fields": {
+      "cand": 55,
+      "title": "NONE",
+      "school": "Cardinal Gracious High School",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "duration": "1989"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 120,
+    "fields": {
+      "cand": 56,
+      "title": "Bachelor of Electrical and Electronics Engineering in Electrical and Electronics Engineering",
+      "school": "MANIPAL INSTITUTE OF TECHNOLOGY",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2004 to 2008"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 121,
+    "fields": {
+      "cand": 57,
+      "title": "Bachelor of Technology in I.T",
+      "school": "St. Joseph's Institute of Technology",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2019"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 122,
+    "fields": {
+      "cand": 57,
+      "title": "Higher Secondary School Certificate in State Board",
+      "school": "Little Angels Matriculation Higher Secondary School",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2015"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 123,
+    "fields": {
+      "cand": 57,
+      "title": "Secondary School Leaving Certificate in State Board",
+      "school": "Servite Matriculation Higher Secondary School",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2013"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 124,
+    "fields": {
+      "cand": 58,
+      "title": "Bachelor of Engineering. in Computer Science in Computer Science",
+      "school": "Rajiv Gandhi Institute",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "duration": "2012 to 2016"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 125,
+    "fields": {
+      "cand": 58,
+      "title": "Class X in State",
+      "school": "Sri Vani Education Center",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "duration": "2009 to 2010"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 126,
+    "fields": {
+      "cand": 58,
+      "title": "NONE",
+      "school": "State board",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2011 to 2012"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 127,
+    "fields": {
+      "cand": 59,
+      "title": "Bachelor of Engineering",
+      "school": "SPPU University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 128,
+    "fields": {
+      "cand": 60,
+      "title": "Master of Computer Application",
+      "school": "Shivaji University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "December 2014"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 129,
+    "fields": {
+      "cand": 60,
+      "title": "Master of Commerce",
+      "school": "Shivaji University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "April 2002"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 130,
+    "fields": {
+      "cand": 60,
+      "title": "Bachelor of Commerce",
+      "school": "Vivekanand college, Shivaji University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "March 1999"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 131,
+    "fields": {
+      "cand": 60,
+      "title": "Higher Secondary School Certificate",
+      "school": "Vivekanand college, Shivaji University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "March 1996"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 132,
+    "fields": {
+      "cand": 61,
+      "title": "Bachelor of Sciencein Computer",
+      "school": "Pune University",
+      "city": "Shrirampur",
+      "state": "West Bengal",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 133,
+    "fields": {
+      "cand": 61,
+      "title": "Higher Secondary School Certificate in Bhenda, A.Nagar",
+      "school": "Pune University",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 134,
+    "fields": {
+      "cand": 61,
+      "title": "Secondary School Certificate in Gandhi Kanya Vidyalaya Newasa",
+      "school": "Pune University",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 135,
+    "fields": {
+      "cand": 62,
+      "title": "Bachelor's",
+      "school": "NONE",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 136,
+    "fields": {
+      "cand": 63,
+      "title": "Masters of Business Administration in IT & Systems",
+      "school": "Tilak Maharashtra University",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "duration": "2006"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 137,
+    "fields": {
+      "cand": 63,
+      "title": "Computer Applications",
+      "school": "NIIT",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "duration": "2000"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 138,
+    "fields": {
+      "cand": 63,
+      "title": "Bachelor of Engineering",
+      "school": "Rhampur University",
+      "city": "Brahmapur",
+      "state": "Orissa",
+      "duration": "1997"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 139,
+    "fields": {
+      "cand": 64,
+      "title": "Bachelor of Technology in Computer Science",
+      "school": "Raj Kumar Goel Institute of Technology for Women",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 140,
+    "fields": {
+      "cand": 65,
+      "title": "Masters of Business Administration in Finance",
+      "school": "Osmania University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 141,
+    "fields": {
+      "cand": 65,
+      "title": "Bachelor of Computer Science in Bio-Technology",
+      "school": "Osmania University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 142,
+    "fields": {
+      "cand": 66,
+      "title": "Master of Science in Computer Science",
+      "school": "South Asian University",
+      "city": "Delhi",
+      "state": "Delhi",
+      "duration": "June 2018"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 143,
+    "fields": {
+      "cand": 66,
+      "title": "Bachelor of Computer Applications in Computer Applications",
+      "school": "Vivekananda Institute of Professional Studies, GGSIP University, New Delhi",
+      "city": "Delhi",
+      "state": "Delhi",
+      "duration": "June 2016"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 144,
+    "fields": {
+      "cand": 66,
+      "title": "NONE",
+      "school": "Ryan International School",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 145,
+    "fields": {
+      "cand": 67,
+      "title": "Bachelor of Technology in Communications",
+      "school": "PES University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2018"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 146,
+    "fields": {
+      "cand": 68,
+      "title": "Bachelor's",
+      "school": "NONE",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 147,
+    "fields": {
+      "cand": 69,
+      "title": "Bachelor in NCIT",
+      "school": "MG University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 148,
+    "fields": {
+      "cand": 69,
+      "title": "Secondary School Leaving Certificate in CarShowRoom Management System",
+      "school": "Govt.Model Higher Secondary School",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 149,
+    "fields": {
+      "cand": 69,
+      "title": "PGDCA in Computer application",
+      "school": "IGNOU University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2018"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 150,
+    "fields": {
+      "cand": 70,
+      "title": "Bachelor of Engineering in Computer Science and Engineering in Computer Science and Engineering",
+      "school": "Sri Venkateswara College of Engineering, Anna University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "June 2012 to Present"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 151,
+    "fields": {
+      "cand": 71,
+      "title": "Diploma in computer Application",
+      "school": "Gurukul Software Institute in Gorakhpur",
+      "city": "Gorakhpur",
+      "state": "Uttar Pradesh",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 152,
+    "fields": {
+      "cand": 71,
+      "title": "Diploma in Multimedia and Animation",
+      "school": "Oxford Software Institute in South Ex",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "duration": "2009"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 153,
+    "fields": {
+      "cand": 71,
+      "title": "NONE",
+      "school": "S.S.V.R.T.D Inter College",
+      "city": "Allahabad",
+      "state": "Uttar Pradesh",
+      "duration": "2002"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 154,
+    "fields": {
+      "cand": 72,
+      "title": "Bachelor of Technology in \"Computer Science and Engineering\"",
+      "school": "Trident Academy of Technology",
+      "city": "Bhubaneshwar",
+      "state": "Orissa",
+      "duration": "2015"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 155,
+    "fields": {
+      "cand": 72,
+      "title": "Central Board of Secondary Education",
+      "school": "TATA DAV Public School, Ghatotand",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2011"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 156,
+    "fields": {
+      "cand": 73,
+      "title": "Bachelor's",
+      "school": "NONE",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 157,
+    "fields": {
+      "cand": 74,
+      "title": "Masters of Business Administration in Healthcare",
+      "school": "Sikkim Manipal Distance University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2016 to Present"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 158,
+    "fields": {
+      "cand": 75,
+      "title": "Bachelor's of Engineering in Computer Science in Engineering",
+      "school": "College of Engineering",
+      "city": "Thiruvananthapuram",
+      "state": "Kerala",
+      "duration": "February 2019"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 159,
+    "fields": {
+      "cand": 75,
+      "title": "Secondary School Leaving Certificate in Total Percentage",
+      "school": "Silver Hills Higher Secondary School",
+      "city": "Calicut",
+      "state": "Kerala",
+      "duration": "May 2011"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 160,
+    "fields": {
+      "cand": 76,
+      "title": "Bachelor of Technology in ECE",
+      "school": "V R Siddhartha Engineering College",
+      "city": "Vijayawada",
+      "state": "Andhra Pradesh",
+      "duration": "2017"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 161,
+    "fields": {
+      "cand": 76,
+      "title": "NONE",
+      "school": "Junior College",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2013"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 162,
+    "fields": {
+      "cand": 76,
+      "title": "Secondary School Certificate",
+      "school": "Jubilee High School",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2011"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 163,
+    "fields": {
+      "cand": 77,
+      "title": "Bachelor of Technology in Computer Science and Engineering",
+      "school": "Indian Institute of Technology",
+      "city": "Kanpur",
+      "state": "Uttar Pradesh",
+      "duration": "August 1993 to April 1997"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 164,
+    "fields": {
+      "cand": 78,
+      "title": "Masters of Business Administration in (Finance & Marketing)- Avanti Research",
+      "school": "Technology Academy",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "December 2010"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 165,
+    "fields": {
+      "cand": 78,
+      "title": "Bachelor of Commerce in Vocational",
+      "school": "Sri VasaviVijnanaMandali",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "October 2007"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 166,
+    "fields": {
+      "cand": 78,
+      "title": "NONE",
+      "school": "Intermediate- Karim City College",
+      "city": "Jamshedpur",
+      "state": "Jharkhand",
+      "duration": "July 2005"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 167,
+    "fields": {
+      "cand": 78,
+      "title": "Secondary School Certificate in Matriculation",
+      "school": "High School Kumardubi",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "May 2004"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 168,
+    "fields": {
+      "cand": 79,
+      "title": "Bachelor of Technology in Engineering & Technology",
+      "school": "Uttar Pradesh Technical University",
+      "city": "Jhansi",
+      "state": "Uttar Pradesh",
+      "duration": "2016"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 169,
+    "fields": {
+      "cand": 79,
+      "title": "Diploma in Electronic engineering",
+      "school": "Govt. Girls Polytechnic",
+      "city": "Moradabad",
+      "state": "Uttar Pradesh",
+      "duration": "2013"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 170,
+    "fields": {
+      "cand": 79,
+      "title": "Secondary (10th Pass) in Science",
+      "school": "S.C.A. Memo Public School",
+      "city": "Gulaothi",
+      "state": "Uttar Pradesh",
+      "duration": "2010"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 171,
+    "fields": {
+      "cand": 80,
+      "title": "Master's",
+      "school": "IGNOU University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2017 to 2019"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 172,
+    "fields": {
+      "cand": 80,
+      "title": "Bachelor's",
+      "school": "IGNOU University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2013 to 2016"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 173,
+    "fields": {
+      "cand": 80,
+      "title": "Central Board of Secondary Education in Education",
+      "school": "Central Board of Secondary",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2013"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 174,
+    "fields": {
+      "cand": 80,
+      "title": "Secondary School Examination in Education",
+      "school": "Central Board of Secondary",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2011"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 175,
+    "fields": {
+      "cand": 80,
+      "title": "NONE",
+      "school": "Board/University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 176,
+    "fields": {
+      "cand": 81,
+      "title": "Bachelor in Computer Engineering",
+      "school": "Pune university",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "duration": "2017"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 177,
+    "fields": {
+      "cand": 81,
+      "title": "Secondary School Certificate",
+      "school": "Maharashtra state board",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2011"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 178,
+    "fields": {
+      "cand": 82,
+      "title": "Bachelor's in computer science and engineering",
+      "school": "karpaga vinayaga college of engineering and techonology",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "April 2014 to May 2018"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 179,
+    "fields": {
+      "cand": 82,
+      "title": "bachelor of engineering in computer science and engineering",
+      "school": "karpage vinayage college of engineering and techonology",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "April 2014 to June 2018"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 180,
+    "fields": {
+      "cand": 83,
+      "title": "Bachelor of Engineering",
+      "school": "dayandasagar college",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "duration": "January 2018 to Present"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 181,
+    "fields": {
+      "cand": 83,
+      "title": "Bachelor of Engineering in Electronics and Communication",
+      "school": "Dayananda Sagar College of Engineering",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "duration": "2013 to 2017"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 182,
+    "fields": {
+      "cand": 83,
+      "title": "NONE",
+      "school": "Senior Secondary",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2013"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 183,
+    "fields": {
+      "cand": 83,
+      "title": "NONE",
+      "school": "X (Secondary)",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2011"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 184,
+    "fields": {
+      "cand": 83,
+      "title": "NONE",
+      "school": "Chetan College",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 185,
+    "fields": {
+      "cand": 84,
+      "title": "Bachelor of Technology in Electrical & Electronics",
+      "school": "Bharati Vidyapeeth College Of Engineering, Guru Govind Singh Indraprastha University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2010"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 186,
+    "fields": {
+      "cand": 84,
+      "title": "Certificate of Attendance",
+      "school": "Swiss Business in HWZ University of Applied Sciences in Business Administration Zurich",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 187,
+    "fields": {
+      "cand": 84,
+      "title": "Post Graduate Diploma in International Business in International Business & Marketing",
+      "school": "IIFT",
+      "city": "Delhi",
+      "state": "Delhi",
+      "duration": "2019"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 188,
+    "fields": {
+      "cand": 85,
+      "title": "Bachelor of Engineering computer science Engineering",
+      "school": "Velli Veethiyar girls higher Secondary school",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2012"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 189,
+    "fields": {
+      "cand": 86,
+      "title": "Bachelor of Engineering in Computer Engineering",
+      "school": "Nagpur university",
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "duration": "2007 to 2011"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 190,
+    "fields": {
+      "cand": 86,
+      "title": "NONE",
+      "school": "Infotech",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "April 2013 to Present"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 191,
+    "fields": {
+      "cand": 87,
+      "title": "Master of Computer Application",
+      "school": "Osmania University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 192,
+    "fields": {
+      "cand": 87,
+      "title": "Bachelor of Computer Application",
+      "school": "Makhanlal Chaturvedi University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 193,
+    "fields": {
+      "cand": 88,
+      "title": "Bachelor's in Engineering",
+      "school": "Gharda Institute of Technology,lavel",
+      "city": "Khed",
+      "state": "Maharashtra",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 194,
+    "fields": {
+      "cand": 89,
+      "title": "Bachelor of Engineering in Electrical and Electronics",
+      "school": "St. Joseph's College of Engineering",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "duration": "August 2012 to May 2016"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 195,
+    "fields": {
+      "cand": 90,
+      "title": "Master of Technology in Computer Science and Engineering",
+      "school": "Abdul KalaMaster of Technologynical University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2017 to 2019"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 196,
+    "fields": {
+      "cand": 90,
+      "title": "Bachelor of Technology in Computer Science and Engineering in Computer Science and Engineering",
+      "school": "Punjab Technical University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "1998 to 2002"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 197,
+    "fields": {
+      "cand": 90,
+      "title": "Non-Medical",
+      "school": "Senior Secondary",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "1996 to 1998"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 198,
+    "fields": {
+      "cand": 90,
+      "title": "NONE",
+      "school": "Punjab School Education Board",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 199,
+    "fields": {
+      "cand": 91,
+      "title": "Bachelors degree in information Science in information Science",
+      "school": "K.L.E C.I Munavalli Polytechnic",
+      "city": "Hubli",
+      "state": "Karnataka",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 200,
+    "fields": {
+      "cand": 92,
+      "title": "Master in Computer Management in Computer Management",
+      "school": "Pune University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2009"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 201,
+    "fields": {
+      "cand": 92,
+      "title": "Bachelor of Computer Science",
+      "school": "Pune University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2007"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 202,
+    "fields": {
+      "cand": 93,
+      "title": "Master of Computer Application",
+      "school": "IGNOU University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "July 2017 to June 2020"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 203,
+    "fields": {
+      "cand": 93,
+      "title": "Bachelor of Computer Application",
+      "school": "Gujarat University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2017"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 204,
+    "fields": {
+      "cand": 94,
+      "title": "Master of Computer Application in Computer Application",
+      "school": "IGNOU University",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "duration": "July 2017 to January 2020"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 205,
+    "fields": {
+      "cand": 94,
+      "title": "Bachelor of Computer Application in Computer Application",
+      "school": "IGNOU University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2017"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 206,
+    "fields": {
+      "cand": 94,
+      "title": "Diploma in Mechanical Engineering in Production",
+      "school": "Government Polytechnic Lucknow",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2007"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 207,
+    "fields": {
+      "cand": 95,
+      "title": "Bachelor of Technology in Electronics & communication",
+      "school": "Rajasthan Technical University",
+      "city": "Ajmer",
+      "state": "Rajasthan",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 208,
+    "fields": {
+      "cand": 95,
+      "title": "Education",
+      "school": "SENIOR SECONDARY",
+      "city": "Ajmer",
+      "state": "Rajasthan",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 209,
+    "fields": {
+      "cand": 95,
+      "title": "NONE",
+      "school": "Board Of Secondary Education",
+      "city": "Ajmer",
+      "state": "Rajasthan",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 210,
+    "fields": {
+      "cand": 96,
+      "title": "Bachelor of Engineering. in Computer Science and Engineering",
+      "school": "R.M.D Engineering College",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2016"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 211,
+    "fields": {
+      "cand": 96,
+      "title": "NONE",
+      "school": "State Board",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2012"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 212,
+    "fields": {
+      "cand": 96,
+      "title": "NONE",
+      "school": "D.A.V. Matric Higher Secondary School",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2010"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 213,
+    "fields": {
+      "cand": 97,
+      "title": "Diploma in Electrical Engg in Electrical Engg",
+      "school": "Manav Bharti University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2012"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 214,
+    "fields": {
+      "cand": 98,
+      "title": "Bachelor of Computer Science in Govt.first",
+      "school": "Govt.pu college",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 215,
+    "fields": {
+      "cand": 98,
+      "title": "Secondary School Leaving Certificate",
+      "school": "Board/University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 216,
+    "fields": {
+      "cand": 98,
+      "title": "NONE",
+      "school": "Kuvempu university",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 217,
+    "fields": {
+      "cand": 99,
+      "title": "Bachelor of Technology in Computer Science",
+      "school": "Eshan College of Engineering, Mathura",
+      "city": "Mathura",
+      "state": "Uttar Pradesh",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 218,
+    "fields": {
+      "cand": 99,
+      "title": "Higher Secondary School Certificate",
+      "school": "Milton Public School",
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 219,
+    "fields": {
+      "cand": 99,
+      "title": "Secondary School Certificate",
+      "school": "S.V.M. Sr. Sec. School",
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 220,
+    "fields": {
+      "cand": 100,
+      "title": "Bachelor of Engineering in Computer Engineering",
+      "school": "Mumbai University",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "duration": "May 2018"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 221,
+    "fields": {
+      "cand": 100,
+      "title": "Higher Secondary School Certificate",
+      "school": "Maharashtra Board, Mumbai University",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "duration": "2014"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 222,
+    "fields": {
+      "cand": 100,
+      "title": "Secondary School Certificate",
+      "school": "Maharashtra Board, Mumbai University",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "duration": "2012"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 223,
+    "fields": {
+      "cand": 101,
+      "title": "Bachelor of Commerce",
+      "school": "Shivalingeshwara college",
+      "city": "Channagiri",
+      "state": "Karnataka",
+      "duration": "2016 to 2017"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 224,
+    "fields": {
+      "cand": 101,
+      "title": "NONE",
+      "school": "Govt P U college",
+      "city": "Channagiri",
+      "state": "Karnataka",
+      "duration": "2012 to 2013"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 225,
+    "fields": {
+      "cand": 101,
+      "title": "Secondary School Leaving Certificate",
+      "school": "Govt Girls High School",
+      "city": "Channagiri",
+      "state": "Karnataka",
+      "duration": "2010 to 2011"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 226,
+    "fields": {
+      "cand": 102,
+      "title": "Bachelor of Engineering in Computer in science & Engineering",
+      "school": "J.J College Engineering and Technology",
+      "city": "Tiruchchirappalli",
+      "state": "Tamil Nadu",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 227,
+    "fields": {
+      "cand": 102,
+      "title": "Higher Secondary School Certificate",
+      "school": "St. Joseph's College of Hr.Sec",
+      "city": "Tiruchchirappalli",
+      "state": "Tamil Nadu",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 228,
+    "fields": {
+      "cand": 102,
+      "title": "Secondary School Leaving Certificate",
+      "school": "St. Joseph's College of Hr.Sec.",
+      "city": "Tiruchchirappalli",
+      "state": "Tamil Nadu",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 229,
+    "fields": {
+      "cand": 103,
+      "title": "Btech. in Computer Science",
+      "school": "NorthWest Instituion of Engineering & Technology",
+      "city": "Ludhiana",
+      "state": "Punjab",
+      "duration": "2013"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 230,
+    "fields": {
+      "cand": 104,
+      "title": "Bachelor's in Electronics and Communication Engineering",
+      "school": "Heritage Institute of technology",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "duration": "April 2012 to June 2015"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 231,
+    "fields": {
+      "cand": 105,
+      "title": "Master of Business Administration",
+      "school": "Finance and Anna University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 232,
+    "fields": {
+      "cand": 105,
+      "title": "Commerce",
+      "school": "State board",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2015"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 233,
+    "fields": {
+      "cand": 105,
+      "title": "Leaving Certificate",
+      "school": "State board",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2013"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 234,
+    "fields": {
+      "cand": 106,
+      "title": "Bachelor of Engineering",
+      "school": "NONE",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 235,
+    "fields": {
+      "cand": 107,
+      "title": "Bachelor of Technology in Information technology",
+      "school": "Uttar Pradesh Technical University (Krishna Engineering College)",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2015"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 236,
+    "fields": {
+      "cand": 108,
+      "title": "Bachelor of Engineering in electronic and telecommunication engineering",
+      "school": "N.B.Navale Sinhgad college of engineering,solapur",
+      "city": "Solapur",
+      "state": "Maharashtra",
+      "duration": "August 2014 to June 2017"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 237,
+    "fields": {
+      "cand": 108,
+      "title": "Diploma in electronic and telecommunication engineering",
+      "school": "Vidya Vikas Prathisthan Polytechnic College",
+      "city": "Solapur",
+      "state": "Maharashtra",
+      "duration": "August 2011 to July 2014"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 238,
+    "fields": {
+      "cand": 109,
+      "title": "Bachelor of Technology",
+      "school": "Haryana college of technology & Management",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2011 to 2015"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 239,
+    "fields": {
+      "cand": 110,
+      "title": "Master of Science in Comp Sci",
+      "school": "Pune University",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "duration": "2017 to 2018"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 240,
+    "fields": {
+      "cand": 110,
+      "title": "Master's in Computer Science",
+      "school": "Pune University",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 241,
+    "fields": {
+      "cand": 110,
+      "title": "Bachelor of Computer Science in Comp Sci",
+      "school": "Pune University",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "duration": "2014 to 2015"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 242,
+    "fields": {
+      "cand": 110,
+      "title": "Higher Secondary School Certificate",
+      "school": "Maharashtra Board",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2011"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 243,
+    "fields": {
+      "cand": 110,
+      "title": "Secondary School Certificate",
+      "school": "Maharashtra Board",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2009"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 244,
+    "fields": {
+      "cand": 111,
+      "title": "Bachelor of Engineering in Information Technology",
+      "school": "Pune University",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "duration": "June 2015 to July 2018"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 245,
+    "fields": {
+      "cand": 111,
+      "title": "Diploma in Computer Engineering",
+      "school": "PDEA's Institute of Technology",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "duration": "August 2012 to June 2015"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 246,
+    "fields": {
+      "cand": 112,
+      "title": "Bachelor of Engineering Computer in Computer Engineering",
+      "school": "SPPU University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2015"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 247,
+    "fields": {
+      "cand": 112,
+      "title": "Higher Secondary School Certificate",
+      "school": "Maharashtra State Board",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2011"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 248,
+    "fields": {
+      "cand": 112,
+      "title": "Secondary School Certificate",
+      "school": "Maharashtra State Board",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2009"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 249,
+    "fields": {
+      "cand": 113,
+      "title": "Bachelor of Technology in Technology",
+      "school": "Dr Akhilesh Das Gupta Institute of Technology and Management",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "duration": "August 2016 to Present"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 250,
+    "fields": {
+      "cand": 113,
+      "title": "Central Board of Secondary Education in PCM",
+      "school": "Senior Secondary",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "duration": "March 2013 to March 2015"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 251,
+    "fields": {
+      "cand": 113,
+      "title": "NONE",
+      "school": "New Holy Public School",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "duration": "March 2003 to March 2013"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 252,
+    "fields": {
+      "cand": 114,
+      "title": "Bachelor of Computer Application",
+      "school": "Pune University",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "duration": "2018"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 253,
+    "fields": {
+      "cand": 114,
+      "title": "Higher Secondary School Certificate",
+      "school": "Maharashtra Board",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2015"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 254,
+    "fields": {
+      "cand": 114,
+      "title": "Secondary School Certificate",
+      "school": "Maharashtra Board",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2013"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 255,
+    "fields": {
+      "cand": 115,
+      "title": "Bachelor of Engineer",
+      "school": "Rajiv Gandhi college of Engineering",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2016"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 256,
+    "fields": {
+      "cand": 115,
+      "title": "Higher Secondary School Certificate",
+      "school": "Chintamani college Kalamb Dist Yavatmal",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2010"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 257,
+    "fields": {
+      "cand": 115,
+      "title": "Secondary School Certificate",
+      "school": "Samyak HigHigher Secondary School Certificatehool shirpur dist Wardha",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2008"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 258,
+    "fields": {
+      "cand": 116,
+      "title": "Master of Computer Application",
+      "school": "Punjabi University",
+      "city": "Patiala",
+      "state": "Punjab",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 259,
+    "fields": {
+      "cand": 116,
+      "title": "Bachelor of Computer Application",
+      "school": "Punjab University",
+      "city": "Chandigarh",
+      "state": "Chandigarh",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 260,
+    "fields": {
+      "cand": 116,
+      "title": "Higher Education",
+      "school": "Senior Secondary School PSEB",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 261,
+    "fields": {
+      "cand": 118,
+      "title": "Master's Degree in Computer Applications",
+      "school": "Maharishi Arvind Institute of Science & Management",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "duration": "2008"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 262,
+    "fields": {
+      "cand": 118,
+      "title": "Bachelor's Degree in Bachelor of Computer Applications",
+      "school": "Dayanand Academy Of Advance Study",
+      "city": "Haridwar",
+      "state": "Uttarakhand",
+      "duration": "2004"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 263,
+    "fields": {
+      "cand": 118,
+      "title": "Bachelor of Computer Application Final",
+      "school": "LPU",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 264,
+    "fields": {
+      "cand": 119,
+      "title": "Master Of Computer Application in Computer Application",
+      "school": "Maharishi Markandeshwar University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "June 2018"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 265,
+    "fields": {
+      "cand": 119,
+      "title": "Non-Medical",
+      "school": "Maharishi Markandeshwar University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "June 2016"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 266,
+    "fields": {
+      "cand": 120,
+      "title": "Bachelor's",
+      "school": "NONE",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 267,
+    "fields": {
+      "cand": 121,
+      "title": "Bachelor of Computer Science.",
+      "school": "Kuvempu University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2012"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 268,
+    "fields": {
+      "cand": 122,
+      "title": "Bachelor of Engineering in Computer Science",
+      "school": "RGPV University",
+      "city": "Bhopal",
+      "state": "Madhya Pradesh",
+      "duration": "2019"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 269,
+    "fields": {
+      "cand": 122,
+      "title": "Higher Secondary School Certificate",
+      "school": "JG High school",
+      "city": "Indore",
+      "state": "Madhya Pradesh",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 270,
+    "fields": {
+      "cand": 123,
+      "title": "Secondary School Certificate",
+      "school": "Bihar Board",
+      "city": "Bihar Sharif",
+      "state": "Bihar",
+      "duration": "2015"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 271,
+    "fields": {
+      "cand": 124,
+      "title": "Bachelor of Technology in ELECTRONICS & COMMUNICATION ENGINEERING",
+      "school": "IIIT Allahabad",
+      "city": "Allahabad",
+      "state": "Uttar Pradesh",
+      "duration": "2014 to 2019"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 272,
+    "fields": {
+      "cand": 124,
+      "title": "Annual Secondary Board Examination",
+      "school": "Secured State Rank",
+      "city": "Bihar Sharif",
+      "state": "Bihar",
+      "duration": "2011"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 273,
+    "fields": {
+      "cand": 124,
+      "title": "Class XII in Board and JEE",
+      "school": "Senior Secondary",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 274,
+    "fields": {
+      "cand": 124,
+      "title": "NONE",
+      "school": "AN COLLEGE PATNA",
+      "city": "Patna",
+      "state": "Bihar",
+      "duration": "2014"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 275,
+    "fields": {
+      "cand": 124,
+      "title": "NONE",
+      "school": "ST.MG HIGH SCHOOL PATNA",
+      "city": "Patna",
+      "state": "Bihar",
+      "duration": "2011"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 276,
+    "fields": {
+      "cand": 125,
+      "title": "Bachelor of Technology in ELECTRONICS & COMMUNICATION ENGINEERING",
+      "school": "IIIT Allahabad",
+      "city": "Allahabad",
+      "state": "Uttar Pradesh",
+      "duration": "2014 to 2019"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 277,
+    "fields": {
+      "cand": 125,
+      "title": "NONE",
+      "school": "AN COLLEGE PATNA",
+      "city": "Patna",
+      "state": "Bihar",
+      "duration": "2014"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 278,
+    "fields": {
+      "cand": 125,
+      "title": "NONE",
+      "school": "ST.MG HIGH SCHOOL PATNA",
+      "city": "Patna",
+      "state": "Bihar",
+      "duration": "2011"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 279,
+    "fields": {
+      "cand": 125,
+      "title": "Annual Secondary Board Examination",
+      "school": "Secured State Rank",
+      "city": "Bihar Sharif",
+      "state": "Bihar",
+      "duration": "2011"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 280,
+    "fields": {
+      "cand": 125,
+      "title": "Class XII in Board and JEE",
+      "school": "Senior Secondary",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 281,
+    "fields": {
+      "cand": 126,
+      "title": "Diploma in Computer Engineering",
+      "school": "Government Polytechnic",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "duration": "2011"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 282,
+    "fields": {
+      "cand": 127,
+      "title": "PG in Computer Science",
+      "school": "Karnataka University Dharwad",
+      "city": "Dharwad",
+      "state": "Karnataka",
+      "duration": "2019"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 283,
+    "fields": {
+      "cand": 127,
+      "title": "NONE",
+      "school": "Government PU College",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2016"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 284,
+    "fields": {
+      "cand": 127,
+      "title": "NONE",
+      "school": "VBC English Medium High School Bailhongal",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2014"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 285,
+    "fields": {
+      "cand": 128,
+      "title": "Masters of Computer Applications in Computer Applications",
+      "school": "National Institute of Technology",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "duration": "2016 to 2019"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 286,
+    "fields": {
+      "cand": 128,
+      "title": "NONE",
+      "school": "Jaycees Higher Secondary School Manawar",
+      "city": "Manawar",
+      "state": "Madhya Pradesh",
+      "duration": "2013 to 2016"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 287,
+    "fields": {
+      "cand": 129,
+      "title": "Master of Technology in Metallurgy",
+      "school": "Indian Institute of Technology",
+      "city": "Kanpur",
+      "state": "Uttar Pradesh",
+      "duration": "1996"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 288,
+    "fields": {
+      "cand": 129,
+      "title": "Bachelor of Engineering. in Metallurgy",
+      "school": "Engineering College, Shibpore, Calcutta University",
+      "city": "Kolkata",
+      "state": "NONE",
+      "duration": "1994"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 289,
+    "fields": {
+      "cand": 130,
+      "title": "Bachelor of Technology Ece",
+      "school": "SSR Institute of Engineering and Technology",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2009 to 2013"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 290,
+    "fields": {
+      "cand": 131,
+      "title": "Master's in Computer science",
+      "school": "galgotias university",
+      "city": "Delhi",
+      "state": "Delhi",
+      "duration": "June 2018 to Present"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 291,
+    "fields": {
+      "cand": 131,
+      "title": "Bachelor of Computer Application",
+      "school": "Baba sahib bhim raw amBachelor of Engineeringdakar university muzafarpur",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 292,
+    "fields": {
+      "cand": 131,
+      "title": "Diploma in computer application",
+      "school": "Aryabhat institute of technology",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 293,
+    "fields": {
+      "cand": 132,
+      "title": "Bachelor of Engineering",
+      "school": "K.L.N.College of Engineering",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 294,
+    "fields": {
+      "cand": 132,
+      "title": "Bachelor of Engineering (ECE)",
+      "school": "State Board",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2013"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 295,
+    "fields": {
+      "cand": 133,
+      "title": "PG in Machine Learning & Artificial Intelligence",
+      "school": "IIIT & upGrad",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "December 2018 to January 2019"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 296,
+    "fields": {
+      "cand": 133,
+      "title": "Bachelor of Technology in Computer Science Engineering",
+      "school": "Vishveshwarya Institute of Engineering and Technology",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "May 2013 to May 2017"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 297,
+    "fields": {
+      "cand": 134,
+      "title": "Bachelor of Engineering in COMPUTER SCIENCE AND Engineering",
+      "school": "West Bengal Institute Of Technology",
+      "city": "Hospet",
+      "state": "Karnataka",
+      "duration": "2018"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 298,
+    "fields": {
+      "cand": 134,
+      "title": "NONE",
+      "school": "PU College",
+      "city": "Hospet",
+      "state": "Karnataka",
+      "duration": "2014"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 299,
+    "fields": {
+      "cand": 134,
+      "title": "Secondary School Leaving Certificate in Kendriya Vidyalaya",
+      "school": "Central Board Of Secondary Education",
+      "city": "Hospet",
+      "state": "Karnataka",
+      "duration": "2012"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 300,
+    "fields": {
+      "cand": 135,
+      "title": "Master of Computer Application in Computer Science",
+      "school": "Guru Ghasidas University",
+      "city": "Bilaspur",
+      "state": "Chhattisgarh",
+      "duration": "2003"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 301,
+    "fields": {
+      "cand": 136,
+      "title": "Master of Computer Application",
+      "school": "Mohamed Sathak Engineering College",
+      "city": "Kilakarai",
+      "state": "Tamil Nadu",
+      "duration": "2017"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 302,
+    "fields": {
+      "cand": 136,
+      "title": "Bachelor of Computer Science",
+      "school": "Syed Ammal Arts & Science College",
+      "city": "Ramanathapuram",
+      "state": "Tamil Nadu",
+      "duration": "2015"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 303,
+    "fields": {
+      "cand": 136,
+      "title": "Higher Secondary School Certificate",
+      "school": "Govt. Hr. Sec School",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2012"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 304,
+    "fields": {
+      "cand": 136,
+      "title": "Secondary School Leaving Certificate",
+      "school": "Govt. Hr. Sec School",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2010"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 305,
+    "fields": {
+      "cand": 137,
+      "title": "Masters of Business Administration in PGDIT",
+      "school": "Symbiosis Institute of Technology",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "duration": "2010"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 306,
+    "fields": {
+      "cand": 137,
+      "title": "PG DCA in DCA",
+      "school": "Indira Gandhi National Open University",
+      "city": "Delhi",
+      "state": "Delhi",
+      "duration": "2004"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 307,
+    "fields": {
+      "cand": 137,
+      "title": "Bachelor of Computer Science in Electronics",
+      "school": "South Gujarat University",
+      "city": "Surat",
+      "state": "Gujarat",
+      "duration": "1995"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 308,
+    "fields": {
+      "cand": 138,
+      "title": "Masters' Degree in Computer Management",
+      "school": "MCM",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "duration": "2014"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 309,
+    "fields": {
+      "cand": 138,
+      "title": "Bachelor of Computer Application",
+      "school": "Pune University",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "duration": "2012"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 310,
+    "fields": {
+      "cand": 138,
+      "title": "Higher Secondary School Certificate in Secondary Education",
+      "school": "Maharashtra State Board",
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "duration": "2008"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 311,
+    "fields": {
+      "cand": 138,
+      "title": "Secondary School Certificate in Secondary Education",
+      "school": "Maharashtra State Board",
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "duration": "2006"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 312,
+    "fields": {
+      "cand": 139,
+      "title": "Bachelor of Technology in Technology",
+      "school": "Anna University",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "duration": "2016"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 313,
+    "fields": {
+      "cand": 139,
+      "title": "Diploma in Technology",
+      "school": "Srinivasa Polytechnic",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2012"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 314,
+    "fields": {
+      "cand": 139,
+      "title": "Higher Secondary School Certificate in Computer Science",
+      "school": "State Board",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2009"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 315,
+    "fields": {
+      "cand": 139,
+      "title": "Secondary School Leaving Certificate in Vehicle Insurance Claim-survey",
+      "school": "Secondary School",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2007"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 316,
+    "fields": {
+      "cand": 140,
+      "title": "Master's",
+      "school": "Texas A&M University",
+      "city": "College Station",
+      "state": "TX",
+      "duration": "December 2011"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 317,
+    "fields": {
+      "cand": 140,
+      "title": "Bachelor's",
+      "school": "Indian Institute of Technology",
+      "city": "Kharagpur",
+      "state": "West Bengal",
+      "duration": "May-09"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 318,
+    "fields": {
+      "cand": 141,
+      "title": "Bachelor's in computer",
+      "school": "G.H.Raisoni college of engineering and management wagholi",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "duration": "June 2014 to June 2017"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 319,
+    "fields": {
+      "cand": 141,
+      "title": "Diploma",
+      "school": "Gov.Polytechnic College of Awasari",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "duration": "2014"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 320,
+    "fields": {
+      "cand": 141,
+      "title": "Secondary School Certificate",
+      "school": "State Board",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2011"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 321,
+    "fields": {
+      "cand": 142,
+      "title": "Bachelor's in Electronics and communication engineering",
+      "school": "SKP Engineering College",
+      "city": "Tiruvannamalai",
+      "state": "Tamil Nadu",
+      "duration": "August 2015 to April 2019"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 322,
+    "fields": {
+      "cand": 142,
+      "title": "Higher Secondary School Certificate",
+      "school": "Higher Secondary School",
+      "city": "Ambur",
+      "state": "Tamil Nadu",
+      "duration": "2015"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 323,
+    "fields": {
+      "cand": 142,
+      "title": "Secondary School Leaving Certificate in Higher Secondary",
+      "school": "State Board",
+      "city": "Ambur",
+      "state": "Tamil Nadu",
+      "duration": "2013"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 324,
+    "fields": {
+      "cand": 143,
+      "title": "Bachelor of Engineering in Engineering",
+      "school": "University of Pune",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "duration": "2016 to 2019"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 325,
+    "fields": {
+      "cand": 143,
+      "title": "Diploma",
+      "school": "Puranmal Lahoti Govt. polytechnic Latur",
+      "city": "Latur",
+      "state": "Maharashtra",
+      "duration": "2013 to 2016"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 326,
+    "fields": {
+      "cand": 144,
+      "title": "Master of Computer Application",
+      "school": "Ch. Ranbir Singh University Jind",
+      "city": "Rohtak",
+      "state": "Haryana",
+      "duration": "2016"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 327,
+    "fields": {
+      "cand": 144,
+      "title": "Master of Computer Application in Computer Science",
+      "school": "Ch. Ranbir Singh University Jind",
+      "city": "Jind",
+      "state": "Haryana",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 328,
+    "fields": {
+      "cand": 144,
+      "title": "Central Board of Secondary Education",
+      "school": "DAV Centuary Public School",
+      "city": "Jind",
+      "state": "Haryana",
+      "duration": "December 2012"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 329,
+    "fields": {
+      "cand": 144,
+      "title": "Central Board of Secondary Education",
+      "school": "DAV Public School",
+      "city": "Jind",
+      "state": "Haryana",
+      "duration": "October 2010"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 330,
+    "fields": {
+      "cand": 145,
+      "title": "Masters (Computer Science) in Computer Science",
+      "school": "Manipal University",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "duration": "2012"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 331,
+    "fields": {
+      "cand": 145,
+      "title": "Master of Science in Physics",
+      "school": "Indian Institute of Technology",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "duration": "2000"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 332,
+    "fields": {
+      "cand": 146,
+      "title": "Master of Computer Application in Transport Technology",
+      "school": "Anna University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2016 to 2018"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 333,
+    "fields": {
+      "cand": 146,
+      "title": "Bachelor of Computer Application",
+      "school": "College (SFW)",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2013 to 2016"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 334,
+    "fields": {
+      "cand": 146,
+      "title": "Higher Secondary School Certificate",
+      "school": "State Board",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2013"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 335,
+    "fields": {
+      "cand": 146,
+      "title": "Secondary School Leaving Certificate",
+      "school": "State Board",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2011"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 336,
+    "fields": {
+      "cand": 147,
+      "title": "COMPUTER SCIENCE ENGINEERING",
+      "school": "APJ AKTU",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 337,
+    "fields": {
+      "cand": 148,
+      "title": "Bachelor's in Information Technology",
+      "school": "College Of Engineering Roorkee",
+      "city": "Delhi",
+      "state": "Delhi",
+      "duration": "August 2009 to July 2013"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 338,
+    "fields": {
+      "cand": 149,
+      "title": "Master of Science. in Artificial Intelligence",
+      "school": "University of Bonn",
+      "city": "Bonn",
+      "state": "DE",
+      "duration": "October 2019 to December 2019"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 339,
+    "fields": {
+      "cand": 149,
+      "title": "Master of Computer Applications in Computer Applications",
+      "school": "National Institute of Technology",
+      "city": "Raipur",
+      "state": "Chhattisgarh",
+      "duration": "July 2012 to June 2015"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 340,
+    "fields": {
+      "cand": 149,
+      "title": "Bachelor of Computer Applications in Computer Applications",
+      "school": "Banasthali University",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "duration": "June 2009 to June 2012"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 341,
+    "fields": {
+      "cand": 150,
+      "title": "Bachelor of Engineering",
+      "school": "BTL institute of technology and management",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "duration": "2016"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 342,
+    "fields": {
+      "cand": 150,
+      "title": "NONE",
+      "school": "Karnataka Pre University Education",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2012"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 343,
+    "fields": {
+      "cand": 151,
+      "title": "Master's in Chemical Engineering in Chemical Engineering",
+      "school": "Auburn University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "1997 to 1999"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 344,
+    "fields": {
+      "cand": 151,
+      "title": "Bachelor of Technology in Chemical Engineering in Chemical Engineering",
+      "school": "IIT Madras",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "duration": "1993 to 1997"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 345,
+    "fields": {
+      "cand": 152,
+      "title": "Master's in Computers",
+      "school": "Svpp, puttur",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "duration": "January 2020 to Present"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 346,
+    "fields": {
+      "cand": 153,
+      "title": "Bachelor of Computer Science-IT in Information Technology",
+      "school": "GOKHALE College, Mumbai University",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "duration": "2015 to 2018"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 347,
+    "fields": {
+      "cand": 153,
+      "title": "Higher Secondary School Certificate",
+      "school": "GOKHALE College, Maharashtra State Board",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2013 to 2015"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 348,
+    "fields": {
+      "cand": 153,
+      "title": "Secondary School Certificate",
+      "school": "Maharashtra State Board",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2003 to 2013"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 349,
+    "fields": {
+      "cand": 154,
+      "title": "Bachelor's",
+      "school": "NONE",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 350,
+    "fields": {
+      "cand": 155,
+      "title": "Bachelor of Commerce",
+      "school": "S.N. COLLEGE under UTKAL UNIVERSITY ODISHA",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2007"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 351,
+    "fields": {
+      "cand": 155,
+      "title": "COMMERCE",
+      "school": "S.N.COLLEGE",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2004"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 352,
+    "fields": {
+      "cand": 155,
+      "title": "Higher Secondary School Certificate",
+      "school": "R.N. HIGH SCHOOL under ODISHA BOARD",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2002"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 353,
+    "fields": {
+      "cand": 155,
+      "title": "NONE",
+      "school": "INSTITUTE OF COMPUTER TECHNOLOGIES",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 354,
+    "fields": {
+      "cand": 155,
+      "title": "NONE",
+      "school": "CIST COMPUTER INSTITUTE",
+      "city": "Kendraparha",
+      "state": "Orissa",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 355,
+    "fields": {
+      "cand": 155,
+      "title": "NONE",
+      "school": "APEX COMPUTER INSTITUTE",
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 356,
+    "fields": {
+      "cand": 155,
+      "title": "PGDCA",
+      "school": "OMEGA COMPUTER INSTITUTE",
+      "city": "Cuttack",
+      "state": "Orissa",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 357,
+    "fields": {
+      "cand": 156,
+      "title": "Computer Engineering",
+      "school": "Atharva College of Engineering",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 358,
+    "fields": {
+      "cand": 157,
+      "title": "Master of Computer Application",
+      "school": "Madurai Kamraj University",
+      "city": "Madurai",
+      "state": "Tamil Nadu",
+      "duration": "2003"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 359,
+    "fields": {
+      "cand": 157,
+      "title": "Bachelor of Science",
+      "school": "SSJM University",
+      "city": "Kanpur",
+      "state": "Uttar Pradesh",
+      "duration": "1998"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 360,
+    "fields": {
+      "cand": 158,
+      "title": "Bachelor of Engineering CSE in Engineering",
+      "school": "Shri Shankaracharya Engineering College",
+      "city": "Bhilai",
+      "state": "Chhattisgarh",
+      "duration": "June 2018 to Present"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 361,
+    "fields": {
+      "cand": 159,
+      "title": "Bachelor of Technology in Technology",
+      "school": "JNTU",
+      "city": "Anantapur",
+      "state": "Andhra Pradesh",
+      "duration": "2018"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 362,
+    "fields": {
+      "cand": 159,
+      "title": "Higher Secondary Education",
+      "school": "Sri Gayatri Junior college",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2012"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 363,
+    "fields": {
+      "cand": 160,
+      "title": "Master Data Management",
+      "school": "Public School delhi",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2019"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 364,
+    "fields": {
+      "cand": 160,
+      "title": "Bachelor of Engineering in Computer science",
+      "school": "Accurate Institute of Management and technology",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2014"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 365,
+    "fields": {
+      "cand": 160,
+      "title": "NONE",
+      "school": "S.M.Arya Public School",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2012"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 366,
+    "fields": {
+      "cand": 161,
+      "title": "Bachelor of Technology",
+      "school": "PSNA College",
+      "city": "Dindigul",
+      "state": "Tamil Nadu",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 367,
+    "fields": {
+      "cand": 162,
+      "title": "Bachelor in Science",
+      "school": "Gramodya Ashram PG College",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "July 2017"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 368,
+    "fields": {
+      "cand": 163,
+      "title": "Bachelor of Technology in JNTUP",
+      "school": "Intermediate in Narayana Jr college",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 369,
+    "fields": {
+      "cand": 163,
+      "title": "Secondary School Certificate",
+      "school": "L.R.G High school",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 370,
+    "fields": {
+      "cand": 164,
+      "title": "Bachelor's",
+      "school": "NONE",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 371,
+    "fields": {
+      "cand": 165,
+      "title": "Bachelor's in Bachelor of Computer Science computers",
+      "school": "Sri krishnadevaraya univercity",
+      "city": "Anantapur",
+      "state": "Andhra Pradesh",
+      "duration": "June 2013 to March 2016"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 372,
+    "fields": {
+      "cand": 166,
+      "title": "Bachelor's in Computer application",
+      "school": "Swami Ramanand Teerth Marathwada University Nanded",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "duration": "Present"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 373,
+    "fields": {
+      "cand": 167,
+      "title": "Bachelor of Engineering. in Computer Engineering",
+      "school": "S.R.T.M.U University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 374,
+    "fields": {
+      "cand": 168,
+      "title": "Bachelor's",
+      "school": "NONE",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 375,
+    "fields": {
+      "cand": 169,
+      "title": "Master's",
+      "school": "NONE",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 376,
+    "fields": {
+      "cand": 170,
+      "title": "Master of Computer Application",
+      "school": "VBSPU jaunpur U.P.",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 377,
+    "fields": {
+      "cand": 171,
+      "title": "Bachelor Of Technology in ECE",
+      "school": "Nalgonda Institute Of Technology & Science (JNTU)",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2011 to 2015"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 378,
+    "fields": {
+      "cand": 171,
+      "title": "NONE",
+      "school": "Saraswathi Junior College",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2009 to 2011"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 379,
+    "fields": {
+      "cand": 172,
+      "title": "Master of Computer Application",
+      "school": "Sivanthi Adithanar College of Arts And Science",
+      "city": "Nagercoil",
+      "state": "Tamil Nadu",
+      "duration": "2012 to 2015"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 380,
+    "fields": {
+      "cand": 172,
+      "title": "Bachelor of Computer Application",
+      "school": "Vivekananda College of Arts And Science",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2009 to 2012"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 381,
+    "fields": {
+      "cand": 172,
+      "title": "Certificate in Payroll Management System",
+      "school": "L.M.S Higher Secondary School South Thamaraikulam",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2007 to 2009"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 382,
+    "fields": {
+      "cand": 173,
+      "title": "Bachelor of Technology in Electrical and elctronics",
+      "school": "G.L.A. Institute of Technology and Management",
+      "city": "Mathura",
+      "state": "Uttar Pradesh",
+      "duration": "August 2010 to July 2014"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 383,
+    "fields": {
+      "cand": 173,
+      "title": "Higher Secondary (12th Pass) in Science",
+      "school": "BNSD Shiksha Niketan Inter College",
+      "city": "Kanpur",
+      "state": "Uttar Pradesh",
+      "duration": "July 2007 to April 2009"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 384,
+    "fields": {
+      "cand": 173,
+      "title": "Secondary (10th Pass) in Science",
+      "school": "Bhani Devi Goyal Inter College",
+      "city": "Jhansi",
+      "state": "Uttar Pradesh",
+      "duration": "July 2006 to April 2007"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 385,
+    "fields": {
+      "cand": 174,
+      "title": "Bachelor of Engineering in Electronics & Communications",
+      "school": "Dayananda Sagar College of Engineering",
+      "city": "Sagar",
+      "state": "Karnataka",
+      "duration": "1996"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 386,
+    "fields": {
+      "cand": 175,
+      "title": "Bachelor of Technology in Technology",
+      "school": "Institute of Technology",
+      "city": "Kolkata",
+      "state": "NONE",
+      "duration": "2012 to 2016"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 387,
+    "fields": {
+      "cand": 175,
+      "title": "NONE",
+      "school": "Gyan Bharati School",
+      "city": "Raniganj",
+      "state": "West Bengal",
+      "duration": "2009"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 388,
+    "fields": {
+      "cand": 176,
+      "title": "Bachelor of Technology in Computer Science and Engineering in Formerly Known as WBUT",
+      "school": "Maulana Abul Kalam Azad University of Technology",
+      "city": "Kalam",
+      "state": "Maharashtra",
+      "duration": "2011"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 389,
+    "fields": {
+      "cand": 177,
+      "title": "Master of Computer Application in Engg. & Technology",
+      "school": "Galgotias College",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "duration": "July 2018 to May 2020"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 390,
+    "fields": {
+      "cand": 177,
+      "title": "Bachelor of Computer Application in Management",
+      "school": "IIMT College",
+      "city": "Meerut",
+      "state": "Uttar Pradesh",
+      "duration": "2018"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 391,
+    "fields": {
+      "cand": 178,
+      "title": "Master of Technology in Artificial Intelligence",
+      "school": "University of Hyderabad",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 392,
+    "fields": {
+      "cand": 178,
+      "title": "Master of Computer Application",
+      "school": "Thushara PG School",
+      "city": "Warangal",
+      "state": "Telangana",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 393,
+    "fields": {
+      "cand": 178,
+      "title": "PG Diploma in Planning & Project Management",
+      "school": "University of Hyderabad",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 394,
+    "fields": {
+      "cand": 179,
+      "title": "Master of Computer Application",
+      "school": "National Institute Of Technology",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2019"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 395,
+    "fields": {
+      "cand": 179,
+      "title": "Bachelor of Computer Application",
+      "school": "Danielson Degree College",
+      "city": "Sagar",
+      "state": "Madhya Pradesh",
+      "duration": "2015"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 396,
+    "fields": {
+      "cand": 179,
+      "title": "NONE",
+      "school": "Govt.Adarsh Multipurpose H.S School",
+      "city": "Chhindwara",
+      "state": "Madhya Pradesh",
+      "duration": "2010"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 397,
+    "fields": {
+      "cand": 180,
+      "title": "Master's in Signal Processing",
+      "school": "Bangalore Institute Of Technology",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "duration": "September 2016 to July 2018"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 398,
+    "fields": {
+      "cand": 180,
+      "title": "Bachelor's in Electronics And Communications",
+      "school": "Sambhram Institute of Technology",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "duration": "2016"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 399,
+    "fields": {
+      "cand": 181,
+      "title": "Master of Computer Application",
+      "school": "Sree Narayana Guru Institute of Science and Technology",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 400,
+    "fields": {
+      "cand": 182,
+      "title": "Bachelor of Engineering in computer science",
+      "school": "Solapur University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2010 to 2014"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 401,
+    "fields": {
+      "cand": 183,
+      "title": "Bachelor of Technology in C.S.E",
+      "school": "Dr. VRK College Of Engineering and Technology",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "duration": "2009 to 2013"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 402,
+    "fields": {
+      "cand": 184,
+      "title": "Bachelor Of Engineering in Computer Engineering",
+      "school": "Dhanalakshmi Srinivasan College Of Engineering",
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "duration": "2014 to 2018"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 403,
+    "fields": {
+      "cand": 185,
+      "title": "Master of Computer Application in Computer Applications",
+      "school": "Sant Gadgebaba Amravati University",
+      "city": "Amravati",
+      "state": "Maharashtra",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 404,
+    "fields": {
+      "cand": 185,
+      "title": "Bachelor of EngineeringD in Maths",
+      "school": "Regional College of Education Bhopal",
+      "city": "Bhopal",
+      "state": "Madhya Pradesh",
+      "duration": "July 2001 to June 2003"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 405,
+    "fields": {
+      "cand": 186,
+      "title": "Bachelor of Technology in Computer Science",
+      "school": "JNTU",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 406,
+    "fields": {
+      "cand": 186,
+      "title": "Bachelor's in computer science",
+      "school": "Syed Hashim College of science and technology",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "duration": "October 2005 to April 2009"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 407,
+    "fields": {
+      "cand": 187,
+      "title": "Bachelor of Engineering in technology",
+      "school": "Anna university",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 408,
+    "fields": {
+      "cand": 187,
+      "title": "Higher Secondary School Certificate",
+      "school": "Govmentmanavedhan higher secondary schoolNilambur",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 409,
+    "fields": {
+      "cand": 188,
+      "title": "Master's",
+      "school": "NONE",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 410,
+    "fields": {
+      "cand": 189,
+      "title": "bachelor of engineering in electronics and communication in Electronics and Communication",
+      "school": "Gujarat Technological University",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2018"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 411,
+    "fields": {
+      "cand": 189,
+      "title": "Diploma in Electronics and communication",
+      "school": "Shree Hari Polytechnic Institute",
+      "city": "Kadi",
+      "state": "Gujarat",
+      "duration": "2015"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 412,
+    "fields": {
+      "cand": 189,
+      "title": "Secondary (10th Pass)",
+      "school": "K.B.Shah Vinay Mandir",
+      "city": "Viramgam",
+      "state": "Gujarat",
+      "duration": "2012"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 413,
+    "fields": {
+      "cand": 190,
+      "title": "Master of Science in Design of Information Systems",
+      "school": "Royal Military College of Science",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2010 to June 2010"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 414,
+    "fields": {
+      "cand": 190,
+      "title": "Post Graduate Certificate in Computer Security in Computer Security",
+      "school": "University of Oxford",
+      "city": "Oxford",
+      "state": "Oxfordshire",
+      "duration": "2005 to 2008"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 415,
+    "fields": {
+      "cand": 190,
+      "title": "Bachelor of Science in www.hinducollege.org",
+      "school": "Hindu College http",
+      "city": "Delhi",
+      "state": "Delhi",
+      "duration": "1995"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 416,
+    "fields": {
+      "cand": 191,
+      "title": "Master of Computer Application in Computer Application",
+      "school": "Maharishi Markandeshwar University",
+      "city": "Ambala",
+      "state": "Haryana",
+      "duration": "May 2015"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 417,
+    "fields": {
+      "cand": 191,
+      "title": "Bachelor of Computer Application in Computer Application",
+      "school": "Maharishi Markandeshwar University",
+      "city": "Ambala",
+      "state": "Haryana",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 418,
+    "fields": {
+      "cand": 191,
+      "title": "NONE",
+      "school": "Senior Secondary",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 419,
+    "fields": {
+      "cand": 192,
+      "title": "Central Board of Secondary Education",
+      "school": "SHAIFFALI PUBLIC SCHOOL",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2014"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 420,
+    "fields": {
+      "cand": 192,
+      "title": "Central Board of Secondary Education in ENGLISH",
+      "school": "SENIOR SECONDARY",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2012"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 421,
+    "fields": {
+      "cand": 193,
+      "title": "Bachelor of Engineering in Computer Science",
+      "school": "Anna University",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "duration": "2015"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 422,
+    "fields": {
+      "cand": 194,
+      "title": "Bachelor of Engineering. in C.S.E",
+      "school": "ITM Engineering College",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 423,
+    "fields": {
+      "cand": 195,
+      "title": "Bachelor of Technology",
+      "school": "NONE",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 424,
+    "fields": {
+      "cand": 196,
+      "title": "Bachelor of Engineering in Computer Science",
+      "school": "Thapar University",
+      "city": "Patiala",
+      "state": "Punjab",
+      "duration": "August 2012 to August 2016"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 425,
+    "fields": {
+      "cand": 196,
+      "title": "ML Certification in Continuing Education Programme",
+      "school": "IIT Kharagpur",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "duration": "April 2019 to September 2019"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 426,
+    "fields": {
+      "cand": 197,
+      "title": "Bachelor of Computer Science in (Computer Science) S.Y",
+      "school": "Pratibha College of Science and Computer Studies",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 427,
+    "fields": {
+      "cand": 197,
+      "title": "Higher Secondary School Certificate",
+      "school": "New English Jr.College.",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2015"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 428,
+    "fields": {
+      "cand": 197,
+      "title": "Secondary School Certificate in S.S.T",
+      "school": "Maharashtra Board",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "duration": "2013"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 429,
+    "fields": {
+      "cand": 198,
+      "title": "Master of Journalism in Journalism",
+      "school": "Makhanlal Chaturvedi National University of Journalism and Communication",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2016"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 430,
+    "fields": {
+      "cand": 198,
+      "title": "Bachelor of Computer Science.MM in Multimedia",
+      "school": "Makhanlal Chaturvedi National University of Journalism and Communication",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2014"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 431,
+    "fields": {
+      "cand": 198,
+      "title": "Indian Certificate of Secondary Education",
+      "school": "St. Joseph Inter College",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2011"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 432,
+    "fields": {
+      "cand": 198,
+      "title": "Indian Certificate of Secondary Education",
+      "school": "St. Joseph Inter College",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2009"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 433,
+    "fields": {
+      "cand": 199,
+      "title": "Bachelor's in Bachelor of Computer Application (Computer Application)",
+      "school": "Barathiyar University coimbatore",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 434,
+    "fields": {
+      "cand": 200,
+      "title": "Masters of Computer Application in Computer Application",
+      "school": "University of Mumbai",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "duration": "2012"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 435,
+    "fields": {
+      "cand": 200,
+      "title": "Bachelor of Science in Information Technology",
+      "school": "University of Mumbai",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "duration": "2009"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 436,
+    "fields": {
+      "cand": 201,
+      "title": "Bachelor of Technology in CSE",
+      "school": "Gurukulam College",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2012 to 2016"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 437,
+    "fields": {
+      "cand": 201,
+      "title": "Plus Two in SNDP HSS",
+      "school": "Senior Secondary",
+      "city": "Aluva",
+      "state": "Kerala",
+      "duration": "2010 to 2012"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 438,
+    "fields": {
+      "cand": 202,
+      "title": "Master of Computer Application in aggregate",
+      "school": "Bangalore University",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "duration": "2015"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 439,
+    "fields": {
+      "cand": 202,
+      "title": "Bachelor of Computer Application in aggregate",
+      "school": "New Delhi Institute for Information Technology",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "duration": "2012"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 440,
+    "fields": {
+      "cand": 202,
+      "title": "Central Board of Secondary Education",
+      "school": "Daisy Dales Sr. Sec. School",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2012"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 441,
+    "fields": {
+      "cand": 202,
+      "title": "Central Board of Secondary Education",
+      "school": "Daisy Dales Sr. Sec. School",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "2010"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 442,
+    "fields": {
+      "cand": 203,
+      "title": "Bachelor's",
+      "school": "NONE",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 443,
+    "fields": {
+      "cand": 204,
+      "title": "Bachelor's",
+      "school": "NIT",
+      "city": "NONE",
+      "state": "NONE",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 444,
+    "fields": {
+      "cand": 205,
+      "title": "Bachelor of Computer Application",
+      "school": "SGS khalsa Sr. Sec. School",
+      "city": "Anandpur Sahib",
+      "state": "Punjab",
+      "duration": "NONE"
+    }
+  },
+  {
+    "model": "test_cand.candedu",
+    "pk": 445,
+    "fields": {
+      "cand": 206,
+      "title": "Bachelor of Engineering in Engineering",
+      "school": "Pune university",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "duration": "2018"
+    }
+  }
+]

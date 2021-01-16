@@ -1,0 +1,79 @@
+{% extends 'employers.html' %} 
+{% load static %}
+
+{% block content %}
+<br>
+<div class="container col-7">
+    <div class="card card-custom">
+        <div class="card-header">
+            <div class="card-title align-items-start mb-0">
+                <span class="mb-0 text-dark job-details">Book Service</span>
+            </div>
+        </div>
+        <form action="{% url 'booking:bookservice' details.id %}" method="post" class="bg-white p-5">
+            {% csrf_token %}
+
+            <div class="row d-flex justify-content-center">
+                <div class="col-5 text-center">
+                    {{ form.booked_date }}
+                </div>
+                <div class="col-5 text-center">
+                    {{ form.booked_time }}
+                </div>
+            </div><br>
+            <div class="row d-flex justify-content-center">
+                <div class="col-10">
+                    <span class="text-danger">Please make sure your address is correct.</span>
+                    <div class="d-flex">
+                        {% if individual.address_2 %}
+                            <input class="form-control w-100 mr-2 mb-2 address"
+                                placeholder="{{ individual.address_1 }} {{ individual.address_2 }} {{ individual.pcode }}, {{ individual.city }}, {{ individual.state }}" disabled>
+                        {% else %}
+                            <input class="form-control w-100 mr-2 mb-2 address"
+                                placeholder="{{ individual.address_1 }} {{ individual.pcode }}, {{ individual.city }}, {{ individual.state }}" disabled>
+                        {% endif %}
+                        <span class="btn btn-primary pr-2 this" style="height: 40px !important; padding-top: 10px" onclick="editAddress()">
+                            <i class="fa fa-edit fa-lg"></i>
+                        </span>
+                        <textarea class="form-control w-100 p-3 newaddress" name="newaddress" hidden style="height: 100px !important"></textarea>
+                    </div>
+                    <span class="text-danger note mb-2" hidden>Note: New address will only be used for this booking.</span>
+                    <div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center mt-4">
+                <div class="col-10">
+                    {{ form.additional_info }}
+                </div>
+            </div><br><br><br>
+            <div class="row d-flex justify-content-center">
+                <div class="col-10">
+                    <button type="submit" class="btn btn-primary mr-3">Confirm</button>
+                    <a href="{% url 'booking:service' details.id %}" class="btn btn-danger">Cancel</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#id_booked_time').timepicker({
+        'interval': '30',
+        'maxHour': '20',
+        'minTime': '08:00',
+        'timeFormat': 'H:mm',
+    });
+});
+
+function editAddress() {
+    var value = "{{ individual.address }}"
+    $('.this').hide();
+    $('.address').prop("hidden", true);
+    $('.newaddress').prop("hidden", false);
+    $('.newaddress').val(value);
+    $('.note').prop("hidden", false);
+}
+</script>
+{% endblock content %}

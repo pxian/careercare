@@ -1,0 +1,89 @@
+<div class="d-md-flex align-items-center mb-3">
+    <h5 class="pt-2">Settings</h5>
+    <div class="ml-auto d-flex">
+        <form action="" method="post">
+            {% csrf_token %}
+            <button type="button" class="btn btn-danger py-2 px-3" onclick="deleteaccount()">Delete Account</button>
+        </form>
+    </div>
+</div>
+
+<div class="message">
+    {% if messages %}
+        {% for message in messages %}
+            {% if message.tags == "error" %}
+                <div class="alert alert-warning">{{ message }}</div>
+            {% else %}
+                <div class="alert alert-success">{{ message }}</div>
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+</div>
+
+<div class="row">
+    <div class="col-lg-4">
+        <div class="p-2 mb-3 bg-white">
+            <div class="card-body pt-4">
+                <div class="d-flex align-items-center">
+                    <div class="ml-3">
+                        <h5 class="profile-text">{{ user.first_name }} {{ user.last_name }}</h5>
+                        <span>{{ employer.name }}</span>
+                    </div>
+                </div><br>
+                <div class="py-9 mt-3">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link left-nav" href="{% url 'employers:profile' %}">
+                            <i class="fa fa-user mr-2"></i>
+                            &nbsp; Profile Settings
+                        </a>
+                        <a class="nav-link left-nav" href="{% url 'employers:password' %}">
+                            <i class="fa fa-lock mr-2"></i>
+                            &ensp; Password Settings
+                        </a>
+                        {% if group == "Employers" %}
+                            <a class="nav-link left-nav" href="{% url 'employers:company' %}">
+                                <i class="fa fa-building mr-2"></i>
+                                &nbsp; Company Information
+                            </a>
+                        {% else %}
+                            <a class="nav-link left-nav" href="{% url 'employers:contact' %}">
+                                <i class="fa fa-phone mr-2"></i>
+                                &nbsp; Contact Information
+                            </a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script type="text/javascript">
+$(document).ready(function () {
+    var pathname = window.location.pathname;
+    $('.nav-pills > a[href="' + pathname + '"]')
+    .addClass("active");
+});
+
+function deleteaccount() {
+    var result = confirm("Are you sure you want to delete?");
+    if (result) {
+        $.ajax({
+            url: `/employers/deleteaccount/`,
+            type: "POST",
+            beforeSend: function(xhr) {
+                xhr.setRequestHeader("X-CSRFToken", '{{ csrf_token }}');
+            },
+            success: function() {
+                $(".message").append(
+                  "<div class='alert alert-success'>Thank you for having us!</div>")
+                window.setTimeout(function() {
+                    window.location.href = 'http://127.0.0.1:8000/employers/signup/';
+                }, 1000);
+            },
+            error: function() {
+                console.log("error")
+            }
+        });
+    }
+}
+</script>

@@ -1,0 +1,143 @@
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link.candidate {
+  color: #323990;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link.candidate:hover {
+  color: #323990;
+  background: transparent;
+  text-decoration: underline;
+}
+
+.acc-bg {
+  width: 100%;
+  height: 718px;
+  background-size: cover;
+  background-image: url(/static/images/bg_5.png);
+}
+
+.acc-link {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.d-flex .num {
+  font-size: 13px;
+  margin-top: 0.5rem;
+}
+
+.sub-text {
+  font-weight: 400;
+  color: #b5b5c3;
+}
+
+.filter-text {
+  color: black;
+  cursor: pointer;
+}
+
+.dashboard-text {
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.value-text {
+  color: black;
+  font-size: 30px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.left-nav {
+  font-size: 14px;
+}
+
+.left-nav:hover {
+  color: black;
+}
+
+.profile-pic {
+  height: 80px;
+  border-radius: 5px;
+}
+
+.profile-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.ssearch-img {
+  width: 80px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.complete-header {
+  text-align: center;
+  background-color: #f2f3f7;
+}
+
+.label-success {
+  font-size: 12px;
+  color: #30c230;
+  border-radius: 5px;
+  background: #e5f8e5;
+  border-color: #e5f8e5;
+}
+
+.label-warning {
+  font-size: 12px;
+  color: #ffa800;
+  border-radius: 5px;
+  border-color: #fff4de;
+  background-color: #fff4de;
+}
+
+.label-primary {
+  font-size: 12px;
+  color: #3699ff;
+  border-radius: 5px;
+  border-color: #e1f0ff;
+  background-color: #e1f0ff;
+}
+
+.text-black {
+  color: black;
+  font-weight: 500;
+}
+
+.bullet-1 {
+  color: #323990;
+}
+<<<<<<< HEAD
+/* 
+.bullet-2 {
+  color: #3699ff;
+}
+
+.bullet-3 {
+  color: #cee7ff;
+} */
+=======
+
+.search-experience {
+  font-size: 25px;
+  line-height: 1.5;
+  padding: 0px 10px;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+.search-salary {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #30c230;
+  padding: 3px 10px;
+  border-radius: 5px;
+}
+
+.dash-height-1 {
+  height: 338px !important;
+}
+>>>>>>> c3e64bd40555bf200ee219a6635118d18ac6fcb2
