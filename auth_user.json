@@ -474,17 +474,10 @@
       "password": "pbkdf2_sha256$180000$gtRAPxeXWghH$n7JEy1tT8cY9CmWRbkBvALLa+ts0mPYYub265hriNVQ=",
       "last_login": null,
       "is_superuser": false,
-<<<<<<< HEAD
-      "username": "test",
-      "first_name": "Test",
-      "last_name": "123",
-      "email": "test123@gmail.com",
-=======
       "username": "wendyliu",
       "first_name": "Wendy",
       "last_name": "Liu",
       "email": "wendy992@gmail.com",
->>>>>>> c3e64bd40555bf200ee219a6635118d18ac6fcb2
       "is_staff": false,
       "is_active": true,
       "date_joined": "2020-07-28T10:41:43.704Z",

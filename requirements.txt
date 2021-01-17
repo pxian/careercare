@@ -19,6 +19,6 @@ reportlab==3.5.59
 scikit-learn==0.23.2
 six==1.14.0
 sklearn==0.0
-spacy==2.3.2
+spacy
 virtualenv==20.2.2
 whitenoise==5.2.0
