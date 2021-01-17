@@ -18,7 +18,7 @@ class FailOnDuplicateFileSystemStorage(FileSystemStorage):
 class JobDesc(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     jobid = models.AutoField(primary_key=True)
-    jobdesc = models.FileField('Upload Job Description', upload_to='jobdesc/', null=True, blank=True, unique=True, storage=FailOnDuplicateFileSystemStorage())
+    jobdesc = models.FileField('Upload Job Description', upload_to='jobdesc/', null=False, blank=False, unique=True, storage=FailOnDuplicateFileSystemStorage())
     title = models.CharField('Title', max_length=250, null=False, blank=False)
     summary = models.CharField('Summary', max_length=10000, null=True, blank=True)
     uploaded_on = models.DateTimeField('Uploaded On', auto_now_add=True)
@@ -36,7 +36,7 @@ class JobDesc(models.Model):
 class Resume(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     resumeid = models.AutoField(primary_key=True)
-    resume = models.FileField('Upload Resumes', upload_to='resumes/', null=True, blank=True, unique=True, storage=FailOnDuplicateFileSystemStorage())
+    resume = models.FileField('Upload Resumes', upload_to='resumes/', null=False, blank=False, unique=True, storage=FailOnDuplicateFileSystemStorage())
     name = models.CharField('Name', max_length=1000, null=True, blank=True, unique=True)
     email = models.CharField('Email', max_length=1000, null=True, blank=True)
     mobile_number = models.CharField('Mobile Number',  max_length=255, null=True, blank=True)

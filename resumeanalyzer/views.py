@@ -1,5 +1,6 @@
 import os
 import docx2txt
+from numpy.lib.function_base import percentile
 import pdfplumber
 from django.conf import settings
 from django.contrib import messages
@@ -67,8 +68,8 @@ def logout(request):
 def uploadresume(request):
     if request.method == "POST":
         form = ResumeForm(request.POST, request.FILES)
-        files = request.FILES.getlist("resume")
-        if form.is_valid():
+        if form.is_valid():        
+            files = request.FILES.getlist("resume")
             for file in files:
                 try:
                     resume = Resume(resume=file)
@@ -123,10 +124,8 @@ def uploadresume(request):
                     resume.save()
                 except ValidationError:
                     messages.warning(request, "Duplicate resume found: " + file.name)
-                    return redirect("resumeanalyzer:uploadresume")
                 except IntegrityError:
                     messages.warning(request, "Encountered a problem with the file, please try again.")
-                    return redirect("resumeanalyzer:uploadresume")
             messages.add_message(request, messages.INFO, "Resume(s) uploaded successfully.")
             return redirect("resumeanalyzer:resumelist")
         else:
@@ -199,6 +198,7 @@ def matchall(request, jobid):
                 text = page.extract_text()
                 content += text
             jobdesc = str(content)
+    job.jobdesc.close()
     resumes = Resume.objects.filter(resume__isnull=False)
     for file in resumes:
         resume = file.resume.open()
@@ -212,13 +212,14 @@ def matchall(request, jobid):
                     text = page.extract_text()
                     content += text
                 resume = str(content)
-        text = [resume, jobdesc]
-        cv = CountVectorizer()
+        text = [str(resume), str(jobdesc)]
+        cv = CountVectorizer(lowercase=False)
         count_matrix = cv.fit_transform(text)
         percentage = cosine_similarity(count_matrix)[0][1] * 100
         percentage = round(percentage, 2)
         percentage = "{:.2f}".format(percentage)
         dict[file] = percentage
+        file.resume.close()
         Result.objects.get_or_create(user = request.user, jobid_id = job.jobid, resumeid_id = file.resumeid, percentage = percentage)
     sorted_dict = {}
     sorted_keys = sorted(dict, key=dict.get, reverse = True)
@@ -242,6 +243,7 @@ def matchshortlisted(request, jobid):
                 text = page.extract_text()
                 content += text
             jobdesc = str(content)
+    job.jobdesc.close()
     resumes = Resume.objects.filter(status="Shortlisted")
     for file in resumes:
         resume = file.resume.open()
@@ -255,13 +257,14 @@ def matchshortlisted(request, jobid):
                     text = page.extract_text()
                     content += text
                 resume = str(content)
-        text = [resume, jobdesc]
-        cv = CountVectorizer()
+        text = [str(resume), str(jobdesc)]
+        cv = CountVectorizer(lowercase=False)
         count_matrix = cv.fit_transform(text)
         percentage = cosine_similarity(count_matrix)[0][1] * 100
         percentage = round(percentage, 2)
         percentage = "{:.2f}".format(percentage)
         dict[file] = percentage
+        file.resume.close()
     sorted_dict = {}
     sorted_keys = sorted(dict, key=dict.get, reverse = True)
     for j in sorted_keys:
@@ -326,7 +329,7 @@ def history(request):
 
 def result(request, jobid):
     job = JobDesc.objects.get(jobid=jobid)
-    results = Result.objects.filter(jobid_id=jobid)
+    results = Result.objects.filter(jobid_id=jobid).order_by("-percentage")
     for result in results:
         title = result.jobid.title
         return render(request, "result.html", {"title": title, "results": results, "job": job})
@@ -353,7 +356,7 @@ def delist(request, resumeid):
 
 
 def visualise(request, jobid):
-    results = Result.objects.filter(jobid_id=jobid)
+    results = Result.objects.filter(jobid_id=jobid).order_by("-percentage")
     job = JobDesc.objects.get(jobid=jobid)
     x = [x.resumeid.name for x in results]
     y = [y.percentage for y in results]
@@ -362,7 +365,7 @@ def visualise(request, jobid):
 
 
 def visualiseshortlisted(request, jobid):
-    results = Result.objects.filter(jobid_id=jobid, resumeid__status="Shortlisted")
+    results = Result.objects.filter(jobid_id=jobid, resumeid__status="Shortlisted").order_by("-percentage")
     job = JobDesc.objects.get(jobid=jobid)
     x = [x.resumeid.name for x in results]
     y = [y.percentage for y in results]
