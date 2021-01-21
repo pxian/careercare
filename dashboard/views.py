@@ -171,7 +171,7 @@ def separatedata(data):
 def plotmap(data):
     results = separatedata(data)
     mapbox_access_token = open(
-        "/Users/phooi/projects/jobpillar/mapbox_token.txt").read()
+        "/Users/phooi/projects/New folder/jobpillar/mapbox_token.txt").read()
         # "/Users/janessalee/Sites/fyp/JobPillar/mapbox_token.txt").read()
     scatter = go.Figure(go.Scattermapbox(lat=results[1], lon=results[2], mode='markers', text=results[0],
                                          hovertemplate='Total: %{text}<extra></extra>',
