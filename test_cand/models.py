@@ -3,11 +3,11 @@ from django.db import models
 
 class TestCand(models.Model):
     name = models.CharField(max_length=100, null=True)
-    title = models.CharField(max_length=100, null=True, blank=True)
+    title = models.CharField(max_length=1000, null=True, blank=True)
     location = models.CharField(max_length=500, null=True, blank=True)
     description = models.TextField(null=True, blank=True)
-    skills = models.CharField(max_length=100, null=True, blank=True)
-    link = models.CharField(max_length=100, null=True, blank=True)
+    skills = models.CharField(max_length=1000, null=True, blank=True)
+    link = models.CharField(max_length=1000, null=True, blank=True)
     preferred_location = models.CharField(
         max_length=100, null=True, blank=True)
     expected_salary = models.IntegerField(null=True, blank=True)
