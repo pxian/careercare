@@ -137,7 +137,7 @@ def uploadresume(request):
 
 
 def resumelist(request):
-    resumes = Resume.objects.all()
+    resumes = Resume.objects.all().order_by("name")
     return render(request, "resumelist.html", {"resumes": resumes})
 
 
