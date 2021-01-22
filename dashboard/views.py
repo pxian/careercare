@@ -1,5 +1,7 @@
+import os
 import re
 import string
+from django.conf import settings
 import plotly
 import pgeocode
 import operator
@@ -170,9 +172,7 @@ def separatedata(data):
 
 def plotmap(data):
     results = separatedata(data)
-    mapbox_access_token = open(
-        "/Users/phooi/projects/New folder/jobpillar/mapbox_token.txt").read()
-        # "/Users/janessalee/Sites/fyp/JobPillar/mapbox_token.txt").read()
+    mapbox_access_token = "pk.eyJ1IjoibGVleWVld2FuIiwiYSI6ImNraWl4YjEyNzAxcnAydXFzNXpvNGRzeWIifQ.T3pJOdlPRNWk7pdOp3HOYg"
     scatter = go.Figure(go.Scattermapbox(lat=results[1], lon=results[2], mode='markers', text=results[0],
                                          hovertemplate='Total: %{text}<extra></extra>',
                                          marker={'size': 4, 'color': '#003776'}),
