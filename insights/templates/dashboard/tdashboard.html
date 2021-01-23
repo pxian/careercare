@@ -1,0 +1,145 @@
+{% extends 'employers.html' %}
+{% load static %}
+
+{% block content %}
+<br>
+<div class="container col-12">
+    <div class="job-post-item bg-white p-4 d-block">
+        <div class="text-right border-bottom pb-4">
+            <form action="" method="post">
+                {% csrf_token %}
+                <span class="pr-2" style="color: black; font-weight: 500">JOB POST</span>
+                <select class="custom-select w-25" id="id_select_job" name="get_job" onchange="this.form.submit();">
+                    <option value="0">All</option>
+                    {% for i in jobfilter %}
+                        <option value="{{ i.0.id }}">{{ i.0.position_title }}</option>
+                    {% endfor %}
+                </select>
+            </form>
+        </div><br>
+        {% if queryset_1 %}
+            {% include 'dashboard/ftdashboard.html' %}
+        {% else %}
+            <div class="row mb-3">
+                <div class="col-6">
+                    <div class="p-4 d-block border rounded dash-height-1">
+                        <div>
+                            {% if results.0 < 2 %}
+                                <h6 class="text-dark mb-4">Ongoing Post</h6>
+                            {% else %}
+                                <h6 class="text-dark mb-4">Ongoing Posts</h6>
+                            {% endif %}
+                            {% if results.2 %}
+                                {% if results.0 > 5 %}
+                                    <div class="table-scrollable table-scrollable-borderless">
+                                        <table class="table table-light text-dark dataTable">
+                                            <thead><tr><td></td><td></td><td></td></tr></thead>
+                                            <tbody>
+                                                {% for i in results.2|slice:5 %}
+                                                    <tr>
+                                                        <td width="6%" class="align-middle" style="padding: 0.75rem">
+                                                            <i class="fa fa-square bullet-1"></i>
+                                                        </td>
+                                                        <td class="align-middle">
+                                                            <span style="color: black">{{ i.0.position_title }}</span>
+                                                        </td>
+                                                        <td class="text-right">
+                                                            <span class="label-primary py-1 px-2">{{ i.1 }} days left</span>
+                                                        </td>
+                                                    </tr>
+                                                {% endfor %}
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                {% else %}
+                                    <table class="table table-light mb-0">
+                                        {% for i in results.2|slice:5 %}
+                                            <tr>
+                                                <td width="6%" class="align-middle">
+                                                    <i class="fa fa-square bullet-1"></i>
+                                                </td>
+                                                <td class="align-middle">
+                                                    <span style="color: black">{{ i.0.position_title }}</span>
+                                                </td>
+                                                <td class="text-right">
+                                                    <span class="label-primary py-1 px-2">{{ i.1 }} days left</span>
+                                                </td>
+                                            </tr>
+                                        {% endfor %}
+                                    </table>
+                                {% endif %}
+                            {% else %}
+                                <table class="table table-light mb-0">
+                                    <tr>
+                                        <td>No job posts yet</td>
+                                    </tr>
+                                </table>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div><br>
+                <div class="col-6">
+                    <div class="p-4 d-block border rounded dash-height-1">
+                        <div>
+                            <div>
+                                {% if results.1 < 2 %}
+                                    <h6 class="text-dark mb-4">Expired Post</h6>
+                                {% else %}
+                                    <h6 class="text-dark mb-4">Expired Posts</h6>
+                                {% endif %}
+                            </div>
+                            {% if results.3 %}
+                                <table class="table table-light mb-0">
+                                    {% for i in results.3|slice:5 %}
+                                        <tr>
+                                            <td width="6%" class="align-middle">
+                                                <i class="fa fa-square bullet-1"></i>
+                                            </td>
+                                            <td class="align-middle">
+                                                <span style="color: black">{{ i.0.position_title }}</span>
+                                            </td>
+                                            <td class="text-right">
+                                                <span class="label-warning py-1 px-2">{{ i.1 }} days ago</span>
+                                            </td>
+                                        </tr>
+                                    {% endfor %}
+                                </table>
+                            {% else %}
+                                <table class="table table-light mb-0">
+                                    <tr>
+                                        <td>No expired posts yet</td>
+                                    </tr>
+                                </table>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div><br>
+            </div>
+        {% endif %}
+    </div>
+    <br><br>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.dataTable').DataTable({
+        "ordering": false,
+        "searching": false,
+        "scrollY": '100vh',
+        "scrollCollapse": true,
+        "sDom": "<'top'<'row'<'col-6'><'col-6'<'pull-right'f>>>>rt" +
+                "<'bottom'<'row'<'col-6 i-padding-top'i><'col-6'<'pull-right'p>>><'#refresh'>><'clear'>",
+        fnDrawCallback: function() {
+            $(".dataTable thead").remove();
+        },
+    });
+
+    $('#id_select_job > option').each(function() {
+        if ($(this).attr('value') == "{{ chosen_job }}") {
+            $(this).attr('selected', 'selected')
+            $("#id_select_job option[value='all']").removeClass('selected');
+        }
+    });
+});
+</script>
+{% endblock content %}

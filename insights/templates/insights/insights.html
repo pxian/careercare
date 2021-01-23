@@ -1,0 +1,104 @@
+{% extends 'user_layout.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container col-12">
+    <h4>Dashboard</h4>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+    <script type="text/javascript" src="http://mpld3.github.io/js/mpld3.v0.2.js"></script>
+
+
+    <div class="row mb-3">
+        <div class="col-6">
+            <div class="job-post-item bg-white p-4 d-block jobads-row">
+                <h5 class="dashboard-text" style="color:black">Jobs Recommended for You Based On Your Skills</h5>
+            </div>
+        </div>
+        <div class="col">
+            <div class="job-post-item bg-white p-4 d-block jobads-row">
+                <div class="mb-4 mb-md-0 w-75">
+                    <h5 style="color:black" class="dashboard-text">Application Status</h5>
+                    <!-- {{ astatus }} -->
+                    <div class="table-scrollable table-scrollable-borderless">
+                        <table class="table table-striped table-bordered">
+                            <tbody>
+                                {% for jobapp in astatus %}
+                                <tr>
+                                    <td>
+                                        <h6 style="color:slategray">{{ jobapp.status }}</h6>
+                                    </td>
+                                    <td>
+                                        <p style="color:lightslategray">{{ jobapp.count }}</p>
+                                    </td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="col">
+            <div class="job-post-item bg-white p-4 d-block">
+                <h5 class="dashboard-text" style="color:black">Recently Visited Jobs</h5>
+                <div class="table-scrollable table-scrollable-borderless">
+                    <table class="table table-striped table-bordered">
+                        <tbody>
+                            {% for object in jobviewed %}
+                            <tr>
+                                <td>
+                                    <a href="{% url 'searchjob:view_job' object.jobad.id %}"
+                                        style="color:rgb(128, 113, 255)">{{ object.jobad.position_title }}</a>
+                                    <p style="color:lightslategray">{{
+                                        object.jobad.company_name|capfirst|truncatechars:"80" }}</p>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mb-3">
+    <div class="col">
+        <div class="job-post-item bg-white p-4 d-block jobads-row">
+            <div class="mb-4 mb-md-0 w-75">
+                <h4 class="dashboard-text">Career Market Insights</h4>
+                <div class='tableauPlaceholder' id='viz1610904827649' style='position: relative'><noscript><a
+                            href='#'><img alt=' '
+                                src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;Insights_16108894410460&#47;Dashboard1&#47;1_rss.png'
+                                style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                        <param name='embed_code_version' value='3' />
+                        <param name='site_root' value='' />
+                        <param name='name' value='Insights_16108894410460&#47;Dashboard1' />
+                        <param name='tabs' value='no' />
+                        <param name='toolbar' value='yes' />
+                        <param name='static_image'
+                            value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;Insights_16108894410460&#47;Dashboard1&#47;1.png' />
+                        <param name='animate_transition' value='yes' />
+                        <param name='display_static_image' value='yes' />
+                        <param name='display_spinner' value='yes' />
+                        <param name='display_overlay' value='yes' />
+                        <param name='display_count' value='yes' />
+                        <param name='language' value='en' />
+                        <param name='filter' value='publish=yes' />
+                    </object></div>
+                <script
+                    type='text/javascript'> var divElement = document.getElementById('viz1610904827649'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '1366px'; vizElement.style.height = '795px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '1366px'; vizElement.style.height = '795px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '1427px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            </div>
+            <div class="mb-4 mb-md-0 mx-auto w-75">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}

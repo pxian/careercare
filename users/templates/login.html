@@ -1,0 +1,22 @@
+{% extends "home_layout.html" %}
+
+<!-- {% block title %}
+Login Here
+{% endblock %} -->
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+<div class="job-post-item-header d-flex align-items-center">
+	<h2 class="mr-3 text-black h3">Log In</h2>
+</div>
+<div class="p-5 bg-white company">
+     <form method="post" class="from-group">
+	{% csrf_token %}
+	{{form|crispy}}
+	<p>Don't have an account? Create one <a href="/user/register">here</a></p>
+	<button type="submit" class="btn btn-success">Login</button>	
+	</form>
+</div>
+{% endblock %}

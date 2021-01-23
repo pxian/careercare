@@ -1,0 +1,327 @@
+{% extends 'user_layout.html' %}
+
+{% load static %}
+
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+<script src="{% static 'js/jquery.formset.js' %}"></script>
+<div class="job-post-item-header d-flex align-items-center">
+    <h2 class="mr-3 text-black h3">Update Profile</h2>
+</div>
+
+<div class="bg-light border-right" id="sidebar-wrapper">
+    <div class="sidebar-heading">Profile </div>
+    <div class="list-group list-group-flush">
+      <a href="#personal_details" class="list-group-item list-group-item-action bg-light">Personal Details</a>
+      <a href="#education" class="list-group-item list-group-item-action bg-light">Education</a>
+      <a href="#skills" class="list-group-item list-group-item-action bg-light">Skills</a>
+      <a href="#experience" class="list-group-item list-group-item-action bg-light">Working Experience</a>
+      <a href="#add_info" class="list-group-item list-group-item-action bg-light">Additional Information</a>
+      <a href="#resume" class="list-group-item list-group-item-action bg-light">Resume</a>
+      <a href="#personality" class="list-group-item list-group-item-action bg-light">Personality Analyzer</a>
+    </div>
+  </div>
+  <div id="page-content-wrapper profile"> 
+      <div class= "main">
+        <div class="container-fluid">
+
+  
+   
+    
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+
+        
+        
+            <div class="p-5 bg-white profile">
+                <h2 class="mr-3 text-black h5">Make your profile available for</h2>
+                <div class="row mb-1">
+                    <div class="col-10 text-dark">
+                {{ profile_form.full_time|as_crispy_field }}
+                {{ profile_form.part_time|as_crispy_field }}
+                </div>
+                </div>
+            </div>
+            
+            <span class = "border profile">
+            <div id="personal_details">
+                <div class="p-5 bg-white profile">
+                <h2 class="mr-3 text-black h5">Personal Details</h2>
+                <br>
+                <div class="row mb-1">
+                    <div class="col-10 text-dark">
+                {{ profile_form.name|as_crispy_field }}
+                </div>
+                </div>
+
+                <div class="row mb-1">
+                    <div class="col-6 text-dark">
+                        {{ profile_form.phone_Number|as_crispy_field}}
+                    </div>
+                    <div class="col-6 text-dark">
+                        {{ profile_form.nationality|as_crispy_field}}
+                    </div>
+                </div>
+                <div class="row mb-1">
+                    <div class="col-12 text-dark">
+                        {{ profile_form.address|as_crispy_field}}
+                    </div>
+                </div>
+                <div class="row mb-1">
+                    <div class="col-6 text-dark">
+                        {{ profile_form.city|as_crispy_field}}
+                    </div>
+                </div>
+        </div></div>
+    </span>
+        <span class = "border profile">
+            <div id="education">
+                <div class="p-5 bg-white profile">
+                    <div class="row mb-1">
+                        <div class="col-6 text-dark">
+                            <h2 class="mr-3 text-black h5">Education</h2>
+                        </div>
+                        <div class="col-6 text-dark">
+                            <button class="btn btn-success add-form-row">Add Education</button>
+                        </div>
+                    </div>
+                    <br> {{ formset.management_form }}
+                        {% for form in formset %}
+                        <div class="row form-row spacer education">
+                            <div id = "edu_form_set">
+                           
+                            {{ form.id }}
+                            {{ form|crispy }}
+                            
+                            <hr class = "solid">
+                        </div>
+                            {% endfor %}
+                            <div class="row mb-1">
+                                <div class="col-6 text-dark">
+                            <button class="btn btn-danger remove-form-row">Remove</button>
+                                </div></div>
+                    </div>
+                </div>
+            </div>
+        </span>
+        <span class = "border profile">
+            <div id="skills">
+        <div class="p-5 bg-white profile">
+            <h2 class="mr-3 text-black h5">Skills</h2>
+            <br>
+            <div class="row mb-1">
+                <div class="col-12 text-dark">
+                    {{ profile_form.skills|as_crispy_field}}
+                </div>
+            </div>
+            <div class="row mb-1">
+                <div class="col-12 text-dark">
+                    {{ profile_form.languages|as_crispy_field}}
+                </div>
+            </div>
+        </div>
+            </div>
+        </span>
+        <span class = "border profile">
+            <div id="experience">
+                <div class="p-5 bg-white profile">
+                    <div class="row mb-1">
+                        <div class="col-6 text-dark">
+                        <h2 class="mr-3 text-black h5">Working Experience</h2>
+                        </div>
+                        <div class="col-6 text-dark">
+                            <button class="btn btn-success expadd-form-row">Add Experience</button>
+                        </div>
+                    </div>            
+                <br> {{ expformset.management_form }}
+                    {% for form in expformset %}
+                    <div class="row form-row spacer experience">
+                        <div id = "exp_form_set">
+                       
+                        {{ form.id }}
+                        {{ form|crispy }}
+                        
+                        <hr class = "solid">
+                        </div>
+                        {% endfor %}
+                        <a href="javascript:void(0)" class="expremove-form-row">Remove</a>
+                    </div>
+                
+                    
+ 
+        </div>
+        </div>
+        </span>
+        <span class = "border profile">
+            <div id="add_info">
+                    <div class="p-5 bg-white profile">
+            <h2 class="mr-3 text-black h5">Additional Information</h2>
+            <br>
+            <div class="row mb-1">
+                <div class="col-8 text-dark">
+                    {{ profile_form.prefered_work_location|as_crispy_field}}
+                </div>
+            </div>
+            <br><br>
+            <div class="row mb-1">
+                <div class="col-8 text-dark">
+                    {{ profile_form.expected_salary|as_crispy_field}}
+                </div>
+            </div>
+        </div>
+            </div>
+        </span>
+        <span class = "border profile">
+            <div id="resume">
+                <div class="p-5 bg-white profile">
+                    
+                    <h2 class="mr-3 text-black h5">Resume</h2>
+                    <br>
+                    {{ profile_form.resume|as_crispy_field}}
+                    
+        </div>
+        </div>
+        </span>
+
+
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    
+</div>
+</div>
+</div>
+
+<script type="text/javascript">
+    $(function() {
+        $("#edu_form_set").formset({
+            prefix: "{{ formset.prefix }}",
+        })
+        $("#exp_form_set").formset({
+            prefix: "{{ expformset.prefix }}",
+        })
+    })    
+</script>
+
+<script type='text/javascript'>
+    function updateElementIndex(el, prefix, ndx) {
+        var id_regex = new RegExp('(' + prefix + '-\\d+)');
+        var replacement = prefix + '-' + ndx;
+        if ($(el).attr("for")) $(el).attr("for", $(el).attr("for").replace(id_regex, replacement));
+        if (el.id) el.id = el.id.replace(id_regex, replacement);
+        if (el.name) el.name = el.name.replace(id_regex, replacement);
+    }
+    function cloneMore(selector, prefix) {
+        var newElement = $(selector).clone(true);
+        var total = $('#id_' + prefix + '-TOTAL_FORMS').val();
+        newElement.find(':input:not([type=button]):not([type=submit]):not([type=reset])').each(function() {
+            if($(this).attr("name")!==undefined){
+            var name = $(this).attr('name').replace('-' + (total-1) + '-', '-' + total + '-');}
+            var id = 'id_' + name;
+            $(this).attr({'name': name, 'id': id}).val('').removeAttr('checked');
+        });
+        newElement.find('label').each(function() {
+            var forValue = $(this).attr('for');
+            if (forValue) {
+              forValue = forValue.replace('-' + (total-1) + '-', '-' + total + '-');
+              $(this).attr({'for': forValue});
+            }
+        });
+        total++;
+        $('#id_' + prefix + '-TOTAL_FORMS').val(total);
+        $(selector).after(newElement);
+        var conditionRow = $('.form-row.education:not(:last)');
+        conditionRow.find('.btn.add-form-row')
+        .removeClass('btn-success').addClass('btn-danger')
+        .removeClass('add-form-row').addClass('remove-form-row')
+        .html('<span class="glyphicon glyphicon-minus" aria-hidden="true"></span>');
+        return false;
+    }
+    function deleteForm(prefix, btn) {
+        var total = parseInt($('#id_' + prefix + '-TOTAL_FORMS').val());
+        if (total > 1){
+            btn.closest('.form-row.education').remove();
+            var forms = $('.form-row.education');
+            $('#id_' + prefix + '-TOTAL_FORMS').val(forms.length);
+            for (var i=0, formCount=forms.length; i<formCount; i++) {
+                $(forms.get(i)).find(':input').each(function() {
+                    updateElementIndex(this, prefix, i);
+                });
+            }
+        }
+        return false;
+    }
+    
+    
+    $(document).on('click', '.add-form-row', function(e){
+        e.preventDefault();
+        cloneMore('.form-row.education:last', 'edufs');
+       
+        return false;
+    });
+    $(document).on('click', '.remove-form-row', function(e){
+        e.preventDefault();
+        deleteForm('edufs', $(this));
+        return false;
+    });
+
+    function expdeleteForm(prefix, btn) {
+        var total = parseInt($('#id_' + prefix + '-TOTAL_FORMS').val());
+        if (total > 1){
+            btn.closest('.form-row.experience').remove();
+            var forms = $('.form-row.experience');
+            $('#id_' + prefix + '-TOTAL_FORMS').val(forms.length);
+            for (var i=0, formCount=forms.length; i<formCount; i++) {
+                $(forms.get(i)).find(':input').each(function() {
+                    updateElementIndex(this, prefix, i);
+                });
+            }
+        }
+        return false;
+    }
+    function expcloneMore(selector, prefix) {
+        var newElement = $(selector).clone(true);
+        var total = $('#id_' + prefix + '-TOTAL_FORMS').val();
+        newElement.find(':input:not([type=button]):not([type=submit]):not([type=reset])').each(function() {
+            var name = $(this).attr('name').replace('-' + (total-1) + '-', '-' + total + '-');
+            var id = 'id_' + name;
+            $(this).attr({'name': name, 'id': id}).val('').removeAttr('checked');
+        });
+        newElement.find('label').each(function() {
+            var forValue = $(this).attr('for');
+            if (forValue) {
+              forValue = forValue.replace('-' + (total-1) + '-', '-' + total + '-');
+              $(this).attr({'for': forValue});
+            }
+        });
+        total++;
+        $('#id_' + prefix + '-TOTAL_FORMS').val(total);
+        $(selector).after(newElement);
+        var conditionRow = $('.form-row.experience:not(:last)');
+        conditionRow.find('.btn.expadd-form-row')
+        .removeClass('btn-success').addClass('btn-danger')
+        .removeClass('expadd-form-row').addClass('expremove-form-row')
+        .html('<span class="glyphicon glyphicon-minus" aria-hidden="true"></span>');
+        return false;
+    }
+    $(document).on('click', '.expadd-form-row', function(e){
+        e.preventDefault();
+        expcloneMore('.form-row.experience:last', 'expfs');
+        return false;
+    });
+    $(document).on('click', '.expremove-form-row', function(e){
+        e.preventDefault();
+        expdeleteForm('expfs', $(this));
+        return false;
+    });
+    
+
+    </script>
+
+
+
+
+
+{% endblock %}

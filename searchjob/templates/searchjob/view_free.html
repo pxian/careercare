@@ -1,0 +1,45 @@
+{% extends 'user_layout.html' %} 
+{% load static %}
+
+{% block content %}
+<br>
+<div class="p-5 bg-white company">
+    <div class="container col-12">
+        <div class="row mb-1">
+            <div class="col-6 text-dark">
+        <h2 class="mr-3 text-black h4">{{ jobview.job_title|capfirst }}</h2><br>
+            </div>
+            <form action = "{% url 'searchjob:apply_free' jobview.id %}" method = "post">
+                {% csrf_token %}
+                <div class="col-6 text-dark">
+                <button type="submit" class="btn btn-primary">Apply Job Now!</button>
+
+            </form>
+            </div>
+            </div>
+        <h4 class="mr-3 text-dark h5">{{ jobview.company_name|capfirst }}</h4><br>
+        <h4 class="mr-3 text-black h6">Location: </h4>
+        <p>{{ jobview.city|capfirst }}</p><br>
+        <h4 class="mr-3 text-black h6">Salary: </h4>
+        <p>{{ jobview.pay|capfirst }}</p><br>
+        <h4 class="mr-3 text-black h6">Job Description:</h4>
+        <p>{{ jobview.job_description|capfirst }}</p><br>
+        <h4 class="mr-3 text-black h6">Working Hours: </h4>
+        <p>{{ jobview.working_hour|capfirst }}</p><br>
+        <h4 class="mr-3 text-black h6">Industry </h4>
+        <p>{{ jobview.industry|capfirst }}</p><br>
+        <h4 class="mr-3 text-black h6">Category </h4>
+        <p>{{ jobview.category|capfirst }}</p><br>
+        <h4 class="mr-3 text-black h6">Job Type: </h4>
+        <p>{{ jobview.job_type|capfirst }}</p><br>
+        
+    </div>
+  </div>  
+  
+
+
+
+
+
+
+{% endblock %}

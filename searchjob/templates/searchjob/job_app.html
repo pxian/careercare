@@ -1,0 +1,67 @@
+{% extends 'user_layout.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container col-12">
+    <h1>Jobs Applied</h1>
+</div>
+
+<div class="container col-12">
+
+<div class="job-post-item bg-white p-4 d-block d-md-flex align-items-center w-100">
+    <div class="portlet-body w-100">
+        <div class="table-scrollable table-scrollable-borderless">
+            <table class="table table-striped table-bordered">
+                
+                <tbody>
+                    {% for object in jobapplied %}
+                       
+                            <tr>
+                                <td>
+                                    <div class="row py-3">
+                                        <div class="col-10">
+                                            <a href="{% url 'searchjob:view_job' object.jobad.id %}" style="color:rgb(99, 114, 245)">{{ object.jobad.position_title }}</a><br><br>
+                                            <p style="color:lightslategray">{{ object.jobad.company_name|capfirst }}</p>
+                                            <p style="color:black">Status: {{ object.status|capfirst }}</p>
+                                            <p style="color:grey">Status last updated on {{ object.timestamp|capfirst|truncatechars:11 }}</p>
+                                        </div>
+                                    </div>
+                                </td> 
+
+                            </tr>
+                            {% endfor %}
+                       
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+<br><br>
+
+
+{% comment %} 
+l - Length changing
+f - Filtering input
+t - The Table!
+i - Information
+p - Pagination
+r - pRocessing 
+{% endcomment %}
+
+<script type="text/javascript">
+$(document).ready(function() {
+$('.dataTable').DataTable({
+"searching": false,
+"sDom": "<'top'<'row'<'col-6'i><'col-6'<'pull-right'f>>>>rt" +
+        "<'bottom'<'row'<'col-6'l><'col-6'<'pull-right'p>>><'#refresh'>><'clear'>",
+"language": {
+    "zeroRecords": "<p class='mx-auto'>No results found</p></div>"
+},
+fnDrawCallback: function() {
+    $(".dataTable thead").remove();
+},
+});
+});
+</script>
+{% endblock content %}

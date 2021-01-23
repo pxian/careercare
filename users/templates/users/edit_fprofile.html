@@ -1,0 +1,192 @@
+{% extends 'freelancer_layout.html' %}
+{% load static %}
+
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+
+<div class="container col-12">
+    <div class="job-post-item-header d-flex align-items-center profile">
+        <div class = "row mb-1">
+            <div class = "col-4 text-dark">
+                <h2 class="mr-3 text-black h3">Profile</h2>
+            </div>
+            <br><br>
+            <div class = "col-4 text-dark">
+                <button type="button" class="btn btn-primary mr-3" onclick="update()">Edit Profile</button>
+            </div>
+        </div>
+        
+    </div>
+
+
+    {% csrf_token %}
+    <span class = "border">
+    <div class="p-5 bg-white profile">
+        <h2 class="mr-3 text-black h5">Personal Details</h2>
+        <br><br>
+        <div class="row mb-1">
+            <div class="col-4 text-dark">
+                <label>Contact Person Name</label><br>
+                <input class="form-control w-75" placeholder="{{ user.freelancer.contact_person_name }}" disabled>
+            </div>
+            
+        </div>
+        <br><br>
+        <div class="row mb-1">
+            <div class="col-4 text-dark">
+                <label>Registered Business Name</label><br>
+                <input class="form-control w-75" placeholder="{{ user.freelancer.registered_business_name }}" disabled>
+            </div>
+            <div class="col-4 text-dark">
+                <label>Registration Number</label><br>
+                <input class="form-control w-75" placeholder="{{ user.freelancer.registration_number }}" disabled>
+            </div>
+        </div>
+        <br><br>
+        <div class="row mb-1">
+            <div class="col-6 text-dark">
+                <label>Phone Number</label><br>
+                <input class="form-control w-75" placeholder="{{ user.freelancer.phone_Number }}" disabled>
+            </div>
+        </div>
+        <br><br>
+        <div class="row mb-1">
+            <div class="col-6 text-dark">
+                <label>Address</label><br>
+                <input class="form-control w-75" placeholder="{{ user.freelancer.address }}" disabled>
+            </div>
+        </div>
+    </div> 
+    </span>
+    <span class = "border">
+    <div class="p-5 bg-white profile">
+        <h2 class="mr-3 text-black h5">Service</h2>    
+        <br><br>
+        <div class="row mb-1">   
+            <div class="col-4 text-dark">
+                <label>Category</label><br>
+                <input class="form-control w-75" placeholder="{{ user.freelancer.category }}" disabled>
+            </div>
+            <div class="col-4 text-dark">
+                <label>Service Type</label><br>
+                <input class="form-control w-75" placeholder="{{ user.freelancer.service_type }}" disabled>
+            </div>
+        </div>
+        <br><br>
+        <div class="row mb-1">
+            <div class="col-10 text-dark">
+                <label>Services Offer</label><br>
+                <input class="form-control w-75" placeholder="{{ user.freelancer.services_offer }}" disabled>
+            </div>
+        </div>
+        <br><br>
+        <div class="row mb-1">
+            <div class="col-10 text-dark">
+                <label>Description</label><br>
+                <input class="form-control w-75" placeholder="{{ user.freelancer.description }}" disabled>
+            </div>
+        </div>
+        <br><br>
+        <div class="row mb-1">
+            <div class="col-4 text-dark">
+                <label>City</label><br>
+                <input class="form-control w-75" placeholder="{{ user.freelancer.city }}" disabled>
+            </div>
+        </div>
+    </div>
+    </div>
+</span>
+     
+        <button type="button" class="btn btn-primary mr-3 profile onclick="update()">Edit Profile</button>
+   
+    <form action="{% url 'users:edit_fprofile' %}" method="post" class="p-5 bg-white" hidden>
+        {% csrf_token %}
+
+        <div class="row mb-2">
+            <div class="col-6 text-dark">
+                
+                {{ form.contact_person_name|as_crispy_field }}
+            </div>
+        </div>
+        <br><br>
+        <div class="row mb-2">
+            <div class="col-6 text-dark">
+                
+                {{ form.registered_business_name|as_crispy_field }}
+            </div>
+            <div class="col-6 text-dark">
+                
+                {{ form.registration_number|as_crispy_field }}
+            </div>
+        </div>
+        <br><br>
+        <div class="row mb-2">
+            <div class="col-11 text-dark">
+                
+                {{ form.phone_Number|as_crispy_field }}
+            </div>
+        </div>
+        <br><br>
+        <div class="row mb-2">
+            <div class="col-11 text-dark">
+               
+                {{ form.address|as_crispy_field }}
+            </div>
+        </div>
+        
+        <br><br>
+        <div class="row mb-2">
+            <div class="col-6 text-dark">
+                
+                {{ form.category|as_crispy_field }}
+            </div>
+            <div class="col-6 text-dark">
+                
+                {{ form.service_type|as_crispy_field }}
+            </div>
+        </div>
+        <br><br>
+        <div class="row mb-2">
+            <div class="col-11 text-dark">
+                
+                {{ form.services_offer|as_crispy_field }}
+        </div>
+        </div>
+        <br><br>
+    
+        <div class="row mb-2">
+            <div class="col-11 text-dark">
+                
+                {{ form.description|as_crispy_field }}
+            </div>
+        </div>
+        <br><br>
+        
+        <div class="row mb-2">
+            <div class="col-6 text-dark">
+               
+                {{ form.city|as_crispy_field }}
+            </div>
+        </div>
+ 
+        <br><br><br>
+        <div class="row mb-2">
+        <button type="submit" class="btn btn-primary mr-3">Save</button>
+        
+        <a href="{% url 'users:edit_fprofile' %}" class="btn btn-danger">Cancel</a>
+    </div>
+    </form>
+    
+
+<script type="text/javascript">
+function update() {
+    $(".profile").hide();
+    $("form").prop("hidden", false);
+}
+</script>
+
+
+{% endblock %}

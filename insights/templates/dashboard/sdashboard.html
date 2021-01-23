@@ -1,0 +1,196 @@
+{% extends 'employers.html' %}
+{% load static %}
+
+{% block content %}
+<br>
+<div class="container col-12">
+    <div class="row mb-3">
+        <div class="col-4">
+            <div class="job-post-item bg-white p-4 d-block jobads-row text-center">
+                <div class="row">
+                    <div class="col border-right">
+                        {% if queryset_1.0 < 2 %}
+                            <h6 class="value-text">{{ queryset_1.0 }}</h6>
+                            <span class="text-dark">Upcoming Service</span>
+                        {% else %}
+                            <h6 class="value-text">{{ queryset_1.0 }}</h6>
+                            <span class="text-dark">Upcoming Services</span>
+                        {% endif %}
+                    </div>
+                    <div class="col">
+                    {% if queryset_1.1 < 2 %}
+                        <h6 class="value-text">{{ queryset_1.1 }}</h6>
+                        <span class="text-dark">Completed Service</span>
+                    {% else %}
+                        <h6 class="value-text">{{ queryset_1.1 }}</h6>
+                        <span class="text-dark">Completed Services</span>
+                    {% endif %}
+                    </div>
+                </div>
+            </div>
+            <div class="job-post-item bg-white p-4 d-block jobads-row align-items-center mt-4">
+                <div class="d-flex border-bottom">
+                    <div class="mr-auto">
+                        <h6 class="text-dark mb-4">Your Next Service</h6>
+                    </div>
+                    {% if queryset_1.2.1 %}
+                        <div class="text-right">
+                        {% if queryset_1.2.1 < 2 %}
+                            <span class="label-warning py-1 px-2">
+                                {{ queryset_1.2.1 }} day left
+                            </span>
+                        {% else %}
+                            {% if queryset_1.2.1 < 6 %}
+                                <span class="label-warning py-1 px-2">
+                                    {{ queryset_1.2.1 }} days left
+                                </span>
+                            {% else %}
+                                <span class="label-primary py-1 px-2">
+                                    {{ queryset_1.2.1 }} days left
+                                </span>
+                            {% endif %}
+                        {% endif %}
+                        </div>
+                    {% endif %}
+                </div>
+                <div class="row mt-3">
+                    {% if queryset_1.2.0.0 %}
+                        <div class="col-3">
+                            <img src="{% static '/images/users/default.jpg' %}" class="ssearch-img">
+                        </div>
+                        <div class="col-9">
+                            <span class="text-black" style="font-weight: 500">{{ queryset_1.2.0.0.1.name|title }}</span><br>
+                            <span>{{ queryset_1.2.0.0.1.service_type }}</span><br>
+                            <span>{{ queryset_1.2.0.0.0.booked_date|date:"d M Y" }}</span><br>
+                        </div>
+                    {% else %}
+                        <div class="col-9" style="height: 80px !important">
+                            <span>No data yet</span>
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="job-post-item bg-white p-4 d-block dash-height-1">
+                <div>
+                    {% if queryset_2 %}
+                        <h6 class="text-dark mb-4">Your Favourite Service</h6>
+                        <table class="table table-light mb-0">
+                            {% for i in queryset_2|slice:3 %}
+                                <tr>
+                                    <td width="6%" class="align-middle">
+                                        <i class="fa fa-square bullet-1"></i>
+                                    </td>
+                                    <td class="align-middle">
+                                        <span class="text-black">{{ i.0.name|title }}</span><br>
+                                        <span>{{ i.0.service_type|title }}</span>
+                                    </td>
+                                    <td width="24%" class="text-right align-middle">
+                                        <span class="label-primary py-1 px-2">{{ i.1 }} times</span>
+                                    </td>
+                                </tr>
+                            {% endfor %}
+                        </table>
+                    {% else %}
+                        <div class="mr-auto border-bottom">
+                            <h6 class="text-dark mb-4">Your Favourite Service</h6>
+                        </div>
+                        <div class="mt-3">
+                            <span>No data yet</span>
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div><br>
+        <div class="col-4">
+            <div class="job-post-item bg-white p-4 d-block dash-height-1">
+                <div>
+                    <div class="border-bottom">
+                        <h6 class="text-dark mb-4">Most Searched Service Type</h6>
+                    </div>
+                    {% if queryset_3 %}
+                        <div class="p-2 mt-1">
+                            {% autoescape off %}
+                            {{ queryset_3 }}
+                            {% endautoescape %}
+                        </div>
+                    {% else %}
+                        <div class="mt-3">
+                            <span>No data yet</span>
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="job-post-item bg-white p-4 d-block jobads-row">
+                <div>
+                    <h6 class="text-dark mb-4">Services Near You</h6>
+                    <table class="table table-light mb-0">
+                        {% for i in queryset_4|slice:5 %}
+                            <tr>
+                                <td width="6%" class="align-middle">
+                                    <i class="fa fa-square bullet-1 pt-1"></i>
+                                </td>
+                                <td class="align-middle">
+                                    <span class="text-black mr-2">{{ i.0.name|title }}</span><br>
+                                    <span>{{ i.0.service_type|title }}</span>
+                                </td>
+                                <td width="20%" class="text-left align-middle">
+                                    <i class="fa fa-map-marker px-1 text-danger" style="font-size:16px"></i> 
+                                    {% if i.2 == 0 %}
+                                        <span class="label-success py-1 px-2">{{ i.2|floatformat:0 }} km</span>
+                                    {% else %}
+                                        {% if i.2 < 100 %}
+                                            <span class="label-success py-1 px-2">{{ i.2|floatformat:2 }} km</span>
+                                        {% else %}
+                                            <span class="label-success py-1 px-2">{{ i.2|floatformat:0 }} km</span>
+                                        {% endif %}
+                                    {% endif %}
+                                </td>
+                                <td width="20%" class="text-center align-middle">
+                                    <a href="{% url 'booking:service' i.0.id %}" class="btn btn-primary">More Info</a>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="job-post-item bg-white p-4 d-block jobads-row">
+                <div>
+                    <h6 class="text-dark mb-4">Top 5 Service Providers</h6>
+                    <table class="table table-light mb-0">
+                        {% for i in queryset_5|slice:5 %}
+                            <tr>
+                                <td width="6%" class="align-middle">
+                                    <i class="fa fa-square bullet-1 pt-1"></i>
+                                </td>
+                                <td class="align-middle">
+                                    <span class="text-black mr-2">{{ i.0.name|title }}</span><br>
+                                    <span>{{ i.0.service_type|title }}</span>
+                                </td>
+                                <td width="20%" class="text-center align-middle">
+                                    <i class="fa fa-star text-warning"></i>
+                                    <i class="fa fa-star text-warning"></i>
+                                    <i class="fa fa-star text-warning"></i>
+                                    <i class="fa fa-star text-warning"></i>
+                                    <i class="fa fa-star text-warning"></i>
+                                </td>
+                                <td width="20%" class="text-center align-middle">
+                                    <a href="{% url 'booking:service' i.0.id %}" class="btn btn-primary">More Info</a>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+</div>
+{% endblock content %}

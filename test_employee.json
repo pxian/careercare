@@ -1,0 +1,169 @@
+[
+    {
+      "model": "jobads.test_employee",
+      "pk": 1,
+      "fields": {
+        "name" : "Zach", 
+        "openess": 42,
+        "conscientiousness": 100,
+        "extraversion": 40,
+        "agreeableness":78,
+        "neuroticism": 59,
+        "job_id": 1,
+        "JobAd_id" :83,
+        "chart": "user.png"
+      }
+    },
+    {
+      "model": "jobads.test_employee",
+      "pk": 2,
+      "fields": {
+        "name" : "Danial",
+        "openess": 42,
+        "conscientiousness": 89,
+        "extraversion": 40,
+        "agreeableness": 89,
+        "neuroticism": 59,
+        "job_id": 1,
+        "JobAd_id" :83,
+        "chart": "user.png"
+      }
+    },
+    {
+      "model": "jobads.test_employee",
+      "pk": 3,
+      "fields": {
+        "name" : "Zahrul",
+        "openess": 50,
+        "conscientiousness": 89,
+        "extraversion": 47,
+        "agreeableness": 78,
+        "neuroticism": 67,
+        "job_id": 1,
+        "JobAd_id" :79,
+        "chart": "user.png"
+      }
+    },
+    {
+      "model": "jobads.test_employee",
+      "pk": 4,
+      "fields": {
+        "name" : "Pissatay",
+        "openess": 59,
+        "conscientiousness": 78,
+        "extraversion": 54,
+        "agreeableness": 78,
+        "neuroticism": 75,
+        "job_id": 1,
+        "JobAd_id" :81,
+        "chart": "user.png"
+      }
+    },
+    {
+      "model": "jobads.test_employee",
+      "pk": 5,
+      "fields": {
+        "name" : "Azuan",
+        "openess": 42,
+        "conscientiousness": 89,
+        "extraversion": 40,
+        "agreeableness": 78,
+        "neuroticism": 50,
+        "job_id": 1,
+        "JobAd_id" :80,
+        "chart": "user.png"
+      }
+    },
+    {
+      "model": "jobads.test_employee",
+      "pk": 6,
+      "fields": {
+        "name" : "Fauzan",
+        "openess": 42,
+        "conscientiousness": 89,
+        "extraversion": 40,
+        "agreeableness": 78,
+        "neuroticism": 59,
+        "job_id": 1,
+        "JobAd_id" :79,
+        "chart": "user.png"
+      }
+    },
+    {
+      "model": "jobads.test_employee",
+      "pk": 7,
+      "fields": {
+        "name" : "Pecanpai",
+        "openess": 42,
+        "conscientiousness": 89,
+        "extraversion": 40,
+        "agreeableness": 78,
+        "neuroticism": 59,
+        "job_id": 1,
+        "JobAd_id" :83,
+        "chart": "user.png"
+      }
+    },
+    {
+      "model": "jobads.test_employee",
+      "pk": 8,
+      "fields": {
+        "name" : "Khafh",
+        "openess": 50,
+        "conscientiousness": 78,
+        "extraversion": 47,
+        "agreeableness": 78,
+        "neuroticism": 67,
+        "job_id": 1,
+        "JobAd_id" :79,
+        "chart": "user.png"
+      }
+    },
+    {
+      "model": "jobads.test_employee",
+      "pk": 9,
+      "fields": {
+        "name" : "Harith Toong",
+        "openess": 34,
+        "conscientiousness": 100,
+        "extraversion": 34,
+        "agreeableness": 56,
+        "neuroticism": 50,
+        "job_id": 1,
+        "JobAd_id" :78,
+        "chart": "user.png"
+      }
+    },
+    {
+      "model": "jobads.test_employee",
+      "pk": 10,
+      "fields": {
+        "name" : "Pei Hsuan",
+        "openess": 50,
+        "conscientiousness": 78,
+        "extraversion": 47,
+        "agreeableness": 67,
+        "neuroticism": 50,
+        "job_id": 1,
+        "JobAd_id" :79,
+        "chart": "user.png"
+      }
+    },
+    {
+      "model": "jobads.test_employee",
+      "pk": 11,
+      "fields": {
+        "name" : "Shiro",
+        "openess": 70,
+        "conscientiousness": 69,
+        "extraversion": 80,
+        "agreeableness": 88,
+        "neuroticism": 50,
+        "job_id": 1,
+        "JobAd_id" :79,
+        "chart": "user.png"
+      }
+    }
+
+  
+]

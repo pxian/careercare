@@ -37,15 +37,21 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'booking',
     'customadmin',
     'dashboard',
     'employers',
+    'home',
+    'insights',
     'jobads',
-    'search',
-    'service',
-    'booking',
-    'test_cand',
     'resumeanalyzer',
+    'search',
+    'searchjob',
+    'service',
+    'test_cand',
+    'users',
+    'import_export',
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -155,3 +161,7 @@ STATICFILES_DIRS = (
 # Media files
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+CRISPY_TEMPLATE_PACK = "bootstrap4"
+#LOGIN_REDIRECT_URL = "users/view_profile/edit_profile"
+AUTH_PROFILE_MODULE = "users.Employee"

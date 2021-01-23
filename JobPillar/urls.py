@@ -27,12 +27,17 @@ urlpatterns = [
     url(r'^employers/homepage/', TemplateView.as_view(template_name='homepage.html')),
     url(r'^admin/', admin.site.urls),
     url(r'^admin/', include('customadmin.urls')),
+    url(r'^booking/', include('booking.urls')),
     url(r'^dashboard/', include('dashboard.urls')),
     url(r'^employers/', include('employers.urls')),
+    url(r'^home/', include('home.urls')),
+    url(r'^insights/', include('insights.urls')),
     url(r'^jobads/', include('jobads.urls')),
-    url(r'^search/', include('search.urls')),
-    url(r'^booking/', include('booking.urls')),
     url(r'^resumeanalyzer/', include('resumeanalyzer.urls')),
+    url(r'^search/', include('search.urls')),
+    url(r'^searchjob/', include('searchjob.urls')),
+    url(r'^users/', include('users.urls')),
+    url('', include('django.contrib.auth.urls')),
 
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 

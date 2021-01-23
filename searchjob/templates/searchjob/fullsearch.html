@@ -1,0 +1,146 @@
+{% extends 'user_layout.html' %}
+{% load static %}
+
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="container col-12">
+    <h1>Search Jobs</h1>
+</div>
+<div class="p-5 bg-white company">
+<div class="container col-12">
+<form method="get" class="from-group">
+    {% csrf_token %}
+
+    <div class="row mb-2">
+    <input class = "form-control mr-2" type="search" name="position_title" placeholder="Job title" >
+    </div>
+    <div class="row mb-2">
+    <input class = "form-control mr-2" type="search" name="city" placeholder="City" >
+    </div>
+    <div class="row mb-2">
+    <select class = "form-control mr-2" name="job_specialization" placeholder="Job Specialization">
+        <option disabled selected value>Job Specialization</option> 
+        <option value = "Accounting/Finance">Accounting/Finance</option>
+        <option value = "Admin/Human Resources">Admin/Human Resources</option>
+        <option value = "Sales/Marketing">Sales/Marketing</option>
+        <option value = "Art/Media/Communications">Art/Media/Communications</option>
+        <option value = "Services">Services</option>
+        <option value = "Hotel/Restaurant">Hotel/Restaurant</option>
+        <option value = "Education/Training">Education/Training</option>
+        <option value = "Computer/Information Technology">Computer/Information Technology</option>
+        <option value = "Engineering">Engineering</option>
+        <option value = "Manufacturing">Manufacturing</option>
+        <option value = "Building/Construction">Building/Construction</option>
+        <option value = "Sciences">Sciences</option>
+        <option value = "Healthcare">Healthcare</option>
+        <option value = "Others">Others</option>
+    </select>
+    <button type="submit" class="btn btn-success">Search Job</button>
+    </div>
+</form>
+{% if queryset_array %}
+<div class="job-post-item bg-white p-4 d-block d-md-flex align-items-center w-100">
+    <div class="portlet-body w-100">
+        <div class="table-scrollable table-scrollable-borderless">
+            <table class="table table-striped table-bordered">
+                <tbody>
+                    {% for results in queryset_array %}
+                        {% for result in results %}
+                            <tr>
+                                <td>
+                                    <div class="row py-3">
+                                        <div class="col-10">
+                                            <h5 style="color:lightslategray">{{ result.position_title|upper }}</h5>
+                                            
+                                            <p style="color:blue">{{ result.company_name|capfirst|truncatechars:"80" }}</p>
+                                            <p style="color:blue">{{ result.location|capfirst|truncatechars:"80" }}</p>
+                                            <p style="color:black">{{ result.job_description|capfirst|truncatechars:"500" }}</p>
+                                        </div>
+                                    </div>
+                                </td> 
+                                <td class="text-center align-middle" width="12%">
+                                    <form action = "{% url 'searchjob:view_job' result.id %}" method = "post">
+                                        {% csrf_token %}
+                                        <div class="col-6 text-dark">
+                                        <button type="submit" class="btn btn-primary">Apply</button>
+                        
+                                    </form>
+                                   
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<br><br>
+
+{% else %}
+<div class="job-post-item bg-white p-4 d-block d-md-flex align-items-center w-100">
+    <div class="portlet-body w-100">
+        <div class="table-scrollable table-scrollable-borderless">
+            
+            <table class="table table-light text-dark dataTable">
+                <thead><tr><td>
+
+                </td><td></td></tr></thead>
+                <tbody>
+                    {% for object in jobs %}
+                        
+                            <tr><td>
+                                <div class="row py-3">
+                                    <div class="col-10">
+                                        <h5 style="color:lightslategray">{{ object.position_title|upper }}</h5>
+                                        
+                                        <p style="color:blue">{{ object.company_name|capfirst|truncatechars:"80" }}</p>
+                                        <p style="color:blue">{{ object.location|capfirst|truncatechars:"80" }}</p>
+                                        <p style="color:black">{{ object.job_description|capfirst|truncatechars:"500" }}</p>
+                                    </div>
+                                </div>
+                            </td><td class="text-center align-middle" width="12%">
+                                <form action = "{% url 'searchjob:view_job' object.id %}" method = "post">
+                                    {% csrf_token %}
+                                    <div class="col-6 text-dark">
+                                    <button type="submit" class="btn btn-primary">Apply</button>
+                    
+                                </form>
+                            </td></tr>
+                        
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<br><br>
+{% endif %}
+</div>
+</div>
+{% comment %} 
+l - Length changing
+f - Filtering input
+t - The Table!
+i - Information
+p - Pagination
+r - pRocessing 
+{% endcomment %}
+
+<script type="text/javascript">
+$(document).ready(function() {
+$('.dataTable').DataTable({
+"searching": false,
+"sDom": "<'top'<'row'<'col-6'i><'col-6'<'pull-right'f>>>>rt" +
+        "<'bottom'<'row'<'col-6'l><'col-6'<'pull-right'p>>><'#refresh'>><'clear'>",
+"language": {
+    "zeroRecords": "<p class='mx-auto'>No results found</p></div>"
+},
+fnDrawCallback: function() {
+    $(".dataTable thead").remove();
+},
+});
+});
+</script>
+{% endblock content %}
+
