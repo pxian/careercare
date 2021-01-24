@@ -1,4 +1,4 @@
-{% extends 'employers.html' %}
+2{% extends 'employers.html' %}
 {% load static %}
 {% block content %}
 
@@ -56,31 +56,61 @@
           </div>
         </div>
         {% else %}
-        <div class="table-responsive">
-          <table class="table align-items-center table-flush">
-            <thead class="thead-light">
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">Name</th>
-                <th scope="col">Status</th>
-              </tr>
-            </thead>
-            <tbody>
-              {% for resume in resumes %}
-              <tr>
-                <td>{{ forloop.counter}}</td>
-                <td><a href="{% url 'resumeanalyzer:details' resume.resumeid %}" target="_blank">{{ resume.name|upper }}</a>
-                </td>
-                <td>{{ resume.status }}</td>
-              </tr>
-              {% endfor %}
-            </tbody>
-          </table>
+        <div class="job-post-item bg-white p-4 d-block d-md-flex align-items-center w-100">
+          <div class="portlet-body w-100">
+            <div class="table-scrollable table-scrollable-borderless">
+              <table class="table align-items-center table-flush dataTable">
+                <thead class="thead-light">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for resume in resumes %}
+                  <tr>
+                    <td>{{ forloop.counter}}</td>
+                    <td><a href="{% url 'resumeanalyzer:details' resume.resumeid %}" target="_blank">{{ resume.name|upper }}</a>
+                    </td>
+                    <td>{{ resume.status }}</td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+            {% endif %}
+          </div>
         </div>
-        {% endif %}
       </div>
     </div>
   </div>
 </div>
+
+{% comment %}
+l - Length changing
+f - Filtering input
+t - The Table!
+i - Information
+p - Pagination
+r - pRocessing
+{% endcomment %}
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    $('.dataTable').DataTable({
+      "ordering": false,
+      "sDom": "<'top'<'row'<'col-6'i><'col-6'<'pull-right'f>>>>rt" +
+        "<'bottom'<'row'<'col-6'l><'col-6'<'pull-right'p>>><'#refresh'>><'clear'>",
+      "language": {
+        "zeroRecords": "<div class='p-3'><img class='mx-auto pt-2' width='250' src='/static/images/not_found.png' style='cursor: auto'>" +
+          "<p class='mx-auto'>No results found</p></div>"
+      },
+      fnDrawCallback: function () {
+        $(".dataTable thead").remove();
+      },
+    });
+  });
+</script>
 
 {% endblock content %}
