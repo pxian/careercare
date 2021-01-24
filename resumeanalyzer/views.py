@@ -122,11 +122,11 @@ def uploadresume(request):
                             text = str(content)
                     resume.summary = summarize(str(text), ratio=0.01)
                     resume.save()
+                    messages.add_message(request, messages.INFO, "Resume(s) uploaded successfully.")
                 except ValidationError:
                     messages.warning(request, "Duplicate resume found: " + file.name)
                 except IntegrityError:
                     messages.warning(request, "Encountered a problem with the file, please try again.")
-            messages.add_message(request, messages.INFO, "Resume(s) uploaded successfully.")
             return redirect("resumeanalyzer:resumelist")
         else:
             form = ResumeForm()
