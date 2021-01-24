@@ -80,7 +80,7 @@
         <div class="job-post-item bg-white p-4 d-block d-md-flex align-items-center w-100">
             <div class="portlet-body w-100">
                 <div class="table-scrollable table-scrollable-borderless">
-                    <table class="table align-items-center table-flush dataTable">
+                    <table class="table table-light text-dark dataTable">
                         <thead class="thead-light">
                             <tr>
                                 <th scope="col">#</th>
@@ -102,8 +102,7 @@
                                         <a class="btn btn-secondary btn-sm dropdown-toggle" href="#" role="button"
                                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action</a>
                                         <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
-                                            <a class="dropdown-item" href="{% url 'resumeanalyzer:details' key.resumeid %}">View
-                                                Details</a>
+                                            <a class="dropdown-item" href="{% url 'resumeanalyzer:details' key.resumeid %}">View Details</a>
                                             {% if key.status == "Available" %}
                                             <form method="POST" action="{% url 'resumeanalyzer:shortlist' key.resumeid %}"
                                                 onsubmit='return confirm("Are you sure you want to shortlist {{ key.name }}?")'>
@@ -154,9 +153,6 @@ r - pRocessing
       "language": {
         "zeroRecords": "<div class='p-3'><img class='mx-auto pt-2' width='250' src='/static/images/not_found.png' style='cursor: auto'>" +
           "<p class='mx-auto'>No results found</p></div>"
-      },
-      fnDrawCallback: function () {
-        $(".dataTable thead").remove();
       },
     });
   });
